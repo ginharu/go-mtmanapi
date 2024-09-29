@@ -13,9 +13,9 @@ extern
 #ifdef __cplusplus
   "C"
 #endif
-  void cgo_panic__mtmanapi_4ac5eea5fe396bb3(const char*);
+  void cgo_panic__mtmanapi_bc855f5f41ebffb0(const char*);
 static void _swig_gopanic(const char *p) {
-  cgo_panic__mtmanapi_4ac5eea5fe396bb3(p);
+  cgo_panic__mtmanapi_bc855f5f41ebffb0(p);
 }
 
 
@@ -371,6 +371,7 @@ static void* Swig_malloc(int c) {
 #include "MT5APILogger.h"
 #include "MT5APITypes.h"
 #include "MT5APIPublicKey.h"
+#include "MT5APITools.h"
 
 
 static ConGroup *new_ConGroupArray(size_t nelements) { 
@@ -546,7 +547,7 @@ static void ConSessionArray_setitem(ConSession *ary, size_t index, ConSession va
 extern "C" {
 #endif
 
-void _wrap_Swig_free_mtmanapi_4ac5eea5fe396bb3(void *_swig_go_0) {
+void _wrap_Swig_free_mtmanapi_bc855f5f41ebffb0(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -556,7 +557,7 @@ void _wrap_Swig_free_mtmanapi_4ac5eea5fe396bb3(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_mtmanapi_4ac5eea5fe396bb3(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_mtmanapi_bc855f5f41ebffb0(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -569,7 +570,7 @@ void *_wrap_Swig_malloc_mtmanapi_4ac5eea5fe396bb3(intgo _swig_go_0) {
 }
 
 
-ConGroup *_wrap_new_ConGroupArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+ConGroup *_wrap_new_ConGroupArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   ConGroup *result = 0 ;
   ConGroup *_swig_go_result;
@@ -582,7 +583,7 @@ ConGroup *_wrap_new_ConGroupArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0
 }
 
 
-void _wrap_delete_ConGroupArray_mtmanapi_4ac5eea5fe396bb3(ConGroup *_swig_go_0) {
+void _wrap_delete_ConGroupArray_mtmanapi_bc855f5f41ebffb0(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   
   arg1 = *(ConGroup **)&_swig_go_0; 
@@ -592,7 +593,7 @@ void _wrap_delete_ConGroupArray_mtmanapi_4ac5eea5fe396bb3(ConGroup *_swig_go_0) 
 }
 
 
-ConGroup *_wrap_ConGroupArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConGroup *_swig_go_0, long long _swig_go_1) {
+ConGroup *_wrap_ConGroupArray_getitem_mtmanapi_bc855f5f41ebffb0(ConGroup *_swig_go_0, long long _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   size_t arg2 ;
   ConGroup result;
@@ -607,7 +608,7 @@ ConGroup *_wrap_ConGroupArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConGroup *_swig_
 }
 
 
-void _wrap_ConGroupArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConGroup *_swig_go_0, long long _swig_go_1, ConGroup *_swig_go_2) {
+void _wrap_ConGroupArray_setitem_mtmanapi_bc855f5f41ebffb0(ConGroup *_swig_go_0, long long _swig_go_1, ConGroup *_swig_go_2) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   size_t arg2 ;
   ConGroup arg3 ;
@@ -628,7 +629,7 @@ void _wrap_ConGroupArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConGroup *_swig_go_0,
 }
 
 
-ConGroupSec *_wrap_new_ConGroupSecArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+ConGroupSec *_wrap_new_ConGroupSecArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   ConGroupSec *result = 0 ;
   ConGroupSec *_swig_go_result;
@@ -641,7 +642,7 @@ ConGroupSec *_wrap_new_ConGroupSecArray_mtmanapi_4ac5eea5fe396bb3(long long _swi
 }
 
 
-void _wrap_delete_ConGroupSecArray_mtmanapi_4ac5eea5fe396bb3(ConGroupSec *_swig_go_0) {
+void _wrap_delete_ConGroupSecArray_mtmanapi_bc855f5f41ebffb0(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   
   arg1 = *(ConGroupSec **)&_swig_go_0; 
@@ -651,7 +652,7 @@ void _wrap_delete_ConGroupSecArray_mtmanapi_4ac5eea5fe396bb3(ConGroupSec *_swig_
 }
 
 
-ConGroupSec *_wrap_ConGroupSecArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConGroupSec *_swig_go_0, long long _swig_go_1) {
+ConGroupSec *_wrap_ConGroupSecArray_getitem_mtmanapi_bc855f5f41ebffb0(ConGroupSec *_swig_go_0, long long _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   size_t arg2 ;
   ConGroupSec result;
@@ -666,7 +667,7 @@ ConGroupSec *_wrap_ConGroupSecArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConGroupSe
 }
 
 
-void _wrap_ConGroupSecArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConGroupSec *_swig_go_0, long long _swig_go_1, ConGroupSec *_swig_go_2) {
+void _wrap_ConGroupSecArray_setitem_mtmanapi_bc855f5f41ebffb0(ConGroupSec *_swig_go_0, long long _swig_go_1, ConGroupSec *_swig_go_2) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   size_t arg2 ;
   ConGroupSec arg3 ;
@@ -687,7 +688,7 @@ void _wrap_ConGroupSecArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConGroupSec *_swig
 }
 
 
-UserRecord *_wrap_new_UserRecordArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+UserRecord *_wrap_new_UserRecordArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   UserRecord *result = 0 ;
   UserRecord *_swig_go_result;
@@ -700,7 +701,7 @@ UserRecord *_wrap_new_UserRecordArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_
 }
 
 
-void _wrap_delete_UserRecordArray_mtmanapi_4ac5eea5fe396bb3(UserRecord *_swig_go_0) {
+void _wrap_delete_UserRecordArray_mtmanapi_bc855f5f41ebffb0(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
@@ -710,7 +711,7 @@ void _wrap_delete_UserRecordArray_mtmanapi_4ac5eea5fe396bb3(UserRecord *_swig_go
 }
 
 
-UserRecord *_wrap_UserRecordArray_getitem_mtmanapi_4ac5eea5fe396bb3(UserRecord *_swig_go_0, long long _swig_go_1) {
+UserRecord *_wrap_UserRecordArray_getitem_mtmanapi_bc855f5f41ebffb0(UserRecord *_swig_go_0, long long _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   size_t arg2 ;
   UserRecord result;
@@ -725,7 +726,7 @@ UserRecord *_wrap_UserRecordArray_getitem_mtmanapi_4ac5eea5fe396bb3(UserRecord *
 }
 
 
-void _wrap_UserRecordArray_setitem_mtmanapi_4ac5eea5fe396bb3(UserRecord *_swig_go_0, long long _swig_go_1, UserRecord *_swig_go_2) {
+void _wrap_UserRecordArray_setitem_mtmanapi_bc855f5f41ebffb0(UserRecord *_swig_go_0, long long _swig_go_1, UserRecord *_swig_go_2) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   size_t arg2 ;
   UserRecord arg3 ;
@@ -746,7 +747,7 @@ void _wrap_UserRecordArray_setitem_mtmanapi_4ac5eea5fe396bb3(UserRecord *_swig_g
 }
 
 
-TradeRecord *_wrap_new_TradeRecordArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+TradeRecord *_wrap_new_TradeRecordArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   TradeRecord *result = 0 ;
   TradeRecord *_swig_go_result;
@@ -759,7 +760,7 @@ TradeRecord *_wrap_new_TradeRecordArray_mtmanapi_4ac5eea5fe396bb3(long long _swi
 }
 
 
-void _wrap_delete_TradeRecordArray_mtmanapi_4ac5eea5fe396bb3(TradeRecord *_swig_go_0) {
+void _wrap_delete_TradeRecordArray_mtmanapi_bc855f5f41ebffb0(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
@@ -769,7 +770,7 @@ void _wrap_delete_TradeRecordArray_mtmanapi_4ac5eea5fe396bb3(TradeRecord *_swig_
 }
 
 
-TradeRecord *_wrap_TradeRecordArray_getitem_mtmanapi_4ac5eea5fe396bb3(TradeRecord *_swig_go_0, long long _swig_go_1) {
+TradeRecord *_wrap_TradeRecordArray_getitem_mtmanapi_bc855f5f41ebffb0(TradeRecord *_swig_go_0, long long _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   size_t arg2 ;
   TradeRecord result;
@@ -784,7 +785,7 @@ TradeRecord *_wrap_TradeRecordArray_getitem_mtmanapi_4ac5eea5fe396bb3(TradeRecor
 }
 
 
-void _wrap_TradeRecordArray_setitem_mtmanapi_4ac5eea5fe396bb3(TradeRecord *_swig_go_0, long long _swig_go_1, TradeRecord *_swig_go_2) {
+void _wrap_TradeRecordArray_setitem_mtmanapi_bc855f5f41ebffb0(TradeRecord *_swig_go_0, long long _swig_go_1, TradeRecord *_swig_go_2) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   size_t arg2 ;
   TradeRecord arg3 ;
@@ -805,7 +806,7 @@ void _wrap_TradeRecordArray_setitem_mtmanapi_4ac5eea5fe396bb3(TradeRecord *_swig
 }
 
 
-ConSymbol *_wrap_new_ConSymbolArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+ConSymbol *_wrap_new_ConSymbolArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   ConSymbol *result = 0 ;
   ConSymbol *_swig_go_result;
@@ -818,7 +819,7 @@ ConSymbol *_wrap_new_ConSymbolArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go
 }
 
 
-void _wrap_delete_ConSymbolArray_mtmanapi_4ac5eea5fe396bb3(ConSymbol *_swig_go_0) {
+void _wrap_delete_ConSymbolArray_mtmanapi_bc855f5f41ebffb0(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
@@ -828,7 +829,7 @@ void _wrap_delete_ConSymbolArray_mtmanapi_4ac5eea5fe396bb3(ConSymbol *_swig_go_0
 }
 
 
-ConSymbol *_wrap_ConSymbolArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConSymbol *_swig_go_0, long long _swig_go_1) {
+ConSymbol *_wrap_ConSymbolArray_getitem_mtmanapi_bc855f5f41ebffb0(ConSymbol *_swig_go_0, long long _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   size_t arg2 ;
   ConSymbol result;
@@ -843,7 +844,7 @@ ConSymbol *_wrap_ConSymbolArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConSymbol *_sw
 }
 
 
-void _wrap_ConSymbolArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConSymbol *_swig_go_0, long long _swig_go_1, ConSymbol *_swig_go_2) {
+void _wrap_ConSymbolArray_setitem_mtmanapi_bc855f5f41ebffb0(ConSymbol *_swig_go_0, long long _swig_go_1, ConSymbol *_swig_go_2) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   size_t arg2 ;
   ConSymbol arg3 ;
@@ -864,7 +865,7 @@ void _wrap_ConSymbolArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConSymbol *_swig_go_
 }
 
 
-SymbolInfo *_wrap_new_SymbolInfoArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+SymbolInfo *_wrap_new_SymbolInfoArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   SymbolInfo *result = 0 ;
   SymbolInfo *_swig_go_result;
@@ -877,7 +878,7 @@ SymbolInfo *_wrap_new_SymbolInfoArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_
 }
 
 
-void _wrap_delete_SymbolInfoArray_mtmanapi_4ac5eea5fe396bb3(SymbolInfo *_swig_go_0) {
+void _wrap_delete_SymbolInfoArray_mtmanapi_bc855f5f41ebffb0(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   
   arg1 = *(SymbolInfo **)&_swig_go_0; 
@@ -887,7 +888,7 @@ void _wrap_delete_SymbolInfoArray_mtmanapi_4ac5eea5fe396bb3(SymbolInfo *_swig_go
 }
 
 
-SymbolInfo *_wrap_SymbolInfoArray_getitem_mtmanapi_4ac5eea5fe396bb3(SymbolInfo *_swig_go_0, long long _swig_go_1) {
+SymbolInfo *_wrap_SymbolInfoArray_getitem_mtmanapi_bc855f5f41ebffb0(SymbolInfo *_swig_go_0, long long _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   size_t arg2 ;
   SymbolInfo result;
@@ -902,7 +903,7 @@ SymbolInfo *_wrap_SymbolInfoArray_getitem_mtmanapi_4ac5eea5fe396bb3(SymbolInfo *
 }
 
 
-void _wrap_SymbolInfoArray_setitem_mtmanapi_4ac5eea5fe396bb3(SymbolInfo *_swig_go_0, long long _swig_go_1, SymbolInfo *_swig_go_2) {
+void _wrap_SymbolInfoArray_setitem_mtmanapi_bc855f5f41ebffb0(SymbolInfo *_swig_go_0, long long _swig_go_1, SymbolInfo *_swig_go_2) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   size_t arg2 ;
   SymbolInfo arg3 ;
@@ -923,7 +924,7 @@ void _wrap_SymbolInfoArray_setitem_mtmanapi_4ac5eea5fe396bb3(SymbolInfo *_swig_g
 }
 
 
-RateInfo *_wrap_new_RateInfoArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+RateInfo *_wrap_new_RateInfoArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   RateInfo *result = 0 ;
   RateInfo *_swig_go_result;
@@ -936,7 +937,7 @@ RateInfo *_wrap_new_RateInfoArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0
 }
 
 
-void _wrap_delete_RateInfoArray_mtmanapi_4ac5eea5fe396bb3(RateInfo *_swig_go_0) {
+void _wrap_delete_RateInfoArray_mtmanapi_bc855f5f41ebffb0(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   
   arg1 = *(RateInfo **)&_swig_go_0; 
@@ -946,7 +947,7 @@ void _wrap_delete_RateInfoArray_mtmanapi_4ac5eea5fe396bb3(RateInfo *_swig_go_0) 
 }
 
 
-RateInfo *_wrap_RateInfoArray_getitem_mtmanapi_4ac5eea5fe396bb3(RateInfo *_swig_go_0, long long _swig_go_1) {
+RateInfo *_wrap_RateInfoArray_getitem_mtmanapi_bc855f5f41ebffb0(RateInfo *_swig_go_0, long long _swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   size_t arg2 ;
   RateInfo result;
@@ -961,7 +962,7 @@ RateInfo *_wrap_RateInfoArray_getitem_mtmanapi_4ac5eea5fe396bb3(RateInfo *_swig_
 }
 
 
-void _wrap_RateInfoArray_setitem_mtmanapi_4ac5eea5fe396bb3(RateInfo *_swig_go_0, long long _swig_go_1, RateInfo *_swig_go_2) {
+void _wrap_RateInfoArray_setitem_mtmanapi_bc855f5f41ebffb0(RateInfo *_swig_go_0, long long _swig_go_1, RateInfo *_swig_go_2) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   size_t arg2 ;
   RateInfo arg3 ;
@@ -982,7 +983,7 @@ void _wrap_RateInfoArray_setitem_mtmanapi_4ac5eea5fe396bb3(RateInfo *_swig_go_0,
 }
 
 
-TickInfo *_wrap_new_TickInfoArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+TickInfo *_wrap_new_TickInfoArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   TickInfo *result = 0 ;
   TickInfo *_swig_go_result;
@@ -995,7 +996,7 @@ TickInfo *_wrap_new_TickInfoArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0
 }
 
 
-void _wrap_delete_TickInfoArray_mtmanapi_4ac5eea5fe396bb3(TickInfo *_swig_go_0) {
+void _wrap_delete_TickInfoArray_mtmanapi_bc855f5f41ebffb0(TickInfo *_swig_go_0) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   
   arg1 = *(TickInfo **)&_swig_go_0; 
@@ -1005,7 +1006,7 @@ void _wrap_delete_TickInfoArray_mtmanapi_4ac5eea5fe396bb3(TickInfo *_swig_go_0) 
 }
 
 
-TickInfo *_wrap_TickInfoArray_getitem_mtmanapi_4ac5eea5fe396bb3(TickInfo *_swig_go_0, long long _swig_go_1) {
+TickInfo *_wrap_TickInfoArray_getitem_mtmanapi_bc855f5f41ebffb0(TickInfo *_swig_go_0, long long _swig_go_1) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   size_t arg2 ;
   TickInfo result;
@@ -1020,7 +1021,7 @@ TickInfo *_wrap_TickInfoArray_getitem_mtmanapi_4ac5eea5fe396bb3(TickInfo *_swig_
 }
 
 
-void _wrap_TickInfoArray_setitem_mtmanapi_4ac5eea5fe396bb3(TickInfo *_swig_go_0, long long _swig_go_1, TickInfo *_swig_go_2) {
+void _wrap_TickInfoArray_setitem_mtmanapi_bc855f5f41ebffb0(TickInfo *_swig_go_0, long long _swig_go_1, TickInfo *_swig_go_2) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   size_t arg2 ;
   TickInfo arg3 ;
@@ -1041,7 +1042,7 @@ void _wrap_TickInfoArray_setitem_mtmanapi_4ac5eea5fe396bb3(TickInfo *_swig_go_0,
 }
 
 
-ConSessions *_wrap_new_ConSessionsArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+ConSessions *_wrap_new_ConSessionsArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   ConSessions *result = 0 ;
   ConSessions *_swig_go_result;
@@ -1054,7 +1055,7 @@ ConSessions *_wrap_new_ConSessionsArray_mtmanapi_4ac5eea5fe396bb3(long long _swi
 }
 
 
-void _wrap_delete_ConSessionsArray_mtmanapi_4ac5eea5fe396bb3(ConSessions *_swig_go_0) {
+void _wrap_delete_ConSessionsArray_mtmanapi_bc855f5f41ebffb0(ConSessions *_swig_go_0) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   
   arg1 = *(ConSessions **)&_swig_go_0; 
@@ -1064,7 +1065,7 @@ void _wrap_delete_ConSessionsArray_mtmanapi_4ac5eea5fe396bb3(ConSessions *_swig_
 }
 
 
-ConSessions *_wrap_ConSessionsArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConSessions *_swig_go_0, long long _swig_go_1) {
+ConSessions *_wrap_ConSessionsArray_getitem_mtmanapi_bc855f5f41ebffb0(ConSessions *_swig_go_0, long long _swig_go_1) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   size_t arg2 ;
   ConSessions result;
@@ -1079,7 +1080,7 @@ ConSessions *_wrap_ConSessionsArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConSession
 }
 
 
-void _wrap_ConSessionsArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConSessions *_swig_go_0, long long _swig_go_1, ConSessions *_swig_go_2) {
+void _wrap_ConSessionsArray_setitem_mtmanapi_bc855f5f41ebffb0(ConSessions *_swig_go_0, long long _swig_go_1, ConSessions *_swig_go_2) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   size_t arg2 ;
   ConSessions arg3 ;
@@ -1100,7 +1101,7 @@ void _wrap_ConSessionsArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConSessions *_swig
 }
 
 
-ConSession *_wrap_new_ConSessionArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_go_0) {
+ConSession *_wrap_new_ConSessionArray_mtmanapi_bc855f5f41ebffb0(long long _swig_go_0) {
   size_t arg1 ;
   ConSession *result = 0 ;
   ConSession *_swig_go_result;
@@ -1113,7 +1114,7 @@ ConSession *_wrap_new_ConSessionArray_mtmanapi_4ac5eea5fe396bb3(long long _swig_
 }
 
 
-void _wrap_delete_ConSessionArray_mtmanapi_4ac5eea5fe396bb3(ConSession *_swig_go_0) {
+void _wrap_delete_ConSessionArray_mtmanapi_bc855f5f41ebffb0(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   
   arg1 = *(ConSession **)&_swig_go_0; 
@@ -1123,7 +1124,7 @@ void _wrap_delete_ConSessionArray_mtmanapi_4ac5eea5fe396bb3(ConSession *_swig_go
 }
 
 
-ConSession *_wrap_ConSessionArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConSession *_swig_go_0, long long _swig_go_1) {
+ConSession *_wrap_ConSessionArray_getitem_mtmanapi_bc855f5f41ebffb0(ConSession *_swig_go_0, long long _swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   size_t arg2 ;
   ConSession result;
@@ -1138,7 +1139,7 @@ ConSession *_wrap_ConSessionArray_getitem_mtmanapi_4ac5eea5fe396bb3(ConSession *
 }
 
 
-void _wrap_ConSessionArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConSession *_swig_go_0, long long _swig_go_1, ConSession *_swig_go_2) {
+void _wrap_ConSessionArray_setitem_mtmanapi_bc855f5f41ebffb0(ConSession *_swig_go_0, long long _swig_go_1, ConSession *_swig_go_2) {
   ConSession *arg1 = (ConSession *) 0 ;
   size_t arg2 ;
   ConSession arg3 ;
@@ -1159,7 +1160,7 @@ void _wrap_ConSessionArray_setitem_mtmanapi_4ac5eea5fe396bb3(ConSession *_swig_g
 }
 
 
-wchar_t *_wrap_MTManagerAPIDate_mtmanapi_4ac5eea5fe396bb3() {
+wchar_t *_wrap_MTManagerAPIDate_mtmanapi_bc855f5f41ebffb0() {
   wchar_t *result = 0 ;
   wchar_t *_swig_go_result;
   
@@ -1170,7 +1171,7 @@ wchar_t *_wrap_MTManagerAPIDate_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PROXY_SOCKS4_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PROXY_SOCKS4_MTProxyInfo_mtmanapi_bc855f5f41ebffb0() {
   int result;
   intgo _swig_go_result;
   
@@ -1182,7 +1183,7 @@ intgo _wrap_PROXY_SOCKS4_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PROXY_SOCKS5_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PROXY_SOCKS5_MTProxyInfo_mtmanapi_bc855f5f41ebffb0() {
   int result;
   intgo _swig_go_result;
   
@@ -1194,7 +1195,7 @@ intgo _wrap_PROXY_SOCKS5_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PROXY_HTTP_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PROXY_HTTP_MTProxyInfo_mtmanapi_bc855f5f41ebffb0() {
   int result;
   intgo _swig_go_result;
   
@@ -1206,7 +1207,7 @@ intgo _wrap_PROXY_HTTP_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PROXY_FIRST_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PROXY_FIRST_MTProxyInfo_mtmanapi_bc855f5f41ebffb0() {
   int result;
   intgo _swig_go_result;
   
@@ -1218,7 +1219,7 @@ intgo _wrap_PROXY_FIRST_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PROXY_LAST_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PROXY_LAST_MTProxyInfo_mtmanapi_bc855f5f41ebffb0() {
   int result;
   intgo _swig_go_result;
   
@@ -1230,7 +1231,7 @@ intgo _wrap_PROXY_LAST_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_MTProxyInfo_enable_set_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MTProxyInfo_enable_set_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0, intgo _swig_go_1) {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   int arg2 ;
   
@@ -1242,7 +1243,7 @@ void _wrap_MTProxyInfo_enable_set_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_g
 }
 
 
-intgo _wrap_MTProxyInfo_enable_get_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0) {
+intgo _wrap_MTProxyInfo_enable_get_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0) {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1255,7 +1256,7 @@ intgo _wrap_MTProxyInfo_enable_get_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_
 }
 
 
-void _wrap_MTProxyInfo_Xtype_set_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MTProxyInfo_Xtype_set_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0, intgo _swig_go_1) {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   int arg2 ;
   
@@ -1267,7 +1268,7 @@ void _wrap_MTProxyInfo_Xtype_set_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go
 }
 
 
-intgo _wrap_MTProxyInfo_Xtype_get_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0) {
+intgo _wrap_MTProxyInfo_Xtype_get_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0) {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1280,7 +1281,7 @@ intgo _wrap_MTProxyInfo_Xtype_get_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_g
 }
 
 
-void _wrap_MTProxyInfo_address_set_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0, wchar_t (*_swig_go_1)[64]) {
+void _wrap_MTProxyInfo_address_set_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0, wchar_t (*_swig_go_1)[64]) {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   wchar_t *arg2 = (wchar_t *) (wchar_t *)0 ;
   
@@ -1296,7 +1297,7 @@ void _wrap_MTProxyInfo_address_set_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_
 }
 
 
-wchar_t (*_wrap_MTProxyInfo_address_get_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0))[64] {
+wchar_t (*_wrap_MTProxyInfo_address_get_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0))[64] {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   wchar_t *result = 0 ;
   wchar_t (*_swig_go_result)[64];
@@ -1309,7 +1310,7 @@ wchar_t (*_wrap_MTProxyInfo_address_get_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_
 }
 
 
-void _wrap_MTProxyInfo_auth_set_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0, wchar_t (*_swig_go_1)[64]) {
+void _wrap_MTProxyInfo_auth_set_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0, wchar_t (*_swig_go_1)[64]) {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   wchar_t *arg2 = (wchar_t *) (wchar_t *)0 ;
   
@@ -1325,7 +1326,7 @@ void _wrap_MTProxyInfo_auth_set_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_
 }
 
 
-wchar_t (*_wrap_MTProxyInfo_auth_get_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0))[64] {
+wchar_t (*_wrap_MTProxyInfo_auth_get_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0))[64] {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   wchar_t *result = 0 ;
   wchar_t (*_swig_go_result)[64];
@@ -1338,7 +1339,7 @@ wchar_t (*_wrap_MTProxyInfo_auth_get_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swi
 }
 
 
-MTProxyInfo *_wrap_new_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
+MTProxyInfo *_wrap_new_MTProxyInfo_mtmanapi_bc855f5f41ebffb0() {
   MTProxyInfo *result = 0 ;
   MTProxyInfo *_swig_go_result;
   
@@ -1349,7 +1350,7 @@ MTProxyInfo *_wrap_new_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_delete_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0) {
+void _wrap_delete_MTProxyInfo_mtmanapi_bc855f5f41ebffb0(MTProxyInfo *_swig_go_0) {
   MTProxyInfo *arg1 = (MTProxyInfo *) 0 ;
   
   arg1 = *(MTProxyInfo **)&_swig_go_0; 
@@ -1359,7 +1360,7 @@ void _wrap_delete_MTProxyInfo_mtmanapi_4ac5eea5fe396bb3(MTProxyInfo *_swig_go_0)
 }
 
 
-void _wrap_IMTManagerSink_OnDisconnect_mtmanapi_4ac5eea5fe396bb3(IMTManagerSink *_swig_go_0) {
+void _wrap_IMTManagerSink_OnDisconnect_mtmanapi_bc855f5f41ebffb0(IMTManagerSink *_swig_go_0) {
   IMTManagerSink *arg1 = (IMTManagerSink *) 0 ;
   
   arg1 = *(IMTManagerSink **)&_swig_go_0; 
@@ -1369,7 +1370,7 @@ void _wrap_IMTManagerSink_OnDisconnect_mtmanapi_4ac5eea5fe396bb3(IMTManagerSink 
 }
 
 
-void _wrap_IMTManagerSink_OnTradeAccountSet_mtmanapi_4ac5eea5fe396bb3(IMTManagerSink *_swig_go_0, intgo _swig_go_1, signed __int64 *_swig_go_2, IMTUser *_swig_go_3, IMTAccount *_swig_go_4, IMTOrderArray *_swig_go_5, IMTPositionArray *_swig_go_6) {
+void _wrap_IMTManagerSink_OnTradeAccountSet_mtmanapi_bc855f5f41ebffb0(IMTManagerSink *_swig_go_0, intgo _swig_go_1, signed __int64 *_swig_go_2, IMTUser *_swig_go_3, IMTAccount *_swig_go_4, IMTOrderArray *_swig_go_5, IMTPositionArray *_swig_go_6) {
   IMTManagerSink *arg1 = (IMTManagerSink *) 0 ;
   MTAPIRES arg2 ;
   INT64 arg3 ;
@@ -1398,7 +1399,7 @@ void _wrap_IMTManagerSink_OnTradeAccountSet_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-void _wrap_IMTManagerSink_OnConnect_mtmanapi_4ac5eea5fe396bb3(IMTManagerSink *_swig_go_0) {
+void _wrap_IMTManagerSink_OnConnect_mtmanapi_bc855f5f41ebffb0(IMTManagerSink *_swig_go_0) {
   IMTManagerSink *arg1 = (IMTManagerSink *) 0 ;
   
   arg1 = *(IMTManagerSink **)&_swig_go_0; 
@@ -1408,7 +1409,7 @@ void _wrap_IMTManagerSink_OnConnect_mtmanapi_4ac5eea5fe396bb3(IMTManagerSink *_s
 }
 
 
-IMTManagerSink *_wrap_new_IMTManagerSink_mtmanapi_4ac5eea5fe396bb3() {
+IMTManagerSink *_wrap_new_IMTManagerSink_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerSink *result = 0 ;
   IMTManagerSink *_swig_go_result;
   
@@ -1419,7 +1420,7 @@ IMTManagerSink *_wrap_new_IMTManagerSink_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_delete_IMTManagerSink_mtmanapi_4ac5eea5fe396bb3(IMTManagerSink *_swig_go_0) {
+void _wrap_delete_IMTManagerSink_mtmanapi_bc855f5f41ebffb0(IMTManagerSink *_swig_go_0) {
   IMTManagerSink *arg1 = (IMTManagerSink *) 0 ;
   
   arg1 = *(IMTManagerSink **)&_swig_go_0; 
@@ -1429,7 +1430,7 @@ void _wrap_delete_IMTManagerSink_mtmanapi_4ac5eea5fe396bb3(IMTManagerSink *_swig
 }
 
 
-void _wrap_IMTDealerSink_OnDealerResult_mtmanapi_4ac5eea5fe396bb3(IMTDealerSink *_swig_go_0, IMTConfirm *_swig_go_1) {
+void _wrap_IMTDealerSink_OnDealerResult_mtmanapi_bc855f5f41ebffb0(IMTDealerSink *_swig_go_0, IMTConfirm *_swig_go_1) {
   IMTDealerSink *arg1 = (IMTDealerSink *) 0 ;
   IMTConfirm *arg2 = (IMTConfirm *) 0 ;
   
@@ -1441,7 +1442,7 @@ void _wrap_IMTDealerSink_OnDealerResult_mtmanapi_4ac5eea5fe396bb3(IMTDealerSink 
 }
 
 
-void _wrap_IMTDealerSink_OnDealerAnswer_mtmanapi_4ac5eea5fe396bb3(IMTDealerSink *_swig_go_0, IMTRequest *_swig_go_1) {
+void _wrap_IMTDealerSink_OnDealerAnswer_mtmanapi_bc855f5f41ebffb0(IMTDealerSink *_swig_go_0, IMTRequest *_swig_go_1) {
   IMTDealerSink *arg1 = (IMTDealerSink *) 0 ;
   IMTRequest *arg2 = (IMTRequest *) 0 ;
   
@@ -1453,7 +1454,7 @@ void _wrap_IMTDealerSink_OnDealerAnswer_mtmanapi_4ac5eea5fe396bb3(IMTDealerSink 
 }
 
 
-IMTDealerSink *_wrap_new_IMTDealerSink_mtmanapi_4ac5eea5fe396bb3() {
+IMTDealerSink *_wrap_new_IMTDealerSink_mtmanapi_bc855f5f41ebffb0() {
   IMTDealerSink *result = 0 ;
   IMTDealerSink *_swig_go_result;
   
@@ -1464,7 +1465,7 @@ IMTDealerSink *_wrap_new_IMTDealerSink_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_delete_IMTDealerSink_mtmanapi_4ac5eea5fe396bb3(IMTDealerSink *_swig_go_0) {
+void _wrap_delete_IMTDealerSink_mtmanapi_bc855f5f41ebffb0(IMTDealerSink *_swig_go_0) {
   IMTDealerSink *arg1 = (IMTDealerSink *) 0 ;
   
   arg1 = *(IMTDealerSink **)&_swig_go_0; 
@@ -1474,7 +1475,7 @@ void _wrap_delete_IMTDealerSink_mtmanapi_4ac5eea5fe396bb3(IMTDealerSink *_swig_g
 }
 
 
-intgo _wrap_PUMP_MODE_USERS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_USERS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1486,7 +1487,7 @@ intgo _wrap_PUMP_MODE_USERS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_ACTIVITY_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_ACTIVITY_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1498,7 +1499,7 @@ intgo _wrap_PUMP_MODE_ACTIVITY_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_MAIL_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_MAIL_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1510,7 +1511,7 @@ intgo _wrap_PUMP_MODE_MAIL_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_ORDERS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_ORDERS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1522,7 +1523,7 @@ intgo _wrap_PUMP_MODE_ORDERS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_NEWS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_NEWS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1534,7 +1535,7 @@ intgo _wrap_PUMP_MODE_NEWS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_POSITIONS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_POSITIONS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1546,7 +1547,7 @@ intgo _wrap_PUMP_MODE_POSITIONS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_GROUPS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_GROUPS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1558,7 +1559,7 @@ intgo _wrap_PUMP_MODE_GROUPS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_SYMBOLS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_SYMBOLS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1570,7 +1571,7 @@ intgo _wrap_PUMP_MODE_SYMBOLS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_HOLIDAYS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_HOLIDAYS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1582,7 +1583,7 @@ intgo _wrap_PUMP_MODE_HOLIDAYS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_TIME_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_TIME_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1594,7 +1595,7 @@ intgo _wrap_PUMP_MODE_TIME_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_GATEWAYS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_GATEWAYS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1606,7 +1607,7 @@ intgo _wrap_PUMP_MODE_GATEWAYS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_REQUESTS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_REQUESTS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1618,7 +1619,7 @@ intgo _wrap_PUMP_MODE_REQUESTS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_PLUGINS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_PLUGINS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1630,7 +1631,7 @@ intgo _wrap_PUMP_MODE_PLUGINS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_CLIENTS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_CLIENTS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1642,7 +1643,7 @@ intgo _wrap_PUMP_MODE_CLIENTS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_SUBSCRIPTIONS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_SUBSCRIPTIONS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1654,7 +1655,7 @@ intgo _wrap_PUMP_MODE_SUBSCRIPTIONS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_FULL_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_FULL_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -1666,7 +1667,7 @@ intgo _wrap_PUMP_MODE_FULL_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_ALL_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_ALL_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -1678,7 +1679,7 @@ intgo _wrap_EXTERNAL_SYNC_ALL_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_BALANCE_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_BALANCE_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -1690,7 +1691,7 @@ intgo _wrap_EXTERNAL_SYNC_BALANCE_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_POSITIONS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_POSITIONS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -1702,7 +1703,7 @@ intgo _wrap_EXTERNAL_SYNC_POSITIONS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_ORDERS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_ORDERS_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -1714,7 +1715,7 @@ intgo _wrap_EXTERNAL_SYNC_ORDERS_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_LAST_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_LAST_IMTManagerAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTManagerAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -1726,7 +1727,7 @@ intgo _wrap_EXTERNAL_SYNC_LAST_IMTManagerAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_IMTManagerAPI_Release_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+void _wrap_IMTManagerAPI_Release_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   
   arg1 = *(IMTManagerAPI **)&_swig_go_0; 
@@ -1736,7 +1737,7 @@ void _wrap_IMTManagerAPI_Release_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_
 }
 
 
-intgo _wrap_IMTManagerAPI_LicenseCheck_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, MTLicenseCheck *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_LicenseCheck_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, MTLicenseCheck *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTLicenseCheck *arg2 = 0 ;
   MTAPIRES result;
@@ -1751,7 +1752,7 @@ intgo _wrap_IMTManagerAPI_LicenseCheck_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-void *_wrap_IMTManagerAPI_Allocate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1) {
+void *_wrap_IMTManagerAPI_Allocate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   void *result = 0 ;
@@ -1766,7 +1767,7 @@ void *_wrap_IMTManagerAPI_Allocate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-void _wrap_IMTManagerAPI_Free_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, void *_swig_go_1) {
+void _wrap_IMTManagerAPI_Free_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, void *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -1778,7 +1779,7 @@ void _wrap_IMTManagerAPI_Free_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_
 }
 
 
-void _wrap_IMTManagerAPI_ProxySet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, MTProxyInfo *_swig_go_1) {
+void _wrap_IMTManagerAPI_ProxySet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, MTProxyInfo *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTProxyInfo *arg2 = 0 ;
   
@@ -1790,7 +1791,7 @@ void _wrap_IMTManagerAPI_ProxySet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig
 }
 
 
-intgo _wrap_IMTManagerAPI_Connect__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, long long _swig_go_5, intgo _swig_go_6) {
+intgo _wrap_IMTManagerAPI_Connect__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, long long _swig_go_5, intgo _swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT64 arg3 ;
@@ -1836,7 +1837,7 @@ intgo _wrap_IMTManagerAPI_Connect__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_Connect__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, long long _swig_go_5) {
+intgo _wrap_IMTManagerAPI_Connect__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, long long _swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT64 arg3 ;
@@ -1880,7 +1881,7 @@ intgo _wrap_IMTManagerAPI_Connect__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-void _wrap_IMTManagerAPI_Disconnect_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+void _wrap_IMTManagerAPI_Disconnect_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   
   arg1 = *(IMTManagerAPI **)&_swig_go_0; 
@@ -1890,7 +1891,7 @@ void _wrap_IMTManagerAPI_Disconnect_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_Subscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTManagerSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_Subscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTManagerSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTManagerSink *arg2 = (IMTManagerSink *) 0 ;
   MTAPIRES result;
@@ -1905,7 +1906,7 @@ intgo _wrap_IMTManagerAPI_Subscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_Unsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTManagerSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_Unsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTManagerSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTManagerSink *arg2 = (IMTManagerSink *) 0 ;
   MTAPIRES result;
@@ -1920,7 +1921,7 @@ intgo _wrap_IMTManagerAPI_Unsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_LoggerOut_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_LoggerOut_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   LPCWSTR arg3 ;
@@ -1945,7 +1946,7 @@ intgo _wrap_IMTManagerAPI_LoggerOut_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-void _wrap_IMTManagerAPI_LoggerFlush_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+void _wrap_IMTManagerAPI_LoggerFlush_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   
   arg1 = *(IMTManagerAPI **)&_swig_go_0; 
@@ -1955,7 +1956,7 @@ void _wrap_IMTManagerAPI_LoggerFlush_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_LoggerServerRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, LPCWSTR *_swig_go_5, MTLogRecord **_swig_go_6, intgo *_swig_go_7) {
+intgo _wrap_IMTManagerAPI_LoggerServerRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, LPCWSTR *_swig_go_5, MTLogRecord **_swig_go_6, intgo *_swig_go_7) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   UINT arg3 ;
@@ -2003,7 +2004,7 @@ intgo _wrap_IMTManagerAPI_LoggerServerRequest_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_LoggerOutString_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_LoggerOutString_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   LPCWSTR arg3 ;
@@ -2027,7 +2028,7 @@ intgo _wrap_IMTManagerAPI_LoggerOutString_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_LoggerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_LoggerReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -2040,7 +2041,7 @@ intgo _wrap_IMTManagerAPI_LoggerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_LoggerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_LoggerReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -2053,7 +2054,7 @@ intgo _wrap_IMTManagerAPI_LoggerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_LoggerReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_LoggerReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -2066,7 +2067,7 @@ intgo _wrap_IMTManagerAPI_LoggerReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-IMTConTime *_wrap_IMTManagerAPI_TimeCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConTime *_wrap_IMTManagerAPI_TimeCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConTime *result = 0 ;
   IMTConTime *_swig_go_result;
@@ -2079,7 +2080,7 @@ IMTConTime *_wrap_IMTManagerAPI_TimeCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_TimeSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConTimeSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_TimeSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConTimeSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConTimeSink *arg2 = (IMTConTimeSink *) 0 ;
   MTAPIRES result;
@@ -2094,7 +2095,7 @@ intgo _wrap_IMTManagerAPI_TimeSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_TimeUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConTimeSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_TimeUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConTimeSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConTimeSink *arg2 = (IMTConTimeSink *) 0 ;
   MTAPIRES result;
@@ -2109,7 +2110,7 @@ intgo _wrap_IMTManagerAPI_TimeUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_TimeGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConTime *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_TimeGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConTime *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConTime *arg2 = (IMTConTime *) 0 ;
   MTAPIRES result;
@@ -2124,7 +2125,7 @@ intgo _wrap_IMTManagerAPI_TimeGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig
 }
 
 
-signed __int64 *_wrap_IMTManagerAPI_TimeServer_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+signed __int64 *_wrap_IMTManagerAPI_TimeServer_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   INT64 result;
   signed __int64 *_swig_go_result;
@@ -2137,7 +2138,7 @@ signed __int64 *_wrap_IMTManagerAPI_TimeServer_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_TimeServerRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, signed __int64 *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_TimeServerRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, signed __int64 *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   INT64 *arg2 = 0 ;
   MTAPIRES result;
@@ -2152,7 +2153,7 @@ intgo _wrap_IMTManagerAPI_TimeServerRequest_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_TimeReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TimeReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -2165,7 +2166,7 @@ intgo _wrap_IMTManagerAPI_TimeReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_TimeReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TimeReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -2178,7 +2179,7 @@ intgo _wrap_IMTManagerAPI_TimeReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_TimeReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TimeReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -2191,7 +2192,7 @@ intgo _wrap_IMTManagerAPI_TimeReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-IMTConHoliday *_wrap_IMTManagerAPI_HolidayCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConHoliday *_wrap_IMTManagerAPI_HolidayCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConHoliday *result = 0 ;
   IMTConHoliday *_swig_go_result;
@@ -2204,7 +2205,7 @@ IMTConHoliday *_wrap_IMTManagerAPI_HolidayCreate_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_HolidaySubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConHolidaySink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_HolidaySubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConHolidaySink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConHolidaySink *arg2 = (IMTConHolidaySink *) 0 ;
   MTAPIRES result;
@@ -2219,7 +2220,7 @@ intgo _wrap_IMTManagerAPI_HolidaySubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_HolidayUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConHolidaySink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_HolidayUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConHolidaySink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConHolidaySink *arg2 = (IMTConHolidaySink *) 0 ;
   MTAPIRES result;
@@ -2234,7 +2235,7 @@ intgo _wrap_IMTManagerAPI_HolidayUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_HolidayTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_HolidayTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -2247,7 +2248,7 @@ intgo _wrap_IMTManagerAPI_HolidayTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_HolidayNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConHoliday *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_HolidayNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConHoliday *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTConHoliday *arg3 = (IMTConHoliday *) 0 ;
@@ -2264,7 +2265,7 @@ intgo _wrap_IMTManagerAPI_HolidayNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-IMTConManagerReport *_wrap_IMTManagerAPI_ManagerReportCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConManagerReport *_wrap_IMTManagerAPI_ManagerReportCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConManagerReport *result = 0 ;
   IMTConManagerReport *_swig_go_result;
@@ -2277,7 +2278,7 @@ IMTConManagerReport *_wrap_IMTManagerAPI_ManagerReportCreate_mtmanapi_4ac5eea5fe
 }
 
 
-IMTConManager *_wrap_IMTManagerAPI_ManagerCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConManager *_wrap_IMTManagerAPI_ManagerCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConManager *result = 0 ;
   IMTConManager *_swig_go_result;
@@ -2290,7 +2291,7 @@ IMTConManager *_wrap_IMTManagerAPI_ManagerCreate_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-IMTConManagerAccess *_wrap_IMTManagerAPI_ManagerAccessCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConManagerAccess *_wrap_IMTManagerAPI_ManagerAccessCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConManagerAccess *result = 0 ;
   IMTConManagerAccess *_swig_go_result;
@@ -2303,7 +2304,7 @@ IMTConManagerAccess *_wrap_IMTManagerAPI_ManagerAccessCreate_mtmanapi_4ac5eea5fe
 }
 
 
-intgo _wrap_IMTManagerAPI_ManagerCurrent_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConManager *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_ManagerCurrent_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConManager *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConManager *arg2 = (IMTConManager *) 0 ;
   MTAPIRES result;
@@ -2318,7 +2319,7 @@ intgo _wrap_IMTManagerAPI_ManagerCurrent_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-IMTConGroup *_wrap_IMTManagerAPI_GroupCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConGroup *_wrap_IMTManagerAPI_GroupCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConGroup *result = 0 ;
   IMTConGroup *_swig_go_result;
@@ -2331,7 +2332,7 @@ IMTConGroup *_wrap_IMTManagerAPI_GroupCreate_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-IMTConGroupSymbol *_wrap_IMTManagerAPI_GroupSymbolCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConGroupSymbol *_wrap_IMTManagerAPI_GroupSymbolCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConGroupSymbol *result = 0 ;
   IMTConGroupSymbol *_swig_go_result;
@@ -2344,7 +2345,7 @@ IMTConGroupSymbol *_wrap_IMTManagerAPI_GroupSymbolCreate_mtmanapi_4ac5eea5fe396b
 }
 
 
-IMTConCommission *_wrap_IMTManagerAPI_GroupCommissionCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConCommission *_wrap_IMTManagerAPI_GroupCommissionCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConCommission *result = 0 ;
   IMTConCommission *_swig_go_result;
@@ -2357,7 +2358,7 @@ IMTConCommission *_wrap_IMTManagerAPI_GroupCommissionCreate_mtmanapi_4ac5eea5fe3
 }
 
 
-IMTConCommTier *_wrap_IMTManagerAPI_GroupTierCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConCommTier *_wrap_IMTManagerAPI_GroupTierCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConCommTier *result = 0 ;
   IMTConCommTier *_swig_go_result;
@@ -2370,7 +2371,7 @@ IMTConCommTier *_wrap_IMTManagerAPI_GroupTierCreate_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConGroupSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_GroupSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConGroupSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConGroupSink *arg2 = (IMTConGroupSink *) 0 ;
   MTAPIRES result;
@@ -2385,7 +2386,7 @@ intgo _wrap_IMTManagerAPI_GroupSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConGroupSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_GroupUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConGroupSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConGroupSink *arg2 = (IMTConGroupSink *) 0 ;
   MTAPIRES result;
@@ -2400,7 +2401,7 @@ intgo _wrap_IMTManagerAPI_GroupUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_GroupTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -2413,7 +2414,7 @@ intgo _wrap_IMTManagerAPI_GroupTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConGroup *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_GroupNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConGroup *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTConGroup *arg3 = (IMTConGroup *) 0 ;
@@ -2430,7 +2431,7 @@ intgo _wrap_IMTManagerAPI_GroupNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGroup *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_GroupGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGroup *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConGroup *arg3 = (IMTConGroup *) 0 ;
@@ -2454,7 +2455,7 @@ intgo _wrap_IMTManagerAPI_GroupGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGroup *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_GroupRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGroup *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConGroup *arg3 = (IMTConGroup *) 0 ;
@@ -2478,7 +2479,7 @@ intgo _wrap_IMTManagerAPI_GroupRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConGroup *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_GroupUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConGroup *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConGroup *arg2 = (IMTConGroup *) 0 ;
   MTAPIRES result;
@@ -2493,7 +2494,7 @@ intgo _wrap_IMTManagerAPI_GroupUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConGroup **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_GroupUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConGroup **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConGroup **arg2 = (IMTConGroup **) 0 ;
   UINT arg3 ;
@@ -2512,7 +2513,7 @@ intgo _wrap_IMTManagerAPI_GroupUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-IMTConGroupArray *_wrap_IMTManagerAPI_GroupCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConGroupArray *_wrap_IMTManagerAPI_GroupCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConGroupArray *result = 0 ;
   IMTConGroupArray *_swig_go_result;
@@ -2525,7 +2526,7 @@ IMTConGroupArray *_wrap_IMTManagerAPI_GroupCreateArray_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTManagerAPI_GroupRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGroupArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_GroupRequestArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGroupArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConGroupArray *arg3 = (IMTConGroupArray *) 0 ;
@@ -2549,7 +2550,7 @@ intgo _wrap_IMTManagerAPI_GroupRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-IMTConSymbol *_wrap_IMTManagerAPI_SymbolCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConSymbol *_wrap_IMTManagerAPI_SymbolCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSymbol *result = 0 ;
   IMTConSymbol *_swig_go_result;
@@ -2562,7 +2563,7 @@ IMTConSymbol *_wrap_IMTManagerAPI_SymbolCreate_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-IMTConSymbolSession *_wrap_IMTManagerAPI_SymbolSessionCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConSymbolSession *_wrap_IMTManagerAPI_SymbolSessionCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSymbolSession *result = 0 ;
   IMTConSymbolSession *_swig_go_result;
@@ -2575,7 +2576,7 @@ IMTConSymbolSession *_wrap_IMTManagerAPI_SymbolSessionCreate_mtmanapi_4ac5eea5fe
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSymbolSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SymbolSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSymbolSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSymbolSink *arg2 = (IMTConSymbolSink *) 0 ;
   MTAPIRES result;
@@ -2590,7 +2591,7 @@ intgo _wrap_IMTManagerAPI_SymbolSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSymbolSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SymbolUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSymbolSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSymbolSink *arg2 = (IMTConSymbolSink *) 0 ;
   MTAPIRES result;
@@ -2605,7 +2606,7 @@ intgo _wrap_IMTManagerAPI_SymbolUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SymbolTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -2618,7 +2619,7 @@ intgo _wrap_IMTManagerAPI_SymbolTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConSymbol *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SymbolNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConSymbol *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTConSymbol *arg3 = (IMTConSymbol *) 0 ;
@@ -2635,7 +2636,7 @@ intgo _wrap_IMTManagerAPI_SymbolNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolGet__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSymbol *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SymbolGet__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSymbol *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConSymbol *arg3 = (IMTConSymbol *) 0 ;
@@ -2659,7 +2660,7 @@ intgo _wrap_IMTManagerAPI_SymbolGet__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolGet__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTConSymbol *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SymbolGet__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTConSymbol *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -2692,7 +2693,7 @@ intgo _wrap_IMTManagerAPI_SymbolGet__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSymbol *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SymbolRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSymbol *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConSymbol *arg3 = (IMTConSymbol *) 0 ;
@@ -2716,7 +2717,7 @@ intgo _wrap_IMTManagerAPI_SymbolRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTConSymbol *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SymbolRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTConSymbol *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -2749,7 +2750,7 @@ intgo _wrap_IMTManagerAPI_SymbolRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolExist_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSymbol *_swig_go_1, IMTConGroup *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SymbolExist_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSymbol *_swig_go_1, IMTConGroup *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSymbol *arg2 = (IMTConSymbol *) 0 ;
   IMTConGroup *arg3 = (IMTConGroup *) 0 ;
@@ -2766,7 +2767,7 @@ intgo _wrap_IMTManagerAPI_SymbolExist_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSymbol *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SymbolUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSymbol *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSymbol *arg2 = (IMTConSymbol *) 0 ;
   MTAPIRES result;
@@ -2781,7 +2782,7 @@ intgo _wrap_IMTManagerAPI_SymbolUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSymbol **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SymbolUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSymbol **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSymbol **arg2 = (IMTConSymbol **) 0 ;
   UINT arg3 ;
@@ -2800,7 +2801,7 @@ intgo _wrap_IMTManagerAPI_SymbolUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-IMTConSymbolArray *_wrap_IMTManagerAPI_SymbolCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConSymbolArray *_wrap_IMTManagerAPI_SymbolCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSymbolArray *result = 0 ;
   IMTConSymbolArray *_swig_go_result;
@@ -2813,7 +2814,7 @@ IMTConSymbolArray *_wrap_IMTManagerAPI_SymbolCreateArray_mtmanapi_4ac5eea5fe396b
 }
 
 
-intgo _wrap_IMTManagerAPI_SymbolRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTConSymbolArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SymbolRequestArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTConSymbolArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -2846,7 +2847,7 @@ intgo _wrap_IMTManagerAPI_SymbolRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SelectedAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -2868,7 +2869,7 @@ intgo _wrap_IMTManagerAPI_SelectedAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedAddAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SelectedAddAll_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -2881,7 +2882,7 @@ intgo _wrap_IMTManagerAPI_SelectedAddAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SelectedDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -2903,7 +2904,7 @@ intgo _wrap_IMTManagerAPI_SelectedDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTManagerAPI_SelectedDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -2918,7 +2919,7 @@ intgo _wrap_IMTManagerAPI_SelectedDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedDeleteAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SelectedDeleteAll_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -2931,7 +2932,7 @@ intgo _wrap_IMTManagerAPI_SelectedDeleteAll_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedShift_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTManagerAPI_SelectedShift_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -2948,7 +2949,7 @@ intgo _wrap_IMTManagerAPI_SelectedShift_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SelectedTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -2961,7 +2962,7 @@ intgo _wrap_IMTManagerAPI_SelectedTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, wchar_t (*_swig_go_2)[260]) {
+intgo _wrap_IMTManagerAPI_SelectedNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, wchar_t (*_swig_go_2)[260]) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   MTAPISTR *arg3 = 0 ;
@@ -2978,7 +2979,7 @@ intgo _wrap_IMTManagerAPI_SelectedNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTManagerAPI_SelectedAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, intgo _swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPWSTR *arg2 = (LPWSTR *) 0 ;
   UINT arg3 ;
@@ -2995,7 +2996,7 @@ intgo _wrap_IMTManagerAPI_SelectedAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTManagerAPI_SelectedDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, intgo _swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPWSTR *arg2 = (LPWSTR *) 0 ;
   UINT arg3 ;
@@ -3012,7 +3013,7 @@ intgo _wrap_IMTManagerAPI_SelectedDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SelectedReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -3025,7 +3026,7 @@ intgo _wrap_IMTManagerAPI_SelectedReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_SelectedReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SelectedReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -3038,7 +3039,7 @@ intgo _wrap_IMTManagerAPI_SelectedReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-IMTUser *_wrap_IMTManagerAPI_UserCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTUser *_wrap_IMTManagerAPI_UserCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTUser *result = 0 ;
   IMTUser *_swig_go_result;
@@ -3051,7 +3052,7 @@ IMTUser *_wrap_IMTManagerAPI_UserCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-IMTAccount *_wrap_IMTManagerAPI_UserCreateAccount_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTAccount *_wrap_IMTManagerAPI_UserCreateAccount_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAccount *result = 0 ;
   IMTAccount *_swig_go_result;
@@ -3064,7 +3065,7 @@ IMTAccount *_wrap_IMTManagerAPI_UserCreateAccount_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_UserSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTUserSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_UserSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTUserSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTUserSink *arg2 = (IMTUserSink *) 0 ;
   MTAPIRES result;
@@ -3079,7 +3080,7 @@ intgo _wrap_IMTManagerAPI_UserSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_UserUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTUserSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_UserUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTUserSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTUserSink *arg2 = (IMTUserSink *) 0 ;
   MTAPIRES result;
@@ -3094,7 +3095,7 @@ intgo _wrap_IMTManagerAPI_UserUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTUser *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTUser *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTUser *arg2 = (IMTUser *) 0 ;
   LPCWSTR arg3 ;
@@ -3127,7 +3128,7 @@ intgo _wrap_IMTManagerAPI_UserAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig
 }
 
 
-intgo _wrap_IMTManagerAPI_UserDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_UserDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -3142,7 +3143,7 @@ intgo _wrap_IMTManagerAPI_UserDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_UserUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTUser *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_UserUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTUser *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTUser *arg2 = (IMTUser *) 0 ;
   MTAPIRES result;
@@ -3157,7 +3158,7 @@ intgo _wrap_IMTManagerAPI_UserUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_UserTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_UserTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -3170,7 +3171,7 @@ intgo _wrap_IMTManagerAPI_UserTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_UserGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTUser *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTUser *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTUser *arg3 = (IMTUser *) 0 ;
@@ -3187,7 +3188,7 @@ intgo _wrap_IMTManagerAPI_UserGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig
 }
 
 
-intgo _wrap_IMTManagerAPI_UserRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTUser *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTUser *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTUser *arg3 = (IMTUser *) 0 ;
@@ -3204,7 +3205,7 @@ intgo _wrap_IMTManagerAPI_UserRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_UserGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, wchar_t (*_swig_go_2)[260]) {
+intgo _wrap_IMTManagerAPI_UserGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, wchar_t (*_swig_go_2)[260]) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPISTR *arg3 = 0 ;
@@ -3221,7 +3222,7 @@ intgo _wrap_IMTManagerAPI_UserGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_UserLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long **_swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long **_swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT64 **arg3 = 0 ;
@@ -3247,7 +3248,7 @@ intgo _wrap_IMTManagerAPI_UserLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_UserPasswordCheck_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserPasswordCheck_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   UINT64 arg3 ;
@@ -3273,7 +3274,7 @@ intgo _wrap_IMTManagerAPI_UserPasswordCheck_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_UserPasswordChange_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserPasswordChange_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   UINT64 arg3 ;
@@ -3299,7 +3300,7 @@ intgo _wrap_IMTManagerAPI_UserPasswordChange_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_UserCertDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_UserCertDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -3314,7 +3315,7 @@ intgo _wrap_IMTManagerAPI_UserCertDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_UserCertConfirm_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_UserCertConfirm_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -3329,7 +3330,7 @@ intgo _wrap_IMTManagerAPI_UserCertConfirm_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_UserExternalSync_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, intgo _swig_go_4) {
+intgo _wrap_IMTManagerAPI_UserExternalSync_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, intgo _swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -3357,7 +3358,7 @@ intgo _wrap_IMTManagerAPI_UserExternalSync_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAccountGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTAccount *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserAccountGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTAccount *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTAccount *arg3 = (IMTAccount *) 0 ;
@@ -3374,7 +3375,7 @@ intgo _wrap_IMTManagerAPI_UserAccountGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAccountRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTAccount *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserAccountRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTAccount *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTAccount *arg3 = (IMTAccount *) 0 ;
@@ -3391,7 +3392,7 @@ intgo _wrap_IMTManagerAPI_UserAccountRequest_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-IMTCertificate *_wrap_IMTManagerAPI_UserCertCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTCertificate *_wrap_IMTManagerAPI_UserCertCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTCertificate *result = 0 ;
   IMTCertificate *_swig_go_result;
@@ -3404,7 +3405,7 @@ IMTCertificate *_wrap_IMTManagerAPI_UserCertCreate_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_UserCertUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTCertificate *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserCertUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTCertificate *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTCertificate *arg3 = (IMTCertificate *) 0 ;
@@ -3421,7 +3422,7 @@ intgo _wrap_IMTManagerAPI_UserCertUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_UserCertGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTCertificate *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserCertGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTCertificate *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTCertificate *arg3 = (IMTCertificate *) 0 ;
@@ -3438,7 +3439,7 @@ intgo _wrap_IMTManagerAPI_UserCertGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_UserBalanceCheck_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, double *_swig_go_3, double *_swig_go_4, double *_swig_go_5, double *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_UserBalanceCheck_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, double *_swig_go_3, double *_swig_go_4, double *_swig_go_5, double *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT arg3 ;
@@ -3463,7 +3464,7 @@ intgo _wrap_IMTManagerAPI_UserBalanceCheck_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-IMTDeal *_wrap_IMTManagerAPI_DealCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTDeal *_wrap_IMTManagerAPI_DealCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDeal *result = 0 ;
   IMTDeal *_swig_go_result;
@@ -3476,7 +3477,7 @@ IMTDeal *_wrap_IMTManagerAPI_DealCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-IMTDealArray *_wrap_IMTManagerAPI_DealCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTDealArray *_wrap_IMTManagerAPI_DealCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDealArray *result = 0 ;
   IMTDealArray *_swig_go_result;
@@ -3489,7 +3490,7 @@ IMTDealArray *_wrap_IMTManagerAPI_DealCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_DealRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTDeal *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DealRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTDeal *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTDeal *arg3 = (IMTDeal *) 0 ;
@@ -3506,7 +3507,7 @@ intgo _wrap_IMTManagerAPI_DealRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_DealRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDealArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_DealRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDealArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -3541,7 +3542,7 @@ intgo _wrap_IMTManagerAPI_DealRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_DealSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDealSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDealSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDealSink *arg2 = (IMTDealSink *) 0 ;
   MTAPIRES result;
@@ -3556,7 +3557,7 @@ intgo _wrap_IMTManagerAPI_DealSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_DealUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDealSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDealSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDealSink *arg2 = (IMTDealSink *) 0 ;
   MTAPIRES result;
@@ -3571,7 +3572,7 @@ intgo _wrap_IMTManagerAPI_DealUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_DealDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -3586,7 +3587,7 @@ intgo _wrap_IMTManagerAPI_DealDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_DealUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDeal *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDeal *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDeal *arg2 = (IMTDeal *) 0 ;
   MTAPIRES result;
@@ -3601,7 +3602,7 @@ intgo _wrap_IMTManagerAPI_DealUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-IMTPosition *_wrap_IMTManagerAPI_PositionCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTPosition *_wrap_IMTManagerAPI_PositionCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTPosition *result = 0 ;
   IMTPosition *_swig_go_result;
@@ -3614,7 +3615,7 @@ IMTPosition *_wrap_IMTManagerAPI_PositionCreate_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-IMTPositionArray *_wrap_IMTManagerAPI_PositionCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTPositionArray *_wrap_IMTManagerAPI_PositionCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTPositionArray *result = 0 ;
   IMTPositionArray *_swig_go_result;
@@ -3627,7 +3628,7 @@ IMTPositionArray *_wrap_IMTManagerAPI_PositionCreateArray_mtmanapi_4ac5eea5fe396
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTPositionSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_PositionSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTPositionSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTPositionSink *arg2 = (IMTPositionSink *) 0 ;
   MTAPIRES result;
@@ -3642,7 +3643,7 @@ intgo _wrap_IMTManagerAPI_PositionSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTPositionSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_PositionUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTPositionSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTPositionSink *arg2 = (IMTPositionSink *) 0 ;
   MTAPIRES result;
@@ -3657,7 +3658,7 @@ intgo _wrap_IMTManagerAPI_PositionUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionGet__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTPosition *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionGet__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTPosition *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -3683,7 +3684,7 @@ intgo _wrap_IMTManagerAPI_PositionGet__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionGet__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PositionGet__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -3700,7 +3701,7 @@ intgo _wrap_IMTManagerAPI_PositionGet__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PositionRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -3717,7 +3718,7 @@ intgo _wrap_IMTManagerAPI_PositionRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionGetByTicket_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTPosition *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PositionGetByTicket_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTPosition *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTPosition *arg3 = (IMTPosition *) 0 ;
@@ -3734,7 +3735,7 @@ intgo _wrap_IMTManagerAPI_PositionGetByTicket_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTPosition *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_PositionDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTPosition *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTPosition *arg2 = (IMTPosition *) 0 ;
   MTAPIRES result;
@@ -3749,7 +3750,7 @@ intgo _wrap_IMTManagerAPI_PositionDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTPosition *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_PositionUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTPosition *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTPosition *arg2 = (IMTPosition *) 0 ;
   MTAPIRES result;
@@ -3764,7 +3765,7 @@ intgo _wrap_IMTManagerAPI_PositionUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionGetByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTPositionArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PositionGetByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTPositionArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -3788,7 +3789,7 @@ intgo _wrap_IMTManagerAPI_PositionGetByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-IMTOrder *_wrap_IMTManagerAPI_OrderCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTOrder *_wrap_IMTManagerAPI_OrderCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrder *result = 0 ;
   IMTOrder *_swig_go_result;
@@ -3801,7 +3802,7 @@ IMTOrder *_wrap_IMTManagerAPI_OrderCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-IMTOrderArray *_wrap_IMTManagerAPI_OrderCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTOrderArray *_wrap_IMTManagerAPI_OrderCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrderArray *result = 0 ;
   IMTOrderArray *_swig_go_result;
@@ -3814,7 +3815,7 @@ IMTOrderArray *_wrap_IMTManagerAPI_OrderCreateArray_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrderSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_OrderSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrderSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrderSink *arg2 = (IMTOrderSink *) 0 ;
   MTAPIRES result;
@@ -3829,7 +3830,7 @@ intgo _wrap_IMTManagerAPI_OrderSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrderSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_OrderUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrderSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrderSink *arg2 = (IMTOrderSink *) 0 ;
   MTAPIRES result;
@@ -3844,7 +3845,7 @@ intgo _wrap_IMTManagerAPI_OrderUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOrder *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OrderGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOrder *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTOrder *arg3 = (IMTOrder *) 0 ;
@@ -3861,7 +3862,7 @@ intgo _wrap_IMTManagerAPI_OrderGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderGetOpen_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOrderArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OrderGetOpen_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOrderArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTOrderArray *arg3 = (IMTOrderArray *) 0 ;
@@ -3878,7 +3879,7 @@ intgo _wrap_IMTManagerAPI_OrderGetOpen_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOrder *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OrderRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOrder *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTOrder *arg3 = (IMTOrder *) 0 ;
@@ -3895,7 +3896,7 @@ intgo _wrap_IMTManagerAPI_OrderRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderRequestOpen_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOrderArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OrderRequestOpen_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOrderArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTOrderArray *arg3 = (IMTOrderArray *) 0 ;
@@ -3912,7 +3913,7 @@ intgo _wrap_IMTManagerAPI_OrderRequestOpen_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_HistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTOrderArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_HistoryRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTOrderArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -3947,7 +3948,7 @@ intgo _wrap_IMTManagerAPI_HistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_OrderDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -3962,7 +3963,7 @@ intgo _wrap_IMTManagerAPI_OrderDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_OrderUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrder *arg2 = (IMTOrder *) 0 ;
   MTAPIRES result;
@@ -3977,7 +3978,7 @@ intgo _wrap_IMTManagerAPI_OrderUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderGetByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTOrderArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OrderGetByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTOrderArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTOrderArray *arg3 = (IMTOrderArray *) 0 ;
@@ -4001,7 +4002,7 @@ intgo _wrap_IMTManagerAPI_OrderGetByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderGetByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderGetByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -4020,7 +4021,7 @@ intgo _wrap_IMTManagerAPI_OrderGetByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_TickSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTTickSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_TickSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTTickSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTTickSink *arg2 = (IMTTickSink *) 0 ;
   MTAPIRES result;
@@ -4035,7 +4036,7 @@ intgo _wrap_IMTManagerAPI_TickSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_TickUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTTickSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_TickUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTTickSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTTickSink *arg2 = (IMTTickSink *) 0 ;
   MTAPIRES result;
@@ -4050,7 +4051,7 @@ intgo _wrap_IMTManagerAPI_TickUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_TickAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTick *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_TickAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTick *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   MTTick *arg3 = 0 ;
@@ -4074,7 +4075,7 @@ intgo _wrap_IMTManagerAPI_TickAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig
 }
 
 
-intgo _wrap_IMTManagerAPI_TickAddStat_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, MTTick *_swig_go_1, MTTickStat *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_TickAddStat_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, MTTick *_swig_go_1, MTTickStat *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTTick *arg2 = 0 ;
   MTTickStat *arg3 = 0 ;
@@ -4091,7 +4092,7 @@ intgo _wrap_IMTManagerAPI_TickAddStat_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_TickLast__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickShort *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_TickLast__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickShort *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   MTTickShort *arg3 = 0 ;
@@ -4115,7 +4116,7 @@ intgo _wrap_IMTManagerAPI_TickLast__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_TickLast__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo *_swig_go_1, MTTick **_swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_TickLast__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo *_swig_go_1, MTTick **_swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT *arg2 = 0 ;
   MTTick **arg3 = 0 ;
@@ -4134,7 +4135,7 @@ intgo _wrap_IMTManagerAPI_TickLast__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_TickStat_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickStat *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_TickStat_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickStat *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   MTTickStat *arg3 = 0 ;
@@ -4158,7 +4159,7 @@ intgo _wrap_IMTManagerAPI_TickStat_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-intgo _wrap_IMTManagerAPI_TickHistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_TickHistoryRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort **_swig_go_4, intgo *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -4202,7 +4203,7 @@ intgo _wrap_IMTManagerAPI_TickHistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_TickLast__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, MTTickShort *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_TickLast__SWIG_2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, MTTickShort *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -4235,7 +4236,7 @@ intgo _wrap_IMTManagerAPI_TickLast__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_TickLastRaw_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickShort *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_TickLastRaw_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickShort *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   MTTickShort *arg3 = 0 ;
@@ -4259,7 +4260,7 @@ intgo _wrap_IMTManagerAPI_TickLastRaw_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_TickAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, MTTick *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTManagerAPI_TickAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, MTTick *_swig_go_1, intgo _swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTTick *arg2 = (MTTick *) 0 ;
   UINT arg3 ;
@@ -4276,7 +4277,7 @@ intgo _wrap_IMTManagerAPI_TickAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_TickReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TickReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4289,7 +4290,7 @@ intgo _wrap_IMTManagerAPI_TickReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_BookSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTBookSink *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_BookSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTBookSink *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTBookSink *arg3 = (IMTBookSink *) 0 ;
@@ -4313,7 +4314,7 @@ intgo _wrap_IMTManagerAPI_BookSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_BookUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTBookSink *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_BookUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTBookSink *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTBookSink *arg3 = (IMTBookSink *) 0 ;
@@ -4337,7 +4338,7 @@ intgo _wrap_IMTManagerAPI_BookUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_BookGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTBook *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_BookGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTBook *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   MTBook *arg3 = 0 ;
@@ -4361,7 +4362,7 @@ intgo _wrap_IMTManagerAPI_BookGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig
 }
 
 
-intgo _wrap_IMTManagerAPI_BookSubscribeBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, intgo _swig_go_2, IMTBookSink *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_BookSubscribeBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, intgo _swig_go_2, IMTBookSink *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPWSTR *arg2 = (LPWSTR *) 0 ;
   UINT arg3 ;
@@ -4380,7 +4381,7 @@ intgo _wrap_IMTManagerAPI_BookSubscribeBatch_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_BookUnsubscribeBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, intgo _swig_go_2, IMTBookSink *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_BookUnsubscribeBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, intgo _swig_go_2, IMTBookSink *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPWSTR *arg2 = (LPWSTR *) 0 ;
   UINT arg3 ;
@@ -4399,7 +4400,7 @@ intgo _wrap_IMTManagerAPI_BookUnsubscribeBatch_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_BookReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_BookReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4412,7 +4413,7 @@ intgo _wrap_IMTManagerAPI_BookReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_BookReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_BookReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4425,7 +4426,7 @@ intgo _wrap_IMTManagerAPI_BookReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-IMTMail *_wrap_IMTManagerAPI_MailCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTMail *_wrap_IMTManagerAPI_MailCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTMail *result = 0 ;
   IMTMail *_swig_go_result;
@@ -4438,7 +4439,7 @@ IMTMail *_wrap_IMTManagerAPI_MailCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_MailSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTMailSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_MailSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTMailSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTMailSink *arg2 = (IMTMailSink *) 0 ;
   MTAPIRES result;
@@ -4453,7 +4454,7 @@ intgo _wrap_IMTManagerAPI_MailSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_MailUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTMailSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_MailUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTMailSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTMailSink *arg2 = (IMTMailSink *) 0 ;
   MTAPIRES result;
@@ -4468,7 +4469,7 @@ intgo _wrap_IMTManagerAPI_MailUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_MailTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_MailTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -4481,7 +4482,7 @@ intgo _wrap_IMTManagerAPI_MailTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_MailNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTMail *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_MailNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTMail *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTMail *arg3 = (IMTMail *) 0 ;
@@ -4498,7 +4499,7 @@ intgo _wrap_IMTManagerAPI_MailNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-intgo _wrap_IMTManagerAPI_MailDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTManagerAPI_MailDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -4513,7 +4514,7 @@ intgo _wrap_IMTManagerAPI_MailDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_MailDeleteId_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_MailDeleteId_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -4528,7 +4529,7 @@ intgo _wrap_IMTManagerAPI_MailDeleteId_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_MailSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTMail *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_MailSend_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTMail *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTMail *arg2 = (IMTMail *) 0 ;
   MTAPIRES result;
@@ -4543,7 +4544,7 @@ intgo _wrap_IMTManagerAPI_MailSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-intgo _wrap_IMTManagerAPI_MailBodyRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTMail *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_MailBodyRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTMail *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTMail *arg3 = (IMTMail *) 0 ;
@@ -4560,7 +4561,7 @@ intgo _wrap_IMTManagerAPI_MailBodyRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_MailReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_MailReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4573,7 +4574,7 @@ intgo _wrap_IMTManagerAPI_MailReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_MailReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_MailReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4586,7 +4587,7 @@ intgo _wrap_IMTManagerAPI_MailReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_MailReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_MailReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4599,7 +4600,7 @@ intgo _wrap_IMTManagerAPI_MailReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-IMTNews *_wrap_IMTManagerAPI_NewsCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTNews *_wrap_IMTManagerAPI_NewsCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTNews *result = 0 ;
   IMTNews *_swig_go_result;
@@ -4612,7 +4613,7 @@ IMTNews *_wrap_IMTManagerAPI_NewsCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTNewsSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_NewsSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTNewsSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTNewsSink *arg2 = (IMTNewsSink *) 0 ;
   MTAPIRES result;
@@ -4627,7 +4628,7 @@ intgo _wrap_IMTManagerAPI_NewsSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTNewsSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_NewsUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTNewsSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTNewsSink *arg2 = (IMTNewsSink *) 0 ;
   MTAPIRES result;
@@ -4642,7 +4643,7 @@ intgo _wrap_IMTManagerAPI_NewsUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NewsTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -4655,7 +4656,7 @@ intgo _wrap_IMTManagerAPI_NewsTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTNews *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_NewsNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTNews *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTNews *arg3 = (IMTNews *) 0 ;
@@ -4672,7 +4673,7 @@ intgo _wrap_IMTManagerAPI_NewsNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsBodyRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTNews *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_NewsBodyRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTNews *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTNews *arg3 = (IMTNews *) 0 ;
@@ -4689,7 +4690,7 @@ intgo _wrap_IMTManagerAPI_NewsBodyRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTNews *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_NewsSend_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTNews *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTNews *arg2 = (IMTNews *) 0 ;
   MTAPIRES result;
@@ -4704,7 +4705,7 @@ intgo _wrap_IMTManagerAPI_NewsSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NewsReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4717,7 +4718,7 @@ intgo _wrap_IMTManagerAPI_NewsReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NewsReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4730,7 +4731,7 @@ intgo _wrap_IMTManagerAPI_NewsReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NewsReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4743,7 +4744,7 @@ intgo _wrap_IMTManagerAPI_NewsReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_NewsReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NewsReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4756,7 +4757,7 @@ intgo _wrap_IMTManagerAPI_NewsReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-IMTRequest *_wrap_IMTManagerAPI_RequestCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTRequest *_wrap_IMTManagerAPI_RequestCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTRequest *result = 0 ;
   IMTRequest *_swig_go_result;
@@ -4769,7 +4770,7 @@ IMTRequest *_wrap_IMTManagerAPI_RequestCreate_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-IMTRequestArray *_wrap_IMTManagerAPI_RequestCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTRequestArray *_wrap_IMTManagerAPI_RequestCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTRequestArray *result = 0 ;
   IMTRequestArray *_swig_go_result;
@@ -4782,7 +4783,7 @@ IMTRequestArray *_wrap_IMTManagerAPI_RequestCreateArray_mtmanapi_4ac5eea5fe396bb
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTRequestSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_RequestSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTRequestSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTRequestSink *arg2 = (IMTRequestSink *) 0 ;
   MTAPIRES result;
@@ -4797,7 +4798,7 @@ intgo _wrap_IMTManagerAPI_RequestSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTRequestSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_RequestUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTRequestSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTRequestSink *arg2 = (IMTRequestSink *) 0 ;
   MTAPIRES result;
@@ -4812,7 +4813,7 @@ intgo _wrap_IMTManagerAPI_RequestUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_RequestTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -4825,7 +4826,7 @@ intgo _wrap_IMTManagerAPI_RequestTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTRequest *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_RequestNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTRequest *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTRequest *arg3 = (IMTRequest *) 0 ;
@@ -4842,7 +4843,7 @@ intgo _wrap_IMTManagerAPI_RequestNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTRequest *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_RequestGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTRequest *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTRequest *arg3 = (IMTRequest *) 0 ;
@@ -4859,7 +4860,7 @@ intgo _wrap_IMTManagerAPI_RequestGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestGetAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTRequestArray *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_RequestGetAll_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTRequestArray *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTRequestArray *arg2 = (IMTRequestArray *) 0 ;
   MTAPIRES result;
@@ -4874,7 +4875,7 @@ intgo _wrap_IMTManagerAPI_RequestGetAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_RequestReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4887,7 +4888,7 @@ intgo _wrap_IMTManagerAPI_RequestReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_RequestReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4900,7 +4901,7 @@ intgo _wrap_IMTManagerAPI_RequestReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_RequestReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4913,7 +4914,7 @@ intgo _wrap_IMTManagerAPI_RequestReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_RequestReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_RequestReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4926,7 +4927,7 @@ intgo _wrap_IMTManagerAPI_RequestReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-IMTConfirm *_wrap_IMTManagerAPI_DealerConfirmCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConfirm *_wrap_IMTManagerAPI_DealerConfirmCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConfirm *result = 0 ;
   IMTConfirm *_swig_go_result;
@@ -4939,7 +4940,7 @@ IMTConfirm *_wrap_IMTManagerAPI_DealerConfirmCreate_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDealerSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealerUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDealerSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDealerSink *arg2 = (IMTDealerSink *) 0 ;
   MTAPIRES result;
@@ -4954,7 +4955,7 @@ intgo _wrap_IMTManagerAPI_DealerUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerStart_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DealerStart_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4967,7 +4968,7 @@ intgo _wrap_IMTManagerAPI_DealerStart_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerStop_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DealerStop_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -4980,7 +4981,7 @@ intgo _wrap_IMTManagerAPI_DealerStop_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTRequest *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealerGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTRequest *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTRequest *arg2 = (IMTRequest *) 0 ;
   MTAPIRES result;
@@ -4995,7 +4996,7 @@ intgo _wrap_IMTManagerAPI_DealerGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerLock_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTRequest *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DealerLock_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTRequest *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTRequest *arg3 = (IMTRequest *) 0 ;
@@ -5012,7 +5013,7 @@ intgo _wrap_IMTManagerAPI_DealerLock_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerAnswer_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConfirm *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealerAnswer_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConfirm *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConfirm *arg2 = (IMTConfirm *) 0 ;
   MTAPIRES result;
@@ -5027,7 +5028,7 @@ intgo _wrap_IMTManagerAPI_DealerAnswer_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTRequest *_swig_go_1, IMTDealerSink *_swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DealerSend_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTRequest *_swig_go_1, IMTDealerSink *_swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTRequest *arg2 = (IMTRequest *) 0 ;
   IMTDealerSink *arg3 = (IMTDealerSink *) 0 ;
@@ -5046,7 +5047,7 @@ intgo _wrap_IMTManagerAPI_DealerSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerBalance_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, double _swig_go_2, intgo _swig_go_3, LPCWSTR *_swig_go_4, long long *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_DealerBalance_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, double _swig_go_2, intgo _swig_go_3, LPCWSTR *_swig_go_4, long long *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   double arg3 ;
@@ -5076,7 +5077,7 @@ intgo _wrap_IMTManagerAPI_DealerBalance_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerBalanceRaw_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, double _swig_go_2, intgo _swig_go_3, LPCWSTR *_swig_go_4, long long *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_DealerBalanceRaw_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, double _swig_go_2, intgo _swig_go_3, LPCWSTR *_swig_go_4, long long *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   double arg3 ;
@@ -5106,7 +5107,7 @@ intgo _wrap_IMTManagerAPI_DealerBalanceRaw_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DealerReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -5119,7 +5120,7 @@ intgo _wrap_IMTManagerAPI_DealerReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DealerReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -5132,7 +5133,7 @@ intgo _wrap_IMTManagerAPI_DealerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_DealerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DealerReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -5145,7 +5146,7 @@ intgo _wrap_IMTManagerAPI_DealerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_CustomCommand__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCVOID _swig_go_1, intgo _swig_go_2, LPVOID *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_CustomCommand__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCVOID _swig_go_1, intgo _swig_go_2, LPVOID *_swig_go_3, intgo *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCVOID arg2 = (LPCVOID) 0 ;
   UINT arg3 ;
@@ -5166,7 +5167,7 @@ intgo _wrap_IMTManagerAPI_CustomCommand__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_CustomCommand__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTByteStream *_swig_go_1, IMTByteStream *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_CustomCommand__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTByteStream *_swig_go_1, IMTByteStream *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTByteStream *arg2 = (IMTByteStream *) 0 ;
   IMTByteStream *arg3 = (IMTByteStream *) 0 ;
@@ -5183,7 +5184,7 @@ intgo _wrap_IMTManagerAPI_CustomCommand__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-IMTByteStream *_wrap_IMTManagerAPI_CustomCreateStream_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTByteStream *_wrap_IMTManagerAPI_CustomCreateStream_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTByteStream *result = 0 ;
   IMTByteStream *_swig_go_result;
@@ -5196,7 +5197,7 @@ IMTByteStream *_wrap_IMTManagerAPI_CustomCreateStream_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_CustomReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_CustomReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -5209,7 +5210,7 @@ intgo _wrap_IMTManagerAPI_CustomReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_CustomReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_CustomReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -5222,7 +5223,7 @@ intgo _wrap_IMTManagerAPI_CustomReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-IMTSummary *_wrap_IMTManagerAPI_SummaryCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTSummary *_wrap_IMTManagerAPI_SummaryCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSummary *result = 0 ;
   IMTSummary *_swig_go_result;
@@ -5235,7 +5236,7 @@ IMTSummary *_wrap_IMTManagerAPI_SummaryCreate_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-IMTSummaryArray *_wrap_IMTManagerAPI_SummaryCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTSummaryArray *_wrap_IMTManagerAPI_SummaryCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSummaryArray *result = 0 ;
   IMTSummaryArray *_swig_go_result;
@@ -5248,7 +5249,7 @@ IMTSummaryArray *_wrap_IMTManagerAPI_SummaryCreateArray_mtmanapi_4ac5eea5fe396bb
 }
 
 
-intgo _wrap_IMTManagerAPI_SummarySubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSummarySink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SummarySubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSummarySink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSummarySink *arg2 = (IMTSummarySink *) 0 ;
   MTAPIRES result;
@@ -5263,7 +5264,7 @@ intgo _wrap_IMTManagerAPI_SummarySubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_SummaryUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSummarySink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SummaryUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSummarySink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSummarySink *arg2 = (IMTSummarySink *) 0 ;
   MTAPIRES result;
@@ -5278,7 +5279,7 @@ intgo _wrap_IMTManagerAPI_SummaryUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-LPCWSTR *_wrap_IMTManagerAPI_SummaryCurrency__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+LPCWSTR *_wrap_IMTManagerAPI_SummaryCurrency__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR result;
   LPCWSTR *_swig_go_result;
@@ -5291,7 +5292,7 @@ LPCWSTR *_wrap_IMTManagerAPI_SummaryCurrency__SWIG_0_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_SummaryCurrency__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SummaryCurrency__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -5313,7 +5314,7 @@ intgo _wrap_IMTManagerAPI_SummaryCurrency__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_SummaryTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SummaryTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -5326,7 +5327,7 @@ intgo _wrap_IMTManagerAPI_SummaryTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_SummaryNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTSummary *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SummaryNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTSummary *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTSummary *arg3 = (IMTSummary *) 0 ;
@@ -5343,7 +5344,7 @@ intgo _wrap_IMTManagerAPI_SummaryNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_SummaryGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTSummary *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SummaryGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTSummary *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTSummary *arg3 = (IMTSummary *) 0 ;
@@ -5367,7 +5368,7 @@ intgo _wrap_IMTManagerAPI_SummaryGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_SummaryGetAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSummaryArray *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SummaryGetAll_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSummaryArray *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSummaryArray *arg2 = (IMTSummaryArray *) 0 ;
   MTAPIRES result;
@@ -5382,7 +5383,7 @@ intgo _wrap_IMTManagerAPI_SummaryGetAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-IMTExposure *_wrap_IMTManagerAPI_ExposureCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTExposure *_wrap_IMTManagerAPI_ExposureCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTExposure *result = 0 ;
   IMTExposure *_swig_go_result;
@@ -5395,7 +5396,7 @@ IMTExposure *_wrap_IMTManagerAPI_ExposureCreate_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-IMTExposureArray *_wrap_IMTManagerAPI_ExposureCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTExposureArray *_wrap_IMTManagerAPI_ExposureCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTExposureArray *result = 0 ;
   IMTExposureArray *_swig_go_result;
@@ -5408,7 +5409,7 @@ IMTExposureArray *_wrap_IMTManagerAPI_ExposureCreateArray_mtmanapi_4ac5eea5fe396
 }
 
 
-intgo _wrap_IMTManagerAPI_ExposureSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTExposureSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_ExposureSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTExposureSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTExposureSink *arg2 = (IMTExposureSink *) 0 ;
   MTAPIRES result;
@@ -5423,7 +5424,7 @@ intgo _wrap_IMTManagerAPI_ExposureSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_ExposureUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTExposureSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_ExposureUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTExposureSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTExposureSink *arg2 = (IMTExposureSink *) 0 ;
   MTAPIRES result;
@@ -5438,7 +5439,7 @@ intgo _wrap_IMTManagerAPI_ExposureUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-LPCWSTR *_wrap_IMTManagerAPI_ExposureCurrency__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+LPCWSTR *_wrap_IMTManagerAPI_ExposureCurrency__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR result;
   LPCWSTR *_swig_go_result;
@@ -5451,7 +5452,7 @@ LPCWSTR *_wrap_IMTManagerAPI_ExposureCurrency__SWIG_0_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_ExposureCurrency__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_ExposureCurrency__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -5473,7 +5474,7 @@ intgo _wrap_IMTManagerAPI_ExposureCurrency__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_ExposureTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_ExposureTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -5486,7 +5487,7 @@ intgo _wrap_IMTManagerAPI_ExposureTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_ExposureNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTExposure *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_ExposureNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTExposure *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTExposure *arg3 = (IMTExposure *) 0 ;
@@ -5503,7 +5504,7 @@ intgo _wrap_IMTManagerAPI_ExposureNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_ExposureGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTExposure *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_ExposureGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTExposure *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTExposure *arg3 = (IMTExposure *) 0 ;
@@ -5527,7 +5528,7 @@ intgo _wrap_IMTManagerAPI_ExposureGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_ExposureGetAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTExposureArray *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_ExposureGetAll_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTExposureArray *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTExposureArray *arg2 = (IMTExposureArray *) 0 ;
   MTAPIRES result;
@@ -5542,7 +5543,7 @@ intgo _wrap_IMTManagerAPI_ExposureGetAll_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_UserExternalGet__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTUser *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserExternalGet__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTUser *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -5568,7 +5569,7 @@ intgo _wrap_IMTManagerAPI_UserExternalGet__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_UserExternalGet__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUser *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserExternalGet__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUser *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTUser *arg3 = (IMTUser *) 0 ;
@@ -5592,7 +5593,7 @@ intgo _wrap_IMTManagerAPI_UserExternalGet__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_UserExternalRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTUser *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserExternalRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTUser *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -5618,7 +5619,7 @@ intgo _wrap_IMTManagerAPI_UserExternalRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_UserExternalRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUser *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserExternalRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUser *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTUser *arg3 = (IMTUser *) 0 ;
@@ -5642,7 +5643,7 @@ intgo _wrap_IMTManagerAPI_UserExternalRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-IMTUserArray *_wrap_IMTManagerAPI_UserCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTUserArray *_wrap_IMTManagerAPI_UserCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTUserArray *result = 0 ;
   IMTUserArray *_swig_go_result;
@@ -5655,7 +5656,7 @@ IMTUserArray *_wrap_IMTManagerAPI_UserCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-IMTAccountArray *_wrap_IMTManagerAPI_UserCreateAccountArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTAccountArray *_wrap_IMTManagerAPI_UserCreateAccountArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAccountArray *result = 0 ;
   IMTAccountArray *_swig_go_result;
@@ -5668,7 +5669,7 @@ IMTAccountArray *_wrap_IMTManagerAPI_UserCreateAccountArray_mtmanapi_4ac5eea5fe3
 }
 
 
-intgo _wrap_IMTManagerAPI_UserRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUserArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserRequestArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUserArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTUserArray *arg3 = (IMTUserArray *) 0 ;
@@ -5692,7 +5693,7 @@ intgo _wrap_IMTManagerAPI_UserRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAccountRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTAccountArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserAccountRequestArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTAccountArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTAccountArray *arg3 = (IMTAccountArray *) 0 ;
@@ -5716,7 +5717,7 @@ intgo _wrap_IMTManagerAPI_UserAccountRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_PasswordChange_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PasswordChange_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   LPCWSTR arg3 ;
@@ -5740,7 +5741,7 @@ intgo _wrap_IMTManagerAPI_PasswordChange_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_PasswordReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_PasswordReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -5753,7 +5754,7 @@ intgo _wrap_IMTManagerAPI_PasswordReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_PasswordReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_PasswordReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -5766,7 +5767,7 @@ intgo _wrap_IMTManagerAPI_PasswordReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-IMTDaily *_wrap_IMTManagerAPI_DailyCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTDaily *_wrap_IMTManagerAPI_DailyCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDaily *result = 0 ;
   IMTDaily *_swig_go_result;
@@ -5779,7 +5780,7 @@ IMTDaily *_wrap_IMTManagerAPI_DailyCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-IMTDailyArray *_wrap_IMTManagerAPI_DailyCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTDailyArray *_wrap_IMTManagerAPI_DailyCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDailyArray *result = 0 ;
   IMTDailyArray *_swig_go_result;
@@ -5792,7 +5793,7 @@ IMTDailyArray *_wrap_IMTManagerAPI_DailyCreateArray_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_DailyRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDailyArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_DailyRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDailyArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -5827,7 +5828,7 @@ intgo _wrap_IMTManagerAPI_DailyRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_DailyRequestLight_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDailyArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_DailyRequestLight_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDailyArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -5862,7 +5863,7 @@ intgo _wrap_IMTManagerAPI_DailyRequestLight_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_DailyRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDailyArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_DailyRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDailyArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -5904,7 +5905,7 @@ intgo _wrap_IMTManagerAPI_DailyRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_DailyRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDailyArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_DailyRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDailyArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -5941,7 +5942,7 @@ intgo _wrap_IMTManagerAPI_DailyRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_DailyRequestLightByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDailyArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_DailyRequestLightByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDailyArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -5983,7 +5984,7 @@ intgo _wrap_IMTManagerAPI_DailyRequestLightByGroup_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_DailyRequestLightByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDailyArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_DailyRequestLightByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDailyArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -6020,7 +6021,7 @@ intgo _wrap_IMTManagerAPI_DailyRequestLightByLogins_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-IMTConPlugin *_wrap_IMTManagerAPI_PluginCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConPlugin *_wrap_IMTManagerAPI_PluginCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConPlugin *result = 0 ;
   IMTConPlugin *_swig_go_result;
@@ -6033,7 +6034,7 @@ IMTConPlugin *_wrap_IMTManagerAPI_PluginCreate_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-IMTConPluginModule *_wrap_IMTManagerAPI_PluginModuleCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConPluginModule *_wrap_IMTManagerAPI_PluginModuleCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConPluginModule *result = 0 ;
   IMTConPluginModule *_swig_go_result;
@@ -6046,7 +6047,7 @@ IMTConPluginModule *_wrap_IMTManagerAPI_PluginModuleCreate_mtmanapi_4ac5eea5fe39
 }
 
 
-IMTConParam *_wrap_IMTManagerAPI_PluginParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConParam *_wrap_IMTManagerAPI_PluginParamCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConParam *result = 0 ;
   IMTConParam *_swig_go_result;
@@ -6059,7 +6060,7 @@ IMTConParam *_wrap_IMTManagerAPI_PluginParamCreate_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_PluginUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConPlugin *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_PluginUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConPlugin *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConPlugin *arg2 = (IMTConPlugin *) 0 ;
   MTAPIRES result;
@@ -6074,7 +6075,7 @@ intgo _wrap_IMTManagerAPI_PluginUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_PluginTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_PluginTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -6087,7 +6088,7 @@ intgo _wrap_IMTManagerAPI_PluginTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_PluginNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConPlugin *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PluginNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConPlugin *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTConPlugin *arg3 = (IMTConPlugin *) 0 ;
@@ -6104,7 +6105,7 @@ intgo _wrap_IMTManagerAPI_PluginNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_PluginGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConPlugin *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PluginGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConPlugin *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConPlugin *arg3 = (IMTConPlugin *) 0 ;
@@ -6128,7 +6129,7 @@ intgo _wrap_IMTManagerAPI_PluginGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_PluginReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_PluginReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -6141,7 +6142,7 @@ intgo _wrap_IMTManagerAPI_PluginReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_PluginReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_PluginReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -6154,7 +6155,7 @@ intgo _wrap_IMTManagerAPI_PluginReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_PluginReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_PluginReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -6167,7 +6168,7 @@ intgo _wrap_IMTManagerAPI_PluginReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_PluginReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_PluginReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -6180,7 +6181,7 @@ intgo _wrap_IMTManagerAPI_PluginReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-IMTConSpread *_wrap_IMTManagerAPI_SpreadCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConSpread *_wrap_IMTManagerAPI_SpreadCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSpread *result = 0 ;
   IMTConSpread *_swig_go_result;
@@ -6193,7 +6194,7 @@ IMTConSpread *_wrap_IMTManagerAPI_SpreadCreate_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-IMTConSpreadLeg *_wrap_IMTManagerAPI_SpreadLegCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConSpreadLeg *_wrap_IMTManagerAPI_SpreadLegCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSpreadLeg *result = 0 ;
   IMTConSpreadLeg *_swig_go_result;
@@ -6206,7 +6207,7 @@ IMTConSpreadLeg *_wrap_IMTManagerAPI_SpreadLegCreate_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_SpreadSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSpreadSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SpreadSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSpreadSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSpreadSink *arg2 = (IMTConSpreadSink *) 0 ;
   MTAPIRES result;
@@ -6221,7 +6222,7 @@ intgo _wrap_IMTManagerAPI_SpreadSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_SpreadUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSpreadSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SpreadUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSpreadSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSpreadSink *arg2 = (IMTConSpreadSink *) 0 ;
   MTAPIRES result;
@@ -6236,7 +6237,7 @@ intgo _wrap_IMTManagerAPI_SpreadUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_SpreadTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SpreadTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -6249,7 +6250,7 @@ intgo _wrap_IMTManagerAPI_SpreadTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_SpreadNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConSpread *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SpreadNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConSpread *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTConSpread *arg3 = (IMTConSpread *) 0 ;
@@ -6266,7 +6267,7 @@ intgo _wrap_IMTManagerAPI_SpreadNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_SpreadReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SpreadReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -6279,7 +6280,7 @@ intgo _wrap_IMTManagerAPI_SpreadReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_SpreadReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SpreadReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -6292,7 +6293,7 @@ intgo _wrap_IMTManagerAPI_SpreadReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_SpreadReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SpreadReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -6305,7 +6306,7 @@ intgo _wrap_IMTManagerAPI_SpreadReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_SpreadReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SpreadReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -6318,7 +6319,7 @@ intgo _wrap_IMTManagerAPI_SpreadReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeProfit_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, double _swig_go_6, double *_swig_go_7, double *_swig_go_8) {
+intgo _wrap_IMTManagerAPI_TradeProfit_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, double _swig_go_6, double *_swig_go_7, double *_swig_go_8) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6361,7 +6362,7 @@ intgo _wrap_IMTManagerAPI_TradeProfit_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5, double _swig_go_6) {
+intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5, double _swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6414,7 +6415,7 @@ intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6465,7 +6466,7 @@ intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6507,7 +6508,7 @@ intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6540,7 +6541,7 @@ intgo _wrap_IMTManagerAPI_TradeRateBuy__SWIG_3_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5, double _swig_go_6) {
+intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5, double _swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6593,7 +6594,7 @@ intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6644,7 +6645,7 @@ intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3, LPCWSTR *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6686,7 +6687,7 @@ intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, double *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6719,7 +6720,7 @@ intgo _wrap_IMTManagerAPI_TradeRateSell__SWIG_3_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, IMTAccount *_swig_go_6, IMTAccount *_swig_go_7) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, IMTAccount *_swig_go_6, IMTAccount *_swig_go_7) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -6753,7 +6754,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, IMTAccount *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, IMTAccount *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -6785,7 +6786,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -6815,7 +6816,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1, IMTAccount *_swig_go_2, IMTAccount *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1, IMTAccount *_swig_go_2, IMTAccount *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrder *arg2 = (IMTOrder *) 0 ;
   IMTAccount *arg3 = (IMTAccount *) 0 ;
@@ -6834,7 +6835,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_3_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1, IMTAccount *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1, IMTAccount *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrder *arg2 = (IMTOrder *) 0 ;
   IMTAccount *arg3 = (IMTAccount *) 0 ;
@@ -6851,7 +6852,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_4_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_5_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_5_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrder *arg2 = (IMTOrder *) 0 ;
   MTAPIRES result;
@@ -6866,7 +6867,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheck__SWIG_5_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeProfitExt_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, double _swig_go_6, double *_swig_go_7, double *_swig_go_8) {
+intgo _wrap_IMTManagerAPI_TradeProfitExt_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, double _swig_go_6, double *_swig_go_7, double *_swig_go_8) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -6909,7 +6910,7 @@ intgo _wrap_IMTManagerAPI_TradeProfitExt_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, IMTAccount *_swig_go_6, IMTAccount *_swig_go_7) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, IMTAccount *_swig_go_6, IMTAccount *_swig_go_7) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -6943,7 +6944,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_0_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, IMTAccount *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5, IMTAccount *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -6975,7 +6976,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_1_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5) {
+intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, intgo _swig_go_3, long long _swig_go_4, double _swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -7005,7 +7006,7 @@ intgo _wrap_IMTManagerAPI_TradeMarginCheckExt__SWIG_2_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TradeReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7018,7 +7019,7 @@ intgo _wrap_IMTManagerAPI_TradeReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TradeReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7031,7 +7032,7 @@ intgo _wrap_IMTManagerAPI_TradeReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_NetworkRescan_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTManagerAPI_NetworkRescan_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   UINT arg3 ;
@@ -7048,7 +7049,7 @@ intgo _wrap_IMTManagerAPI_NetworkRescan_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-long long _wrap_IMTManagerAPI_NetworkBytesSent_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+long long _wrap_IMTManagerAPI_NetworkBytesSent_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 result;
   long long _swig_go_result;
@@ -7061,7 +7062,7 @@ long long _wrap_IMTManagerAPI_NetworkBytesSent_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-long long _wrap_IMTManagerAPI_NetworkBytesRead_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+long long _wrap_IMTManagerAPI_NetworkBytesRead_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 result;
   long long _swig_go_result;
@@ -7074,7 +7075,7 @@ long long _wrap_IMTManagerAPI_NetworkBytesRead_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_NetworkServer_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, wchar_t (*_swig_go_1)[260]) {
+intgo _wrap_IMTManagerAPI_NetworkServer_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, wchar_t (*_swig_go_1)[260]) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPISTR *arg2 = 0 ;
   MTAPIRES result;
@@ -7089,7 +7090,7 @@ intgo _wrap_IMTManagerAPI_NetworkServer_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_NetworkAddress_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, wchar_t (*_swig_go_1)[260]) {
+intgo _wrap_IMTManagerAPI_NetworkAddress_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, wchar_t (*_swig_go_1)[260]) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPISTR *arg2 = 0 ;
   MTAPIRES result;
@@ -7104,7 +7105,7 @@ intgo _wrap_IMTManagerAPI_NetworkAddress_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_NetworkReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NetworkReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7117,7 +7118,7 @@ intgo _wrap_IMTManagerAPI_NetworkReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_NetworkReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NetworkReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7130,7 +7131,7 @@ intgo _wrap_IMTManagerAPI_NetworkReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_NetworkReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NetworkReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7143,7 +7144,7 @@ intgo _wrap_IMTManagerAPI_NetworkReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_NetworkReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NetworkReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7156,7 +7157,7 @@ intgo _wrap_IMTManagerAPI_NetworkReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-IMTOnline *_wrap_IMTManagerAPI_OnlineCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTOnline *_wrap_IMTManagerAPI_OnlineCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOnline *result = 0 ;
   IMTOnline *_swig_go_result;
@@ -7169,7 +7170,7 @@ IMTOnline *_wrap_IMTManagerAPI_OnlineCreate_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-IMTOnlineArray *_wrap_IMTManagerAPI_OnlineCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTOnlineArray *_wrap_IMTManagerAPI_OnlineCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOnlineArray *result = 0 ;
   IMTOnlineArray *_swig_go_result;
@@ -7182,7 +7183,7 @@ IMTOnlineArray *_wrap_IMTManagerAPI_OnlineCreateArray_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_OnlineTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_OnlineTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -7195,7 +7196,7 @@ intgo _wrap_IMTManagerAPI_OnlineTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_OnlineNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTOnline *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OnlineNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTOnline *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTOnline *arg3 = (IMTOnline *) 0 ;
@@ -7212,7 +7213,7 @@ intgo _wrap_IMTManagerAPI_OnlineNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_OnlineGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOnlineArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OnlineGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTOnlineArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTOnlineArray *arg3 = (IMTOnlineArray *) 0 ;
@@ -7229,7 +7230,7 @@ intgo _wrap_IMTManagerAPI_OnlineGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_OnlineDisconnect_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOnline *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_OnlineDisconnect_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOnline *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOnline *arg2 = (IMTOnline *) 0 ;
   MTAPIRES result;
@@ -7244,7 +7245,7 @@ intgo _wrap_IMTManagerAPI_OnlineDisconnect_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_OnlineDisconnectBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOnlineArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OnlineDisconnectBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOnlineArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOnlineArray *arg2 = (IMTOnlineArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -7261,7 +7262,7 @@ intgo _wrap_IMTManagerAPI_OnlineDisconnectBatch_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_OnlineDisconnectBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOnline **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OnlineDisconnectBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOnline **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOnline **arg2 = (IMTOnline **) 0 ;
   UINT arg3 ;
@@ -7280,7 +7281,7 @@ intgo _wrap_IMTManagerAPI_OnlineDisconnectBatchArray_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_OnlineReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_OnlineReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7293,7 +7294,7 @@ intgo _wrap_IMTManagerAPI_OnlineReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeAccountSet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, signed __int64 *_swig_go_1, IMTUser *_swig_go_2, IMTAccount *_swig_go_3, IMTOrderArray *_swig_go_4, IMTPositionArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_TradeAccountSet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, signed __int64 *_swig_go_1, IMTUser *_swig_go_2, IMTAccount *_swig_go_3, IMTOrderArray *_swig_go_4, IMTPositionArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   INT64 arg2 ;
   IMTUser *arg3 = (IMTUser *) 0 ;
@@ -7323,7 +7324,7 @@ intgo _wrap_IMTManagerAPI_TradeAccountSet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeAccountReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TradeAccountReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7336,7 +7337,7 @@ intgo _wrap_IMTManagerAPI_TradeAccountReserved1_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeAccountReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TradeAccountReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7349,7 +7350,7 @@ intgo _wrap_IMTManagerAPI_TradeAccountReserved2_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeAccountReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TradeAccountReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7362,7 +7363,7 @@ intgo _wrap_IMTManagerAPI_TradeAccountReserved3_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_TradeAccountReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TradeAccountReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7375,7 +7376,7 @@ intgo _wrap_IMTManagerAPI_TradeAccountReserved4_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_NotificationsSend__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_NotificationsSend__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -7406,7 +7407,7 @@ intgo _wrap_IMTManagerAPI_NotificationsSend__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_NotificationsSend__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_NotificationsSend__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -7432,7 +7433,7 @@ intgo _wrap_IMTManagerAPI_NotificationsSend__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_NotificationsReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NotificationsReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7445,7 +7446,7 @@ intgo _wrap_IMTManagerAPI_NotificationsReserved1_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_NotificationsReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NotificationsReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7458,7 +7459,7 @@ intgo _wrap_IMTManagerAPI_NotificationsReserved2_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_NotificationsReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NotificationsReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7471,7 +7472,7 @@ intgo _wrap_IMTManagerAPI_NotificationsReserved3_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_NotificationsReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_NotificationsReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7484,7 +7485,7 @@ intgo _wrap_IMTManagerAPI_NotificationsReserved4_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_SettingGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPVOID *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_SettingGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPVOID *_swig_go_3, intgo *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -7519,7 +7520,7 @@ intgo _wrap_IMTManagerAPI_SettingGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_SettingSet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPVOID _swig_go_3, intgo _swig_go_4) {
+intgo _wrap_IMTManagerAPI_SettingSet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPVOID _swig_go_3, intgo _swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -7554,7 +7555,7 @@ intgo _wrap_IMTManagerAPI_SettingSet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_SettingDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SettingDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -7585,7 +7586,7 @@ intgo _wrap_IMTManagerAPI_SettingDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_SettingReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SettingReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7598,7 +7599,7 @@ intgo _wrap_IMTManagerAPI_SettingReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_SettingReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SettingReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7611,7 +7612,7 @@ intgo _wrap_IMTManagerAPI_SettingReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_SettingReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SettingReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7624,7 +7625,7 @@ intgo _wrap_IMTManagerAPI_SettingReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_SettingReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SettingReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7637,7 +7638,7 @@ intgo _wrap_IMTManagerAPI_SettingReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_ChartRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTChartBar **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_ChartRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTChartBar **_swig_go_4, intgo *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -7681,7 +7682,7 @@ intgo _wrap_IMTManagerAPI_ChartRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_ChartDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, intgo _swig_go_3) {
+intgo _wrap_IMTManagerAPI_ChartDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, intgo _swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 *arg3 = (INT64 *) 0 ;
@@ -7707,7 +7708,7 @@ intgo _wrap_IMTManagerAPI_ChartDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_ChartUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTChartBar *_swig_go_2, intgo _swig_go_3) {
+intgo _wrap_IMTManagerAPI_ChartUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTChartBar *_swig_go_2, intgo _swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   MTChartBar *arg3 = (MTChartBar *) 0 ;
@@ -7733,7 +7734,7 @@ intgo _wrap_IMTManagerAPI_ChartUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_ChartReplace_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTChartBar *_swig_go_4, intgo _swig_go_5) {
+intgo _wrap_IMTManagerAPI_ChartReplace_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTChartBar *_swig_go_4, intgo _swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -7777,7 +7778,7 @@ intgo _wrap_IMTManagerAPI_ChartReplace_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_ChartSplit_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, signed __int64 *_swig_go_5, signed __int64 *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_ChartSplit_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, signed __int64 *_swig_go_5, signed __int64 *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT arg3 ;
@@ -7823,7 +7824,7 @@ intgo _wrap_IMTManagerAPI_ChartSplit_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_ChartReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_ChartReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7836,7 +7837,7 @@ intgo _wrap_IMTManagerAPI_ChartReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_ChartReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_ChartReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7849,7 +7850,7 @@ intgo _wrap_IMTManagerAPI_ChartReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_TickHistoryRequestRaw_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_TickHistoryRequestRaw_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort **_swig_go_4, intgo *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -7893,7 +7894,7 @@ intgo _wrap_IMTManagerAPI_TickHistoryRequestRaw_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_TickHistoryAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickShort *_swig_go_2, intgo _swig_go_3) {
+intgo _wrap_IMTManagerAPI_TickHistoryAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickShort *_swig_go_2, intgo _swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   MTTickShort *arg3 = (MTTickShort *) 0 ;
@@ -7919,7 +7920,7 @@ intgo _wrap_IMTManagerAPI_TickHistoryAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_TickHistoryReplace_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort *_swig_go_4, intgo _swig_go_5) {
+intgo _wrap_IMTManagerAPI_TickHistoryReplace_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort *_swig_go_4, intgo _swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -7963,7 +7964,7 @@ intgo _wrap_IMTManagerAPI_TickHistoryReplace_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_TickHistoryReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TickHistoryReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7976,7 +7977,7 @@ intgo _wrap_IMTManagerAPI_TickHistoryReserved1_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_TickHistoryReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TickHistoryReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -7989,7 +7990,7 @@ intgo _wrap_IMTManagerAPI_TickHistoryReserved2_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_TickHistoryReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TickHistoryReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -8002,7 +8003,7 @@ intgo _wrap_IMTManagerAPI_TickHistoryReserved3_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_TickHistoryReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_TickHistoryReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -8015,7 +8016,7 @@ intgo _wrap_IMTManagerAPI_TickHistoryReserved4_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_DealRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDealArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_DealRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDealArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -8057,7 +8058,7 @@ intgo _wrap_IMTManagerAPI_DealRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_DealRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_DealRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8094,7 +8095,7 @@ intgo _wrap_IMTManagerAPI_DealRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_DealRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTDealArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DealRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTDealArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8113,7 +8114,7 @@ intgo _wrap_IMTManagerAPI_DealRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_DealUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DealUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDealArray *arg2 = (IMTDealArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -8130,7 +8131,7 @@ intgo _wrap_IMTManagerAPI_DealUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_DealUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DealUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDeal **arg2 = (IMTDeal **) 0 ;
   UINT arg3 ;
@@ -8149,7 +8150,7 @@ intgo _wrap_IMTManagerAPI_DealUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_DealDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DealDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8168,7 +8169,7 @@ intgo _wrap_IMTManagerAPI_DealDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_DealRequestPage_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, IMTDealArray *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_DealRequestPage_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, IMTDealArray *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -8207,7 +8208,7 @@ intgo _wrap_IMTManagerAPI_DealRequestPage_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_DealAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDeal *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDeal *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDeal *arg2 = (IMTDeal *) 0 ;
   MTAPIRES result;
@@ -8222,7 +8223,7 @@ intgo _wrap_IMTManagerAPI_DealAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig
 }
 
 
-intgo _wrap_IMTManagerAPI_DealAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DealAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDealArray *arg2 = (IMTDealArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -8239,7 +8240,7 @@ intgo _wrap_IMTManagerAPI_DealAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_DealAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DealAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDeal **arg2 = (IMTDeal **) 0 ;
   UINT arg3 ;
@@ -8258,7 +8259,7 @@ intgo _wrap_IMTManagerAPI_DealAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionGetByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionGetByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8277,7 +8278,7 @@ intgo _wrap_IMTManagerAPI_PositionGetByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionGetByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionGetByTickets_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8296,7 +8297,7 @@ intgo _wrap_IMTManagerAPI_PositionGetByTickets_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionDeleteByTicket_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_PositionDeleteByTicket_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -8311,7 +8312,7 @@ intgo _wrap_IMTManagerAPI_PositionDeleteByTicket_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTPositionArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PositionRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTPositionArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -8335,7 +8336,7 @@ intgo _wrap_IMTManagerAPI_PositionRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8354,7 +8355,7 @@ intgo _wrap_IMTManagerAPI_PositionRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8373,7 +8374,7 @@ intgo _wrap_IMTManagerAPI_PositionRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTPositionArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_PositionUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTPositionArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTPositionArray *arg2 = (IMTPositionArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -8390,7 +8391,7 @@ intgo _wrap_IMTManagerAPI_PositionUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTPosition **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTPosition **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTPosition **arg2 = (IMTPosition **) 0 ;
   UINT arg3 ;
@@ -8409,7 +8410,7 @@ intgo _wrap_IMTManagerAPI_PositionUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8428,7 +8429,7 @@ intgo _wrap_IMTManagerAPI_PositionDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionSplit_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, double *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, intgo _swig_go_6, intgo _swig_go_7, intgo _swig_go_8, intgo *_swig_go_9) {
+intgo _wrap_IMTManagerAPI_PositionSplit_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, double *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, intgo _swig_go_6, intgo _swig_go_7, intgo _swig_go_8, intgo *_swig_go_9) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8459,7 +8460,7 @@ intgo _wrap_IMTManagerAPI_PositionSplit_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionGetBySymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionGetBySymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -8492,7 +8493,7 @@ intgo _wrap_IMTManagerAPI_PositionGetBySymbol_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, IMTPositionArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_PositionRequestByLoginsSymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, IMTPositionArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8520,7 +8521,7 @@ intgo _wrap_IMTManagerAPI_PositionRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb
 }
 
 
-intgo _wrap_IMTManagerAPI_PositionRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_PositionRequestByGroupSymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -8553,7 +8554,7 @@ intgo _wrap_IMTManagerAPI_PositionRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderGetByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderGetByTickets_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8572,7 +8573,7 @@ intgo _wrap_IMTManagerAPI_OrderGetByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTOrderArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OrderRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTOrderArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTOrderArray *arg3 = (IMTOrderArray *) 0 ;
@@ -8596,7 +8597,7 @@ intgo _wrap_IMTManagerAPI_OrderRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8615,7 +8616,7 @@ intgo _wrap_IMTManagerAPI_OrderRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8634,7 +8635,7 @@ intgo _wrap_IMTManagerAPI_OrderRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrderArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OrderUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrderArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrderArray *arg2 = (IMTOrderArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -8651,7 +8652,7 @@ intgo _wrap_IMTManagerAPI_OrderUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrder **arg2 = (IMTOrder **) 0 ;
   UINT arg3 ;
@@ -8670,7 +8671,7 @@ intgo _wrap_IMTManagerAPI_OrderUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8689,7 +8690,7 @@ intgo _wrap_IMTManagerAPI_OrderDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderGetBySymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderGetBySymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -8722,7 +8723,7 @@ intgo _wrap_IMTManagerAPI_OrderGetBySymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_OrderAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrder *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrder *arg2 = (IMTOrder *) 0 ;
   MTAPIRES result;
@@ -8737,7 +8738,7 @@ intgo _wrap_IMTManagerAPI_OrderAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swi
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrderArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_OrderAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrderArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrderArray *arg2 = (IMTOrderArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -8754,7 +8755,7 @@ intgo _wrap_IMTManagerAPI_OrderAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTOrder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTOrder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTOrder **arg2 = (IMTOrder **) 0 ;
   UINT arg3 ;
@@ -8773,7 +8774,7 @@ intgo _wrap_IMTManagerAPI_OrderAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_HistoryRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTOrderArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_HistoryRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTOrderArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -8815,7 +8816,7 @@ intgo _wrap_IMTManagerAPI_HistoryRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_HistoryRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_HistoryRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8852,7 +8853,7 @@ intgo _wrap_IMTManagerAPI_HistoryRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_HistoryRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_HistoryRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8871,7 +8872,7 @@ intgo _wrap_IMTManagerAPI_HistoryRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_HistoryRequestPage_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, IMTOrderArray *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_HistoryRequestPage_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, IMTOrderArray *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -8910,7 +8911,7 @@ intgo _wrap_IMTManagerAPI_HistoryRequestPage_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_HistoryRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTOrderArray *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_HistoryRequestByLoginsSymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTOrderArray *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -8956,7 +8957,7 @@ intgo _wrap_IMTManagerAPI_HistoryRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTManagerAPI_HistoryRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_HistoryRequestByGroupSymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -9007,7 +9008,7 @@ intgo _wrap_IMTManagerAPI_HistoryRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_HistoryReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_HistoryReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9020,7 +9021,7 @@ intgo _wrap_IMTManagerAPI_HistoryReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_EmailSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_EmailSend_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -9078,7 +9079,7 @@ intgo _wrap_IMTManagerAPI_EmailSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_EmailReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_EmailReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9091,7 +9092,7 @@ intgo _wrap_IMTManagerAPI_EmailReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_EmailReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_EmailReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9104,7 +9105,7 @@ intgo _wrap_IMTManagerAPI_EmailReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_EmailReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_EmailReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9117,7 +9118,7 @@ intgo _wrap_IMTManagerAPI_EmailReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_EmailReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_EmailReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9130,7 +9131,7 @@ intgo _wrap_IMTManagerAPI_EmailReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_MessengerSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_MessengerSend_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -9179,7 +9180,7 @@ intgo _wrap_IMTManagerAPI_MessengerSend_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_MessengerVerifyPhone_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_MessengerVerifyPhone_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -9201,7 +9202,7 @@ intgo _wrap_IMTManagerAPI_MessengerVerifyPhone_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_MessengerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_MessengerReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9214,7 +9215,7 @@ intgo _wrap_IMTManagerAPI_MessengerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_MessengerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_MessengerReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9227,7 +9228,7 @@ intgo _wrap_IMTManagerAPI_MessengerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_MessengerReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_MessengerReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9240,7 +9241,7 @@ intgo _wrap_IMTManagerAPI_MessengerReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-IMTECNMatching *_wrap_IMTManagerAPI_ECNCreateMatching_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNMatching *_wrap_IMTManagerAPI_ECNCreateMatching_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNMatching *result = 0 ;
   IMTECNMatching *_swig_go_result;
@@ -9253,7 +9254,7 @@ IMTECNMatching *_wrap_IMTManagerAPI_ECNCreateMatching_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-IMTECNMatchingArray *_wrap_IMTManagerAPI_ECNCreateMatchingArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNMatchingArray *_wrap_IMTManagerAPI_ECNCreateMatchingArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNMatchingArray *result = 0 ;
   IMTECNMatchingArray *_swig_go_result;
@@ -9266,7 +9267,7 @@ IMTECNMatchingArray *_wrap_IMTManagerAPI_ECNCreateMatchingArray_mtmanapi_4ac5eea
 }
 
 
-IMTECNFilling *_wrap_IMTManagerAPI_ECNCreateFilling_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNFilling *_wrap_IMTManagerAPI_ECNCreateFilling_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNFilling *result = 0 ;
   IMTECNFilling *_swig_go_result;
@@ -9279,7 +9280,7 @@ IMTECNFilling *_wrap_IMTManagerAPI_ECNCreateFilling_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-IMTECNFillingArray *_wrap_IMTManagerAPI_ECNCreateFillingArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNFillingArray *_wrap_IMTManagerAPI_ECNCreateFillingArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNFillingArray *result = 0 ;
   IMTECNFillingArray *_swig_go_result;
@@ -9292,7 +9293,7 @@ IMTECNFillingArray *_wrap_IMTManagerAPI_ECNCreateFillingArray_mtmanapi_4ac5eea5f
 }
 
 
-IMTECNProvider *_wrap_IMTManagerAPI_ECNCreateProvider_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNProvider *_wrap_IMTManagerAPI_ECNCreateProvider_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNProvider *result = 0 ;
   IMTECNProvider *_swig_go_result;
@@ -9305,7 +9306,7 @@ IMTECNProvider *_wrap_IMTManagerAPI_ECNCreateProvider_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-IMTECNProviderArray *_wrap_IMTManagerAPI_ECNCreateProviderArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNProviderArray *_wrap_IMTManagerAPI_ECNCreateProviderArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNProviderArray *result = 0 ;
   IMTECNProviderArray *_swig_go_result;
@@ -9318,7 +9319,7 @@ IMTECNProviderArray *_wrap_IMTManagerAPI_ECNCreateProviderArray_mtmanapi_4ac5eea
 }
 
 
-IMTECNHistoryMatching *_wrap_IMTManagerAPI_ECNCreateHistoryMatching_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNHistoryMatching *_wrap_IMTManagerAPI_ECNCreateHistoryMatching_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNHistoryMatching *result = 0 ;
   IMTECNHistoryMatching *_swig_go_result;
@@ -9331,7 +9332,7 @@ IMTECNHistoryMatching *_wrap_IMTManagerAPI_ECNCreateHistoryMatching_mtmanapi_4ac
 }
 
 
-IMTECNHistoryMatchingArray *_wrap_IMTManagerAPI_ECNCreateHistoryMatchingArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNHistoryMatchingArray *_wrap_IMTManagerAPI_ECNCreateHistoryMatchingArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNHistoryMatchingArray *result = 0 ;
   IMTECNHistoryMatchingArray *_swig_go_result;
@@ -9344,7 +9345,7 @@ IMTECNHistoryMatchingArray *_wrap_IMTManagerAPI_ECNCreateHistoryMatchingArray_mt
 }
 
 
-IMTECNHistoryFilling *_wrap_IMTManagerAPI_ECNCreateHistoryFilling_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNHistoryFilling *_wrap_IMTManagerAPI_ECNCreateHistoryFilling_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNHistoryFilling *result = 0 ;
   IMTECNHistoryFilling *_swig_go_result;
@@ -9357,7 +9358,7 @@ IMTECNHistoryFilling *_wrap_IMTManagerAPI_ECNCreateHistoryFilling_mtmanapi_4ac5e
 }
 
 
-IMTECNHistoryFillingArray *_wrap_IMTManagerAPI_ECNCreateHistoryFillingArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNHistoryFillingArray *_wrap_IMTManagerAPI_ECNCreateHistoryFillingArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNHistoryFillingArray *result = 0 ;
   IMTECNHistoryFillingArray *_swig_go_result;
@@ -9370,7 +9371,7 @@ IMTECNHistoryFillingArray *_wrap_IMTManagerAPI_ECNCreateHistoryFillingArray_mtma
 }
 
 
-IMTECNHistoryDeal *_wrap_IMTManagerAPI_ECNCreateHistoryDeal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNHistoryDeal *_wrap_IMTManagerAPI_ECNCreateHistoryDeal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNHistoryDeal *result = 0 ;
   IMTECNHistoryDeal *_swig_go_result;
@@ -9383,7 +9384,7 @@ IMTECNHistoryDeal *_wrap_IMTManagerAPI_ECNCreateHistoryDeal_mtmanapi_4ac5eea5fe3
 }
 
 
-IMTECNHistoryDealArray *_wrap_IMTManagerAPI_ECNCreateHistoryDealArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTECNHistoryDealArray *_wrap_IMTManagerAPI_ECNCreateHistoryDealArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTECNHistoryDealArray *result = 0 ;
   IMTECNHistoryDealArray *_swig_go_result;
@@ -9396,7 +9397,7 @@ IMTECNHistoryDealArray *_wrap_IMTManagerAPI_ECNCreateHistoryDealArray_mtmanapi_4
 }
 
 
-intgo _wrap_IMTManagerAPI_ECNRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTECNMatchingArray *_swig_go_2, IMTECNFillingArray *_swig_go_3, IMTECNProviderArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_ECNRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTECNMatchingArray *_swig_go_2, IMTECNFillingArray *_swig_go_3, IMTECNProviderArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTECNMatchingArray *arg3 = (IMTECNMatchingArray *) 0 ;
@@ -9424,7 +9425,7 @@ intgo _wrap_IMTManagerAPI_ECNRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_ECNRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTECNMatchingArray *_swig_go_3, IMTECNFillingArray *_swig_go_4, IMTECNProviderArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_ECNRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTECNMatchingArray *_swig_go_3, IMTECNFillingArray *_swig_go_4, IMTECNProviderArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -9447,7 +9448,7 @@ intgo _wrap_IMTManagerAPI_ECNRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_ECNRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTECNMatchingArray *_swig_go_3, IMTECNFillingArray *_swig_go_4, IMTECNProviderArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_ECNRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTECNMatchingArray *_swig_go_3, IMTECNFillingArray *_swig_go_4, IMTECNProviderArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -9470,7 +9471,7 @@ intgo _wrap_IMTManagerAPI_ECNRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_ECNRequestHistoryByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTECNHistoryMatchingArray *_swig_go_4, IMTECNHistoryFillingArray *_swig_go_5, IMTECNHistoryDealArray *_swig_go_6, IMTECNProviderArray *_swig_go_7) {
+intgo _wrap_IMTManagerAPI_ECNRequestHistoryByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTECNHistoryMatchingArray *_swig_go_4, IMTECNHistoryFillingArray *_swig_go_5, IMTECNHistoryDealArray *_swig_go_6, IMTECNProviderArray *_swig_go_7) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -9518,7 +9519,7 @@ intgo _wrap_IMTManagerAPI_ECNRequestHistoryByGroup_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_ECNRequestHistoryByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTECNHistoryMatchingArray *_swig_go_5, IMTECNHistoryFillingArray *_swig_go_6, IMTECNHistoryDealArray *_swig_go_7, IMTECNProviderArray *_swig_go_8) {
+intgo _wrap_IMTManagerAPI_ECNRequestHistoryByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTECNHistoryMatchingArray *_swig_go_5, IMTECNHistoryFillingArray *_swig_go_6, IMTECNHistoryDealArray *_swig_go_7, IMTECNProviderArray *_swig_go_8) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -9561,7 +9562,7 @@ intgo _wrap_IMTManagerAPI_ECNRequestHistoryByLogins_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_ECNRequestHistoryByTickets_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTECNHistoryMatchingArray *_swig_go_5, IMTECNHistoryFillingArray *_swig_go_6, IMTECNHistoryDealArray *_swig_go_7, IMTECNProviderArray *_swig_go_8) {
+intgo _wrap_IMTManagerAPI_ECNRequestHistoryByTickets_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTECNHistoryMatchingArray *_swig_go_5, IMTECNHistoryFillingArray *_swig_go_6, IMTECNHistoryDealArray *_swig_go_7, IMTECNProviderArray *_swig_go_8) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -9604,7 +9605,7 @@ intgo _wrap_IMTManagerAPI_ECNRequestHistoryByTickets_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-IMTClient *_wrap_IMTManagerAPI_ClientCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTClient *_wrap_IMTManagerAPI_ClientCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTClient *result = 0 ;
   IMTClient *_swig_go_result;
@@ -9617,7 +9618,7 @@ IMTClient *_wrap_IMTManagerAPI_ClientCreate_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-IMTClientArray *_wrap_IMTManagerAPI_ClientCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTClientArray *_wrap_IMTManagerAPI_ClientCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTClientArray *result = 0 ;
   IMTClientArray *_swig_go_result;
@@ -9630,7 +9631,7 @@ IMTClientArray *_wrap_IMTManagerAPI_ClientCreateArray_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTClient *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_ClientAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTClient *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTClient *arg2 = (IMTClient *) 0 ;
   MTAPIRES result;
@@ -9645,7 +9646,7 @@ intgo _wrap_IMTManagerAPI_ClientAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_sw
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTClientArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_ClientAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTClientArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTClientArray *arg2 = (IMTClientArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -9662,7 +9663,7 @@ intgo _wrap_IMTManagerAPI_ClientAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTClient **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_ClientAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTClient **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTClient **arg2 = (IMTClient **) 0 ;
   UINT arg3 ;
@@ -9681,7 +9682,7 @@ intgo _wrap_IMTManagerAPI_ClientAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTClient *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_ClientUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTClient *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTClient *arg2 = (IMTClient *) 0 ;
   MTAPIRES result;
@@ -9696,7 +9697,7 @@ intgo _wrap_IMTManagerAPI_ClientUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTClientArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_ClientUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTClientArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTClientArray *arg2 = (IMTClientArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -9713,7 +9714,7 @@ intgo _wrap_IMTManagerAPI_ClientUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTClient **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_ClientUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTClient **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTClient **arg2 = (IMTClient **) 0 ;
   UINT arg3 ;
@@ -9732,7 +9733,7 @@ intgo _wrap_IMTManagerAPI_ClientUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_ClientDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -9747,7 +9748,7 @@ intgo _wrap_IMTManagerAPI_ClientDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_ClientDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -9766,7 +9767,7 @@ intgo _wrap_IMTManagerAPI_ClientDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTClient *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_ClientRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTClient *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTClient *arg3 = (IMTClient *) 0 ;
@@ -9783,7 +9784,7 @@ intgo _wrap_IMTManagerAPI_ClientRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTClientArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_ClientRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTClientArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTClientArray *arg3 = (IMTClientArray *) 0 ;
@@ -9807,7 +9808,7 @@ intgo _wrap_IMTManagerAPI_ClientRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientRequestHistory_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTClientArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_ClientRequestHistory_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTClientArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -9844,7 +9845,7 @@ intgo _wrap_IMTManagerAPI_ClientRequestHistory_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientUserAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+intgo _wrap_IMTManagerAPI_ClientUserAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -9861,7 +9862,7 @@ intgo _wrap_IMTManagerAPI_ClientUserAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientUserAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_ClientUserAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 *arg3 = (UINT64 *) 0 ;
@@ -9882,7 +9883,7 @@ intgo _wrap_IMTManagerAPI_ClientUserAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientUserDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+intgo _wrap_IMTManagerAPI_ClientUserDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -9899,7 +9900,7 @@ intgo _wrap_IMTManagerAPI_ClientUserDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientUserDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_ClientUserDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 *arg3 = (UINT64 *) 0 ;
@@ -9920,7 +9921,7 @@ intgo _wrap_IMTManagerAPI_ClientUserDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientUserRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long **_swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_ClientUserRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long **_swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 **arg3 = 0 ;
@@ -9939,7 +9940,7 @@ intgo _wrap_IMTManagerAPI_ClientUserRequest_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_ClientReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9952,7 +9953,7 @@ intgo _wrap_IMTManagerAPI_ClientReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_ClientReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9965,7 +9966,7 @@ intgo _wrap_IMTManagerAPI_ClientReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_ClientReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9978,7 +9979,7 @@ intgo _wrap_IMTManagerAPI_ClientReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_ClientReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_ClientReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -9991,7 +9992,7 @@ intgo _wrap_IMTManagerAPI_ClientReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-IMTDocument *_wrap_IMTManagerAPI_DocumentCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTDocument *_wrap_IMTManagerAPI_DocumentCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDocument *result = 0 ;
   IMTDocument *_swig_go_result;
@@ -10004,7 +10005,7 @@ IMTDocument *_wrap_IMTManagerAPI_DocumentCreate_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-IMTDocumentArray *_wrap_IMTManagerAPI_DocumentCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTDocumentArray *_wrap_IMTManagerAPI_DocumentCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDocumentArray *result = 0 ;
   IMTDocumentArray *_swig_go_result;
@@ -10017,7 +10018,7 @@ IMTDocumentArray *_wrap_IMTManagerAPI_DocumentCreateArray_mtmanapi_4ac5eea5fe396
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDocument *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DocumentAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDocument *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDocument *arg2 = (IMTDocument *) 0 ;
   MTAPIRES result;
@@ -10032,7 +10033,7 @@ intgo _wrap_IMTManagerAPI_DocumentAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDocumentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DocumentAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDocumentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDocumentArray *arg2 = (IMTDocumentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -10049,7 +10050,7 @@ intgo _wrap_IMTManagerAPI_DocumentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDocument **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DocumentAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDocument **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDocument **arg2 = (IMTDocument **) 0 ;
   UINT arg3 ;
@@ -10068,7 +10069,7 @@ intgo _wrap_IMTManagerAPI_DocumentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDocument *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DocumentUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDocument *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDocument *arg2 = (IMTDocument *) 0 ;
   MTAPIRES result;
@@ -10083,7 +10084,7 @@ intgo _wrap_IMTManagerAPI_DocumentUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDocumentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DocumentUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDocumentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDocumentArray *arg2 = (IMTDocumentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -10100,7 +10101,7 @@ intgo _wrap_IMTManagerAPI_DocumentUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDocument **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DocumentUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDocument **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDocument **arg2 = (IMTDocument **) 0 ;
   UINT arg3 ;
@@ -10119,7 +10120,7 @@ intgo _wrap_IMTManagerAPI_DocumentUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_DocumentDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -10134,7 +10135,7 @@ intgo _wrap_IMTManagerAPI_DocumentDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DocumentDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -10153,7 +10154,7 @@ intgo _wrap_IMTManagerAPI_DocumentDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTDocument *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DocumentRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTDocument *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTDocument *arg3 = (IMTDocument *) 0 ;
@@ -10170,7 +10171,7 @@ intgo _wrap_IMTManagerAPI_DocumentRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentRequestByClient_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTDocumentArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DocumentRequestByClient_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTDocumentArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTDocumentArray *arg3 = (IMTDocumentArray *) 0 ;
@@ -10187,7 +10188,7 @@ intgo _wrap_IMTManagerAPI_DocumentRequestByClient_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentRequestHistory_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDocumentArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_DocumentRequestHistory_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDocumentArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -10224,7 +10225,7 @@ intgo _wrap_IMTManagerAPI_DocumentRequestHistory_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DocumentReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10237,7 +10238,7 @@ intgo _wrap_IMTManagerAPI_DocumentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DocumentReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10250,7 +10251,7 @@ intgo _wrap_IMTManagerAPI_DocumentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DocumentReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10263,7 +10264,7 @@ intgo _wrap_IMTManagerAPI_DocumentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_DocumentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DocumentReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10276,7 +10277,7 @@ intgo _wrap_IMTManagerAPI_DocumentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-IMTComment *_wrap_IMTManagerAPI_CommentCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTComment *_wrap_IMTManagerAPI_CommentCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTComment *result = 0 ;
   IMTComment *_swig_go_result;
@@ -10289,7 +10290,7 @@ IMTComment *_wrap_IMTManagerAPI_CommentCreate_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-IMTCommentArray *_wrap_IMTManagerAPI_CommentCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTCommentArray *_wrap_IMTManagerAPI_CommentCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTCommentArray *result = 0 ;
   IMTCommentArray *_swig_go_result;
@@ -10302,7 +10303,7 @@ IMTCommentArray *_wrap_IMTManagerAPI_CommentCreateArray_mtmanapi_4ac5eea5fe396bb
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTComment *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_CommentAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTComment *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTComment *arg2 = (IMTComment *) 0 ;
   MTAPIRES result;
@@ -10317,7 +10318,7 @@ intgo _wrap_IMTManagerAPI_CommentAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTCommentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_CommentAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTCommentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTCommentArray *arg2 = (IMTCommentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -10334,7 +10335,7 @@ intgo _wrap_IMTManagerAPI_CommentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTComment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_CommentAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTComment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTComment **arg2 = (IMTComment **) 0 ;
   UINT arg3 ;
@@ -10353,7 +10354,7 @@ intgo _wrap_IMTManagerAPI_CommentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTComment *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_CommentUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTComment *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTComment *arg2 = (IMTComment *) 0 ;
   MTAPIRES result;
@@ -10368,7 +10369,7 @@ intgo _wrap_IMTManagerAPI_CommentUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTCommentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_CommentUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTCommentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTCommentArray *arg2 = (IMTCommentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -10385,7 +10386,7 @@ intgo _wrap_IMTManagerAPI_CommentUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTComment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_CommentUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTComment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTComment **arg2 = (IMTComment **) 0 ;
   UINT arg3 ;
@@ -10404,7 +10405,7 @@ intgo _wrap_IMTManagerAPI_CommentUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_CommentDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -10419,7 +10420,7 @@ intgo _wrap_IMTManagerAPI_CommentDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_CommentDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -10438,7 +10439,7 @@ intgo _wrap_IMTManagerAPI_CommentDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTComment *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_CommentRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTComment *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTComment *arg3 = (IMTComment *) 0 ;
@@ -10455,7 +10456,7 @@ intgo _wrap_IMTManagerAPI_CommentRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentRequestByClient_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTCommentArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_CommentRequestByClient_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTCommentArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT arg3 ;
@@ -10476,7 +10477,7 @@ intgo _wrap_IMTManagerAPI_CommentRequestByClient_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentRequestByDocument_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTCommentArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_CommentRequestByDocument_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTCommentArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT arg3 ;
@@ -10497,7 +10498,7 @@ intgo _wrap_IMTManagerAPI_CommentRequestByDocument_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_CommentReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10510,7 +10511,7 @@ intgo _wrap_IMTManagerAPI_CommentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_CommentReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10523,7 +10524,7 @@ intgo _wrap_IMTManagerAPI_CommentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_CommentReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10536,7 +10537,7 @@ intgo _wrap_IMTManagerAPI_CommentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_CommentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_CommentReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10549,7 +10550,7 @@ intgo _wrap_IMTManagerAPI_CommentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-IMTAttachment *_wrap_IMTManagerAPI_AttachmentCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTAttachment *_wrap_IMTManagerAPI_AttachmentCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAttachment *result = 0 ;
   IMTAttachment *_swig_go_result;
@@ -10562,7 +10563,7 @@ IMTAttachment *_wrap_IMTManagerAPI_AttachmentCreate_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-IMTAttachmentArray *_wrap_IMTManagerAPI_AttachmentCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTAttachmentArray *_wrap_IMTManagerAPI_AttachmentCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAttachmentArray *result = 0 ;
   IMTAttachmentArray *_swig_go_result;
@@ -10575,7 +10576,7 @@ IMTAttachmentArray *_wrap_IMTManagerAPI_AttachmentCreateArray_mtmanapi_4ac5eea5f
 }
 
 
-intgo _wrap_IMTManagerAPI_AttachmentAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTAttachment *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_AttachmentAdd_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTAttachment *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAttachment *arg2 = (IMTAttachment *) 0 ;
   MTAPIRES result;
@@ -10590,7 +10591,7 @@ intgo _wrap_IMTManagerAPI_AttachmentAdd_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_AttachmentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTAttachmentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_AttachmentAddBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTAttachmentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAttachmentArray *arg2 = (IMTAttachmentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -10607,7 +10608,7 @@ intgo _wrap_IMTManagerAPI_AttachmentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_AttachmentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTAttachment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_AttachmentAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTAttachment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAttachment **arg2 = (IMTAttachment **) 0 ;
   UINT arg3 ;
@@ -10626,7 +10627,7 @@ intgo _wrap_IMTManagerAPI_AttachmentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_AttachmentRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTAttachmentArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_AttachmentRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTAttachmentArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -10645,7 +10646,7 @@ intgo _wrap_IMTManagerAPI_AttachmentRequest_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_AttachmentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_AttachmentReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10658,7 +10659,7 @@ intgo _wrap_IMTManagerAPI_AttachmentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_AttachmentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_AttachmentReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10671,7 +10672,7 @@ intgo _wrap_IMTManagerAPI_AttachmentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_AttachmentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_AttachmentReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10684,7 +10685,7 @@ intgo _wrap_IMTManagerAPI_AttachmentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_AttachmentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_AttachmentReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -10697,7 +10698,7 @@ intgo _wrap_IMTManagerAPI_AttachmentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAccountSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTAccountSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_UserAccountSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTAccountSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAccountSink *arg2 = (IMTAccountSink *) 0 ;
   MTAPIRES result;
@@ -10712,7 +10713,7 @@ intgo _wrap_IMTManagerAPI_UserAccountSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAccountUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTAccountSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_UserAccountUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTAccountSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTAccountSink *arg2 = (IMTAccountSink *) 0 ;
   MTAPIRES result;
@@ -10727,7 +10728,7 @@ intgo _wrap_IMTManagerAPI_UserAccountUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_UserRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTUserArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTUserArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -10746,7 +10747,7 @@ intgo _wrap_IMTManagerAPI_UserRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_UserGetByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUserArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserGetByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUserArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTUserArray *arg3 = (IMTUserArray *) 0 ;
@@ -10770,7 +10771,7 @@ intgo _wrap_IMTManagerAPI_UserGetByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_UserGetByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTUserArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserGetByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTUserArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -10789,7 +10790,7 @@ intgo _wrap_IMTManagerAPI_UserGetByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_UserUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTUserArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTUserArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTUserArray *arg2 = (IMTUserArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -10806,7 +10807,7 @@ intgo _wrap_IMTManagerAPI_UserUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_UserUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTUser **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTUser **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTUser **arg2 = (IMTUser **) 0 ;
   UINT arg3 ;
@@ -10825,7 +10826,7 @@ intgo _wrap_IMTManagerAPI_UserUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-IMTConSubscription *_wrap_IMTManagerAPI_SubscriptionCfgCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConSubscription *_wrap_IMTManagerAPI_SubscriptionCfgCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSubscription *result = 0 ;
   IMTConSubscription *_swig_go_result;
@@ -10838,7 +10839,7 @@ IMTConSubscription *_wrap_IMTManagerAPI_SubscriptionCfgCreate_mtmanapi_4ac5eea5f
 }
 
 
-IMTConSubscriptionSymbol *_wrap_IMTManagerAPI_SubscriptionCfgSymbolCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConSubscriptionSymbol *_wrap_IMTManagerAPI_SubscriptionCfgSymbolCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSubscriptionSymbol *result = 0 ;
   IMTConSubscriptionSymbol *_swig_go_result;
@@ -10851,7 +10852,7 @@ IMTConSubscriptionSymbol *_wrap_IMTManagerAPI_SubscriptionCfgSymbolCreate_mtmana
 }
 
 
-IMTConSubscriptionNews *_wrap_IMTManagerAPI_SubscriptionCfgNewsCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConSubscriptionNews *_wrap_IMTManagerAPI_SubscriptionCfgNewsCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSubscriptionNews *result = 0 ;
   IMTConSubscriptionNews *_swig_go_result;
@@ -10864,7 +10865,7 @@ IMTConSubscriptionNews *_wrap_IMTManagerAPI_SubscriptionCfgNewsCreate_mtmanapi_4
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSubscriptionSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSubscriptionSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSubscriptionSink *arg2 = (IMTConSubscriptionSink *) 0 ;
   MTAPIRES result;
@@ -10879,7 +10880,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgSubscribe_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConSubscriptionSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConSubscriptionSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConSubscriptionSink *arg2 = (IMTConSubscriptionSink *) 0 ;
   MTAPIRES result;
@@ -10894,7 +10895,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgUnsubscribe_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -10907,7 +10908,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgTotal_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConSubscription *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConSubscription *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTConSubscription *arg3 = (IMTConSubscription *) 0 ;
@@ -10924,7 +10925,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgNext_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSubscription *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSubscription *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConSubscription *arg3 = (IMTConSubscription *) 0 ;
@@ -10948,7 +10949,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgGet_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgGetByID_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTConSubscription *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgGetByID_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTConSubscription *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTConSubscription *arg3 = (IMTConSubscription *) 0 ;
@@ -10965,7 +10966,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgGetByID_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSubscription *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSubscription *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConSubscription *arg3 = (IMTConSubscription *) 0 ;
@@ -10989,7 +10990,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgRequest_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgRequestByID_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTConSubscription *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgRequestByID_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTConSubscription *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTConSubscription *arg3 = (IMTConSubscription *) 0 ;
@@ -11006,7 +11007,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgRequestByID_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11019,7 +11020,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved1_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11032,7 +11033,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved2_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11045,7 +11046,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved3_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11058,7 +11059,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCfgReserved4_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-IMTSubscription *_wrap_IMTManagerAPI_SubscriptionCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTSubscription *_wrap_IMTManagerAPI_SubscriptionCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscription *result = 0 ;
   IMTSubscription *_swig_go_result;
@@ -11071,7 +11072,7 @@ IMTSubscription *_wrap_IMTManagerAPI_SubscriptionCreate_mtmanapi_4ac5eea5fe396bb
 }
 
 
-IMTSubscriptionArray *_wrap_IMTManagerAPI_SubscriptionCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTSubscriptionArray *_wrap_IMTManagerAPI_SubscriptionCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscriptionArray *result = 0 ;
   IMTSubscriptionArray *_swig_go_result;
@@ -11084,7 +11085,7 @@ IMTSubscriptionArray *_wrap_IMTManagerAPI_SubscriptionCreateArray_mtmanapi_4ac5e
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionJoin_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, IMTSubscription *_swig_go_3, IMTSubscriptionHistory *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_SubscriptionJoin_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, IMTSubscription *_swig_go_3, IMTSubscriptionHistory *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -11105,7 +11106,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionJoin_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionJoinBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, IMTSubscriptionArray *_swig_go_5, IMTSubscriptionHistoryArray *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_SubscriptionJoinBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, IMTSubscriptionArray *_swig_go_5, IMTSubscriptionHistoryArray *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT64 *arg3 = (UINT64 *) 0 ;
@@ -11130,7 +11131,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionJoinBatch_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCancel_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, IMTSubscription *_swig_go_3, IMTSubscriptionHistory *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_SubscriptionCancel_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, IMTSubscription *_swig_go_3, IMTSubscriptionHistory *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -11151,7 +11152,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCancel_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionCancelBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, IMTSubscriptionArray *_swig_go_5, IMTSubscriptionHistoryArray *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_SubscriptionCancelBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, IMTSubscriptionArray *_swig_go_5, IMTSubscriptionHistoryArray *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT64 *arg3 = (UINT64 *) 0 ;
@@ -11176,7 +11177,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionCancelBatch_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSubscription *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SubscriptionUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSubscription *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscription *arg2 = (IMTSubscription *) 0 ;
   MTAPIRES result;
@@ -11191,7 +11192,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSubscriptionArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSubscriptionArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscriptionArray *arg2 = (IMTSubscriptionArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -11208,7 +11209,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSubscription **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SubscriptionUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSubscription **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscription **arg2 = (IMTSubscription **) 0 ;
   UINT arg3 ;
@@ -11227,7 +11228,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_SubscriptionDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -11242,7 +11243,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionDelete_mtmanapi_4ac5eea5fe396bb3(IMTManage
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SubscriptionDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11261,7 +11262,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTSubscriptionArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTSubscriptionArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTSubscriptionArray *arg3 = (IMTSubscriptionArray *) 0 ;
@@ -11278,7 +11279,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionRequest_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionRequestByID_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTSubscription *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionRequestByID_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTSubscription *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTSubscription *arg3 = (IMTSubscription *) 0 ;
@@ -11295,7 +11296,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionRequestByID_mtmanapi_4ac5eea5fe396bb3(IMTM
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTSubscriptionArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTSubscriptionArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTSubscriptionArray *arg3 = (IMTSubscriptionArray *) 0 ;
@@ -11319,7 +11320,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionRequestByGroup_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SubscriptionRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11338,7 +11339,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionRequestByLogins_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionRequestByIDs_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SubscriptionRequestByIDs_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11357,7 +11358,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionRequestByIDs_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11370,7 +11371,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionReserved1_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11383,7 +11384,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionReserved2_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11396,7 +11397,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionReserved3_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11409,7 +11410,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionReserved4_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-IMTSubscriptionHistory *_wrap_IMTManagerAPI_SubscriptionHistoryCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTSubscriptionHistory *_wrap_IMTManagerAPI_SubscriptionHistoryCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscriptionHistory *result = 0 ;
   IMTSubscriptionHistory *_swig_go_result;
@@ -11422,7 +11423,7 @@ IMTSubscriptionHistory *_wrap_IMTManagerAPI_SubscriptionHistoryCreate_mtmanapi_4
 }
 
 
-IMTSubscriptionHistoryArray *_wrap_IMTManagerAPI_SubscriptionHistoryCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTSubscriptionHistoryArray *_wrap_IMTManagerAPI_SubscriptionHistoryCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscriptionHistoryArray *result = 0 ;
   IMTSubscriptionHistoryArray *_swig_go_result;
@@ -11435,7 +11436,7 @@ IMTSubscriptionHistoryArray *_wrap_IMTManagerAPI_SubscriptionHistoryCreateArray_
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSubscriptionHistory *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSubscriptionHistory *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscriptionHistory *arg2 = (IMTSubscriptionHistory *) 0 ;
   MTAPIRES result;
@@ -11450,7 +11451,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdate_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSubscriptionHistoryArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSubscriptionHistoryArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscriptionHistoryArray *arg2 = (IMTSubscriptionHistoryArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -11467,7 +11468,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdateBatch_mtmanapi_4ac5eea5fe396b
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTSubscriptionHistory **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTSubscriptionHistory **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTSubscriptionHistory **arg2 = (IMTSubscriptionHistory **) 0 ;
   UINT arg3 ;
@@ -11486,7 +11487,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryUpdateBatchArray_mtmanapi_4ac5eea5f
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryDelete_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryDelete_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -11501,7 +11502,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryDelete_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11520,7 +11521,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryDeleteBatch_mtmanapi_4ac5eea5fe396b
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTSubscriptionHistoryArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTSubscriptionHistoryArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -11555,7 +11556,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequest_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByID_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTSubscriptionHistory *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByID_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1, IMTSubscriptionHistory *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   IMTSubscriptionHistory *arg3 = (IMTSubscriptionHistory *) 0 ;
@@ -11572,7 +11573,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByID_mtmanapi_4ac5eea5fe396b
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTSubscriptionHistoryArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTSubscriptionHistoryArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -11614,7 +11615,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByGroup_mtmanapi_4ac5eea5fe3
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTSubscriptionHistoryArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTSubscriptionHistoryArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11651,7 +11652,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByLogins_mtmanapi_4ac5eea5fe
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByIDs_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionHistoryArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByIDs_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionHistoryArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11670,7 +11671,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryRequestByIDs_mtmanapi_4ac5eea5fe396
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11683,7 +11684,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved1_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11696,7 +11697,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved2_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11709,7 +11710,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved3_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11722,7 +11723,7 @@ intgo _wrap_IMTManagerAPI_SubscriptionHistoryReserved4_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTManagerAPI_DealPerform_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDeal *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_DealPerform_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDeal *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDeal *arg2 = (IMTDeal *) 0 ;
   MTAPIRES result;
@@ -11737,7 +11738,7 @@ intgo _wrap_IMTManagerAPI_DealPerform_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_DealPerformBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_DealPerformBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDealArray *arg2 = (IMTDealArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -11754,7 +11755,7 @@ intgo _wrap_IMTManagerAPI_DealPerformBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_DealPerformBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_DealPerformBatchArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTDeal **arg2 = (IMTDeal **) 0 ;
   UINT arg3 ;
@@ -11773,7 +11774,7 @@ intgo _wrap_IMTManagerAPI_DealPerformBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_DealRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTDealArray *_swig_go_6) {
+intgo _wrap_IMTManagerAPI_DealRequestByLoginsSymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTDealArray *_swig_go_6) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11819,7 +11820,7 @@ intgo _wrap_IMTManagerAPI_DealRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_DealRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_DealRequestByGroupSymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -11870,7 +11871,7 @@ intgo _wrap_IMTManagerAPI_DealRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTManagerAPI_DealReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DealReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11883,7 +11884,7 @@ intgo _wrap_IMTManagerAPI_DealReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_DealReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_DealReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -11896,7 +11897,7 @@ intgo _wrap_IMTManagerAPI_DealReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_UserDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11915,7 +11916,7 @@ intgo _wrap_IMTManagerAPI_UserDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAccountRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTAccountArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserAccountRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTAccountArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11934,7 +11935,7 @@ intgo _wrap_IMTManagerAPI_UserAccountRequestByLogins_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_UserBalanceCheckBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, double *_swig_go_5, double *_swig_go_6, double *_swig_go_7, double *_swig_go_8) {
+intgo _wrap_IMTManagerAPI_UserBalanceCheckBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, double *_swig_go_5, double *_swig_go_6, double *_swig_go_7, double *_swig_go_8) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -11963,7 +11964,7 @@ intgo _wrap_IMTManagerAPI_UserBalanceCheckBatch_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAccountGetByGroup_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTAccountArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_UserAccountGetByGroup_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTAccountArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTAccountArray *arg3 = (IMTAccountArray *) 0 ;
@@ -11987,7 +11988,7 @@ intgo _wrap_IMTManagerAPI_UserAccountGetByGroup_mtmanapi_4ac5eea5fe396bb3(IMTMan
 }
 
 
-intgo _wrap_IMTManagerAPI_UserAccountGetByLogins_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTAccountArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_UserAccountGetByLogins_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTAccountArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -12006,7 +12007,7 @@ intgo _wrap_IMTManagerAPI_UserAccountGetByLogins_mtmanapi_4ac5eea5fe396bb3(IMTMa
 }
 
 
-intgo _wrap_IMTManagerAPI_UserReserved5_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_UserReserved5_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12019,7 +12020,7 @@ intgo _wrap_IMTManagerAPI_UserReserved5_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_UserReserved6_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_UserReserved6_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12032,7 +12033,7 @@ intgo _wrap_IMTManagerAPI_UserReserved6_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_UserReserved7_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_UserReserved7_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12045,7 +12046,7 @@ intgo _wrap_IMTManagerAPI_UserReserved7_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, IMTOrderArray *_swig_go_4) {
+intgo _wrap_IMTManagerAPI_OrderRequestByLoginsSymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, IMTOrderArray *_swig_go_4) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -12073,7 +12074,7 @@ intgo _wrap_IMTManagerAPI_OrderRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderRequestByGroupSymbol_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -12106,7 +12107,7 @@ intgo _wrap_IMTManagerAPI_OrderRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderCancel_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTManagerAPI_OrderCancel_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long _swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -12121,7 +12122,7 @@ intgo _wrap_IMTManagerAPI_OrderCancel_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderCancelBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_OrderCancelBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -12140,7 +12141,7 @@ intgo _wrap_IMTManagerAPI_OrderCancelBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerA
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_OrderReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12153,7 +12154,7 @@ intgo _wrap_IMTManagerAPI_OrderReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-intgo _wrap_IMTManagerAPI_OrderReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_OrderReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12166,7 +12167,7 @@ intgo _wrap_IMTManagerAPI_OrderReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI
 }
 
 
-IMTConLeverage *_wrap_IMTManagerAPI_LeverageCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConLeverage *_wrap_IMTManagerAPI_LeverageCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConLeverage *result = 0 ;
   IMTConLeverage *_swig_go_result;
@@ -12179,7 +12180,7 @@ IMTConLeverage *_wrap_IMTManagerAPI_LeverageCreate_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-IMTConLeverageArray *_wrap_IMTManagerAPI_LeverageCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConLeverageArray *_wrap_IMTManagerAPI_LeverageCreateArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConLeverageArray *result = 0 ;
   IMTConLeverageArray *_swig_go_result;
@@ -12192,7 +12193,7 @@ IMTConLeverageArray *_wrap_IMTManagerAPI_LeverageCreateArray_mtmanapi_4ac5eea5fe
 }
 
 
-IMTConLeverageRule *_wrap_IMTManagerAPI_LeverageRuleCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConLeverageRule *_wrap_IMTManagerAPI_LeverageRuleCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConLeverageRule *result = 0 ;
   IMTConLeverageRule *_swig_go_result;
@@ -12205,7 +12206,7 @@ IMTConLeverageRule *_wrap_IMTManagerAPI_LeverageRuleCreate_mtmanapi_4ac5eea5fe39
 }
 
 
-IMTConLeverageTier *_wrap_IMTManagerAPI_LeverageTierCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTConLeverageTier *_wrap_IMTManagerAPI_LeverageTierCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConLeverageTier *result = 0 ;
   IMTConLeverageTier *_swig_go_result;
@@ -12218,7 +12219,7 @@ IMTConLeverageTier *_wrap_IMTManagerAPI_LeverageTierCreate_mtmanapi_4ac5eea5fe39
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConLeverageSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_LeverageSubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConLeverageSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConLeverageSink *arg2 = (IMTConLeverageSink *) 0 ;
   MTAPIRES result;
@@ -12233,7 +12234,7 @@ intgo _wrap_IMTManagerAPI_LeverageSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, IMTConLeverageSink *_swig_go_1) {
+intgo _wrap_IMTManagerAPI_LeverageUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, IMTConLeverageSink *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTConLeverageSink *arg2 = (IMTConLeverageSink *) 0 ;
   MTAPIRES result;
@@ -12248,7 +12249,7 @@ intgo _wrap_IMTManagerAPI_LeverageUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_LeverageTotal_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -12261,7 +12262,7 @@ intgo _wrap_IMTManagerAPI_LeverageTotal_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI 
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConLeverage *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_LeverageNext_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, intgo _swig_go_1, IMTConLeverage *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   UINT arg2 ;
   IMTConLeverage *arg3 = (IMTConLeverage *) 0 ;
@@ -12278,7 +12279,7 @@ intgo _wrap_IMTManagerAPI_LeverageNext_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConLeverage *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_LeverageGet_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConLeverage *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConLeverage *arg3 = (IMTConLeverage *) 0 ;
@@ -12302,7 +12303,7 @@ intgo _wrap_IMTManagerAPI_LeverageGet_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConLeverage *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_LeverageRequest_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConLeverage *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConLeverage *arg3 = (IMTConLeverage *) 0 ;
@@ -12326,7 +12327,7 @@ intgo _wrap_IMTManagerAPI_LeverageRequest_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConLeverageArray *_swig_go_2) {
+intgo _wrap_IMTManagerAPI_LeverageRequestArray_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConLeverageArray *_swig_go_2) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConLeverageArray *arg3 = (IMTConLeverageArray *) 0 ;
@@ -12350,7 +12351,7 @@ intgo _wrap_IMTManagerAPI_LeverageRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTMana
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_LeverageReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12363,7 +12364,7 @@ intgo _wrap_IMTManagerAPI_LeverageReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_LeverageReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12376,7 +12377,7 @@ intgo _wrap_IMTManagerAPI_LeverageReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_LeverageReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12389,7 +12390,7 @@ intgo _wrap_IMTManagerAPI_LeverageReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-intgo _wrap_IMTManagerAPI_LeverageReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_LeverageReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12402,7 +12403,7 @@ intgo _wrap_IMTManagerAPI_LeverageReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManager
 }
 
 
-IMTGeo *_wrap_IMTManagerAPI_GeoCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+IMTGeo *_wrap_IMTManagerAPI_GeoCreate_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   IMTGeo *result = 0 ;
   IMTGeo *_swig_go_result;
@@ -12415,7 +12416,7 @@ IMTGeo *_wrap_IMTManagerAPI_GeoCreate_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_
 }
 
 
-intgo _wrap_IMTManagerAPI_GeoResolve_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, IMTGeo *_swig_go_3) {
+intgo _wrap_IMTManagerAPI_GeoResolve_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, IMTGeo *_swig_go_3) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT arg3 ;
@@ -12441,7 +12442,7 @@ intgo _wrap_IMTManagerAPI_GeoResolve_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_s
 }
 
 
-intgo _wrap_IMTManagerAPI_GeoResolveBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTGeo **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTManagerAPI_GeoResolveBatch_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTGeo **_swig_go_4, intgo *_swig_go_5) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR *arg2 = (LPCWSTR *) 0 ;
   UINT arg3 ;
@@ -12464,7 +12465,7 @@ intgo _wrap_IMTManagerAPI_GeoResolveBatch_mtmanapi_4ac5eea5fe396bb3(IMTManagerAP
 }
 
 
-intgo _wrap_IMTManagerAPI_GeoResolveReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_GeoResolveReserved1_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12477,7 +12478,7 @@ intgo _wrap_IMTManagerAPI_GeoResolveReserved1_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_GeoResolveReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_GeoResolveReserved2_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12490,7 +12491,7 @@ intgo _wrap_IMTManagerAPI_GeoResolveReserved2_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_GeoResolveReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_GeoResolveReserved3_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12503,7 +12504,7 @@ intgo _wrap_IMTManagerAPI_GeoResolveReserved3_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_IMTManagerAPI_GeoResolveReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0) {
+intgo _wrap_IMTManagerAPI_GeoResolveReserved4_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12516,7 +12517,7 @@ intgo _wrap_IMTManagerAPI_GeoResolveReserved4_mtmanapi_4ac5eea5fe396bb3(IMTManag
 }
 
 
-intgo _wrap_PUMP_MODE_MAIL_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_MAIL_IMTAdminAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTAdminAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -12528,7 +12529,7 @@ intgo _wrap_PUMP_MODE_MAIL_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_NEWS_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_NEWS_IMTAdminAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTAdminAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -12540,7 +12541,7 @@ intgo _wrap_PUMP_MODE_NEWS_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_PUMP_MODE_FULL_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_PUMP_MODE_FULL_IMTAdminAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTAdminAPI::EnPumpModes result;
   intgo _swig_go_result;
   
@@ -12552,7 +12553,7 @@ intgo _wrap_PUMP_MODE_FULL_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_ALL_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_ALL_IMTAdminAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTAdminAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -12564,7 +12565,7 @@ intgo _wrap_EXTERNAL_SYNC_ALL_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_BALANCE_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_BALANCE_IMTAdminAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTAdminAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -12576,7 +12577,7 @@ intgo _wrap_EXTERNAL_SYNC_BALANCE_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_POSITIONS_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_POSITIONS_IMTAdminAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTAdminAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -12588,7 +12589,7 @@ intgo _wrap_EXTERNAL_SYNC_POSITIONS_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_ORDERS_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_ORDERS_IMTAdminAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTAdminAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -12600,7 +12601,7 @@ intgo _wrap_EXTERNAL_SYNC_ORDERS_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_EXTERNAL_SYNC_LAST_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_EXTERNAL_SYNC_LAST_IMTAdminAPI_mtmanapi_bc855f5f41ebffb0() {
   IMTAdminAPI::EnExternalSyncModes result;
   intgo _swig_go_result;
   
@@ -12612,7 +12613,7 @@ intgo _wrap_EXTERNAL_SYNC_LAST_IMTAdminAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_IMTAdminAPI_Release_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+void _wrap_IMTAdminAPI_Release_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   
   arg1 = *(IMTAdminAPI **)&_swig_go_0; 
@@ -12622,7 +12623,7 @@ void _wrap_IMTAdminAPI_Release_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0
 }
 
 
-intgo _wrap_IMTAdminAPI_LicenseCheck_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, MTLicenseCheck *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_LicenseCheck_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, MTLicenseCheck *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTLicenseCheck *arg2 = 0 ;
   MTAPIRES result;
@@ -12637,7 +12638,7 @@ intgo _wrap_IMTAdminAPI_LicenseCheck_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-void *_wrap_IMTAdminAPI_Allocate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+void *_wrap_IMTAdminAPI_Allocate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   void *result = 0 ;
@@ -12652,7 +12653,7 @@ void *_wrap_IMTAdminAPI_Allocate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-void _wrap_IMTAdminAPI_Free_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, void *_swig_go_1) {
+void _wrap_IMTAdminAPI_Free_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, void *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -12664,7 +12665,7 @@ void _wrap_IMTAdminAPI_Free_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, v
 }
 
 
-void _wrap_IMTAdminAPI_ProxySet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, MTProxyInfo *_swig_go_1) {
+void _wrap_IMTAdminAPI_ProxySet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, MTProxyInfo *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTProxyInfo *arg2 = 0 ;
   
@@ -12676,7 +12677,7 @@ void _wrap_IMTAdminAPI_ProxySet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_
 }
 
 
-intgo _wrap_IMTAdminAPI_Connect__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, long long _swig_go_5, intgo _swig_go_6) {
+intgo _wrap_IMTAdminAPI_Connect__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, long long _swig_go_5, intgo _swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT64 arg3 ;
@@ -12722,7 +12723,7 @@ intgo _wrap_IMTAdminAPI_Connect__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_Connect__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, long long _swig_go_5) {
+intgo _wrap_IMTAdminAPI_Connect__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, long long _swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT64 arg3 ;
@@ -12766,7 +12767,7 @@ intgo _wrap_IMTAdminAPI_Connect__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-void _wrap_IMTAdminAPI_Disconnect_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+void _wrap_IMTAdminAPI_Disconnect_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   
   arg1 = *(IMTAdminAPI **)&_swig_go_0; 
@@ -12776,7 +12777,7 @@ void _wrap_IMTAdminAPI_Disconnect_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_Subscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTManagerSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_Subscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTManagerSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTManagerSink *arg2 = (IMTManagerSink *) 0 ;
   MTAPIRES result;
@@ -12791,7 +12792,7 @@ intgo _wrap_IMTAdminAPI_Subscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_Unsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTManagerSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_Unsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTManagerSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTManagerSink *arg2 = (IMTManagerSink *) 0 ;
   MTAPIRES result;
@@ -12806,7 +12807,7 @@ intgo _wrap_IMTAdminAPI_Unsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_ServerActivate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ServerActivate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12819,7 +12820,7 @@ intgo _wrap_IMTAdminAPI_ServerActivate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_ServerLiveUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ServerLiveUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -12832,7 +12833,7 @@ intgo _wrap_IMTAdminAPI_ServerLiveUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_LoggerOut_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_LoggerOut_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   LPCWSTR arg3 ;
@@ -12857,7 +12858,7 @@ intgo _wrap_IMTAdminAPI_LoggerOut_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-void _wrap_IMTAdminAPI_LoggerFlush_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+void _wrap_IMTAdminAPI_LoggerFlush_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   
   arg1 = *(IMTAdminAPI **)&_swig_go_0; 
@@ -12867,7 +12868,7 @@ void _wrap_IMTAdminAPI_LoggerFlush_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_LoggerServerRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, LPCWSTR *_swig_go_6, MTLogRecord **_swig_go_7, intgo *_swig_go_8) {
+intgo _wrap_IMTAdminAPI_LoggerServerRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, LPCWSTR *_swig_go_6, MTLogRecord **_swig_go_7, intgo *_swig_go_8) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT arg3 ;
@@ -12917,7 +12918,7 @@ intgo _wrap_IMTAdminAPI_LoggerServerRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_LoggerGatewayRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, LPCWSTR *_swig_go_4, MTLogRecord **_swig_go_5, intgo *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_LoggerGatewayRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, LPCWSTR *_swig_go_4, MTLogRecord **_swig_go_5, intgo *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   INT64 arg3 ;
@@ -12963,7 +12964,7 @@ intgo _wrap_IMTAdminAPI_LoggerGatewayRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_LoggerFeederRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, LPCWSTR *_swig_go_4, MTLogRecord **_swig_go_5, intgo *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_LoggerFeederRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, LPCWSTR *_swig_go_4, MTLogRecord **_swig_go_5, intgo *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   INT64 arg3 ;
@@ -13009,7 +13010,7 @@ intgo _wrap_IMTAdminAPI_LoggerFeederRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_LoggerOutString_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_LoggerOutString_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   LPCWSTR arg3 ;
@@ -13033,7 +13034,7 @@ intgo _wrap_IMTAdminAPI_LoggerOutString_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_LoggerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_LoggerReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13046,7 +13047,7 @@ intgo _wrap_IMTAdminAPI_LoggerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_LoggerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_LoggerReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13059,7 +13060,7 @@ intgo _wrap_IMTAdminAPI_LoggerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_LoggerReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_LoggerReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13072,7 +13073,7 @@ intgo _wrap_IMTAdminAPI_LoggerReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTConCommon *_wrap_IMTAdminAPI_CommonCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConCommon *_wrap_IMTAdminAPI_CommonCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConCommon *result = 0 ;
   IMTConCommon *_swig_go_result;
@@ -13085,7 +13086,7 @@ IMTConCommon *_wrap_IMTAdminAPI_CommonCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_CommonSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConCommonSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_CommonSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConCommonSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConCommonSink *arg2 = (IMTConCommonSink *) 0 ;
   MTAPIRES result;
@@ -13100,7 +13101,7 @@ intgo _wrap_IMTAdminAPI_CommonSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_CommonUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConCommonSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_CommonUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConCommonSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConCommonSink *arg2 = (IMTConCommonSink *) 0 ;
   MTAPIRES result;
@@ -13115,7 +13116,7 @@ intgo _wrap_IMTAdminAPI_CommonUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_CommonGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConCommon *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_CommonGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConCommon *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConCommon *arg2 = (IMTConCommon *) 0 ;
   MTAPIRES result;
@@ -13130,7 +13131,7 @@ intgo _wrap_IMTAdminAPI_CommonGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_CommonSet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConCommon *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_CommonSet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConCommon *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConCommon *arg2 = (IMTConCommon *) 0 ;
   MTAPIRES result;
@@ -13145,7 +13146,7 @@ intgo _wrap_IMTAdminAPI_CommonSet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-IMTConAccountAllocation *_wrap_IMTAdminAPI_CommonCreateAllocation_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConAccountAllocation *_wrap_IMTAdminAPI_CommonCreateAllocation_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAccountAllocation *result = 0 ;
   IMTConAccountAllocation *_swig_go_result;
@@ -13158,7 +13159,7 @@ IMTConAccountAllocation *_wrap_IMTAdminAPI_CommonCreateAllocation_mtmanapi_4ac5e
 }
 
 
-IMTConAccountAgreement *_wrap_IMTAdminAPI_CommonCreateAgreement_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConAccountAgreement *_wrap_IMTAdminAPI_CommonCreateAgreement_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAccountAgreement *result = 0 ;
   IMTConAccountAgreement *_swig_go_result;
@@ -13171,7 +13172,7 @@ IMTConAccountAgreement *_wrap_IMTAdminAPI_CommonCreateAgreement_mtmanapi_4ac5eea
 }
 
 
-intgo _wrap_IMTAdminAPI_CommonReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CommonReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13184,7 +13185,7 @@ intgo _wrap_IMTAdminAPI_CommonReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_CommonReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CommonReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13197,7 +13198,7 @@ intgo _wrap_IMTAdminAPI_CommonReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTConServer *_wrap_IMTAdminAPI_NetServerCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConServer *_wrap_IMTAdminAPI_NetServerCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConServer *result = 0 ;
   IMTConServer *_swig_go_result;
@@ -13210,7 +13211,7 @@ IMTConServer *_wrap_IMTAdminAPI_NetServerCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-IMTConServerRange *_wrap_IMTAdminAPI_NetServerRangeCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConServerRange *_wrap_IMTAdminAPI_NetServerRangeCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConServerRange *result = 0 ;
   IMTConServerRange *_swig_go_result;
@@ -13223,7 +13224,7 @@ IMTConServerRange *_wrap_IMTAdminAPI_NetServerRangeCreate_mtmanapi_4ac5eea5fe396
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConServerSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_NetServerSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConServerSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConServerSink *arg2 = (IMTConServerSink *) 0 ;
   MTAPIRES result;
@@ -13238,7 +13239,7 @@ intgo _wrap_IMTAdminAPI_NetServerSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConServerSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_NetServerUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConServerSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConServerSink *arg2 = (IMTConServerSink *) 0 ;
   MTAPIRES result;
@@ -13253,7 +13254,7 @@ intgo _wrap_IMTAdminAPI_NetServerUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerRestart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_NetServerRestart_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -13268,7 +13269,7 @@ intgo _wrap_IMTAdminAPI_NetServerRestart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConServer *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_NetServerUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConServer *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConServer *arg2 = (IMTConServer *) 0 ;
   MTAPIRES result;
@@ -13283,7 +13284,7 @@ intgo _wrap_IMTAdminAPI_NetServerUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_NetServerDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -13298,7 +13299,7 @@ intgo _wrap_IMTAdminAPI_NetServerDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_NetServerShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -13315,7 +13316,7 @@ intgo _wrap_IMTAdminAPI_NetServerShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetServerTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -13328,7 +13329,7 @@ intgo _wrap_IMTAdminAPI_NetServerTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConServer *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_NetServerNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConServer *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConServer *arg3 = (IMTConServer *) 0 ;
@@ -13345,7 +13346,7 @@ intgo _wrap_IMTAdminAPI_NetServerNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTConServer *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_NetServerGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTConServer *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTConServer *arg3 = (IMTConServer *) 0 ;
@@ -13362,7 +13363,7 @@ intgo _wrap_IMTAdminAPI_NetServerGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConServer **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_NetServerUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConServer **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConServer **arg2 = (IMTConServer **) 0 ;
   UINT arg3 ;
@@ -13381,7 +13382,7 @@ intgo _wrap_IMTAdminAPI_NetServerUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConServer **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_NetServerDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConServer **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConServer **arg2 = (IMTConServer **) 0 ;
   UINT arg3 ;
@@ -13400,7 +13401,7 @@ intgo _wrap_IMTAdminAPI_NetServerDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTConAddressRange *_wrap_IMTAdminAPI_NetServerAddressRangeCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConAddressRange *_wrap_IMTAdminAPI_NetServerAddressRangeCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAddressRange *result = 0 ;
   IMTConAddressRange *_swig_go_result;
@@ -13413,7 +13414,7 @@ IMTConAddressRange *_wrap_IMTAdminAPI_NetServerAddressRangeCreate_mtmanapi_4ac5e
 }
 
 
-IMTConClusterState *_wrap_IMTAdminAPI_NetServerClusterStateCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConClusterState *_wrap_IMTAdminAPI_NetServerClusterStateCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConClusterState *result = 0 ;
   IMTConClusterState *_swig_go_result;
@@ -13426,7 +13427,7 @@ IMTConClusterState *_wrap_IMTAdminAPI_NetServerClusterStateCreate_mtmanapi_4ac5e
 }
 
 
-IMTConFirewall *_wrap_IMTAdminAPI_FirewallCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConFirewall *_wrap_IMTAdminAPI_FirewallCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFirewall *result = 0 ;
   IMTConFirewall *_swig_go_result;
@@ -13439,7 +13440,7 @@ IMTConFirewall *_wrap_IMTAdminAPI_FirewallCreate_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFirewallSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_FirewallSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFirewallSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFirewallSink *arg2 = (IMTConFirewallSink *) 0 ;
   MTAPIRES result;
@@ -13454,7 +13455,7 @@ intgo _wrap_IMTAdminAPI_FirewallSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFirewallSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_FirewallUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFirewallSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFirewallSink *arg2 = (IMTConFirewallSink *) 0 ;
   MTAPIRES result;
@@ -13469,7 +13470,7 @@ intgo _wrap_IMTAdminAPI_FirewallUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFirewall *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_FirewallUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFirewall *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFirewall *arg2 = (IMTConFirewall *) 0 ;
   MTAPIRES result;
@@ -13484,7 +13485,7 @@ intgo _wrap_IMTAdminAPI_FirewallUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_FirewallDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -13499,7 +13500,7 @@ intgo _wrap_IMTAdminAPI_FirewallDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_FirewallShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -13516,7 +13517,7 @@ intgo _wrap_IMTAdminAPI_FirewallShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_FirewallTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -13529,7 +13530,7 @@ intgo _wrap_IMTAdminAPI_FirewallTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConFirewall *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_FirewallNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConFirewall *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConFirewall *arg3 = (IMTConFirewall *) 0 ;
@@ -13546,7 +13547,7 @@ intgo _wrap_IMTAdminAPI_FirewallNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFirewall **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_FirewallUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFirewall **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFirewall **arg2 = (IMTConFirewall **) 0 ;
   UINT arg3 ;
@@ -13565,7 +13566,7 @@ intgo _wrap_IMTAdminAPI_FirewallUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFirewall **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_FirewallDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFirewall **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFirewall **arg2 = (IMTConFirewall **) 0 ;
   UINT arg3 ;
@@ -13584,7 +13585,7 @@ intgo _wrap_IMTAdminAPI_FirewallDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_FirewallReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13597,7 +13598,7 @@ intgo _wrap_IMTAdminAPI_FirewallReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_FirewallReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_FirewallReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13610,7 +13611,7 @@ intgo _wrap_IMTAdminAPI_FirewallReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-IMTConTime *_wrap_IMTAdminAPI_TimeCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConTime *_wrap_IMTAdminAPI_TimeCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConTime *result = 0 ;
   IMTConTime *_swig_go_result;
@@ -13623,7 +13624,7 @@ IMTConTime *_wrap_IMTAdminAPI_TimeCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_TimeSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConTimeSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_TimeSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConTimeSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConTimeSink *arg2 = (IMTConTimeSink *) 0 ;
   MTAPIRES result;
@@ -13638,7 +13639,7 @@ intgo _wrap_IMTAdminAPI_TimeSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_TimeUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConTimeSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_TimeUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConTimeSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConTimeSink *arg2 = (IMTConTimeSink *) 0 ;
   MTAPIRES result;
@@ -13653,7 +13654,7 @@ intgo _wrap_IMTAdminAPI_TimeUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_TimeGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConTime *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_TimeGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConTime *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConTime *arg2 = (IMTConTime *) 0 ;
   MTAPIRES result;
@@ -13668,7 +13669,7 @@ intgo _wrap_IMTAdminAPI_TimeGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_
 }
 
 
-intgo _wrap_IMTAdminAPI_TimeSet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConTime *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_TimeSet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConTime *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConTime *arg2 = (IMTConTime *) 0 ;
   MTAPIRES result;
@@ -13683,7 +13684,7 @@ intgo _wrap_IMTAdminAPI_TimeSet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_
 }
 
 
-signed __int64 *_wrap_IMTAdminAPI_TimeServer_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+signed __int64 *_wrap_IMTAdminAPI_TimeServer_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 result;
   signed __int64 *_swig_go_result;
@@ -13696,7 +13697,7 @@ signed __int64 *_wrap_IMTAdminAPI_TimeServer_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_TimeServerRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_TimeServerRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 *arg2 = 0 ;
   MTAPIRES result;
@@ -13711,7 +13712,7 @@ intgo _wrap_IMTAdminAPI_TimeServerRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_TimeReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TimeReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13724,7 +13725,7 @@ intgo _wrap_IMTAdminAPI_TimeReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_TimeReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TimeReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13737,7 +13738,7 @@ intgo _wrap_IMTAdminAPI_TimeReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_TimeReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TimeReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13750,7 +13751,7 @@ intgo _wrap_IMTAdminAPI_TimeReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-IMTConHoliday *_wrap_IMTAdminAPI_HolidayCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConHoliday *_wrap_IMTAdminAPI_HolidayCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHoliday *result = 0 ;
   IMTConHoliday *_swig_go_result;
@@ -13763,7 +13764,7 @@ IMTConHoliday *_wrap_IMTAdminAPI_HolidayCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidaySubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHolidaySink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_HolidaySubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHolidaySink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHolidaySink *arg2 = (IMTConHolidaySink *) 0 ;
   MTAPIRES result;
@@ -13778,7 +13779,7 @@ intgo _wrap_IMTAdminAPI_HolidaySubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHolidaySink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_HolidayUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHolidaySink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHolidaySink *arg2 = (IMTConHolidaySink *) 0 ;
   MTAPIRES result;
@@ -13793,7 +13794,7 @@ intgo _wrap_IMTAdminAPI_HolidayUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHoliday *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_HolidayUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHoliday *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHoliday *arg2 = (IMTConHoliday *) 0 ;
   MTAPIRES result;
@@ -13808,7 +13809,7 @@ intgo _wrap_IMTAdminAPI_HolidayUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_HolidayDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -13823,7 +13824,7 @@ intgo _wrap_IMTAdminAPI_HolidayDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_HolidayShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -13840,7 +13841,7 @@ intgo _wrap_IMTAdminAPI_HolidayShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_HolidayTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -13853,7 +13854,7 @@ intgo _wrap_IMTAdminAPI_HolidayTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConHoliday *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_HolidayNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConHoliday *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConHoliday *arg3 = (IMTConHoliday *) 0 ;
@@ -13870,7 +13871,7 @@ intgo _wrap_IMTAdminAPI_HolidayNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHoliday **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_HolidayUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHoliday **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHoliday **arg2 = (IMTConHoliday **) 0 ;
   UINT arg3 ;
@@ -13889,7 +13890,7 @@ intgo _wrap_IMTAdminAPI_HolidayUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHoliday **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_HolidayDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHoliday **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHoliday **arg2 = (IMTConHoliday **) 0 ;
   UINT arg3 ;
@@ -13908,7 +13909,7 @@ intgo _wrap_IMTAdminAPI_HolidayDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_HolidayReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13921,7 +13922,7 @@ intgo _wrap_IMTAdminAPI_HolidayReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_HolidayReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_HolidayReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -13934,7 +13935,7 @@ intgo _wrap_IMTAdminAPI_HolidayReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-IMTConGroup *_wrap_IMTAdminAPI_GroupCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConGroup *_wrap_IMTAdminAPI_GroupCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGroup *result = 0 ;
   IMTConGroup *_swig_go_result;
@@ -13947,7 +13948,7 @@ IMTConGroup *_wrap_IMTAdminAPI_GroupCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-IMTConGroupSymbol *_wrap_IMTAdminAPI_GroupSymbolCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConGroupSymbol *_wrap_IMTAdminAPI_GroupSymbolCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGroupSymbol *result = 0 ;
   IMTConGroupSymbol *_swig_go_result;
@@ -13960,7 +13961,7 @@ IMTConGroupSymbol *_wrap_IMTAdminAPI_GroupSymbolCreate_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-IMTConCommission *_wrap_IMTAdminAPI_GroupCommissionCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConCommission *_wrap_IMTAdminAPI_GroupCommissionCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConCommission *result = 0 ;
   IMTConCommission *_swig_go_result;
@@ -13973,7 +13974,7 @@ IMTConCommission *_wrap_IMTAdminAPI_GroupCommissionCreate_mtmanapi_4ac5eea5fe396
 }
 
 
-IMTConCommTier *_wrap_IMTAdminAPI_GroupTierCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConCommTier *_wrap_IMTAdminAPI_GroupTierCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConCommTier *result = 0 ;
   IMTConCommTier *_swig_go_result;
@@ -13986,7 +13987,7 @@ IMTConCommTier *_wrap_IMTAdminAPI_GroupTierCreate_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGroupSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_GroupSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGroupSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGroupSink *arg2 = (IMTConGroupSink *) 0 ;
   MTAPIRES result;
@@ -14001,7 +14002,7 @@ intgo _wrap_IMTAdminAPI_GroupSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGroupSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_GroupUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGroupSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGroupSink *arg2 = (IMTConGroupSink *) 0 ;
   MTAPIRES result;
@@ -14016,7 +14017,7 @@ intgo _wrap_IMTAdminAPI_GroupUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGroup *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_GroupUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGroup *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGroup *arg2 = (IMTConGroup *) 0 ;
   MTAPIRES result;
@@ -14031,7 +14032,7 @@ intgo _wrap_IMTAdminAPI_GroupUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_GroupDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -14053,7 +14054,7 @@ intgo _wrap_IMTAdminAPI_GroupDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_GroupDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -14068,7 +14069,7 @@ intgo _wrap_IMTAdminAPI_GroupDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_GroupShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -14085,7 +14086,7 @@ intgo _wrap_IMTAdminAPI_GroupShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GroupTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -14098,7 +14099,7 @@ intgo _wrap_IMTAdminAPI_GroupTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConGroup *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_GroupNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConGroup *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConGroup *arg3 = (IMTConGroup *) 0 ;
@@ -14115,7 +14116,7 @@ intgo _wrap_IMTAdminAPI_GroupNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGroup *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_GroupGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGroup *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConGroup *arg3 = (IMTConGroup *) 0 ;
@@ -14139,7 +14140,7 @@ intgo _wrap_IMTAdminAPI_GroupGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGroup **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_GroupUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGroup **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGroup **arg2 = (IMTConGroup **) 0 ;
   UINT arg3 ;
@@ -14158,7 +14159,7 @@ intgo _wrap_IMTAdminAPI_GroupUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGroup **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_GroupDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGroup **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGroup **arg2 = (IMTConGroup **) 0 ;
   UINT arg3 ;
@@ -14177,7 +14178,7 @@ intgo _wrap_IMTAdminAPI_GroupDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GroupReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -14190,7 +14191,7 @@ intgo _wrap_IMTAdminAPI_GroupReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_GroupReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GroupReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -14203,7 +14204,7 @@ intgo _wrap_IMTAdminAPI_GroupReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-IMTConManager *_wrap_IMTAdminAPI_ManagerCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConManager *_wrap_IMTAdminAPI_ManagerCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManager *result = 0 ;
   IMTConManager *_swig_go_result;
@@ -14216,7 +14217,7 @@ IMTConManager *_wrap_IMTAdminAPI_ManagerCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-IMTConManagerAccess *_wrap_IMTAdminAPI_ManagerAccessCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConManagerAccess *_wrap_IMTAdminAPI_ManagerAccessCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManagerAccess *result = 0 ;
   IMTConManagerAccess *_swig_go_result;
@@ -14229,7 +14230,7 @@ IMTConManagerAccess *_wrap_IMTAdminAPI_ManagerAccessCreate_mtmanapi_4ac5eea5fe39
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConManagerSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ManagerSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConManagerSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManagerSink *arg2 = (IMTConManagerSink *) 0 ;
   MTAPIRES result;
@@ -14244,7 +14245,7 @@ intgo _wrap_IMTAdminAPI_ManagerSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConManagerSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ManagerUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConManagerSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManagerSink *arg2 = (IMTConManagerSink *) 0 ;
   MTAPIRES result;
@@ -14259,7 +14260,7 @@ intgo _wrap_IMTAdminAPI_ManagerUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConManager *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ManagerUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConManager *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManager *arg2 = (IMTConManager *) 0 ;
   MTAPIRES result;
@@ -14274,7 +14275,7 @@ intgo _wrap_IMTAdminAPI_ManagerUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_ManagerDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -14289,7 +14290,7 @@ intgo _wrap_IMTAdminAPI_ManagerDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_ManagerShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -14306,7 +14307,7 @@ intgo _wrap_IMTAdminAPI_ManagerShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ManagerTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -14319,7 +14320,7 @@ intgo _wrap_IMTAdminAPI_ManagerTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConManager *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ManagerNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConManager *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConManager *arg3 = (IMTConManager *) 0 ;
@@ -14336,7 +14337,7 @@ intgo _wrap_IMTAdminAPI_ManagerNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTConManager *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ManagerGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTConManager *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTConManager *arg3 = (IMTConManager *) 0 ;
@@ -14353,7 +14354,7 @@ intgo _wrap_IMTAdminAPI_ManagerGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConManager **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ManagerUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConManager **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManager **arg2 = (IMTConManager **) 0 ;
   UINT arg3 ;
@@ -14372,7 +14373,7 @@ intgo _wrap_IMTAdminAPI_ManagerUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConManager **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ManagerDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConManager **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManager **arg2 = (IMTConManager **) 0 ;
   UINT arg3 ;
@@ -14391,7 +14392,7 @@ intgo _wrap_IMTAdminAPI_ManagerDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_ManagerCurrent_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConManager *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ManagerCurrent_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConManager *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManager *arg2 = (IMTConManager *) 0 ;
   MTAPIRES result;
@@ -14406,7 +14407,7 @@ intgo _wrap_IMTAdminAPI_ManagerCurrent_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-IMTConManagerReport *_wrap_IMTAdminAPI_ManagerReportCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConManagerReport *_wrap_IMTAdminAPI_ManagerReportCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConManagerReport *result = 0 ;
   IMTConManagerReport *_swig_go_result;
@@ -14419,7 +14420,7 @@ IMTConManagerReport *_wrap_IMTAdminAPI_ManagerReportCreate_mtmanapi_4ac5eea5fe39
 }
 
 
-IMTConRoute *_wrap_IMTAdminAPI_RouteCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConRoute *_wrap_IMTAdminAPI_RouteCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConRoute *result = 0 ;
   IMTConRoute *_swig_go_result;
@@ -14432,7 +14433,7 @@ IMTConRoute *_wrap_IMTAdminAPI_RouteCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-IMTConCondition *_wrap_IMTAdminAPI_RouteConditionCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConCondition *_wrap_IMTAdminAPI_RouteConditionCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConCondition *result = 0 ;
   IMTConCondition *_swig_go_result;
@@ -14445,7 +14446,7 @@ IMTConCondition *_wrap_IMTAdminAPI_RouteConditionCreate_mtmanapi_4ac5eea5fe396bb
 }
 
 
-IMTConRouteDealer *_wrap_IMTAdminAPI_RouteDealerCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConRouteDealer *_wrap_IMTAdminAPI_RouteDealerCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConRouteDealer *result = 0 ;
   IMTConRouteDealer *_swig_go_result;
@@ -14458,7 +14459,7 @@ IMTConRouteDealer *_wrap_IMTAdminAPI_RouteDealerCreate_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConRouteSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_RouteSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConRouteSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConRouteSink *arg2 = (IMTConRouteSink *) 0 ;
   MTAPIRES result;
@@ -14473,7 +14474,7 @@ intgo _wrap_IMTAdminAPI_RouteSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConRouteSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_RouteUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConRouteSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConRouteSink *arg2 = (IMTConRouteSink *) 0 ;
   MTAPIRES result;
@@ -14488,7 +14489,7 @@ intgo _wrap_IMTAdminAPI_RouteUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConRoute *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_RouteUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConRoute *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConRoute *arg2 = (IMTConRoute *) 0 ;
   MTAPIRES result;
@@ -14503,7 +14504,7 @@ intgo _wrap_IMTAdminAPI_RouteUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_RouteDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -14525,7 +14526,7 @@ intgo _wrap_IMTAdminAPI_RouteDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_RouteDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -14540,7 +14541,7 @@ intgo _wrap_IMTAdminAPI_RouteDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_RouteShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -14557,7 +14558,7 @@ intgo _wrap_IMTAdminAPI_RouteShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_RouteTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -14570,7 +14571,7 @@ intgo _wrap_IMTAdminAPI_RouteTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConRoute *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_RouteNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConRoute *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConRoute *arg3 = (IMTConRoute *) 0 ;
@@ -14587,7 +14588,7 @@ intgo _wrap_IMTAdminAPI_RouteNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConRoute *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_RouteGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConRoute *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConRoute *arg3 = (IMTConRoute *) 0 ;
@@ -14611,7 +14612,7 @@ intgo _wrap_IMTAdminAPI_RouteGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConRoute **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_RouteUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConRoute **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConRoute **arg2 = (IMTConRoute **) 0 ;
   UINT arg3 ;
@@ -14630,7 +14631,7 @@ intgo _wrap_IMTAdminAPI_RouteUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConRoute **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_RouteDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConRoute **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConRoute **arg2 = (IMTConRoute **) 0 ;
   UINT arg3 ;
@@ -14649,7 +14650,7 @@ intgo _wrap_IMTAdminAPI_RouteDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_RouteReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -14662,7 +14663,7 @@ intgo _wrap_IMTAdminAPI_RouteReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_RouteReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_RouteReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -14675,7 +14676,7 @@ intgo _wrap_IMTAdminAPI_RouteReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-IMTConGateway *_wrap_IMTAdminAPI_GatewayCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConGateway *_wrap_IMTAdminAPI_GatewayCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGateway *result = 0 ;
   IMTConGateway *_swig_go_result;
@@ -14688,7 +14689,7 @@ IMTConGateway *_wrap_IMTAdminAPI_GatewayCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-IMTConGatewayModule *_wrap_IMTAdminAPI_GatewayModuleCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConGatewayModule *_wrap_IMTAdminAPI_GatewayModuleCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGatewayModule *result = 0 ;
   IMTConGatewayModule *_swig_go_result;
@@ -14701,7 +14702,7 @@ IMTConGatewayModule *_wrap_IMTAdminAPI_GatewayModuleCreate_mtmanapi_4ac5eea5fe39
 }
 
 
-IMTConParam *_wrap_IMTAdminAPI_GatewayParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConParam *_wrap_IMTAdminAPI_GatewayParamCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConParam *result = 0 ;
   IMTConParam *_swig_go_result;
@@ -14714,7 +14715,7 @@ IMTConParam *_wrap_IMTAdminAPI_GatewayParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-IMTConGatewayTranslate *_wrap_IMTAdminAPI_GatewayTranslateCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConGatewayTranslate *_wrap_IMTAdminAPI_GatewayTranslateCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGatewayTranslate *result = 0 ;
   IMTConGatewayTranslate *_swig_go_result;
@@ -14727,7 +14728,7 @@ IMTConGatewayTranslate *_wrap_IMTAdminAPI_GatewayTranslateCreate_mtmanapi_4ac5ee
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewaySubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGatewaySink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_GatewaySubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGatewaySink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGatewaySink *arg2 = (IMTConGatewaySink *) 0 ;
   MTAPIRES result;
@@ -14742,7 +14743,7 @@ intgo _wrap_IMTAdminAPI_GatewaySubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGatewaySink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_GatewayUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGatewaySink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGatewaySink *arg2 = (IMTConGatewaySink *) 0 ;
   MTAPIRES result;
@@ -14757,7 +14758,7 @@ intgo _wrap_IMTAdminAPI_GatewayUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayRestart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GatewayRestart_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -14770,7 +14771,7 @@ intgo _wrap_IMTAdminAPI_GatewayRestart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGateway *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_GatewayUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGateway *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGateway *arg2 = (IMTConGateway *) 0 ;
   MTAPIRES result;
@@ -14785,7 +14786,7 @@ intgo _wrap_IMTAdminAPI_GatewayUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_GatewayDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -14807,7 +14808,7 @@ intgo _wrap_IMTAdminAPI_GatewayDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_GatewayDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -14822,7 +14823,7 @@ intgo _wrap_IMTAdminAPI_GatewayDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_GatewayShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -14839,7 +14840,7 @@ intgo _wrap_IMTAdminAPI_GatewayShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GatewayTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -14852,7 +14853,7 @@ intgo _wrap_IMTAdminAPI_GatewayTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConGateway *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_GatewayNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConGateway *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConGateway *arg3 = (IMTConGateway *) 0 ;
@@ -14869,7 +14870,7 @@ intgo _wrap_IMTAdminAPI_GatewayNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGateway *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_GatewayGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGateway *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConGateway *arg3 = (IMTConGateway *) 0 ;
@@ -14893,7 +14894,7 @@ intgo _wrap_IMTAdminAPI_GatewayGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayModuleTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GatewayModuleTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -14906,7 +14907,7 @@ intgo _wrap_IMTAdminAPI_GatewayModuleTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayModuleNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConGatewayModule *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_GatewayModuleNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConGatewayModule *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConGatewayModule *arg3 = (IMTConGatewayModule *) 0 ;
@@ -14923,7 +14924,7 @@ intgo _wrap_IMTAdminAPI_GatewayModuleNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayModuleGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGatewayModule *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_GatewayModuleGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConGatewayModule *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConGatewayModule *arg3 = (IMTConGatewayModule *) 0 ;
@@ -14947,7 +14948,7 @@ intgo _wrap_IMTAdminAPI_GatewayModuleGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayPositionRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2, signed __int64 *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_GatewayPositionRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2, signed __int64 *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -14966,7 +14967,7 @@ intgo _wrap_IMTAdminAPI_GatewayPositionRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGateway **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_GatewayUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGateway **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGateway **arg2 = (IMTConGateway **) 0 ;
   UINT arg3 ;
@@ -14985,7 +14986,7 @@ intgo _wrap_IMTAdminAPI_GatewayUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConGateway **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_GatewayDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConGateway **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConGateway **arg2 = (IMTConGateway **) 0 ;
   UINT arg3 ;
@@ -15004,7 +15005,7 @@ intgo _wrap_IMTAdminAPI_GatewayDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_GatewayReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GatewayReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -15017,7 +15018,7 @@ intgo _wrap_IMTAdminAPI_GatewayReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-IMTConPlugin *_wrap_IMTAdminAPI_PluginCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConPlugin *_wrap_IMTAdminAPI_PluginCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConPlugin *result = 0 ;
   IMTConPlugin *_swig_go_result;
@@ -15030,7 +15031,7 @@ IMTConPlugin *_wrap_IMTAdminAPI_PluginCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTConPluginModule *_wrap_IMTAdminAPI_PluginModuleCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConPluginModule *_wrap_IMTAdminAPI_PluginModuleCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConPluginModule *result = 0 ;
   IMTConPluginModule *_swig_go_result;
@@ -15043,7 +15044,7 @@ IMTConPluginModule *_wrap_IMTAdminAPI_PluginModuleCreate_mtmanapi_4ac5eea5fe396b
 }
 
 
-IMTConParam *_wrap_IMTAdminAPI_PluginParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConParam *_wrap_IMTAdminAPI_PluginParamCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConParam *result = 0 ;
   IMTConParam *_swig_go_result;
@@ -15056,7 +15057,7 @@ IMTConParam *_wrap_IMTAdminAPI_PluginParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConPluginSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_PluginSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConPluginSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConPluginSink *arg2 = (IMTConPluginSink *) 0 ;
   MTAPIRES result;
@@ -15071,7 +15072,7 @@ intgo _wrap_IMTAdminAPI_PluginSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConPluginSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_PluginUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConPluginSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConPluginSink *arg2 = (IMTConPluginSink *) 0 ;
   MTAPIRES result;
@@ -15086,7 +15087,7 @@ intgo _wrap_IMTAdminAPI_PluginUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConPlugin *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_PluginUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConPlugin *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConPlugin *arg2 = (IMTConPlugin *) 0 ;
   MTAPIRES result;
@@ -15101,7 +15102,7 @@ intgo _wrap_IMTAdminAPI_PluginUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_PluginDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -15125,7 +15126,7 @@ intgo _wrap_IMTAdminAPI_PluginDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_PluginDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -15140,7 +15141,7 @@ intgo _wrap_IMTAdminAPI_PluginDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_PluginShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -15157,7 +15158,7 @@ intgo _wrap_IMTAdminAPI_PluginShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_PluginTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -15170,7 +15171,7 @@ intgo _wrap_IMTAdminAPI_PluginTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConPlugin *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_PluginNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConPlugin *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConPlugin *arg3 = (IMTConPlugin *) 0 ;
@@ -15187,7 +15188,7 @@ intgo _wrap_IMTAdminAPI_PluginNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTConPlugin *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PluginGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTConPlugin *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -15213,7 +15214,7 @@ intgo _wrap_IMTAdminAPI_PluginGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginModuleTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_PluginModuleTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -15226,7 +15227,7 @@ intgo _wrap_IMTAdminAPI_PluginModuleTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginModuleNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConPluginModule *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_PluginModuleNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConPluginModule *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConPluginModule *arg3 = (IMTConPluginModule *) 0 ;
@@ -15243,7 +15244,7 @@ intgo _wrap_IMTAdminAPI_PluginModuleNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginModuleGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTConPluginModule *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PluginModuleGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTConPluginModule *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -15269,7 +15270,7 @@ intgo _wrap_IMTAdminAPI_PluginModuleGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConPlugin **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PluginUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConPlugin **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConPlugin **arg2 = (IMTConPlugin **) 0 ;
   UINT arg3 ;
@@ -15288,7 +15289,7 @@ intgo _wrap_IMTAdminAPI_PluginUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConPlugin **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PluginDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConPlugin **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConPlugin **arg2 = (IMTConPlugin **) 0 ;
   UINT arg3 ;
@@ -15307,7 +15308,7 @@ intgo _wrap_IMTAdminAPI_PluginDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_PluginReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -15320,7 +15321,7 @@ intgo _wrap_IMTAdminAPI_PluginReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_PluginReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_PluginReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -15333,7 +15334,7 @@ intgo _wrap_IMTAdminAPI_PluginReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTConFeeder *_wrap_IMTAdminAPI_FeederCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConFeeder *_wrap_IMTAdminAPI_FeederCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFeeder *result = 0 ;
   IMTConFeeder *_swig_go_result;
@@ -15346,7 +15347,7 @@ IMTConFeeder *_wrap_IMTAdminAPI_FeederCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTConFeederModule *_wrap_IMTAdminAPI_FeederModuleCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConFeederModule *_wrap_IMTAdminAPI_FeederModuleCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFeederModule *result = 0 ;
   IMTConFeederModule *_swig_go_result;
@@ -15359,7 +15360,7 @@ IMTConFeederModule *_wrap_IMTAdminAPI_FeederModuleCreate_mtmanapi_4ac5eea5fe396b
 }
 
 
-IMTConParam *_wrap_IMTAdminAPI_FeederParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConParam *_wrap_IMTAdminAPI_FeederParamCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConParam *result = 0 ;
   IMTConParam *_swig_go_result;
@@ -15372,7 +15373,7 @@ IMTConParam *_wrap_IMTAdminAPI_FeederParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-IMTConFeederTranslate *_wrap_IMTAdminAPI_FeederTranslateCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConFeederTranslate *_wrap_IMTAdminAPI_FeederTranslateCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFeederTranslate *result = 0 ;
   IMTConFeederTranslate *_swig_go_result;
@@ -15385,7 +15386,7 @@ IMTConFeederTranslate *_wrap_IMTAdminAPI_FeederTranslateCreate_mtmanapi_4ac5eea5
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFeederSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_FeederSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFeederSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFeederSink *arg2 = (IMTConFeederSink *) 0 ;
   MTAPIRES result;
@@ -15400,7 +15401,7 @@ intgo _wrap_IMTAdminAPI_FeederSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFeederSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_FeederUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFeederSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFeederSink *arg2 = (IMTConFeederSink *) 0 ;
   MTAPIRES result;
@@ -15415,7 +15416,7 @@ intgo _wrap_IMTAdminAPI_FeederUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederRestart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_FeederRestart_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -15428,7 +15429,7 @@ intgo _wrap_IMTAdminAPI_FeederRestart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFeeder *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_FeederUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFeeder *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFeeder *arg2 = (IMTConFeeder *) 0 ;
   MTAPIRES result;
@@ -15443,7 +15444,7 @@ intgo _wrap_IMTAdminAPI_FeederUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_FeederDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -15465,7 +15466,7 @@ intgo _wrap_IMTAdminAPI_FeederDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_FeederDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -15480,7 +15481,7 @@ intgo _wrap_IMTAdminAPI_FeederDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_FeederShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -15497,7 +15498,7 @@ intgo _wrap_IMTAdminAPI_FeederShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_FeederTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -15510,7 +15511,7 @@ intgo _wrap_IMTAdminAPI_FeederTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConFeeder *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_FeederNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConFeeder *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConFeeder *arg3 = (IMTConFeeder *) 0 ;
@@ -15527,7 +15528,7 @@ intgo _wrap_IMTAdminAPI_FeederNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConFeeder *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_FeederGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConFeeder *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConFeeder *arg3 = (IMTConFeeder *) 0 ;
@@ -15551,7 +15552,7 @@ intgo _wrap_IMTAdminAPI_FeederGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederModuleTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_FeederModuleTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -15564,7 +15565,7 @@ intgo _wrap_IMTAdminAPI_FeederModuleTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederModuleNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConFeederModule *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_FeederModuleNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConFeederModule *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConFeederModule *arg3 = (IMTConFeederModule *) 0 ;
@@ -15581,7 +15582,7 @@ intgo _wrap_IMTAdminAPI_FeederModuleNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederModuleGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConFeederModule *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_FeederModuleGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConFeederModule *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConFeederModule *arg3 = (IMTConFeederModule *) 0 ;
@@ -15605,7 +15606,7 @@ intgo _wrap_IMTAdminAPI_FeederModuleGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFeeder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_FeederUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFeeder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFeeder **arg2 = (IMTConFeeder **) 0 ;
   UINT arg3 ;
@@ -15624,7 +15625,7 @@ intgo _wrap_IMTAdminAPI_FeederUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConFeeder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_FeederDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConFeeder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConFeeder **arg2 = (IMTConFeeder **) 0 ;
   UINT arg3 ;
@@ -15643,7 +15644,7 @@ intgo _wrap_IMTAdminAPI_FeederDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_FeederReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -15656,7 +15657,7 @@ intgo _wrap_IMTAdminAPI_FeederReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_FeederReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_FeederReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -15669,7 +15670,7 @@ intgo _wrap_IMTAdminAPI_FeederReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTConReport *_wrap_IMTAdminAPI_ReportCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConReport *_wrap_IMTAdminAPI_ReportCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConReport *result = 0 ;
   IMTConReport *_swig_go_result;
@@ -15682,7 +15683,7 @@ IMTConReport *_wrap_IMTAdminAPI_ReportCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTConReportModule *_wrap_IMTAdminAPI_ReportModuleCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConReportModule *_wrap_IMTAdminAPI_ReportModuleCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConReportModule *result = 0 ;
   IMTConReportModule *_swig_go_result;
@@ -15695,7 +15696,7 @@ IMTConReportModule *_wrap_IMTAdminAPI_ReportModuleCreate_mtmanapi_4ac5eea5fe396b
 }
 
 
-IMTConParam *_wrap_IMTAdminAPI_ReportParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConParam *_wrap_IMTAdminAPI_ReportParamCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConParam *result = 0 ;
   IMTConParam *_swig_go_result;
@@ -15708,7 +15709,7 @@ IMTConParam *_wrap_IMTAdminAPI_ReportParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConReportSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ReportSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConReportSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConReportSink *arg2 = (IMTConReportSink *) 0 ;
   MTAPIRES result;
@@ -15723,7 +15724,7 @@ intgo _wrap_IMTAdminAPI_ReportSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConReportSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ReportUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConReportSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConReportSink *arg2 = (IMTConReportSink *) 0 ;
   MTAPIRES result;
@@ -15738,7 +15739,7 @@ intgo _wrap_IMTAdminAPI_ReportUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConReport *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ReportUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConReport *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConReport *arg2 = (IMTConReport *) 0 ;
   MTAPIRES result;
@@ -15753,7 +15754,7 @@ intgo _wrap_IMTAdminAPI_ReportUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ReportDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -15777,7 +15778,7 @@ intgo _wrap_IMTAdminAPI_ReportDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_ReportDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -15792,7 +15793,7 @@ intgo _wrap_IMTAdminAPI_ReportDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_ReportShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -15809,7 +15810,7 @@ intgo _wrap_IMTAdminAPI_ReportShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ReportTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -15822,7 +15823,7 @@ intgo _wrap_IMTAdminAPI_ReportTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConReport *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ReportNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConReport *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConReport *arg3 = (IMTConReport *) 0 ;
@@ -15839,7 +15840,7 @@ intgo _wrap_IMTAdminAPI_ReportNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTConReport *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ReportGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTConReport *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -15865,7 +15866,7 @@ intgo _wrap_IMTAdminAPI_ReportGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportModuleTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ReportModuleTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -15878,7 +15879,7 @@ intgo _wrap_IMTAdminAPI_ReportModuleTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportModuleNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConReportModule *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ReportModuleNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConReportModule *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConReportModule *arg3 = (IMTConReportModule *) 0 ;
@@ -15895,7 +15896,7 @@ intgo _wrap_IMTAdminAPI_ReportModuleNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportModuleGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTConReportModule *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ReportModuleGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTConReportModule *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -15921,7 +15922,7 @@ intgo _wrap_IMTAdminAPI_ReportModuleGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConReport **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ReportUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConReport **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConReport **arg2 = (IMTConReport **) 0 ;
   UINT arg3 ;
@@ -15940,7 +15941,7 @@ intgo _wrap_IMTAdminAPI_ReportUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConReport **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ReportDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConReport **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConReport **arg2 = (IMTConReport **) 0 ;
   UINT arg3 ;
@@ -15959,7 +15960,7 @@ intgo _wrap_IMTAdminAPI_ReportDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ReportReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -15972,7 +15973,7 @@ intgo _wrap_IMTAdminAPI_ReportReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_ReportReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ReportReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -15985,7 +15986,7 @@ intgo _wrap_IMTAdminAPI_ReportReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTConSymbol *_wrap_IMTAdminAPI_SymbolCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConSymbol *_wrap_IMTAdminAPI_SymbolCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSymbol *result = 0 ;
   IMTConSymbol *_swig_go_result;
@@ -15998,7 +15999,7 @@ IMTConSymbol *_wrap_IMTAdminAPI_SymbolCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTConSymbolSession *_wrap_IMTAdminAPI_SymbolSessionCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConSymbolSession *_wrap_IMTAdminAPI_SymbolSessionCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSymbolSession *result = 0 ;
   IMTConSymbolSession *_swig_go_result;
@@ -16011,7 +16012,7 @@ IMTConSymbolSession *_wrap_IMTAdminAPI_SymbolSessionCreate_mtmanapi_4ac5eea5fe39
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSymbolSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SymbolSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSymbolSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSymbolSink *arg2 = (IMTConSymbolSink *) 0 ;
   MTAPIRES result;
@@ -16026,7 +16027,7 @@ intgo _wrap_IMTAdminAPI_SymbolSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSymbolSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SymbolUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSymbolSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSymbolSink *arg2 = (IMTConSymbolSink *) 0 ;
   MTAPIRES result;
@@ -16041,7 +16042,7 @@ intgo _wrap_IMTAdminAPI_SymbolUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSymbol *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SymbolUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSymbol *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSymbol *arg2 = (IMTConSymbol *) 0 ;
   MTAPIRES result;
@@ -16056,7 +16057,7 @@ intgo _wrap_IMTAdminAPI_SymbolUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SymbolDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -16078,7 +16079,7 @@ intgo _wrap_IMTAdminAPI_SymbolDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_SymbolDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -16093,7 +16094,7 @@ intgo _wrap_IMTAdminAPI_SymbolDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_SymbolShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -16110,7 +16111,7 @@ intgo _wrap_IMTAdminAPI_SymbolShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SymbolTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -16123,7 +16124,7 @@ intgo _wrap_IMTAdminAPI_SymbolTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConSymbol *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SymbolNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConSymbol *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConSymbol *arg3 = (IMTConSymbol *) 0 ;
@@ -16140,7 +16141,7 @@ intgo _wrap_IMTAdminAPI_SymbolNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSymbol *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SymbolGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSymbol *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConSymbol *arg3 = (IMTConSymbol *) 0 ;
@@ -16164,7 +16165,7 @@ intgo _wrap_IMTAdminAPI_SymbolGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolExist_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSymbol *_swig_go_1, IMTConGroup *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SymbolExist_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSymbol *_swig_go_1, IMTConGroup *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSymbol *arg2 = (IMTConSymbol *) 0 ;
   IMTConGroup *arg3 = (IMTConGroup *) 0 ;
@@ -16181,7 +16182,7 @@ intgo _wrap_IMTAdminAPI_SymbolExist_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSymbol **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SymbolUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSymbol **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSymbol **arg2 = (IMTConSymbol **) 0 ;
   UINT arg3 ;
@@ -16200,7 +16201,7 @@ intgo _wrap_IMTAdminAPI_SymbolUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSymbol **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SymbolDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSymbol **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSymbol **arg2 = (IMTConSymbol **) 0 ;
   UINT arg3 ;
@@ -16219,7 +16220,7 @@ intgo _wrap_IMTAdminAPI_SymbolDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SymbolReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -16232,7 +16233,7 @@ intgo _wrap_IMTAdminAPI_SymbolReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SymbolReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -16245,7 +16246,7 @@ intgo _wrap_IMTAdminAPI_SymbolReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTConHistorySync *_wrap_IMTAdminAPI_HistorySyncCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConHistorySync *_wrap_IMTAdminAPI_HistorySyncCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHistorySync *result = 0 ;
   IMTConHistorySync *_swig_go_result;
@@ -16258,7 +16259,7 @@ IMTConHistorySync *_wrap_IMTAdminAPI_HistorySyncCreate_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHistorySyncSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_HistorySyncSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHistorySyncSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHistorySyncSink *arg2 = (IMTConHistorySyncSink *) 0 ;
   MTAPIRES result;
@@ -16273,7 +16274,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHistorySyncSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_HistorySyncUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHistorySyncSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHistorySyncSink *arg2 = (IMTConHistorySyncSink *) 0 ;
   MTAPIRES result;
@@ -16288,7 +16289,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncStart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_HistorySyncStart_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -16301,7 +16302,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncStart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHistorySync *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_HistorySyncUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHistorySync *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHistorySync *arg2 = (IMTConHistorySync *) 0 ;
   MTAPIRES result;
@@ -16316,7 +16317,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_HistorySyncDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -16331,7 +16332,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_HistorySyncShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -16348,7 +16349,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_HistorySyncTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -16361,7 +16362,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConHistorySync *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_HistorySyncNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConHistorySync *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConHistorySync *arg3 = (IMTConHistorySync *) 0 ;
@@ -16378,7 +16379,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHistorySync **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_HistorySyncUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHistorySync **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHistorySync **arg2 = (IMTConHistorySync **) 0 ;
   UINT arg3 ;
@@ -16397,7 +16398,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConHistorySync **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_HistorySyncDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConHistorySync **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConHistorySync **arg2 = (IMTConHistorySync **) 0 ;
   UINT arg3 ;
@@ -16416,7 +16417,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_HistorySyncReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -16429,7 +16430,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_HistorySyncReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_HistorySyncReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -16442,7 +16443,7 @@ intgo _wrap_IMTAdminAPI_HistorySyncReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTUser *_wrap_IMTAdminAPI_UserCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTUser *_wrap_IMTAdminAPI_UserCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUser *result = 0 ;
   IMTUser *_swig_go_result;
@@ -16455,7 +16456,7 @@ IMTUser *_wrap_IMTAdminAPI_UserCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-IMTUserArray *_wrap_IMTAdminAPI_UserCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTUserArray *_wrap_IMTAdminAPI_UserCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUserArray *result = 0 ;
   IMTUserArray *_swig_go_result;
@@ -16468,7 +16469,7 @@ IMTUserArray *_wrap_IMTAdminAPI_UserCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_UserAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTUser *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTUser *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUser *arg2 = (IMTUser *) 0 ;
   LPCWSTR arg3 ;
@@ -16501,7 +16502,7 @@ intgo _wrap_IMTAdminAPI_UserAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_
 }
 
 
-intgo _wrap_IMTAdminAPI_UserDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_UserDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -16516,7 +16517,7 @@ intgo _wrap_IMTAdminAPI_UserDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_UserUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTUser *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_UserUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTUser *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUser *arg2 = (IMTUser *) 0 ;
   MTAPIRES result;
@@ -16531,7 +16532,7 @@ intgo _wrap_IMTAdminAPI_UserUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_UserRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTUser *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTUser *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTUser *arg3 = (IMTUser *) 0 ;
@@ -16548,7 +16549,7 @@ intgo _wrap_IMTAdminAPI_UserRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_UserPasswordCheck_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserPasswordCheck_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   UINT64 arg3 ;
@@ -16574,7 +16575,7 @@ intgo _wrap_IMTAdminAPI_UserPasswordCheck_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_UserPasswordChange_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserPasswordChange_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   UINT64 arg3 ;
@@ -16600,7 +16601,7 @@ intgo _wrap_IMTAdminAPI_UserPasswordChange_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_UserCertDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_UserCertDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -16615,7 +16616,7 @@ intgo _wrap_IMTAdminAPI_UserCertDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_UserCertConfirm_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_UserCertConfirm_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -16630,7 +16631,7 @@ intgo _wrap_IMTAdminAPI_UserCertConfirm_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_UserExternalSync_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, intgo _swig_go_4) {
+intgo _wrap_IMTAdminAPI_UserExternalSync_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, LPCWSTR *_swig_go_3, intgo _swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -16658,7 +16659,7 @@ intgo _wrap_IMTAdminAPI_UserExternalSync_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_UserArchive_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_UserArchive_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -16673,7 +16674,7 @@ intgo _wrap_IMTAdminAPI_UserArchive_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_UserArchiveRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTUser *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserArchiveRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTUser *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTUser *arg3 = (IMTUser *) 0 ;
@@ -16690,7 +16691,7 @@ intgo _wrap_IMTAdminAPI_UserArchiveRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_UserBackupRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTUser *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserBackupRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTUser *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   UINT64 arg3 ;
@@ -16716,7 +16717,7 @@ intgo _wrap_IMTAdminAPI_UserBackupRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_UserBackupList__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 **_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_UserBackupList__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 **_swig_go_3, intgo *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   INT64 arg3 ;
@@ -16751,7 +16752,7 @@ intgo _wrap_IMTAdminAPI_UserBackupList__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_UserRestore_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTUser *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_UserRestore_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTUser *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUser *arg2 = (IMTUser *) 0 ;
   MTAPIRES result;
@@ -16766,7 +16767,7 @@ intgo _wrap_IMTAdminAPI_UserRestore_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-IMTCertificate *_wrap_IMTAdminAPI_UserCertCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTCertificate *_wrap_IMTAdminAPI_UserCertCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTCertificate *result = 0 ;
   IMTCertificate *_swig_go_result;
@@ -16779,7 +16780,7 @@ IMTCertificate *_wrap_IMTAdminAPI_UserCertCreate_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_UserCertUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTCertificate *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserCertUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTCertificate *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTCertificate *arg3 = (IMTCertificate *) 0 ;
@@ -16796,7 +16797,7 @@ intgo _wrap_IMTAdminAPI_UserCertUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_UserCertGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTCertificate *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserCertGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTCertificate *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTCertificate *arg3 = (IMTCertificate *) 0 ;
@@ -16813,7 +16814,7 @@ intgo _wrap_IMTAdminAPI_UserCertGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_UserBalanceCheck_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, double *_swig_go_3, double *_swig_go_4, double *_swig_go_5, double *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_UserBalanceCheck_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, double *_swig_go_3, double *_swig_go_4, double *_swig_go_5, double *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT arg3 ;
@@ -16838,7 +16839,7 @@ intgo _wrap_IMTAdminAPI_UserBalanceCheck_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-IMTDeal *_wrap_IMTAdminAPI_DealCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTDeal *_wrap_IMTAdminAPI_DealCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDeal *result = 0 ;
   IMTDeal *_swig_go_result;
@@ -16851,7 +16852,7 @@ IMTDeal *_wrap_IMTAdminAPI_DealCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-IMTDealArray *_wrap_IMTAdminAPI_DealCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTDealArray *_wrap_IMTAdminAPI_DealCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDealArray *result = 0 ;
   IMTDealArray *_swig_go_result;
@@ -16864,7 +16865,7 @@ IMTDealArray *_wrap_IMTAdminAPI_DealCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_DealRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTDeal *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_DealRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTDeal *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTDeal *arg3 = (IMTDeal *) 0 ;
@@ -16881,7 +16882,7 @@ intgo _wrap_IMTAdminAPI_DealRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_DealRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDealArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_DealRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDealArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -16916,7 +16917,7 @@ intgo _wrap_IMTAdminAPI_DealRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_DealDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_DealDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -16931,7 +16932,7 @@ intgo _wrap_IMTAdminAPI_DealDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_DealUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDeal *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_DealUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDeal *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDeal *arg2 = (IMTDeal *) 0 ;
   MTAPIRES result;
@@ -16946,7 +16947,7 @@ intgo _wrap_IMTAdminAPI_DealUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_DealBackupList__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 **_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_DealBackupList__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 **_swig_go_3, intgo *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   INT64 arg3 ;
@@ -16981,7 +16982,7 @@ intgo _wrap_IMTAdminAPI_DealBackupList__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTDeal *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTDeal *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   UINT64 arg3 ;
@@ -17007,7 +17008,7 @@ intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   UINT64 arg3 ;
@@ -17051,7 +17052,7 @@ intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_DealBackupRestore_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDeal *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_DealBackupRestore_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDeal *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDeal *arg2 = (IMTDeal *) 0 ;
   MTAPIRES result;
@@ -17066,7 +17067,7 @@ intgo _wrap_IMTAdminAPI_DealBackupRestore_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_DealBackupList__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_DealBackupList__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 **_swig_go_4, intgo *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17103,7 +17104,7 @@ intgo _wrap_IMTAdminAPI_DealBackupList__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTDeal *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTDeal *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17131,7 +17132,7 @@ intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_2_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTDealArray *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTDealArray *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17177,7 +17178,7 @@ intgo _wrap_IMTAdminAPI_DealBackupRequest__SWIG_3_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_DealRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDealArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_DealRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTDealArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -17219,7 +17220,7 @@ intgo _wrap_IMTAdminAPI_DealRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-IMTPosition *_wrap_IMTAdminAPI_PositionCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTPosition *_wrap_IMTAdminAPI_PositionCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTPosition *result = 0 ;
   IMTPosition *_swig_go_result;
@@ -17232,7 +17233,7 @@ IMTPosition *_wrap_IMTAdminAPI_PositionCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-IMTPositionArray *_wrap_IMTAdminAPI_PositionCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTPositionArray *_wrap_IMTAdminAPI_PositionCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTPositionArray *result = 0 ;
   IMTPositionArray *_swig_go_result;
@@ -17245,7 +17246,7 @@ IMTPositionArray *_wrap_IMTAdminAPI_PositionCreateArray_mtmanapi_4ac5eea5fe396bb
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_PositionRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -17262,7 +17263,7 @@ intgo _wrap_IMTAdminAPI_PositionRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTPosition *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_PositionDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTPosition *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTPosition *arg2 = (IMTPosition *) 0 ;
   MTAPIRES result;
@@ -17277,7 +17278,7 @@ intgo _wrap_IMTAdminAPI_PositionDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTPosition *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_PositionUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTPosition *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTPosition *arg2 = (IMTPosition *) 0 ;
   MTAPIRES result;
@@ -17292,7 +17293,7 @@ intgo _wrap_IMTAdminAPI_PositionUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionBackupList__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 **_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_PositionBackupList__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 **_swig_go_3, intgo *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   INT64 arg3 ;
@@ -17327,7 +17328,7 @@ intgo _wrap_IMTAdminAPI_PositionBackupList__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionBackupRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PositionBackupRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   UINT64 arg3 ;
@@ -17353,7 +17354,7 @@ intgo _wrap_IMTAdminAPI_PositionBackupRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionBackupRestore_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTPosition *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_PositionBackupRestore_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTPosition *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTPosition *arg2 = (IMTPosition *) 0 ;
   MTAPIRES result;
@@ -17368,7 +17369,7 @@ intgo _wrap_IMTAdminAPI_PositionBackupRestore_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionBackupList__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_PositionBackupList__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 **_swig_go_4, intgo *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17405,7 +17406,7 @@ intgo _wrap_IMTAdminAPI_PositionBackupList__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionBackupRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTPositionArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_PositionBackupRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTPositionArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17433,7 +17434,7 @@ intgo _wrap_IMTAdminAPI_PositionBackupRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionCheck_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2, IMTPositionArray *_swig_go_3, IMTPositionArray *_swig_go_4, IMTPositionArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_PositionCheck_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2, IMTPositionArray *_swig_go_3, IMTPositionArray *_swig_go_4, IMTPositionArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -17456,7 +17457,7 @@ intgo _wrap_IMTAdminAPI_PositionCheck_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionFix_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_PositionFix_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTPositionArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -17473,7 +17474,7 @@ intgo _wrap_IMTAdminAPI_PositionFix_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-IMTOrder *_wrap_IMTAdminAPI_OrderCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTOrder *_wrap_IMTAdminAPI_OrderCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrder *result = 0 ;
   IMTOrder *_swig_go_result;
@@ -17486,7 +17487,7 @@ IMTOrder *_wrap_IMTAdminAPI_OrderCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTOrderArray *_wrap_IMTAdminAPI_OrderCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTOrderArray *_wrap_IMTAdminAPI_OrderCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrderArray *result = 0 ;
   IMTOrderArray *_swig_go_result;
@@ -17499,7 +17500,7 @@ IMTOrderArray *_wrap_IMTAdminAPI_OrderCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTOrder *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_OrderRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTOrder *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTOrder *arg3 = (IMTOrder *) 0 ;
@@ -17516,7 +17517,7 @@ intgo _wrap_IMTAdminAPI_OrderRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderRequestOpen_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTOrderArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_OrderRequestOpen_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTOrderArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTOrderArray *arg3 = (IMTOrderArray *) 0 ;
@@ -17533,7 +17534,7 @@ intgo _wrap_IMTAdminAPI_OrderRequestOpen_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_HistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTOrderArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_HistoryRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTOrderArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17568,7 +17569,7 @@ intgo _wrap_IMTAdminAPI_HistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_OrderDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -17583,7 +17584,7 @@ intgo _wrap_IMTAdminAPI_OrderDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTOrder *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_OrderUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTOrder *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrder *arg2 = (IMTOrder *) 0 ;
   MTAPIRES result;
@@ -17598,7 +17599,7 @@ intgo _wrap_IMTAdminAPI_OrderUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupList__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 **_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_OrderBackupList__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 **_swig_go_3, intgo *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   INT64 arg3 ;
@@ -17633,7 +17634,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupList__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTOrder *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderBackupRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTOrder *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   UINT64 arg3 ;
@@ -17659,7 +17660,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupRequestOpen__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderBackupRequestOpen__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   UINT64 arg3 ;
@@ -17685,7 +17686,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupRequestOpen__SWIG_0_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupRequestHistory__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_OrderBackupRequestHistory__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, signed __int64 *_swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   INT64 arg2 ;
   UINT64 arg3 ;
@@ -17729,7 +17730,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupRequestHistory__SWIG_0_mtmanapi_4ac5eea5fe396
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupRestore_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTOrder *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_OrderBackupRestore_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTOrder *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrder *arg2 = (IMTOrder *) 0 ;
   MTAPIRES result;
@@ -17744,7 +17745,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupRestore_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupList__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_OrderBackupList__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 **_swig_go_4, intgo *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17781,7 +17782,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupList__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTOrder *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_OrderBackupRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTOrder *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17809,7 +17810,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupRequestOpen__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTOrderArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_OrderBackupRequestOpen__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTOrderArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17837,7 +17838,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupRequestOpen__SWIG_1_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderBackupRequestHistory__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTOrderArray *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_OrderBackupRequestHistory__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTOrderArray *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -17883,7 +17884,7 @@ intgo _wrap_IMTAdminAPI_OrderBackupRequestHistory__SWIG_1_mtmanapi_4ac5eea5fe396
 }
 
 
-intgo _wrap_IMTAdminAPI_TickRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_TickRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort **_swig_go_4, intgo *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -17927,7 +17928,7 @@ intgo _wrap_IMTAdminAPI_TickRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_TickRequestRaw_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_TickRequestRaw_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort **_swig_go_4, intgo *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -17971,7 +17972,7 @@ intgo _wrap_IMTAdminAPI_TickRequestRaw_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_TickAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickShort *_swig_go_2, intgo _swig_go_3) {
+intgo _wrap_IMTAdminAPI_TickAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTTickShort *_swig_go_2, intgo _swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   MTTickShort *arg3 = (MTTickShort *) 0 ;
@@ -17997,7 +17998,7 @@ intgo _wrap_IMTAdminAPI_TickAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_
 }
 
 
-intgo _wrap_IMTAdminAPI_TickReplace_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort *_swig_go_4, intgo _swig_go_5) {
+intgo _wrap_IMTAdminAPI_TickReplace_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTTickShort *_swig_go_4, intgo _swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -18041,7 +18042,7 @@ intgo _wrap_IMTAdminAPI_TickReplace_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_TickReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TickReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18054,7 +18055,7 @@ intgo _wrap_IMTAdminAPI_TickReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_TickReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TickReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18067,7 +18068,7 @@ intgo _wrap_IMTAdminAPI_TickReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_ChartRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTChartBar **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_ChartRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTChartBar **_swig_go_4, intgo *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -18111,7 +18112,7 @@ intgo _wrap_IMTAdminAPI_ChartRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_ChartDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, intgo _swig_go_3) {
+intgo _wrap_IMTAdminAPI_ChartDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, intgo _swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 *arg3 = (INT64 *) 0 ;
@@ -18137,7 +18138,7 @@ intgo _wrap_IMTAdminAPI_ChartDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_ChartUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTChartBar *_swig_go_2, intgo _swig_go_3) {
+intgo _wrap_IMTAdminAPI_ChartUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, MTChartBar *_swig_go_2, intgo _swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   MTChartBar *arg3 = (MTChartBar *) 0 ;
@@ -18163,7 +18164,7 @@ intgo _wrap_IMTAdminAPI_ChartUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_ChartReplace_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTChartBar *_swig_go_4, intgo _swig_go_5) {
+intgo _wrap_IMTAdminAPI_ChartReplace_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, MTChartBar *_swig_go_4, intgo _swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -18207,7 +18208,7 @@ intgo _wrap_IMTAdminAPI_ChartReplace_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_ChartSplit_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, signed __int64 *_swig_go_5, signed __int64 *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_ChartSplit_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, signed __int64 *_swig_go_5, signed __int64 *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT arg3 ;
@@ -18253,7 +18254,7 @@ intgo _wrap_IMTAdminAPI_ChartSplit_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_ChartReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ChartReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18266,7 +18267,7 @@ intgo _wrap_IMTAdminAPI_ChartReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_ChartReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ChartReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18279,7 +18280,7 @@ intgo _wrap_IMTAdminAPI_ChartReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-IMTMail *_wrap_IMTAdminAPI_MailCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTMail *_wrap_IMTAdminAPI_MailCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTMail *result = 0 ;
   IMTMail *_swig_go_result;
@@ -18292,7 +18293,7 @@ IMTMail *_wrap_IMTAdminAPI_MailCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_MailSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTMailSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_MailSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTMailSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTMailSink *arg2 = (IMTMailSink *) 0 ;
   MTAPIRES result;
@@ -18307,7 +18308,7 @@ intgo _wrap_IMTAdminAPI_MailSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_MailUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTMailSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_MailUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTMailSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTMailSink *arg2 = (IMTMailSink *) 0 ;
   MTAPIRES result;
@@ -18322,7 +18323,7 @@ intgo _wrap_IMTAdminAPI_MailUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_MailTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_MailTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -18335,7 +18336,7 @@ intgo _wrap_IMTAdminAPI_MailTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_MailNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTMail *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_MailNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTMail *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTMail *arg3 = (IMTMail *) 0 ;
@@ -18352,7 +18353,7 @@ intgo _wrap_IMTAdminAPI_MailNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_MailDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_MailDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -18367,7 +18368,7 @@ intgo _wrap_IMTAdminAPI_MailDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_MailDeleteId_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_MailDeleteId_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -18382,7 +18383,7 @@ intgo _wrap_IMTAdminAPI_MailDeleteId_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_MailSend_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTMail *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_MailSend_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTMail *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTMail *arg2 = (IMTMail *) 0 ;
   MTAPIRES result;
@@ -18397,7 +18398,7 @@ intgo _wrap_IMTAdminAPI_MailSend_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_MailBodyRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTMail *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_MailBodyRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTMail *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTMail *arg3 = (IMTMail *) 0 ;
@@ -18414,7 +18415,7 @@ intgo _wrap_IMTAdminAPI_MailBodyRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_MailReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_MailReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18427,7 +18428,7 @@ intgo _wrap_IMTAdminAPI_MailReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_MailReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_MailReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18440,7 +18441,7 @@ intgo _wrap_IMTAdminAPI_MailReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_MailReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_MailReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18453,7 +18454,7 @@ intgo _wrap_IMTAdminAPI_MailReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-IMTNews *_wrap_IMTAdminAPI_NewsCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTNews *_wrap_IMTAdminAPI_NewsCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTNews *result = 0 ;
   IMTNews *_swig_go_result;
@@ -18466,7 +18467,7 @@ IMTNews *_wrap_IMTAdminAPI_NewsCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_NewsSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTNewsSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_NewsSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTNewsSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTNewsSink *arg2 = (IMTNewsSink *) 0 ;
   MTAPIRES result;
@@ -18481,7 +18482,7 @@ intgo _wrap_IMTAdminAPI_NewsSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_NewsUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTNewsSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_NewsUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTNewsSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTNewsSink *arg2 = (IMTNewsSink *) 0 ;
   MTAPIRES result;
@@ -18496,7 +18497,7 @@ intgo _wrap_IMTAdminAPI_NewsUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_NewsSend_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTNews *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_NewsSend_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTNews *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTNews *arg2 = (IMTNews *) 0 ;
   MTAPIRES result;
@@ -18511,7 +18512,7 @@ intgo _wrap_IMTAdminAPI_NewsSend_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_NewsTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NewsTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -18524,7 +18525,7 @@ intgo _wrap_IMTAdminAPI_NewsTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_NewsNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTNews *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_NewsNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTNews *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTNews *arg3 = (IMTNews *) 0 ;
@@ -18541,7 +18542,7 @@ intgo _wrap_IMTAdminAPI_NewsNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_NewsBodyRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTNews *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_NewsBodyRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTNews *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTNews *arg3 = (IMTNews *) 0 ;
@@ -18558,7 +18559,7 @@ intgo _wrap_IMTAdminAPI_NewsBodyRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_NewsReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NewsReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18571,7 +18572,7 @@ intgo _wrap_IMTAdminAPI_NewsReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_UserExternalRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTUser *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserExternalRequest__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, LPCWSTR *_swig_go_2, IMTUser *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   LPCWSTR arg3 ;
@@ -18597,7 +18598,7 @@ intgo _wrap_IMTAdminAPI_UserExternalRequest__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTAdminAPI_UserExternalRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUser *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserExternalRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUser *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTUser *arg3 = (IMTUser *) 0 ;
@@ -18621,7 +18622,7 @@ intgo _wrap_IMTAdminAPI_UserExternalRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTAdminAPI_UserBackupRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTUser *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_UserBackupRequest__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long _swig_go_3, IMTUser *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -18649,7 +18650,7 @@ intgo _wrap_IMTAdminAPI_UserBackupRequest__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_UserBackupList__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_UserBackupList__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 **_swig_go_4, intgo *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -18686,7 +18687,7 @@ intgo _wrap_IMTAdminAPI_UserBackupList__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_UserLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long **_swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, long long **_swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT64 **arg3 = 0 ;
@@ -18712,7 +18713,7 @@ intgo _wrap_IMTAdminAPI_UserLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_UserRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUserArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserRequestArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUserArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTUserArray *arg3 = (IMTUserArray *) 0 ;
@@ -18736,7 +18737,7 @@ intgo _wrap_IMTAdminAPI_UserRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_PasswordChange_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_PasswordChange_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   LPCWSTR arg3 ;
@@ -18760,7 +18761,7 @@ intgo _wrap_IMTAdminAPI_PasswordChange_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_PasswordReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_PasswordReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18773,7 +18774,7 @@ intgo _wrap_IMTAdminAPI_PasswordReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_PasswordReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_PasswordReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18786,7 +18787,7 @@ intgo _wrap_IMTAdminAPI_PasswordReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-IMTConSpread *_wrap_IMTAdminAPI_SpreadCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConSpread *_wrap_IMTAdminAPI_SpreadCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSpread *result = 0 ;
   IMTConSpread *_swig_go_result;
@@ -18799,7 +18800,7 @@ IMTConSpread *_wrap_IMTAdminAPI_SpreadCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTConSpreadLeg *_wrap_IMTAdminAPI_SpreadLegCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConSpreadLeg *_wrap_IMTAdminAPI_SpreadLegCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSpreadLeg *result = 0 ;
   IMTConSpreadLeg *_swig_go_result;
@@ -18812,7 +18813,7 @@ IMTConSpreadLeg *_wrap_IMTAdminAPI_SpreadLegCreate_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSpreadSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SpreadSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSpreadSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSpreadSink *arg2 = (IMTConSpreadSink *) 0 ;
   MTAPIRES result;
@@ -18827,7 +18828,7 @@ intgo _wrap_IMTAdminAPI_SpreadSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSpreadSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SpreadUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSpreadSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSpreadSink *arg2 = (IMTConSpreadSink *) 0 ;
   MTAPIRES result;
@@ -18842,7 +18843,7 @@ intgo _wrap_IMTAdminAPI_SpreadUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSpread *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SpreadUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSpread *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSpread *arg2 = (IMTConSpread *) 0 ;
   MTAPIRES result;
@@ -18857,7 +18858,7 @@ intgo _wrap_IMTAdminAPI_SpreadUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_SpreadDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -18872,7 +18873,7 @@ intgo _wrap_IMTAdminAPI_SpreadDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_SpreadShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -18889,7 +18890,7 @@ intgo _wrap_IMTAdminAPI_SpreadShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SpreadTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -18902,7 +18903,7 @@ intgo _wrap_IMTAdminAPI_SpreadTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConSpread *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SpreadNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConSpread *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConSpread *arg3 = (IMTConSpread *) 0 ;
@@ -18919,7 +18920,7 @@ intgo _wrap_IMTAdminAPI_SpreadNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSpread **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SpreadUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSpread **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSpread **arg2 = (IMTConSpread **) 0 ;
   UINT arg3 ;
@@ -18938,7 +18939,7 @@ intgo _wrap_IMTAdminAPI_SpreadUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSpread **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SpreadDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSpread **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSpread **arg2 = (IMTConSpread **) 0 ;
   UINT arg3 ;
@@ -18957,7 +18958,7 @@ intgo _wrap_IMTAdminAPI_SpreadDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SpreadReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18970,7 +18971,7 @@ intgo _wrap_IMTAdminAPI_SpreadReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_SpreadReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SpreadReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -18983,7 +18984,7 @@ intgo _wrap_IMTAdminAPI_SpreadReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_NetworkRescan_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_NetworkRescan_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   UINT arg3 ;
@@ -19000,7 +19001,7 @@ intgo _wrap_IMTAdminAPI_NetworkRescan_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-long long _wrap_IMTAdminAPI_NetworkBytesSent_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+long long _wrap_IMTAdminAPI_NetworkBytesSent_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 result;
   long long _swig_go_result;
@@ -19013,7 +19014,7 @@ long long _wrap_IMTAdminAPI_NetworkBytesSent_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-long long _wrap_IMTAdminAPI_NetworkBytesRead_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+long long _wrap_IMTAdminAPI_NetworkBytesRead_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 result;
   long long _swig_go_result;
@@ -19026,7 +19027,7 @@ long long _wrap_IMTAdminAPI_NetworkBytesRead_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_NetworkServer_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, wchar_t (*_swig_go_1)[260]) {
+intgo _wrap_IMTAdminAPI_NetworkServer_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, wchar_t (*_swig_go_1)[260]) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPISTR *arg2 = 0 ;
   MTAPIRES result;
@@ -19041,7 +19042,7 @@ intgo _wrap_IMTAdminAPI_NetworkServer_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_NetworkAddress_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, wchar_t (*_swig_go_1)[260]) {
+intgo _wrap_IMTAdminAPI_NetworkAddress_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, wchar_t (*_swig_go_1)[260]) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPISTR *arg2 = 0 ;
   MTAPIRES result;
@@ -19056,7 +19057,7 @@ intgo _wrap_IMTAdminAPI_NetworkAddress_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_NetworkReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetworkReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19069,7 +19070,7 @@ intgo _wrap_IMTAdminAPI_NetworkReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_NetworkReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetworkReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19082,7 +19083,7 @@ intgo _wrap_IMTAdminAPI_NetworkReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_NetworkReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetworkReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19095,7 +19096,7 @@ intgo _wrap_IMTAdminAPI_NetworkReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_NetworkReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetworkReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19108,7 +19109,7 @@ intgo _wrap_IMTAdminAPI_NetworkReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderReopen_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_OrderReopen_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -19123,7 +19124,7 @@ intgo _wrap_IMTAdminAPI_OrderReopen_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTOrderArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_OrderRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTOrderArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTOrderArray *arg3 = (IMTOrderArray *) 0 ;
@@ -19147,7 +19148,7 @@ intgo _wrap_IMTAdminAPI_OrderRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -19166,7 +19167,7 @@ intgo _wrap_IMTAdminAPI_OrderRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -19185,7 +19186,7 @@ intgo _wrap_IMTAdminAPI_OrderRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTOrderArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_OrderUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTOrderArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrderArray *arg2 = (IMTOrderArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -19202,7 +19203,7 @@ intgo _wrap_IMTAdminAPI_OrderUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_NotificationsSend__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_NotificationsSend__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -19233,7 +19234,7 @@ intgo _wrap_IMTAdminAPI_NotificationsSend__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_NotificationsSend__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_NotificationsSend__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -19259,7 +19260,7 @@ intgo _wrap_IMTAdminAPI_NotificationsSend__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_NotificationsReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NotificationsReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19272,7 +19273,7 @@ intgo _wrap_IMTAdminAPI_NotificationsReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_NotificationsReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NotificationsReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19285,7 +19286,7 @@ intgo _wrap_IMTAdminAPI_NotificationsReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_NotificationsReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NotificationsReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19298,7 +19299,7 @@ intgo _wrap_IMTAdminAPI_NotificationsReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_NotificationsReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NotificationsReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19311,7 +19312,7 @@ intgo _wrap_IMTAdminAPI_NotificationsReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_SettingGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPVOID *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_SettingGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPVOID *_swig_go_3, intgo *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -19346,7 +19347,7 @@ intgo _wrap_IMTAdminAPI_SettingGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_SettingSet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPVOID _swig_go_3, intgo _swig_go_4) {
+intgo _wrap_IMTAdminAPI_SettingSet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPVOID _swig_go_3, intgo _swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -19381,7 +19382,7 @@ intgo _wrap_IMTAdminAPI_SettingSet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_SettingDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SettingDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -19412,7 +19413,7 @@ intgo _wrap_IMTAdminAPI_SettingDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_SettingReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SettingReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19425,7 +19426,7 @@ intgo _wrap_IMTAdminAPI_SettingReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_SettingReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SettingReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19438,7 +19439,7 @@ intgo _wrap_IMTAdminAPI_SettingReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_SettingReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SettingReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19451,7 +19452,7 @@ intgo _wrap_IMTAdminAPI_SettingReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_SettingReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SettingReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19464,7 +19465,7 @@ intgo _wrap_IMTAdminAPI_SettingReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-IMTConEmail *_wrap_IMTAdminAPI_EmailCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConEmail *_wrap_IMTAdminAPI_EmailCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConEmail *result = 0 ;
   IMTConEmail *_swig_go_result;
@@ -19477,7 +19478,7 @@ IMTConEmail *_wrap_IMTAdminAPI_EmailCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConEmailSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_EmailSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConEmailSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConEmailSink *arg2 = (IMTConEmailSink *) 0 ;
   MTAPIRES result;
@@ -19492,7 +19493,7 @@ intgo _wrap_IMTAdminAPI_EmailSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConEmailSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_EmailUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConEmailSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConEmailSink *arg2 = (IMTConEmailSink *) 0 ;
   MTAPIRES result;
@@ -19507,7 +19508,7 @@ intgo _wrap_IMTAdminAPI_EmailUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConEmail *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_EmailUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConEmail *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConEmail *arg2 = (IMTConEmail *) 0 ;
   MTAPIRES result;
@@ -19522,7 +19523,7 @@ intgo _wrap_IMTAdminAPI_EmailUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_EmailDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -19544,7 +19545,7 @@ intgo _wrap_IMTAdminAPI_EmailDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_EmailDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -19559,7 +19560,7 @@ intgo _wrap_IMTAdminAPI_EmailDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_EmailShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -19576,7 +19577,7 @@ intgo _wrap_IMTAdminAPI_EmailShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_EmailTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -19589,7 +19590,7 @@ intgo _wrap_IMTAdminAPI_EmailTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConEmail *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_EmailNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConEmail *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConEmail *arg3 = (IMTConEmail *) 0 ;
@@ -19606,7 +19607,7 @@ intgo _wrap_IMTAdminAPI_EmailNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConEmail *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_EmailGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConEmail *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConEmail *arg3 = (IMTConEmail *) 0 ;
@@ -19630,7 +19631,7 @@ intgo _wrap_IMTAdminAPI_EmailGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConEmail **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_EmailUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConEmail **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConEmail **arg2 = (IMTConEmail **) 0 ;
   UINT arg3 ;
@@ -19649,7 +19650,7 @@ intgo _wrap_IMTAdminAPI_EmailUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConEmail **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_EmailDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConEmail **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConEmail **arg2 = (IMTConEmail **) 0 ;
   UINT arg3 ;
@@ -19668,7 +19669,7 @@ intgo _wrap_IMTAdminAPI_EmailDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailSend_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_EmailSend_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4, LPCWSTR *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -19726,7 +19727,7 @@ intgo _wrap_IMTAdminAPI_EmailSend_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_EmailReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19739,7 +19740,7 @@ intgo _wrap_IMTAdminAPI_EmailReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_EmailReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19752,7 +19753,7 @@ intgo _wrap_IMTAdminAPI_EmailReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_EmailReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_EmailReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -19765,7 +19766,7 @@ intgo _wrap_IMTAdminAPI_EmailReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-IMTConMessenger *_wrap_IMTAdminAPI_MessengerCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConMessenger *_wrap_IMTAdminAPI_MessengerCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConMessenger *result = 0 ;
   IMTConMessenger *_swig_go_result;
@@ -19778,7 +19779,7 @@ IMTConMessenger *_wrap_IMTAdminAPI_MessengerCreate_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConMessengerSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_MessengerSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConMessengerSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConMessengerSink *arg2 = (IMTConMessengerSink *) 0 ;
   MTAPIRES result;
@@ -19793,7 +19794,7 @@ intgo _wrap_IMTAdminAPI_MessengerSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConMessengerSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_MessengerUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConMessengerSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConMessengerSink *arg2 = (IMTConMessengerSink *) 0 ;
   MTAPIRES result;
@@ -19808,7 +19809,7 @@ intgo _wrap_IMTAdminAPI_MessengerUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConMessenger *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_MessengerUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConMessenger *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConMessenger *arg2 = (IMTConMessenger *) 0 ;
   MTAPIRES result;
@@ -19823,7 +19824,7 @@ intgo _wrap_IMTAdminAPI_MessengerUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_MessengerDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -19845,7 +19846,7 @@ intgo _wrap_IMTAdminAPI_MessengerDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_MessengerDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -19860,7 +19861,7 @@ intgo _wrap_IMTAdminAPI_MessengerDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_MessengerShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -19877,7 +19878,7 @@ intgo _wrap_IMTAdminAPI_MessengerShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_MessengerTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -19890,7 +19891,7 @@ intgo _wrap_IMTAdminAPI_MessengerTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConMessenger *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_MessengerNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConMessenger *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConMessenger *arg3 = (IMTConMessenger *) 0 ;
@@ -19907,7 +19908,7 @@ intgo _wrap_IMTAdminAPI_MessengerNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConMessenger *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_MessengerGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConMessenger *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConMessenger *arg3 = (IMTConMessenger *) 0 ;
@@ -19931,7 +19932,7 @@ intgo _wrap_IMTAdminAPI_MessengerGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConMessenger **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_MessengerUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConMessenger **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConMessenger **arg2 = (IMTConMessenger **) 0 ;
   UINT arg3 ;
@@ -19950,7 +19951,7 @@ intgo _wrap_IMTAdminAPI_MessengerUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConMessenger **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_MessengerDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConMessenger **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConMessenger **arg2 = (IMTConMessenger **) 0 ;
   UINT arg3 ;
@@ -19969,7 +19970,7 @@ intgo _wrap_IMTAdminAPI_MessengerDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerSend_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_MessengerSend_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, LPCWSTR *_swig_go_3, LPCWSTR *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -20018,7 +20019,7 @@ intgo _wrap_IMTAdminAPI_MessengerSend_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_MessengerVerifyPhone_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_MessengerVerifyPhone_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -20040,7 +20041,7 @@ intgo _wrap_IMTAdminAPI_MessengerVerifyPhone_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTConMessengerCountry *_wrap_IMTAdminAPI_MessengerCountryCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConMessengerCountry *_wrap_IMTAdminAPI_MessengerCountryCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConMessengerCountry *result = 0 ;
   IMTConMessengerCountry *_swig_go_result;
@@ -20053,7 +20054,7 @@ IMTConMessengerCountry *_wrap_IMTAdminAPI_MessengerCountryCreate_mtmanapi_4ac5ee
 }
 
 
-IMTConMessengerGroup *_wrap_IMTAdminAPI_MessengerGroupCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConMessengerGroup *_wrap_IMTAdminAPI_MessengerGroupCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConMessengerGroup *result = 0 ;
   IMTConMessengerGroup *_swig_go_result;
@@ -20066,7 +20067,7 @@ IMTConMessengerGroup *_wrap_IMTAdminAPI_MessengerGroupCreate_mtmanapi_4ac5eea5fe
 }
 
 
-intgo _wrap_IMTAdminAPI_DealRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_DealRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20103,7 +20104,7 @@ intgo _wrap_IMTAdminAPI_DealRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_DealRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTDealArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DealRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTDealArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20122,7 +20123,7 @@ intgo _wrap_IMTAdminAPI_DealRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_DealUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_DealUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDealArray *arg2 = (IMTDealArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -20139,7 +20140,7 @@ intgo _wrap_IMTAdminAPI_DealUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_DealUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DealUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDeal **arg2 = (IMTDeal **) 0 ;
   UINT arg3 ;
@@ -20158,7 +20159,7 @@ intgo _wrap_IMTAdminAPI_DealUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_DealDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DealDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20177,7 +20178,7 @@ intgo _wrap_IMTAdminAPI_DealDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_DealRequestPage_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, IMTDealArray *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_DealRequestPage_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, IMTDealArray *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -20216,7 +20217,7 @@ intgo _wrap_IMTAdminAPI_DealRequestPage_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_DealAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDeal *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_DealAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDeal *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDeal *arg2 = (IMTDeal *) 0 ;
   MTAPIRES result;
@@ -20231,7 +20232,7 @@ intgo _wrap_IMTAdminAPI_DealAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_
 }
 
 
-intgo _wrap_IMTAdminAPI_DealAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_DealAddBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDealArray *arg2 = (IMTDealArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -20248,7 +20249,7 @@ intgo _wrap_IMTAdminAPI_DealAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_DealAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DealAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDeal **arg2 = (IMTDeal **) 0 ;
   UINT arg3 ;
@@ -20267,7 +20268,7 @@ intgo _wrap_IMTAdminAPI_DealAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTPositionArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_PositionRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTPositionArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTPositionArray *arg3 = (IMTPositionArray *) 0 ;
@@ -20291,7 +20292,7 @@ intgo _wrap_IMTAdminAPI_PositionRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PositionRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20310,7 +20311,7 @@ intgo _wrap_IMTAdminAPI_PositionRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PositionRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20329,7 +20330,7 @@ intgo _wrap_IMTAdminAPI_PositionRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTPositionArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_PositionUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTPositionArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTPositionArray *arg2 = (IMTPositionArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -20346,7 +20347,7 @@ intgo _wrap_IMTAdminAPI_PositionUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTPosition **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PositionUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTPosition **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTPosition **arg2 = (IMTPosition **) 0 ;
   UINT arg3 ;
@@ -20365,7 +20366,7 @@ intgo _wrap_IMTAdminAPI_PositionUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PositionDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20384,7 +20385,7 @@ intgo _wrap_IMTAdminAPI_PositionDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionDeleteByTicket_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_PositionDeleteByTicket_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -20399,7 +20400,7 @@ intgo _wrap_IMTAdminAPI_PositionDeleteByTicket_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionSplit_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, double *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, intgo _swig_go_6, intgo _swig_go_7, intgo _swig_go_8, intgo *_swig_go_9) {
+intgo _wrap_IMTAdminAPI_PositionSplit_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, double *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, intgo _swig_go_6, intgo _swig_go_7, intgo _swig_go_8, intgo *_swig_go_9) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20430,7 +20431,7 @@ intgo _wrap_IMTAdminAPI_PositionSplit_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, IMTPositionArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_PositionRequestByLoginsSymbol_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, IMTPositionArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20458,7 +20459,7 @@ intgo _wrap_IMTAdminAPI_PositionRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTPositionArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_PositionRequestByGroupSymbol_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTPositionArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -20491,7 +20492,7 @@ intgo _wrap_IMTAdminAPI_PositionRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTAdminAPI_PositionReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_PositionReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -20504,7 +20505,7 @@ intgo _wrap_IMTAdminAPI_PositionReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTOrder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTOrder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrder **arg2 = (IMTOrder **) 0 ;
   UINT arg3 ;
@@ -20523,7 +20524,7 @@ intgo _wrap_IMTAdminAPI_OrderUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20542,7 +20543,7 @@ intgo _wrap_IMTAdminAPI_OrderDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTOrder *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_OrderAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTOrder *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrder *arg2 = (IMTOrder *) 0 ;
   MTAPIRES result;
@@ -20557,7 +20558,7 @@ intgo _wrap_IMTAdminAPI_OrderAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTOrderArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_OrderAddBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTOrderArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrderArray *arg2 = (IMTOrderArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -20574,7 +20575,7 @@ intgo _wrap_IMTAdminAPI_OrderAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTOrder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTOrder **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTOrder **arg2 = (IMTOrder **) 0 ;
   UINT arg3 ;
@@ -20593,7 +20594,7 @@ intgo _wrap_IMTAdminAPI_OrderAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, IMTOrderArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_OrderRequestByLoginsSymbol_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, IMTOrderArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20621,7 +20622,7 @@ intgo _wrap_IMTAdminAPI_OrderRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_HistoryRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTOrderArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_HistoryRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTOrderArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -20663,7 +20664,7 @@ intgo _wrap_IMTAdminAPI_HistoryRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_HistoryRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_HistoryRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20700,7 +20701,7 @@ intgo _wrap_IMTAdminAPI_HistoryRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_HistoryRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_HistoryRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20719,7 +20720,7 @@ intgo _wrap_IMTAdminAPI_HistoryRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_HistoryRequestPage_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, IMTOrderArray *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_HistoryRequestPage_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, intgo _swig_go_4, intgo _swig_go_5, IMTOrderArray *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -20758,7 +20759,7 @@ intgo _wrap_IMTAdminAPI_HistoryRequestPage_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_HistoryRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTOrderArray *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_HistoryRequestByLoginsSymbol_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTOrderArray *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -20804,7 +20805,7 @@ intgo _wrap_IMTAdminAPI_HistoryRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTAdminAPI_HistoryRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_HistoryRequestByGroupSymbol_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTOrderArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -20855,7 +20856,7 @@ intgo _wrap_IMTAdminAPI_HistoryRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTAdminAPI_HistoryReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_HistoryReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -20868,7 +20869,7 @@ intgo _wrap_IMTAdminAPI_HistoryReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, void *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_TLSCertificateUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, void *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   void *arg2 = (void *) 0 ;
   UINT arg3 ;
@@ -20894,7 +20895,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_TLSCertificateDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -20909,7 +20910,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_TLSCertificateShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -20926,7 +20927,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TLSCertificateTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -20939,7 +20940,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, wchar_t (*_swig_go_2)[260], wchar_t (*_swig_go_3)[260]) {
+intgo _wrap_IMTAdminAPI_TLSCertificateNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, wchar_t (*_swig_go_2)[260], wchar_t (*_swig_go_3)[260]) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPISTR *arg3 = 0 ;
@@ -20958,7 +20959,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TLSCertificateReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -20971,7 +20972,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TLSCertificateReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -20984,7 +20985,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TLSCertificateReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -20997,7 +20998,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_TLSCertificateReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_TLSCertificateReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -21010,7 +21011,7 @@ intgo _wrap_IMTAdminAPI_TLSCertificateReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-IMTECNMatching *_wrap_IMTAdminAPI_ECNCreateMatching_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNMatching *_wrap_IMTAdminAPI_ECNCreateMatching_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNMatching *result = 0 ;
   IMTECNMatching *_swig_go_result;
@@ -21023,7 +21024,7 @@ IMTECNMatching *_wrap_IMTAdminAPI_ECNCreateMatching_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-IMTECNMatchingArray *_wrap_IMTAdminAPI_ECNCreateMatchingArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNMatchingArray *_wrap_IMTAdminAPI_ECNCreateMatchingArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNMatchingArray *result = 0 ;
   IMTECNMatchingArray *_swig_go_result;
@@ -21036,7 +21037,7 @@ IMTECNMatchingArray *_wrap_IMTAdminAPI_ECNCreateMatchingArray_mtmanapi_4ac5eea5f
 }
 
 
-IMTECNFilling *_wrap_IMTAdminAPI_ECNCreateFilling_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNFilling *_wrap_IMTAdminAPI_ECNCreateFilling_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNFilling *result = 0 ;
   IMTECNFilling *_swig_go_result;
@@ -21049,7 +21050,7 @@ IMTECNFilling *_wrap_IMTAdminAPI_ECNCreateFilling_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-IMTECNFillingArray *_wrap_IMTAdminAPI_ECNCreateFillingArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNFillingArray *_wrap_IMTAdminAPI_ECNCreateFillingArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNFillingArray *result = 0 ;
   IMTECNFillingArray *_swig_go_result;
@@ -21062,7 +21063,7 @@ IMTECNFillingArray *_wrap_IMTAdminAPI_ECNCreateFillingArray_mtmanapi_4ac5eea5fe3
 }
 
 
-IMTECNProvider *_wrap_IMTAdminAPI_ECNCreateProvider_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNProvider *_wrap_IMTAdminAPI_ECNCreateProvider_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNProvider *result = 0 ;
   IMTECNProvider *_swig_go_result;
@@ -21075,7 +21076,7 @@ IMTECNProvider *_wrap_IMTAdminAPI_ECNCreateProvider_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-IMTECNProviderArray *_wrap_IMTAdminAPI_ECNCreateProviderArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNProviderArray *_wrap_IMTAdminAPI_ECNCreateProviderArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNProviderArray *result = 0 ;
   IMTECNProviderArray *_swig_go_result;
@@ -21088,7 +21089,7 @@ IMTECNProviderArray *_wrap_IMTAdminAPI_ECNCreateProviderArray_mtmanapi_4ac5eea5f
 }
 
 
-IMTECNHistoryMatching *_wrap_IMTAdminAPI_ECNCreateHistoryMatching_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNHistoryMatching *_wrap_IMTAdminAPI_ECNCreateHistoryMatching_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNHistoryMatching *result = 0 ;
   IMTECNHistoryMatching *_swig_go_result;
@@ -21101,7 +21102,7 @@ IMTECNHistoryMatching *_wrap_IMTAdminAPI_ECNCreateHistoryMatching_mtmanapi_4ac5e
 }
 
 
-IMTECNHistoryMatchingArray *_wrap_IMTAdminAPI_ECNCreateHistoryMatchingArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNHistoryMatchingArray *_wrap_IMTAdminAPI_ECNCreateHistoryMatchingArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNHistoryMatchingArray *result = 0 ;
   IMTECNHistoryMatchingArray *_swig_go_result;
@@ -21114,7 +21115,7 @@ IMTECNHistoryMatchingArray *_wrap_IMTAdminAPI_ECNCreateHistoryMatchingArray_mtma
 }
 
 
-IMTECNHistoryFilling *_wrap_IMTAdminAPI_ECNCreateHistoryFilling_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNHistoryFilling *_wrap_IMTAdminAPI_ECNCreateHistoryFilling_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNHistoryFilling *result = 0 ;
   IMTECNHistoryFilling *_swig_go_result;
@@ -21127,7 +21128,7 @@ IMTECNHistoryFilling *_wrap_IMTAdminAPI_ECNCreateHistoryFilling_mtmanapi_4ac5eea
 }
 
 
-IMTECNHistoryFillingArray *_wrap_IMTAdminAPI_ECNCreateHistoryFillingArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNHistoryFillingArray *_wrap_IMTAdminAPI_ECNCreateHistoryFillingArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNHistoryFillingArray *result = 0 ;
   IMTECNHistoryFillingArray *_swig_go_result;
@@ -21140,7 +21141,7 @@ IMTECNHistoryFillingArray *_wrap_IMTAdminAPI_ECNCreateHistoryFillingArray_mtmana
 }
 
 
-IMTECNHistoryDeal *_wrap_IMTAdminAPI_ECNCreateHistoryDeal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNHistoryDeal *_wrap_IMTAdminAPI_ECNCreateHistoryDeal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNHistoryDeal *result = 0 ;
   IMTECNHistoryDeal *_swig_go_result;
@@ -21153,7 +21154,7 @@ IMTECNHistoryDeal *_wrap_IMTAdminAPI_ECNCreateHistoryDeal_mtmanapi_4ac5eea5fe396
 }
 
 
-IMTECNHistoryDealArray *_wrap_IMTAdminAPI_ECNCreateHistoryDealArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTECNHistoryDealArray *_wrap_IMTAdminAPI_ECNCreateHistoryDealArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTECNHistoryDealArray *result = 0 ;
   IMTECNHistoryDealArray *_swig_go_result;
@@ -21166,7 +21167,7 @@ IMTECNHistoryDealArray *_wrap_IMTAdminAPI_ECNCreateHistoryDealArray_mtmanapi_4ac
 }
 
 
-intgo _wrap_IMTAdminAPI_ECNRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTECNMatchingArray *_swig_go_2, IMTECNFillingArray *_swig_go_3, IMTECNProviderArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_ECNRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTECNMatchingArray *_swig_go_2, IMTECNFillingArray *_swig_go_3, IMTECNProviderArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTECNMatchingArray *arg3 = (IMTECNMatchingArray *) 0 ;
@@ -21194,7 +21195,7 @@ intgo _wrap_IMTAdminAPI_ECNRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_ECNRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTECNMatchingArray *_swig_go_3, IMTECNFillingArray *_swig_go_4, IMTECNProviderArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_ECNRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTECNMatchingArray *_swig_go_3, IMTECNFillingArray *_swig_go_4, IMTECNProviderArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -21217,7 +21218,7 @@ intgo _wrap_IMTAdminAPI_ECNRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_ECNRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTECNMatchingArray *_swig_go_3, IMTECNFillingArray *_swig_go_4, IMTECNProviderArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_ECNRequestByTickets_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTECNMatchingArray *_swig_go_3, IMTECNFillingArray *_swig_go_4, IMTECNProviderArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -21240,7 +21241,7 @@ intgo _wrap_IMTAdminAPI_ECNRequestByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_ECNRequestHistoryByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTECNHistoryMatchingArray *_swig_go_4, IMTECNHistoryFillingArray *_swig_go_5, IMTECNHistoryDealArray *_swig_go_6, IMTECNProviderArray *_swig_go_7) {
+intgo _wrap_IMTAdminAPI_ECNRequestHistoryByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTECNHistoryMatchingArray *_swig_go_4, IMTECNHistoryFillingArray *_swig_go_5, IMTECNHistoryDealArray *_swig_go_6, IMTECNProviderArray *_swig_go_7) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -21288,7 +21289,7 @@ intgo _wrap_IMTAdminAPI_ECNRequestHistoryByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_ECNRequestHistoryByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTECNHistoryMatchingArray *_swig_go_5, IMTECNHistoryFillingArray *_swig_go_6, IMTECNHistoryDealArray *_swig_go_7, IMTECNProviderArray *_swig_go_8) {
+intgo _wrap_IMTAdminAPI_ECNRequestHistoryByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTECNHistoryMatchingArray *_swig_go_5, IMTECNHistoryFillingArray *_swig_go_6, IMTECNHistoryDealArray *_swig_go_7, IMTECNProviderArray *_swig_go_8) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -21331,7 +21332,7 @@ intgo _wrap_IMTAdminAPI_ECNRequestHistoryByLogins_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_ECNRequestHistoryByTickets_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTECNHistoryMatchingArray *_swig_go_5, IMTECNHistoryFillingArray *_swig_go_6, IMTECNHistoryDealArray *_swig_go_7, IMTECNProviderArray *_swig_go_8) {
+intgo _wrap_IMTAdminAPI_ECNRequestHistoryByTickets_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTECNHistoryMatchingArray *_swig_go_5, IMTECNHistoryFillingArray *_swig_go_6, IMTECNHistoryDealArray *_swig_go_7, IMTECNProviderArray *_swig_go_8) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -21374,7 +21375,7 @@ intgo _wrap_IMTAdminAPI_ECNRequestHistoryByTickets_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-IMTClient *_wrap_IMTAdminAPI_ClientCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTClient *_wrap_IMTAdminAPI_ClientCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTClient *result = 0 ;
   IMTClient *_swig_go_result;
@@ -21387,7 +21388,7 @@ IMTClient *_wrap_IMTAdminAPI_ClientCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-IMTClientArray *_wrap_IMTAdminAPI_ClientCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTClientArray *_wrap_IMTAdminAPI_ClientCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTClientArray *result = 0 ;
   IMTClientArray *_swig_go_result;
@@ -21400,7 +21401,7 @@ IMTClientArray *_wrap_IMTAdminAPI_ClientCreateArray_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTClient *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ClientAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTClient *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTClient *arg2 = (IMTClient *) 0 ;
   MTAPIRES result;
@@ -21415,7 +21416,7 @@ intgo _wrap_IMTAdminAPI_ClientAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTClientArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ClientAddBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTClientArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTClientArray *arg2 = (IMTClientArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -21432,7 +21433,7 @@ intgo _wrap_IMTAdminAPI_ClientAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTClient **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ClientAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTClient **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTClient **arg2 = (IMTClient **) 0 ;
   UINT arg3 ;
@@ -21451,7 +21452,7 @@ intgo _wrap_IMTAdminAPI_ClientAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTClient *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_ClientUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTClient *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTClient *arg2 = (IMTClient *) 0 ;
   MTAPIRES result;
@@ -21466,7 +21467,7 @@ intgo _wrap_IMTAdminAPI_ClientUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTClientArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ClientUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTClientArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTClientArray *arg2 = (IMTClientArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -21483,7 +21484,7 @@ intgo _wrap_IMTAdminAPI_ClientUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTClient **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ClientUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTClient **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTClient **arg2 = (IMTClient **) 0 ;
   UINT arg3 ;
@@ -21502,7 +21503,7 @@ intgo _wrap_IMTAdminAPI_ClientUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_ClientDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -21517,7 +21518,7 @@ intgo _wrap_IMTAdminAPI_ClientDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ClientDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -21536,7 +21537,7 @@ intgo _wrap_IMTAdminAPI_ClientDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTClient *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ClientRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTClient *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTClient *arg3 = (IMTClient *) 0 ;
@@ -21553,7 +21554,7 @@ intgo _wrap_IMTAdminAPI_ClientRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTClientArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_ClientRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTClientArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTClientArray *arg3 = (IMTClientArray *) 0 ;
@@ -21577,7 +21578,7 @@ intgo _wrap_IMTAdminAPI_ClientRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientRequestHistory_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTClientArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_ClientRequestHistory_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTClientArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -21614,7 +21615,7 @@ intgo _wrap_IMTAdminAPI_ClientRequestHistory_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientUserAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+intgo _wrap_IMTAdminAPI_ClientUserAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -21631,7 +21632,7 @@ intgo _wrap_IMTAdminAPI_ClientUserAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientUserAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_ClientUserAddBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 *arg3 = (UINT64 *) 0 ;
@@ -21652,7 +21653,7 @@ intgo _wrap_IMTAdminAPI_ClientUserAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientUserDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+intgo _wrap_IMTAdminAPI_ClientUserDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -21669,7 +21670,7 @@ intgo _wrap_IMTAdminAPI_ClientUserDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientUserDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_ClientUserDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 *arg3 = (UINT64 *) 0 ;
@@ -21690,7 +21691,7 @@ intgo _wrap_IMTAdminAPI_ClientUserDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientUserRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long **_swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_ClientUserRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long **_swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 **arg3 = 0 ;
@@ -21709,7 +21710,7 @@ intgo _wrap_IMTAdminAPI_ClientUserRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ClientReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -21722,7 +21723,7 @@ intgo _wrap_IMTAdminAPI_ClientReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ClientReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -21735,7 +21736,7 @@ intgo _wrap_IMTAdminAPI_ClientReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ClientReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -21748,7 +21749,7 @@ intgo _wrap_IMTAdminAPI_ClientReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_ClientReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_ClientReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -21761,7 +21762,7 @@ intgo _wrap_IMTAdminAPI_ClientReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTDocument *_wrap_IMTAdminAPI_DocumentCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTDocument *_wrap_IMTAdminAPI_DocumentCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDocument *result = 0 ;
   IMTDocument *_swig_go_result;
@@ -21774,7 +21775,7 @@ IMTDocument *_wrap_IMTAdminAPI_DocumentCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-IMTDocumentArray *_wrap_IMTAdminAPI_DocumentCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTDocumentArray *_wrap_IMTAdminAPI_DocumentCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDocumentArray *result = 0 ;
   IMTDocumentArray *_swig_go_result;
@@ -21787,7 +21788,7 @@ IMTDocumentArray *_wrap_IMTAdminAPI_DocumentCreateArray_mtmanapi_4ac5eea5fe396bb
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDocument *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_DocumentAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDocument *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDocument *arg2 = (IMTDocument *) 0 ;
   MTAPIRES result;
@@ -21802,7 +21803,7 @@ intgo _wrap_IMTAdminAPI_DocumentAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDocumentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_DocumentAddBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDocumentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDocumentArray *arg2 = (IMTDocumentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -21819,7 +21820,7 @@ intgo _wrap_IMTAdminAPI_DocumentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDocument **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DocumentAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDocument **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDocument **arg2 = (IMTDocument **) 0 ;
   UINT arg3 ;
@@ -21838,7 +21839,7 @@ intgo _wrap_IMTAdminAPI_DocumentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDocument *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_DocumentUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDocument *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDocument *arg2 = (IMTDocument *) 0 ;
   MTAPIRES result;
@@ -21853,7 +21854,7 @@ intgo _wrap_IMTAdminAPI_DocumentUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDocumentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_DocumentUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDocumentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDocumentArray *arg2 = (IMTDocumentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -21870,7 +21871,7 @@ intgo _wrap_IMTAdminAPI_DocumentUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDocument **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DocumentUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDocument **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDocument **arg2 = (IMTDocument **) 0 ;
   UINT arg3 ;
@@ -21889,7 +21890,7 @@ intgo _wrap_IMTAdminAPI_DocumentUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_DocumentDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -21904,7 +21905,7 @@ intgo _wrap_IMTAdminAPI_DocumentDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DocumentDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -21923,7 +21924,7 @@ intgo _wrap_IMTAdminAPI_DocumentDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTDocument *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_DocumentRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTDocument *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTDocument *arg3 = (IMTDocument *) 0 ;
@@ -21940,7 +21941,7 @@ intgo _wrap_IMTAdminAPI_DocumentRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentRequestByClient_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTDocumentArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_DocumentRequestByClient_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTDocumentArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTDocumentArray *arg3 = (IMTDocumentArray *) 0 ;
@@ -21957,7 +21958,7 @@ intgo _wrap_IMTAdminAPI_DocumentRequestByClient_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentRequestHistory_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDocumentArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_DocumentRequestHistory_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDocumentArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -21994,7 +21995,7 @@ intgo _wrap_IMTAdminAPI_DocumentRequestHistory_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_DocumentReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22007,7 +22008,7 @@ intgo _wrap_IMTAdminAPI_DocumentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_DocumentReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22020,7 +22021,7 @@ intgo _wrap_IMTAdminAPI_DocumentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_DocumentReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22033,7 +22034,7 @@ intgo _wrap_IMTAdminAPI_DocumentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_DocumentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_DocumentReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22046,7 +22047,7 @@ intgo _wrap_IMTAdminAPI_DocumentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-IMTComment *_wrap_IMTAdminAPI_CommentCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTComment *_wrap_IMTAdminAPI_CommentCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTComment *result = 0 ;
   IMTComment *_swig_go_result;
@@ -22059,7 +22060,7 @@ IMTComment *_wrap_IMTAdminAPI_CommentCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-IMTCommentArray *_wrap_IMTAdminAPI_CommentCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTCommentArray *_wrap_IMTAdminAPI_CommentCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTCommentArray *result = 0 ;
   IMTCommentArray *_swig_go_result;
@@ -22072,7 +22073,7 @@ IMTCommentArray *_wrap_IMTAdminAPI_CommentCreateArray_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTComment *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_CommentAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTComment *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTComment *arg2 = (IMTComment *) 0 ;
   MTAPIRES result;
@@ -22087,7 +22088,7 @@ intgo _wrap_IMTAdminAPI_CommentAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTCommentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_CommentAddBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTCommentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTCommentArray *arg2 = (IMTCommentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -22104,7 +22105,7 @@ intgo _wrap_IMTAdminAPI_CommentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTComment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_CommentAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTComment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTComment **arg2 = (IMTComment **) 0 ;
   UINT arg3 ;
@@ -22123,7 +22124,7 @@ intgo _wrap_IMTAdminAPI_CommentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTComment *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_CommentUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTComment *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTComment *arg2 = (IMTComment *) 0 ;
   MTAPIRES result;
@@ -22138,7 +22139,7 @@ intgo _wrap_IMTAdminAPI_CommentUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTCommentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_CommentUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTCommentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTCommentArray *arg2 = (IMTCommentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -22155,7 +22156,7 @@ intgo _wrap_IMTAdminAPI_CommentUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTComment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_CommentUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTComment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTComment **arg2 = (IMTComment **) 0 ;
   UINT arg3 ;
@@ -22174,7 +22175,7 @@ intgo _wrap_IMTAdminAPI_CommentUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_CommentDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -22189,7 +22190,7 @@ intgo _wrap_IMTAdminAPI_CommentDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_CommentDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -22208,7 +22209,7 @@ intgo _wrap_IMTAdminAPI_CommentDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTComment *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_CommentRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTComment *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTComment *arg3 = (IMTComment *) 0 ;
@@ -22225,7 +22226,7 @@ intgo _wrap_IMTAdminAPI_CommentRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentRequestByClient_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTCommentArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_CommentRequestByClient_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTCommentArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT arg3 ;
@@ -22246,7 +22247,7 @@ intgo _wrap_IMTAdminAPI_CommentRequestByClient_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentRequestByDocument_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTCommentArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_CommentRequestByDocument_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTCommentArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT arg3 ;
@@ -22267,7 +22268,7 @@ intgo _wrap_IMTAdminAPI_CommentRequestByDocument_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CommentReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22280,7 +22281,7 @@ intgo _wrap_IMTAdminAPI_CommentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CommentReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22293,7 +22294,7 @@ intgo _wrap_IMTAdminAPI_CommentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CommentReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22306,7 +22307,7 @@ intgo _wrap_IMTAdminAPI_CommentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_CommentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CommentReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22319,7 +22320,7 @@ intgo _wrap_IMTAdminAPI_CommentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-IMTAttachment *_wrap_IMTAdminAPI_AttachmentCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTAttachment *_wrap_IMTAdminAPI_AttachmentCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTAttachment *result = 0 ;
   IMTAttachment *_swig_go_result;
@@ -22332,7 +22333,7 @@ IMTAttachment *_wrap_IMTAdminAPI_AttachmentCreate_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-IMTAttachmentArray *_wrap_IMTAdminAPI_AttachmentCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTAttachmentArray *_wrap_IMTAdminAPI_AttachmentCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTAttachmentArray *result = 0 ;
   IMTAttachmentArray *_swig_go_result;
@@ -22345,7 +22346,7 @@ IMTAttachmentArray *_wrap_IMTAdminAPI_AttachmentCreateArray_mtmanapi_4ac5eea5fe3
 }
 
 
-intgo _wrap_IMTAdminAPI_AttachmentAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTAttachment *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_AttachmentAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTAttachment *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTAttachment *arg2 = (IMTAttachment *) 0 ;
   MTAPIRES result;
@@ -22360,7 +22361,7 @@ intgo _wrap_IMTAdminAPI_AttachmentAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_AttachmentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTAttachmentArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_AttachmentAddBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTAttachmentArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTAttachmentArray *arg2 = (IMTAttachmentArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -22377,7 +22378,7 @@ intgo _wrap_IMTAdminAPI_AttachmentAddBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_AttachmentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTAttachment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_AttachmentAddBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTAttachment **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTAttachment **arg2 = (IMTAttachment **) 0 ;
   UINT arg3 ;
@@ -22396,7 +22397,7 @@ intgo _wrap_IMTAdminAPI_AttachmentAddBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_AttachmentRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTAttachmentArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_AttachmentRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTAttachmentArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -22415,7 +22416,7 @@ intgo _wrap_IMTAdminAPI_AttachmentRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_AttachmentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AttachmentReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22428,7 +22429,7 @@ intgo _wrap_IMTAdminAPI_AttachmentReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_AttachmentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AttachmentReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22441,7 +22442,7 @@ intgo _wrap_IMTAdminAPI_AttachmentReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_AttachmentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AttachmentReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22454,7 +22455,7 @@ intgo _wrap_IMTAdminAPI_AttachmentReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_AttachmentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AttachmentReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22467,7 +22468,7 @@ intgo _wrap_IMTAdminAPI_AttachmentReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_UserRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTUserArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTUserArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -22486,7 +22487,7 @@ intgo _wrap_IMTAdminAPI_UserRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_UserBackupRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, LPCWSTR *_swig_go_3, IMTUserArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_UserBackupRequestArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, LPCWSTR *_swig_go_3, IMTUserArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -22521,7 +22522,7 @@ intgo _wrap_IMTAdminAPI_UserBackupRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_UserBackupRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long *_swig_go_3, intgo _swig_go_4, IMTUserArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_UserBackupRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, long long *_swig_go_3, intgo _swig_go_4, IMTUserArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -22551,7 +22552,7 @@ intgo _wrap_IMTAdminAPI_UserBackupRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_UserArchiveRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUserArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserArchiveRequestArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTUserArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTUserArray *arg3 = (IMTUserArray *) 0 ;
@@ -22575,7 +22576,7 @@ intgo _wrap_IMTAdminAPI_UserArchiveRequestArray_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_UserArchiveRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTUserArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserArchiveRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTUserArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -22594,7 +22595,7 @@ intgo _wrap_IMTAdminAPI_UserArchiveRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_UserUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTUserArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTUserArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUserArray *arg2 = (IMTUserArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -22611,7 +22612,7 @@ intgo _wrap_IMTAdminAPI_UserUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_UserUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTUser **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTUser **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUser **arg2 = (IMTUser **) 0 ;
   UINT arg3 ;
@@ -22630,7 +22631,7 @@ intgo _wrap_IMTAdminAPI_UserUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-IMTConAutomation *_wrap_IMTAdminAPI_AutomationCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConAutomation *_wrap_IMTAdminAPI_AutomationCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutomation *result = 0 ;
   IMTConAutomation *_swig_go_result;
@@ -22643,7 +22644,7 @@ IMTConAutomation *_wrap_IMTAdminAPI_AutomationCreate_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-IMTConAutoCondition *_wrap_IMTAdminAPI_AutomationConditionCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConAutoCondition *_wrap_IMTAdminAPI_AutomationConditionCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutoCondition *result = 0 ;
   IMTConAutoCondition *_swig_go_result;
@@ -22656,7 +22657,7 @@ IMTConAutoCondition *_wrap_IMTAdminAPI_AutomationConditionCreate_mtmanapi_4ac5ee
 }
 
 
-IMTConAutoAction *_wrap_IMTAdminAPI_AutomationActionCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConAutoAction *_wrap_IMTAdminAPI_AutomationActionCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutoAction *result = 0 ;
   IMTConAutoAction *_swig_go_result;
@@ -22669,7 +22670,7 @@ IMTConAutoAction *_wrap_IMTAdminAPI_AutomationActionCreate_mtmanapi_4ac5eea5fe39
 }
 
 
-IMTConAutoParam *_wrap_IMTAdminAPI_AutomationParamCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConAutoParam *_wrap_IMTAdminAPI_AutomationParamCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutoParam *result = 0 ;
   IMTConAutoParam *_swig_go_result;
@@ -22682,7 +22683,7 @@ IMTConAutoParam *_wrap_IMTAdminAPI_AutomationParamCreate_mtmanapi_4ac5eea5fe396b
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConAutomationSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_AutomationSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConAutomationSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutomationSink *arg2 = (IMTConAutomationSink *) 0 ;
   MTAPIRES result;
@@ -22697,7 +22698,7 @@ intgo _wrap_IMTAdminAPI_AutomationSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConAutomationSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_AutomationUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConAutomationSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutomationSink *arg2 = (IMTConAutomationSink *) 0 ;
   MTAPIRES result;
@@ -22712,7 +22713,7 @@ intgo _wrap_IMTAdminAPI_AutomationUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConAutomation *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_AutomationUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConAutomation *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutomation *arg2 = (IMTConAutomation *) 0 ;
   MTAPIRES result;
@@ -22727,7 +22728,7 @@ intgo _wrap_IMTAdminAPI_AutomationUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_AutomationDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -22749,7 +22750,7 @@ intgo _wrap_IMTAdminAPI_AutomationDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_AutomationDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -22764,7 +22765,7 @@ intgo _wrap_IMTAdminAPI_AutomationDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_AutomationShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -22781,7 +22782,7 @@ intgo _wrap_IMTAdminAPI_AutomationShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AutomationTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -22794,7 +22795,7 @@ intgo _wrap_IMTAdminAPI_AutomationTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConAutomation *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_AutomationNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConAutomation *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConAutomation *arg3 = (IMTConAutomation *) 0 ;
@@ -22811,7 +22812,7 @@ intgo _wrap_IMTAdminAPI_AutomationNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConAutomation *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_AutomationGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConAutomation *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConAutomation *arg3 = (IMTConAutomation *) 0 ;
@@ -22835,7 +22836,7 @@ intgo _wrap_IMTAdminAPI_AutomationGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConAutomation **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_AutomationUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConAutomation **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutomation **arg2 = (IMTConAutomation **) 0 ;
   UINT arg3 ;
@@ -22854,7 +22855,7 @@ intgo _wrap_IMTAdminAPI_AutomationUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConAutomation **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_AutomationDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConAutomation **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConAutomation **arg2 = (IMTConAutomation **) 0 ;
   UINT arg3 ;
@@ -22873,7 +22874,7 @@ intgo _wrap_IMTAdminAPI_AutomationDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AutomationReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22886,7 +22887,7 @@ intgo _wrap_IMTAdminAPI_AutomationReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AutomationReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22899,7 +22900,7 @@ intgo _wrap_IMTAdminAPI_AutomationReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AutomationReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22912,7 +22913,7 @@ intgo _wrap_IMTAdminAPI_AutomationReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_AutomationReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_AutomationReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -22925,7 +22926,7 @@ intgo _wrap_IMTAdminAPI_AutomationReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-IMTConSubscription *_wrap_IMTAdminAPI_SubscriptionCfgCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConSubscription *_wrap_IMTAdminAPI_SubscriptionCfgCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSubscription *result = 0 ;
   IMTConSubscription *_swig_go_result;
@@ -22938,7 +22939,7 @@ IMTConSubscription *_wrap_IMTAdminAPI_SubscriptionCfgCreate_mtmanapi_4ac5eea5fe3
 }
 
 
-IMTConSubscriptionSymbol *_wrap_IMTAdminAPI_SubscriptionCfgSymbolCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConSubscriptionSymbol *_wrap_IMTAdminAPI_SubscriptionCfgSymbolCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSubscriptionSymbol *result = 0 ;
   IMTConSubscriptionSymbol *_swig_go_result;
@@ -22951,7 +22952,7 @@ IMTConSubscriptionSymbol *_wrap_IMTAdminAPI_SubscriptionCfgSymbolCreate_mtmanapi
 }
 
 
-IMTConSubscriptionNews *_wrap_IMTAdminAPI_SubscriptionCfgNewsCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConSubscriptionNews *_wrap_IMTAdminAPI_SubscriptionCfgNewsCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSubscriptionNews *result = 0 ;
   IMTConSubscriptionNews *_swig_go_result;
@@ -22964,7 +22965,7 @@ IMTConSubscriptionNews *_wrap_IMTAdminAPI_SubscriptionCfgNewsCreate_mtmanapi_4ac
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSubscriptionSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSubscriptionSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSubscriptionSink *arg2 = (IMTConSubscriptionSink *) 0 ;
   MTAPIRES result;
@@ -22979,7 +22980,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSubscriptionSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSubscriptionSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSubscriptionSink *arg2 = (IMTConSubscriptionSink *) 0 ;
   MTAPIRES result;
@@ -22994,7 +22995,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSubscription *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSubscription *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSubscription *arg2 = (IMTConSubscription *) 0 ;
   MTAPIRES result;
@@ -23009,7 +23010,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -23031,7 +23032,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -23046,7 +23047,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgDeleteByID_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgDeleteByID_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -23061,7 +23062,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgDeleteByID_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -23078,7 +23079,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -23091,7 +23092,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConSubscription *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConSubscription *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConSubscription *arg3 = (IMTConSubscription *) 0 ;
@@ -23108,7 +23109,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSubscription *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConSubscription *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConSubscription *arg3 = (IMTConSubscription *) 0 ;
@@ -23132,7 +23133,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgGetByID_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTConSubscription *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgGetByID_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTConSubscription *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTConSubscription *arg3 = (IMTConSubscription *) 0 ;
@@ -23149,7 +23150,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgGetByID_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSubscription **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSubscription **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSubscription **arg2 = (IMTConSubscription **) 0 ;
   UINT arg3 ;
@@ -23168,7 +23169,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConSubscription **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConSubscription **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConSubscription **arg2 = (IMTConSubscription **) 0 ;
   UINT arg3 ;
@@ -23187,7 +23188,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23200,7 +23201,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23213,7 +23214,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23226,7 +23227,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23239,7 +23240,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCfgReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-IMTSubscription *_wrap_IMTAdminAPI_SubscriptionCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTSubscription *_wrap_IMTAdminAPI_SubscriptionCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscription *result = 0 ;
   IMTSubscription *_swig_go_result;
@@ -23252,7 +23253,7 @@ IMTSubscription *_wrap_IMTAdminAPI_SubscriptionCreate_mtmanapi_4ac5eea5fe396bb3(
 }
 
 
-IMTSubscriptionArray *_wrap_IMTAdminAPI_SubscriptionCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTSubscriptionArray *_wrap_IMTAdminAPI_SubscriptionCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscriptionArray *result = 0 ;
   IMTSubscriptionArray *_swig_go_result;
@@ -23265,7 +23266,7 @@ IMTSubscriptionArray *_wrap_IMTAdminAPI_SubscriptionCreateArray_mtmanapi_4ac5eea
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionJoin_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, IMTSubscription *_swig_go_3, IMTSubscriptionHistory *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_SubscriptionJoin_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, IMTSubscription *_swig_go_3, IMTSubscriptionHistory *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -23286,7 +23287,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionJoin_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionJoinBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, IMTSubscriptionArray *_swig_go_5, IMTSubscriptionHistoryArray *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_SubscriptionJoinBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, IMTSubscriptionArray *_swig_go_5, IMTSubscriptionHistoryArray *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT64 *arg3 = (UINT64 *) 0 ;
@@ -23311,7 +23312,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionJoinBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCancel_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, IMTSubscription *_swig_go_3, IMTSubscriptionHistory *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_SubscriptionCancel_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, long long _swig_go_2, IMTSubscription *_swig_go_3, IMTSubscriptionHistory *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   UINT64 arg3 ;
@@ -23332,7 +23333,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCancel_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionCancelBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, IMTSubscriptionArray *_swig_go_5, IMTSubscriptionHistoryArray *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_SubscriptionCancelBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, long long *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, IMTSubscriptionArray *_swig_go_5, IMTSubscriptionHistoryArray *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT64 *arg3 = (UINT64 *) 0 ;
@@ -23357,7 +23358,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionCancelBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTSubscription *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTSubscription *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscription *arg2 = (IMTSubscription *) 0 ;
   MTAPIRES result;
@@ -23372,7 +23373,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTSubscriptionArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTSubscriptionArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscriptionArray *arg2 = (IMTSubscriptionArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -23389,7 +23390,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTSubscription **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTSubscription **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscription **arg2 = (IMTSubscription **) 0 ;
   UINT arg3 ;
@@ -23408,7 +23409,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -23423,7 +23424,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -23442,7 +23443,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTSubscriptionArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTSubscriptionArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTSubscriptionArray *arg3 = (IMTSubscriptionArray *) 0 ;
@@ -23459,7 +23460,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionRequestByID_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTSubscription *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionRequestByID_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTSubscription *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTSubscription *arg3 = (IMTSubscription *) 0 ;
@@ -23476,7 +23477,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionRequestByID_mtmanapi_4ac5eea5fe396bb3(IMTAdm
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTSubscriptionArray *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTSubscriptionArray *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTSubscriptionArray *arg3 = (IMTSubscriptionArray *) 0 ;
@@ -23500,7 +23501,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -23519,7 +23520,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionRequestByIDs_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionRequestByIDs_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -23538,7 +23539,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionRequestByIDs_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23551,7 +23552,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23564,7 +23565,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23577,7 +23578,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23590,7 +23591,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-IMTSubscriptionHistory *_wrap_IMTAdminAPI_SubscriptionHistoryCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTSubscriptionHistory *_wrap_IMTAdminAPI_SubscriptionHistoryCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscriptionHistory *result = 0 ;
   IMTSubscriptionHistory *_swig_go_result;
@@ -23603,7 +23604,7 @@ IMTSubscriptionHistory *_wrap_IMTAdminAPI_SubscriptionHistoryCreate_mtmanapi_4ac
 }
 
 
-IMTSubscriptionHistoryArray *_wrap_IMTAdminAPI_SubscriptionHistoryCreateArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTSubscriptionHistoryArray *_wrap_IMTAdminAPI_SubscriptionHistoryCreateArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscriptionHistoryArray *result = 0 ;
   IMTSubscriptionHistoryArray *_swig_go_result;
@@ -23616,7 +23617,7 @@ IMTSubscriptionHistoryArray *_wrap_IMTAdminAPI_SubscriptionHistoryCreateArray_mt
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTSubscriptionHistory *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTSubscriptionHistory *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscriptionHistory *arg2 = (IMTSubscriptionHistory *) 0 ;
   MTAPIRES result;
@@ -23631,7 +23632,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdate_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTSubscriptionHistoryArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTSubscriptionHistoryArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscriptionHistoryArray *arg2 = (IMTSubscriptionHistoryArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -23648,7 +23649,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdateBatch_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdateBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTSubscriptionHistory **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdateBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTSubscriptionHistory **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTSubscriptionHistory **arg2 = (IMTSubscriptionHistory **) 0 ;
   UINT arg3 ;
@@ -23667,7 +23668,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryUpdateBatchArray_mtmanapi_4ac5eea5fe3
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -23682,7 +23683,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryDelete_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -23701,7 +23702,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryDeleteBatch_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTSubscriptionHistoryArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequest_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTSubscriptionHistoryArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   INT64 arg3 ;
@@ -23736,7 +23737,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequest_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByID_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTSubscriptionHistory *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByID_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1, IMTSubscriptionHistory *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   IMTSubscriptionHistory *arg3 = (IMTSubscriptionHistory *) 0 ;
@@ -23753,7 +23754,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByID_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTSubscriptionHistoryArray *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, signed __int64 *_swig_go_2, signed __int64 *_swig_go_3, IMTSubscriptionHistoryArray *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   INT64 arg3 ;
@@ -23795,7 +23796,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByGroup_mtmanapi_4ac5eea5fe396
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByLogins_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTSubscriptionHistoryArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByLogins_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTSubscriptionHistoryArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -23832,7 +23833,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByLogins_mtmanapi_4ac5eea5fe39
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByIDs_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionHistoryArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByIDs_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, IMTSubscriptionHistoryArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -23851,7 +23852,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryRequestByIDs_mtmanapi_4ac5eea5fe396bb
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23864,7 +23865,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved1_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23877,7 +23878,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved2_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23890,7 +23891,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved3_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -23903,7 +23904,7 @@ intgo _wrap_IMTAdminAPI_SubscriptionHistoryReserved4_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-IMTConVPS *_wrap_IMTAdminAPI_VPSCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConVPS *_wrap_IMTAdminAPI_VPSCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConVPS *result = 0 ;
   IMTConVPS *_swig_go_result;
@@ -23916,7 +23917,7 @@ IMTConVPS *_wrap_IMTAdminAPI_VPSCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-IMTConVPSGroup *_wrap_IMTAdminAPI_VPSCreateGroup_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConVPSGroup *_wrap_IMTAdminAPI_VPSCreateGroup_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConVPSGroup *result = 0 ;
   IMTConVPSGroup *_swig_go_result;
@@ -23929,7 +23930,7 @@ IMTConVPSGroup *_wrap_IMTAdminAPI_VPSCreateGroup_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_VPSSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConVPSSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_VPSSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConVPSSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConVPSSink *arg2 = (IMTConVPSSink *) 0 ;
   MTAPIRES result;
@@ -23944,7 +23945,7 @@ intgo _wrap_IMTAdminAPI_VPSSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_VPSUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConVPSSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_VPSUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConVPSSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConVPSSink *arg2 = (IMTConVPSSink *) 0 ;
   MTAPIRES result;
@@ -23959,7 +23960,7 @@ intgo _wrap_IMTAdminAPI_VPSUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_VPSGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConVPS *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_VPSGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConVPS *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConVPS *arg2 = (IMTConVPS *) 0 ;
   MTAPIRES result;
@@ -23974,7 +23975,7 @@ intgo _wrap_IMTAdminAPI_VPSGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0
 }
 
 
-intgo _wrap_IMTAdminAPI_VPSSet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConVPS *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_VPSSet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConVPS *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConVPS *arg2 = (IMTConVPS *) 0 ;
   MTAPIRES result;
@@ -23989,7 +23990,7 @@ intgo _wrap_IMTAdminAPI_VPSSet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0
 }
 
 
-IMTConVPSRule *_wrap_IMTAdminAPI_VPSCreateRule_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConVPSRule *_wrap_IMTAdminAPI_VPSCreateRule_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConVPSRule *result = 0 ;
   IMTConVPSRule *_swig_go_result;
@@ -24002,7 +24003,7 @@ IMTConVPSRule *_wrap_IMTAdminAPI_VPSCreateRule_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-IMTConVPSCondition *_wrap_IMTAdminAPI_VPSCreateCondition_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConVPSCondition *_wrap_IMTAdminAPI_VPSCreateCondition_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConVPSCondition *result = 0 ;
   IMTConVPSCondition *_swig_go_result;
@@ -24015,7 +24016,7 @@ IMTConVPSCondition *_wrap_IMTAdminAPI_VPSCreateCondition_mtmanapi_4ac5eea5fe396b
 }
 
 
-intgo _wrap_IMTAdminAPI_VPSReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_VPSReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24028,7 +24029,7 @@ intgo _wrap_IMTAdminAPI_VPSReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_VPSReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_VPSReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24041,7 +24042,7 @@ intgo _wrap_IMTAdminAPI_VPSReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-IMTConKYC *_wrap_IMTAdminAPI_KYCCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConKYC *_wrap_IMTAdminAPI_KYCCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConKYC *result = 0 ;
   IMTConKYC *_swig_go_result;
@@ -24054,7 +24055,7 @@ IMTConKYC *_wrap_IMTAdminAPI_KYCCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-IMTConKYCCountry *_wrap_IMTAdminAPI_KYCCountryCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConKYCCountry *_wrap_IMTAdminAPI_KYCCountryCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConKYCCountry *result = 0 ;
   IMTConKYCCountry *_swig_go_result;
@@ -24067,7 +24068,7 @@ IMTConKYCCountry *_wrap_IMTAdminAPI_KYCCountryCreate_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-IMTConKYCGroup *_wrap_IMTAdminAPI_KYCGroupCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConKYCGroup *_wrap_IMTAdminAPI_KYCGroupCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConKYCGroup *result = 0 ;
   IMTConKYCGroup *_swig_go_result;
@@ -24080,7 +24081,7 @@ IMTConKYCGroup *_wrap_IMTAdminAPI_KYCGroupCreate_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConKYCSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_KYCSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConKYCSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConKYCSink *arg2 = (IMTConKYCSink *) 0 ;
   MTAPIRES result;
@@ -24095,7 +24096,7 @@ intgo _wrap_IMTAdminAPI_KYCSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConKYCSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_KYCUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConKYCSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConKYCSink *arg2 = (IMTConKYCSink *) 0 ;
   MTAPIRES result;
@@ -24110,7 +24111,7 @@ intgo _wrap_IMTAdminAPI_KYCUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConKYC *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_KYCUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConKYC *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConKYC *arg2 = (IMTConKYC *) 0 ;
   MTAPIRES result;
@@ -24125,7 +24126,7 @@ intgo _wrap_IMTAdminAPI_KYCUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_g
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_KYCDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -24147,7 +24148,7 @@ intgo _wrap_IMTAdminAPI_KYCDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_KYCDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -24162,7 +24163,7 @@ intgo _wrap_IMTAdminAPI_KYCDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_KYCShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -24179,7 +24180,7 @@ intgo _wrap_IMTAdminAPI_KYCShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_KYCTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -24192,7 +24193,7 @@ intgo _wrap_IMTAdminAPI_KYCTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConKYC *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_KYCNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConKYC *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConKYC *arg3 = (IMTConKYC *) 0 ;
@@ -24209,7 +24210,7 @@ intgo _wrap_IMTAdminAPI_KYCNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConKYC *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_KYCGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConKYC *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConKYC *arg3 = (IMTConKYC *) 0 ;
@@ -24233,7 +24234,7 @@ intgo _wrap_IMTAdminAPI_KYCGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConKYC **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_KYCUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConKYC **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConKYC **arg2 = (IMTConKYC **) 0 ;
   UINT arg3 ;
@@ -24252,7 +24253,7 @@ intgo _wrap_IMTAdminAPI_KYCUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConKYC **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_KYCDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConKYC **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConKYC **arg2 = (IMTConKYC **) 0 ;
   UINT arg3 ;
@@ -24271,7 +24272,7 @@ intgo _wrap_IMTAdminAPI_KYCDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCStart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_KYCStart_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -24290,7 +24291,7 @@ intgo _wrap_IMTAdminAPI_KYCStart_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_KYCReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24303,7 +24304,7 @@ intgo _wrap_IMTAdminAPI_KYCReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_KYCReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24316,7 +24317,7 @@ intgo _wrap_IMTAdminAPI_KYCReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_KYCReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24329,7 +24330,7 @@ intgo _wrap_IMTAdminAPI_KYCReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_KYCReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_KYCReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24342,7 +24343,7 @@ intgo _wrap_IMTAdminAPI_KYCReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_DealPerform_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDeal *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_DealPerform_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDeal *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDeal *arg2 = (IMTDeal *) 0 ;
   MTAPIRES result;
@@ -24357,7 +24358,7 @@ intgo _wrap_IMTAdminAPI_DealPerform_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_DealPerformBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_DealPerformBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDealArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDealArray *arg2 = (IMTDealArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -24374,7 +24375,7 @@ intgo _wrap_IMTAdminAPI_DealPerformBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_DealPerformBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_DealPerformBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTDeal **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTDeal **arg2 = (IMTDeal **) 0 ;
   UINT arg3 ;
@@ -24393,7 +24394,7 @@ intgo _wrap_IMTAdminAPI_DealPerformBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_DealRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTDealArray *_swig_go_6) {
+intgo _wrap_IMTAdminAPI_DealRequestByLoginsSymbol_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3, signed __int64 *_swig_go_4, signed __int64 *_swig_go_5, IMTDealArray *_swig_go_6) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -24439,7 +24440,7 @@ intgo _wrap_IMTAdminAPI_DealRequestByLoginsSymbol_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_DealRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_DealRequestByGroupSymbol_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, signed __int64 *_swig_go_3, signed __int64 *_swig_go_4, IMTDealArray *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -24490,7 +24491,7 @@ intgo _wrap_IMTAdminAPI_DealRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-intgo _wrap_IMTAdminAPI_DealReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_DealReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24503,7 +24504,7 @@ intgo _wrap_IMTAdminAPI_DealReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_DealReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_DealReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24516,7 +24517,7 @@ intgo _wrap_IMTAdminAPI_DealReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-IMTConBackupFolder *_wrap_IMTAdminAPI_NetServerBackupFolderCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConBackupFolder *_wrap_IMTAdminAPI_NetServerBackupFolderCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConBackupFolder *result = 0 ;
   IMTConBackupFolder *_swig_go_result;
@@ -24529,7 +24530,7 @@ IMTConBackupFolder *_wrap_IMTAdminAPI_NetServerBackupFolderCreate_mtmanapi_4ac5e
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetServerReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24542,7 +24543,7 @@ intgo _wrap_IMTAdminAPI_NetServerReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetServerReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24555,7 +24556,7 @@ intgo _wrap_IMTAdminAPI_NetServerReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetServerReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24568,7 +24569,7 @@ intgo _wrap_IMTAdminAPI_NetServerReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_NetServerReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_NetServerReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24581,7 +24582,7 @@ intgo _wrap_IMTAdminAPI_NetServerReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI
 }
 
 
-intgo _wrap_IMTAdminAPI_UserDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -24600,7 +24601,7 @@ intgo _wrap_IMTAdminAPI_UserDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_UserArchiveBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserArchiveBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -24619,7 +24620,7 @@ intgo _wrap_IMTAdminAPI_UserArchiveBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_UserRestoreBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTUserArray *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_UserRestoreBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTUserArray *_swig_go_1, intgo *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUserArray *arg2 = (IMTUserArray *) 0 ;
   MTAPIRES *arg3 = (MTAPIRES *) 0 ;
@@ -24636,7 +24637,7 @@ intgo _wrap_IMTAdminAPI_UserRestoreBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_UserRestoreBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTUser **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_UserRestoreBatchArray_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTUser **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTUser **arg2 = (IMTUser **) 0 ;
   UINT arg3 ;
@@ -24655,7 +24656,7 @@ intgo _wrap_IMTAdminAPI_UserRestoreBatchArray_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_UserBalanceCheckBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, double *_swig_go_5, double *_swig_go_6, double *_swig_go_7, double *_swig_go_8) {
+intgo _wrap_IMTAdminAPI_UserBalanceCheckBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, double *_swig_go_5, double *_swig_go_6, double *_swig_go_7, double *_swig_go_8) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -24684,7 +24685,7 @@ intgo _wrap_IMTAdminAPI_UserBalanceCheckBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_UserReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_UserReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24697,7 +24698,7 @@ intgo _wrap_IMTAdminAPI_UserReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_UserReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_UserReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24710,7 +24711,7 @@ intgo _wrap_IMTAdminAPI_UserReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_UserReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_UserReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24723,7 +24724,7 @@ intgo _wrap_IMTAdminAPI_UserReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SymbolGroupDelete_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -24745,7 +24746,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupDelete_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_SymbolGroupShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -24762,7 +24763,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SymbolGroupTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -24775,7 +24776,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, wchar_t (*_swig_go_2)[260]) {
+intgo _wrap_IMTAdminAPI_SymbolGroupNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, wchar_t (*_swig_go_2)[260]) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPISTR *arg3 = 0 ;
@@ -24792,7 +24793,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupExist_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SymbolGroupExist_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -24814,7 +24815,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupExist_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_SymbolGroupAdd_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -24836,7 +24837,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupAdd_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SymbolGroupReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24849,7 +24850,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SymbolGroupReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24862,7 +24863,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_SymbolGroupReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_SymbolGroupReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24875,7 +24876,7 @@ intgo _wrap_IMTAdminAPI_SymbolGroupReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminA
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTOrderArray *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderRequestByGroupSymbol_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, LPCWSTR *_swig_go_2, IMTOrderArray *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -24908,7 +24909,7 @@ intgo _wrap_IMTAdminAPI_OrderRequestByGroupSymbol_mtmanapi_4ac5eea5fe396bb3(IMTA
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderCancel_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_IMTAdminAPI_OrderCancel_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 arg2 ;
   MTAPIRES result;
@@ -24923,7 +24924,7 @@ intgo _wrap_IMTAdminAPI_OrderCancel_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderCancelBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_OrderCancelBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, long long *_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT64 *arg2 = (UINT64 *) 0 ;
   UINT arg3 ;
@@ -24942,7 +24943,7 @@ intgo _wrap_IMTAdminAPI_OrderCancelBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_OrderReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24955,7 +24956,7 @@ intgo _wrap_IMTAdminAPI_OrderReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_OrderReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_OrderReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -24968,7 +24969,7 @@ intgo _wrap_IMTAdminAPI_OrderReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-IMTConLeverage *_wrap_IMTAdminAPI_LeverageCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConLeverage *_wrap_IMTAdminAPI_LeverageCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConLeverage *result = 0 ;
   IMTConLeverage *_swig_go_result;
@@ -24981,7 +24982,7 @@ IMTConLeverage *_wrap_IMTAdminAPI_LeverageCreate_mtmanapi_4ac5eea5fe396bb3(IMTAd
 }
 
 
-IMTConLeverageRule *_wrap_IMTAdminAPI_LeverageRuleCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConLeverageRule *_wrap_IMTAdminAPI_LeverageRuleCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConLeverageRule *result = 0 ;
   IMTConLeverageRule *_swig_go_result;
@@ -24994,7 +24995,7 @@ IMTConLeverageRule *_wrap_IMTAdminAPI_LeverageRuleCreate_mtmanapi_4ac5eea5fe396b
 }
 
 
-IMTConLeverageTier *_wrap_IMTAdminAPI_LeverageTierCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTConLeverageTier *_wrap_IMTAdminAPI_LeverageTierCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConLeverageTier *result = 0 ;
   IMTConLeverageTier *_swig_go_result;
@@ -25007,7 +25008,7 @@ IMTConLeverageTier *_wrap_IMTAdminAPI_LeverageTierCreate_mtmanapi_4ac5eea5fe396b
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConLeverageSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_LeverageSubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConLeverageSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConLeverageSink *arg2 = (IMTConLeverageSink *) 0 ;
   MTAPIRES result;
@@ -25022,7 +25023,7 @@ intgo _wrap_IMTAdminAPI_LeverageSubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConLeverageSink *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_LeverageUnsubscribe_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConLeverageSink *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConLeverageSink *arg2 = (IMTConLeverageSink *) 0 ;
   MTAPIRES result;
@@ -25037,7 +25038,7 @@ intgo _wrap_IMTAdminAPI_LeverageUnsubscribe_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConLeverage *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_LeverageUpdate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConLeverage *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConLeverage *arg2 = (IMTConLeverage *) 0 ;
   MTAPIRES result;
@@ -25052,7 +25053,7 @@ intgo _wrap_IMTAdminAPI_LeverageUpdate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_s
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_IMTAdminAPI_LeverageDelete__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -25074,7 +25075,7 @@ intgo _wrap_IMTAdminAPI_LeverageDelete__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_IMTAdminAPI_LeverageDelete__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   MTAPIRES result;
@@ -25089,7 +25090,7 @@ intgo _wrap_IMTAdminAPI_LeverageDelete__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdmi
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_IMTAdminAPI_LeverageShift_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   int arg3 ;
@@ -25106,7 +25107,7 @@ intgo _wrap_IMTAdminAPI_LeverageShift_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_LeverageTotal_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -25119,7 +25120,7 @@ intgo _wrap_IMTAdminAPI_LeverageTotal_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_sw
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConLeverage *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_LeverageNext_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, intgo _swig_go_1, IMTConLeverage *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   UINT arg2 ;
   IMTConLeverage *arg3 = (IMTConLeverage *) 0 ;
@@ -25136,7 +25137,7 @@ intgo _wrap_IMTAdminAPI_LeverageNext_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swi
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConLeverage *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_LeverageGet_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, IMTConLeverage *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   IMTConLeverage *arg3 = (IMTConLeverage *) 0 ;
@@ -25160,7 +25161,7 @@ intgo _wrap_IMTAdminAPI_LeverageGet_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConLeverage **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_LeverageUpdateBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConLeverage **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConLeverage **arg2 = (IMTConLeverage **) 0 ;
   UINT arg3 ;
@@ -25179,7 +25180,7 @@ intgo _wrap_IMTAdminAPI_LeverageUpdateBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTConLeverage **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_LeverageDeleteBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTConLeverage **_swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTConLeverage **arg2 = (IMTConLeverage **) 0 ;
   UINT arg3 ;
@@ -25198,7 +25199,7 @@ intgo _wrap_IMTAdminAPI_LeverageDeleteBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_LeverageReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25211,7 +25212,7 @@ intgo _wrap_IMTAdminAPI_LeverageReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_LeverageReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25224,7 +25225,7 @@ intgo _wrap_IMTAdminAPI_LeverageReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_LeverageReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25237,7 +25238,7 @@ intgo _wrap_IMTAdminAPI_LeverageReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-intgo _wrap_IMTAdminAPI_LeverageReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_LeverageReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25250,7 +25251,7 @@ intgo _wrap_IMTAdminAPI_LeverageReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI 
 }
 
 
-IMTByteStream *_wrap_IMTAdminAPI_CustomCreateStream_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTByteStream *_wrap_IMTAdminAPI_CustomCreateStream_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTByteStream *result = 0 ;
   IMTByteStream *_swig_go_result;
@@ -25263,7 +25264,7 @@ IMTByteStream *_wrap_IMTAdminAPI_CustomCreateStream_mtmanapi_4ac5eea5fe396bb3(IM
 }
 
 
-intgo _wrap_IMTAdminAPI_CustomCommand__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCVOID _swig_go_1, intgo _swig_go_2, LPVOID *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_IMTAdminAPI_CustomCommand__SWIG_0_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCVOID _swig_go_1, intgo _swig_go_2, LPVOID *_swig_go_3, intgo *_swig_go_4) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCVOID arg2 = (LPCVOID) 0 ;
   UINT arg3 ;
@@ -25284,7 +25285,7 @@ intgo _wrap_IMTAdminAPI_CustomCommand__SWIG_0_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_CustomCommand__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, IMTByteStream *_swig_go_1, IMTByteStream *_swig_go_2) {
+intgo _wrap_IMTAdminAPI_CustomCommand__SWIG_1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, IMTByteStream *_swig_go_1, IMTByteStream *_swig_go_2) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTByteStream *arg2 = (IMTByteStream *) 0 ;
   IMTByteStream *arg3 = (IMTByteStream *) 0 ;
@@ -25301,7 +25302,7 @@ intgo _wrap_IMTAdminAPI_CustomCommand__SWIG_1_mtmanapi_4ac5eea5fe396bb3(IMTAdmin
 }
 
 
-intgo _wrap_IMTAdminAPI_CustomReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CustomReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25314,7 +25315,7 @@ intgo _wrap_IMTAdminAPI_CustomReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_CustomReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CustomReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25327,7 +25328,7 @@ intgo _wrap_IMTAdminAPI_CustomReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_CustomReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CustomReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25340,7 +25341,7 @@ intgo _wrap_IMTAdminAPI_CustomReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_CustomReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_CustomReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25353,7 +25354,7 @@ intgo _wrap_IMTAdminAPI_CustomReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-IMTGeo *_wrap_IMTAdminAPI_GeoCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+IMTGeo *_wrap_IMTAdminAPI_GeoCreate_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   IMTGeo *result = 0 ;
   IMTGeo *_swig_go_result;
@@ -25366,7 +25367,7 @@ IMTGeo *_wrap_IMTAdminAPI_GeoCreate_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig
 }
 
 
-intgo _wrap_IMTAdminAPI_GeoResolve_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, IMTGeo *_swig_go_3) {
+intgo _wrap_IMTAdminAPI_GeoResolve_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, IMTGeo *_swig_go_3) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   UINT arg3 ;
@@ -25392,7 +25393,7 @@ intgo _wrap_IMTAdminAPI_GeoResolve_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_
 }
 
 
-intgo _wrap_IMTAdminAPI_GeoResolveBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTGeo **_swig_go_4, intgo *_swig_go_5) {
+intgo _wrap_IMTAdminAPI_GeoResolveBatch_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, IMTGeo **_swig_go_4, intgo *_swig_go_5) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR *arg2 = (LPCWSTR *) 0 ;
   UINT arg3 ;
@@ -25415,7 +25416,7 @@ intgo _wrap_IMTAdminAPI_GeoResolveBatch_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_
 }
 
 
-intgo _wrap_IMTAdminAPI_GeoResolveReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GeoResolveReserved1_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25428,7 +25429,7 @@ intgo _wrap_IMTAdminAPI_GeoResolveReserved1_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_GeoResolveReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GeoResolveReserved2_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25441,7 +25442,7 @@ intgo _wrap_IMTAdminAPI_GeoResolveReserved2_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_GeoResolveReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GeoResolveReserved3_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25454,7 +25455,7 @@ intgo _wrap_IMTAdminAPI_GeoResolveReserved3_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-intgo _wrap_IMTAdminAPI_GeoResolveReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0) {
+intgo _wrap_IMTAdminAPI_GeoResolveReserved4_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25467,7 +25468,7 @@ intgo _wrap_IMTAdminAPI_GeoResolveReserved4_mtmanapi_4ac5eea5fe396bb3(IMTAdminAP
 }
 
 
-_gostring_ _wrap_s_MTManagerVersion_get_mtmanapi_4ac5eea5fe396bb3() {
+_gostring_ _wrap_s_MTManagerVersion_get_mtmanapi_bc855f5f41ebffb0() {
   LPCSTR result;
   _gostring_ _swig_go_result;
   
@@ -25478,7 +25479,7 @@ _gostring_ _wrap_s_MTManagerVersion_get_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-_gostring_ _wrap_s_MTManagerCreate_get_mtmanapi_4ac5eea5fe396bb3() {
+_gostring_ _wrap_s_MTManagerCreate_get_mtmanapi_bc855f5f41ebffb0() {
   LPCSTR result;
   _gostring_ _swig_go_result;
   
@@ -25489,7 +25490,7 @@ _gostring_ _wrap_s_MTManagerCreate_get_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-_gostring_ _wrap_s_MTManagerCreateExt_get_mtmanapi_4ac5eea5fe396bb3() {
+_gostring_ _wrap_s_MTManagerCreateExt_get_mtmanapi_bc855f5f41ebffb0() {
   LPCSTR result;
   _gostring_ _swig_go_result;
   
@@ -25500,7 +25501,7 @@ _gostring_ _wrap_s_MTManagerCreateExt_get_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-_gostring_ _wrap_s_MTAdminCreate_get_mtmanapi_4ac5eea5fe396bb3() {
+_gostring_ _wrap_s_MTAdminCreate_get_mtmanapi_bc855f5f41ebffb0() {
   LPCSTR result;
   _gostring_ _swig_go_result;
   
@@ -25511,7 +25512,7 @@ _gostring_ _wrap_s_MTAdminCreate_get_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-_gostring_ _wrap_s_MTAdminCreateExt_get_mtmanapi_4ac5eea5fe396bb3() {
+_gostring_ _wrap_s_MTAdminCreateExt_get_mtmanapi_bc855f5f41ebffb0() {
   LPCSTR result;
   _gostring_ _swig_go_result;
   
@@ -25522,7 +25523,7 @@ _gostring_ _wrap_s_MTAdminCreateExt_get_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-CMTManagerAPIFactory *_wrap_new_CMTManagerAPIFactory_mtmanapi_4ac5eea5fe396bb3() {
+CMTManagerAPIFactory *_wrap_new_CMTManagerAPIFactory_mtmanapi_bc855f5f41ebffb0() {
   CMTManagerAPIFactory *result = 0 ;
   CMTManagerAPIFactory *_swig_go_result;
   
@@ -25533,7 +25534,7 @@ CMTManagerAPIFactory *_wrap_new_CMTManagerAPIFactory_mtmanapi_4ac5eea5fe396bb3()
 }
 
 
-void _wrap_delete_CMTManagerAPIFactory_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0) {
+void _wrap_delete_CMTManagerAPIFactory_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   
   arg1 = *(CMTManagerAPIFactory **)&_swig_go_0; 
@@ -25543,7 +25544,7 @@ void _wrap_delete_CMTManagerAPIFactory_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFa
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_Initialize__SWIG_0_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_CMTManagerAPIFactory_Initialize__SWIG_0_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0, LPCWSTR *_swig_go_1) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -25565,7 +25566,7 @@ intgo _wrap_CMTManagerAPIFactory_Initialize__SWIG_0_mtmanapi_4ac5eea5fe396bb3(CM
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_Initialize__SWIG_1_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0) {
+intgo _wrap_CMTManagerAPIFactory_Initialize__SWIG_1_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25578,7 +25579,7 @@ intgo _wrap_CMTManagerAPIFactory_Initialize__SWIG_1_mtmanapi_4ac5eea5fe396bb3(CM
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_Shutdown_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0) {
+intgo _wrap_CMTManagerAPIFactory_Shutdown_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -25591,7 +25592,7 @@ intgo _wrap_CMTManagerAPIFactory_Shutdown_mtmanapi_4ac5eea5fe396bb3(CMTManagerAP
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_CreateManager__SWIG_0_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0, intgo _swig_go_1, IMTManagerAPI **_swig_go_2) {
+intgo _wrap_CMTManagerAPIFactory_CreateManager__SWIG_0_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0, intgo _swig_go_1, IMTManagerAPI **_swig_go_2) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   UINT arg2 ;
   IMTManagerAPI **arg3 = (IMTManagerAPI **) 0 ;
@@ -25608,7 +25609,7 @@ intgo _wrap_CMTManagerAPIFactory_CreateManager__SWIG_0_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_CreateAdmin__SWIG_0_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0, intgo _swig_go_1, IMTAdminAPI **_swig_go_2) {
+intgo _wrap_CMTManagerAPIFactory_CreateAdmin__SWIG_0_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0, intgo _swig_go_1, IMTAdminAPI **_swig_go_2) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   UINT arg2 ;
   IMTAdminAPI **arg3 = (IMTAdminAPI **) 0 ;
@@ -25625,7 +25626,7 @@ intgo _wrap_CMTManagerAPIFactory_CreateAdmin__SWIG_0_mtmanapi_4ac5eea5fe396bb3(C
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_CreateManager__SWIG_1_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2, IMTManagerAPI **_swig_go_3) {
+intgo _wrap_CMTManagerAPIFactory_CreateManager__SWIG_1_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2, IMTManagerAPI **_swig_go_3) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   UINT arg2 ;
   LPCWSTR arg3 ;
@@ -25651,7 +25652,7 @@ intgo _wrap_CMTManagerAPIFactory_CreateManager__SWIG_1_mtmanapi_4ac5eea5fe396bb3
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_CreateAdmin__SWIG_1_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2, IMTAdminAPI **_swig_go_3) {
+intgo _wrap_CMTManagerAPIFactory_CreateAdmin__SWIG_1_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0, intgo _swig_go_1, LPCWSTR *_swig_go_2, IMTAdminAPI **_swig_go_3) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   UINT arg2 ;
   LPCWSTR arg3 ;
@@ -25677,7 +25678,7 @@ intgo _wrap_CMTManagerAPIFactory_CreateAdmin__SWIG_1_mtmanapi_4ac5eea5fe396bb3(C
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_LicenseCheckManager_mtmanapi_4ac5eea5fe396bb3(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_CMTManagerAPIFactory_LicenseCheckManager_mtmanapi_bc855f5f41ebffb0(IMTManagerAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTManagerAPI *arg1 = (IMTManagerAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -25699,7 +25700,7 @@ intgo _wrap_CMTManagerAPIFactory_LicenseCheckManager_mtmanapi_4ac5eea5fe396bb3(I
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_LicenseCheckAdmin_mtmanapi_4ac5eea5fe396bb3(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
+intgo _wrap_CMTManagerAPIFactory_LicenseCheckAdmin_mtmanapi_bc855f5f41ebffb0(IMTAdminAPI *_swig_go_0, LPCWSTR *_swig_go_1) {
   IMTAdminAPI *arg1 = (IMTAdminAPI *) 0 ;
   LPCWSTR arg2 ;
   LPCWSTR *argp2 ;
@@ -25721,7 +25722,7 @@ intgo _wrap_CMTManagerAPIFactory_LicenseCheckAdmin_mtmanapi_4ac5eea5fe396bb3(IMT
 }
 
 
-intgo _wrap_CMTManagerAPIFactory_Version_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPIFactory *_swig_go_0, intgo *_swig_go_1) {
+intgo _wrap_CMTManagerAPIFactory_Version_mtmanapi_bc855f5f41ebffb0(CMTManagerAPIFactory *_swig_go_0, intgo *_swig_go_1) {
   CMTManagerAPIFactory *arg1 = (CMTManagerAPIFactory *) 0 ;
   UINT *arg2 = 0 ;
   MTAPIRES result;
@@ -25736,7 +25737,7 @@ intgo _wrap_CMTManagerAPIFactory_Version_mtmanapi_4ac5eea5fe396bb3(CMTManagerAPI
 }
 
 
-intgo _wrap_MT_RET_OK_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_OK_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25748,7 +25749,7 @@ intgo _wrap_MT_RET_OK_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_OK_NONE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_OK_NONE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25760,7 +25761,7 @@ intgo _wrap_MT_RET_OK_NONE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERROR_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERROR_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25772,7 +25773,7 @@ intgo _wrap_MT_RET_ERROR_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_PARAMS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_PARAMS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25784,7 +25785,7 @@ intgo _wrap_MT_RET_ERR_PARAMS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_DATA_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_DATA_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25796,7 +25797,7 @@ intgo _wrap_MT_RET_ERR_DATA_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_DISK_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_DISK_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25808,7 +25809,7 @@ intgo _wrap_MT_RET_ERR_DISK_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_MEM_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_MEM_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25820,7 +25821,7 @@ intgo _wrap_MT_RET_ERR_MEM_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_NETWORK_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_NETWORK_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25832,7 +25833,7 @@ intgo _wrap_MT_RET_ERR_NETWORK_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_PERMISSIONS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_PERMISSIONS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25844,7 +25845,7 @@ intgo _wrap_MT_RET_ERR_PERMISSIONS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_TIMEOUT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_TIMEOUT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25856,7 +25857,7 @@ intgo _wrap_MT_RET_ERR_TIMEOUT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_CONNECTION_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_CONNECTION_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25868,7 +25869,7 @@ intgo _wrap_MT_RET_ERR_CONNECTION_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_NOSERVICE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_NOSERVICE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25880,7 +25881,7 @@ intgo _wrap_MT_RET_ERR_NOSERVICE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_FREQUENT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_FREQUENT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25892,7 +25893,7 @@ intgo _wrap_MT_RET_ERR_FREQUENT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_NOTFOUND_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_NOTFOUND_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25904,7 +25905,7 @@ intgo _wrap_MT_RET_ERR_NOTFOUND_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_PARTIAL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_PARTIAL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25916,7 +25917,7 @@ intgo _wrap_MT_RET_ERR_PARTIAL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_SHUTDOWN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_SHUTDOWN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25928,7 +25929,7 @@ intgo _wrap_MT_RET_ERR_SHUTDOWN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_CANCEL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_CANCEL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25940,7 +25941,7 @@ intgo _wrap_MT_RET_ERR_CANCEL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_DUPLICATE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_DUPLICATE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25952,7 +25953,7 @@ intgo _wrap_MT_RET_ERR_DUPLICATE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_CLIENT_INVALID_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_CLIENT_INVALID_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25964,7 +25965,7 @@ intgo _wrap_MT_RET_AUTH_CLIENT_INVALID_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_ACCOUNT_INVALID_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_ACCOUNT_INVALID_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25976,7 +25977,7 @@ intgo _wrap_MT_RET_AUTH_ACCOUNT_INVALID_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_ACCOUNT_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_ACCOUNT_DISABLED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -25988,7 +25989,7 @@ intgo _wrap_MT_RET_AUTH_ACCOUNT_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_ADVANCED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_ADVANCED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26000,7 +26001,7 @@ intgo _wrap_MT_RET_AUTH_ADVANCED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_CERTIFICATE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_CERTIFICATE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26012,7 +26013,7 @@ intgo _wrap_MT_RET_AUTH_CERTIFICATE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_CERTIFICATE_BAD_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_CERTIFICATE_BAD_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26024,7 +26025,7 @@ intgo _wrap_MT_RET_AUTH_CERTIFICATE_BAD_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_NOTCONFIRMED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_NOTCONFIRMED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26036,7 +26037,7 @@ intgo _wrap_MT_RET_AUTH_NOTCONFIRMED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_SERVER_INTERNAL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_SERVER_INTERNAL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26048,7 +26049,7 @@ intgo _wrap_MT_RET_AUTH_SERVER_INTERNAL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_SERVER_BAD_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_SERVER_BAD_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26060,7 +26061,7 @@ intgo _wrap_MT_RET_AUTH_SERVER_BAD_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_UPDATE_ONLY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_UPDATE_ONLY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26072,7 +26073,7 @@ intgo _wrap_MT_RET_AUTH_UPDATE_ONLY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_CLIENT_OLD_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_CLIENT_OLD_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26084,7 +26085,7 @@ intgo _wrap_MT_RET_AUTH_CLIENT_OLD_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_MANAGER_NOCONFIG_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_MANAGER_NOCONFIG_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26096,7 +26097,7 @@ intgo _wrap_MT_RET_AUTH_MANAGER_NOCONFIG_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_MANAGER_IPBLOCK_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_MANAGER_IPBLOCK_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26108,7 +26109,7 @@ intgo _wrap_MT_RET_AUTH_MANAGER_IPBLOCK_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_GROUP_INVALID_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_GROUP_INVALID_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26120,7 +26121,7 @@ intgo _wrap_MT_RET_AUTH_GROUP_INVALID_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_CA_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_CA_DISABLED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26132,7 +26133,7 @@ intgo _wrap_MT_RET_AUTH_CA_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_INVALID_ID_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_INVALID_ID_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26144,7 +26145,7 @@ intgo _wrap_MT_RET_AUTH_INVALID_ID_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_INVALID_IP_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_INVALID_IP_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26156,7 +26157,7 @@ intgo _wrap_MT_RET_AUTH_INVALID_IP_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_INVALID_TYPE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_INVALID_TYPE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26168,7 +26169,7 @@ intgo _wrap_MT_RET_AUTH_INVALID_TYPE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_SERVER_BUSY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_SERVER_BUSY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26180,7 +26181,7 @@ intgo _wrap_MT_RET_AUTH_SERVER_BUSY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_SERVER_CERT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_SERVER_CERT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26192,7 +26193,7 @@ intgo _wrap_MT_RET_AUTH_SERVER_CERT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_ACCOUNT_UNKNOWN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_ACCOUNT_UNKNOWN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26204,7 +26205,7 @@ intgo _wrap_MT_RET_AUTH_ACCOUNT_UNKNOWN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_SERVER_OLD_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_SERVER_OLD_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26216,7 +26217,7 @@ intgo _wrap_MT_RET_AUTH_SERVER_OLD_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_SERVER_LIMIT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_SERVER_LIMIT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26228,7 +26229,7 @@ intgo _wrap_MT_RET_AUTH_SERVER_LIMIT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_MOBILE_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_MOBILE_DISABLED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26240,7 +26241,7 @@ intgo _wrap_MT_RET_AUTH_MOBILE_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_MANAGER_TYPE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_MANAGER_TYPE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26252,7 +26253,7 @@ intgo _wrap_MT_RET_AUTH_MANAGER_TYPE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_DEMO_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_DEMO_DISABLED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26264,7 +26265,7 @@ intgo _wrap_MT_RET_AUTH_DEMO_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_RESET_PASSWORD_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_RESET_PASSWORD_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26276,7 +26277,7 @@ intgo _wrap_MT_RET_AUTH_RESET_PASSWORD_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_OTP_INVALID_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_OTP_INVALID_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26288,7 +26289,7 @@ intgo _wrap_MT_RET_AUTH_OTP_INVALID_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_OTP_NEED_SECRET_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_OTP_NEED_SECRET_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26300,7 +26301,7 @@ intgo _wrap_MT_RET_AUTH_OTP_NEED_SECRET_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_MIGRATION_MT4_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_MIGRATION_MT4_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26312,7 +26313,7 @@ intgo _wrap_MT_RET_AUTH_MIGRATION_MT4_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_MIGRATION_MT5_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_MIGRATION_MT5_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26324,7 +26325,7 @@ intgo _wrap_MT_RET_AUTH_MIGRATION_MT5_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_INVALID_VERIFY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_INVALID_VERIFY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26336,7 +26337,7 @@ intgo _wrap_MT_RET_AUTH_INVALID_VERIFY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_VERIFY_BAD_EMAIL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_VERIFY_BAD_EMAIL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26348,7 +26349,7 @@ intgo _wrap_MT_RET_AUTH_VERIFY_BAD_EMAIL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_VERIFY_BAD_PHONE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_VERIFY_BAD_PHONE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26360,7 +26361,7 @@ intgo _wrap_MT_RET_AUTH_VERIFY_BAD_PHONE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_AUTH_API_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_AUTH_API_DISABLED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26372,7 +26373,7 @@ intgo _wrap_MT_RET_AUTH_API_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_LAST_ADMIN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_LAST_ADMIN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26384,7 +26385,7 @@ intgo _wrap_MT_RET_CFG_LAST_ADMIN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_LAST_ADMIN_GROUP_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_LAST_ADMIN_GROUP_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26396,7 +26397,7 @@ intgo _wrap_MT_RET_CFG_LAST_ADMIN_GROUP_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_NOT_EMPTY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_NOT_EMPTY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26408,7 +26409,7 @@ intgo _wrap_MT_RET_CFG_NOT_EMPTY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_INVALID_RANGE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_INVALID_RANGE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26420,7 +26421,7 @@ intgo _wrap_MT_RET_CFG_INVALID_RANGE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_NOT_MANAGER_LOGIN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_NOT_MANAGER_LOGIN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26432,7 +26433,7 @@ intgo _wrap_MT_RET_CFG_NOT_MANAGER_LOGIN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_BUILTIN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_BUILTIN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26444,7 +26445,7 @@ intgo _wrap_MT_RET_CFG_BUILTIN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_DUPLICATE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_DUPLICATE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26456,7 +26457,7 @@ intgo _wrap_MT_RET_CFG_DUPLICATE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_LIMIT_REACHED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26468,7 +26469,7 @@ intgo _wrap_MT_RET_CFG_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_NO_ACCESS_TO_MAIN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_NO_ACCESS_TO_MAIN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26480,7 +26481,7 @@ intgo _wrap_MT_RET_CFG_NO_ACCESS_TO_MAIN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_DEALER_ID_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_DEALER_ID_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26492,7 +26493,7 @@ intgo _wrap_MT_RET_CFG_DEALER_ID_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_BIND_ADDR_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_BIND_ADDR_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26504,7 +26505,7 @@ intgo _wrap_MT_RET_CFG_BIND_ADDR_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_WORKING_TRADE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_WORKING_TRADE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26516,7 +26517,7 @@ intgo _wrap_MT_RET_CFG_WORKING_TRADE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_GATEWAY_NAME_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_GATEWAY_NAME_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26528,7 +26529,7 @@ intgo _wrap_MT_RET_CFG_GATEWAY_NAME_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_SWITCH_TO_BACKUP_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_SWITCH_TO_BACKUP_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26540,7 +26541,7 @@ intgo _wrap_MT_RET_CFG_SWITCH_TO_BACKUP_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_NO_BACKUP_MODULE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_NO_BACKUP_MODULE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26552,7 +26553,7 @@ intgo _wrap_MT_RET_CFG_NO_BACKUP_MODULE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_NO_TRADE_MODULE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_NO_TRADE_MODULE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26564,7 +26565,7 @@ intgo _wrap_MT_RET_CFG_NO_TRADE_MODULE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_NO_HISTORY_MODULE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_NO_HISTORY_MODULE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26576,7 +26577,7 @@ intgo _wrap_MT_RET_CFG_NO_HISTORY_MODULE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_ANOTHER_SWITCH_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_ANOTHER_SWITCH_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26588,7 +26589,7 @@ intgo _wrap_MT_RET_CFG_ANOTHER_SWITCH_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_NO_LICENSE_FILE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_NO_LICENSE_FILE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26600,7 +26601,7 @@ intgo _wrap_MT_RET_CFG_NO_LICENSE_FILE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_GATEWAY_LOGIN_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_GATEWAY_LOGIN_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26612,7 +26613,7 @@ intgo _wrap_MT_RET_CFG_GATEWAY_LOGIN_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_CFG_INVALID_COMPANY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_CFG_INVALID_COMPANY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26624,7 +26625,7 @@ intgo _wrap_MT_RET_CFG_INVALID_COMPANY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_LAST_ADMIN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_LAST_ADMIN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26636,7 +26637,7 @@ intgo _wrap_MT_RET_USR_LAST_ADMIN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_LOGIN_EXHAUSTED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_LOGIN_EXHAUSTED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26648,7 +26649,7 @@ intgo _wrap_MT_RET_USR_LOGIN_EXHAUSTED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_LOGIN_PROHIBITED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_LOGIN_PROHIBITED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26660,7 +26661,7 @@ intgo _wrap_MT_RET_USR_LOGIN_PROHIBITED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_LOGIN_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_LOGIN_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26672,7 +26673,7 @@ intgo _wrap_MT_RET_USR_LOGIN_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_SUICIDE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_SUICIDE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26684,7 +26685,7 @@ intgo _wrap_MT_RET_USR_SUICIDE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_INVALID_PASSWORD_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_INVALID_PASSWORD_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26696,7 +26697,7 @@ intgo _wrap_MT_RET_USR_INVALID_PASSWORD_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_LIMIT_REACHED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26708,7 +26709,7 @@ intgo _wrap_MT_RET_USR_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_HAS_TRADES_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_HAS_TRADES_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26720,7 +26721,7 @@ intgo _wrap_MT_RET_USR_HAS_TRADES_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_DIFFERENT_SERVERS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_DIFFERENT_SERVERS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26732,7 +26733,7 @@ intgo _wrap_MT_RET_USR_DIFFERENT_SERVERS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_DIFFERENT_CURRENCY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_DIFFERENT_CURRENCY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26744,7 +26745,7 @@ intgo _wrap_MT_RET_USR_DIFFERENT_CURRENCY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_IMPORT_BALANCE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_IMPORT_BALANCE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26756,7 +26757,7 @@ intgo _wrap_MT_RET_USR_IMPORT_BALANCE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_IMPORT_GROUP_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_IMPORT_GROUP_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26768,7 +26769,7 @@ intgo _wrap_MT_RET_USR_IMPORT_GROUP_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_ACCOUNT_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_ACCOUNT_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26780,7 +26781,7 @@ intgo _wrap_MT_RET_USR_ACCOUNT_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_IMPORT_ACCOUNT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_IMPORT_ACCOUNT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26792,7 +26793,7 @@ intgo _wrap_MT_RET_USR_IMPORT_ACCOUNT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_IMPORT_POSITIONS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_IMPORT_POSITIONS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26804,7 +26805,7 @@ intgo _wrap_MT_RET_USR_IMPORT_POSITIONS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_IMPORT_ORDERS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_IMPORT_ORDERS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26816,7 +26817,7 @@ intgo _wrap_MT_RET_USR_IMPORT_ORDERS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_IMPORT_DEALS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_IMPORT_DEALS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26828,7 +26829,7 @@ intgo _wrap_MT_RET_USR_IMPORT_DEALS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_IMPORT_HISTORY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_IMPORT_HISTORY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26840,7 +26841,7 @@ intgo _wrap_MT_RET_USR_IMPORT_HISTORY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_USR_API_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_USR_API_LIMIT_REACHED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26852,7 +26853,7 @@ intgo _wrap_MT_RET_USR_API_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_LIMIT_REACHED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26864,7 +26865,7 @@ intgo _wrap_MT_RET_TRADE_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_ORDER_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_ORDER_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26876,7 +26877,7 @@ intgo _wrap_MT_RET_TRADE_ORDER_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_ORDER_EXHAUSTED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_ORDER_EXHAUSTED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26888,7 +26889,7 @@ intgo _wrap_MT_RET_TRADE_ORDER_EXHAUSTED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_DEAL_EXHAUSTED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_DEAL_EXHAUSTED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26900,7 +26901,7 @@ intgo _wrap_MT_RET_TRADE_DEAL_EXHAUSTED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_MAX_MONEY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_MAX_MONEY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26912,7 +26913,7 @@ intgo _wrap_MT_RET_TRADE_MAX_MONEY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_DEAL_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_DEAL_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26924,7 +26925,7 @@ intgo _wrap_MT_RET_TRADE_DEAL_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_ORDER_PROHIBITED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_ORDER_PROHIBITED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26936,7 +26937,7 @@ intgo _wrap_MT_RET_TRADE_ORDER_PROHIBITED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_DEAL_PROHIBITED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_DEAL_PROHIBITED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26948,7 +26949,7 @@ intgo _wrap_MT_RET_TRADE_DEAL_PROHIBITED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_TRADE_SPLIT_VOLUME_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_TRADE_SPLIT_VOLUME_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26960,7 +26961,7 @@ intgo _wrap_MT_RET_TRADE_SPLIT_VOLUME_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REPORT_SNAPSHOT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REPORT_SNAPSHOT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26972,7 +26973,7 @@ intgo _wrap_MT_RET_REPORT_SNAPSHOT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REPORT_NOTSUPPORTED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REPORT_NOTSUPPORTED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26984,7 +26985,7 @@ intgo _wrap_MT_RET_REPORT_NOTSUPPORTED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REPORT_NODATA_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REPORT_NODATA_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -26996,7 +26997,7 @@ intgo _wrap_MT_RET_REPORT_NODATA_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REPORT_TEMPLATE_BAD_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REPORT_TEMPLATE_BAD_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27008,7 +27009,7 @@ intgo _wrap_MT_RET_REPORT_TEMPLATE_BAD_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REPORT_TEMPLATE_END_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REPORT_TEMPLATE_END_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27020,7 +27021,7 @@ intgo _wrap_MT_RET_REPORT_TEMPLATE_END_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REPORT_INVALID_ROW_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REPORT_INVALID_ROW_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27032,7 +27033,7 @@ intgo _wrap_MT_RET_REPORT_INVALID_ROW_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REPORT_LIMIT_REPEAT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REPORT_LIMIT_REPEAT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27044,7 +27045,7 @@ intgo _wrap_MT_RET_REPORT_LIMIT_REPEAT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REPORT_LIMIT_REPORT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REPORT_LIMIT_REPORT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27056,7 +27057,7 @@ intgo _wrap_MT_RET_REPORT_LIMIT_REPORT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_HST_SYMBOL_NOTFOUND_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_HST_SYMBOL_NOTFOUND_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27068,7 +27069,7 @@ intgo _wrap_MT_RET_HST_SYMBOL_NOTFOUND_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INWAY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INWAY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27080,7 +27081,7 @@ intgo _wrap_MT_RET_REQUEST_INWAY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_ACCEPTED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_ACCEPTED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27092,7 +27093,7 @@ intgo _wrap_MT_RET_REQUEST_ACCEPTED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_PROCESS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_PROCESS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27104,7 +27105,7 @@ intgo _wrap_MT_RET_REQUEST_PROCESS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_REQUOTE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_REQUOTE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27116,7 +27117,7 @@ intgo _wrap_MT_RET_REQUEST_REQUOTE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_PRICES_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_PRICES_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27128,7 +27129,7 @@ intgo _wrap_MT_RET_REQUEST_PRICES_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_REJECT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_REJECT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27140,7 +27141,7 @@ intgo _wrap_MT_RET_REQUEST_REJECT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_CANCEL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_CANCEL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27152,7 +27153,7 @@ intgo _wrap_MT_RET_REQUEST_CANCEL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_PLACED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_PLACED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27164,7 +27165,7 @@ intgo _wrap_MT_RET_REQUEST_PLACED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_DONE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_DONE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27176,7 +27177,7 @@ intgo _wrap_MT_RET_REQUEST_DONE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_DONE_PARTIAL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_DONE_PARTIAL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27188,7 +27189,7 @@ intgo _wrap_MT_RET_REQUEST_DONE_PARTIAL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_ERROR_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_ERROR_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27200,7 +27201,7 @@ intgo _wrap_MT_RET_REQUEST_ERROR_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_TIMEOUT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_TIMEOUT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27212,7 +27213,7 @@ intgo _wrap_MT_RET_REQUEST_TIMEOUT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INVALID_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INVALID_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27224,7 +27225,7 @@ intgo _wrap_MT_RET_REQUEST_INVALID_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INVALID_VOLUME_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INVALID_VOLUME_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27236,7 +27237,7 @@ intgo _wrap_MT_RET_REQUEST_INVALID_VOLUME_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INVALID_PRICE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INVALID_PRICE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27248,7 +27249,7 @@ intgo _wrap_MT_RET_REQUEST_INVALID_PRICE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INVALID_STOPS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INVALID_STOPS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27260,7 +27261,7 @@ intgo _wrap_MT_RET_REQUEST_INVALID_STOPS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_TRADE_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_TRADE_DISABLED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27272,7 +27273,7 @@ intgo _wrap_MT_RET_REQUEST_TRADE_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_MARKET_CLOSED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_MARKET_CLOSED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27284,7 +27285,7 @@ intgo _wrap_MT_RET_REQUEST_MARKET_CLOSED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_NO_MONEY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_NO_MONEY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27296,7 +27297,7 @@ intgo _wrap_MT_RET_REQUEST_NO_MONEY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_PRICE_CHANGED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_PRICE_CHANGED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27308,7 +27309,7 @@ intgo _wrap_MT_RET_REQUEST_PRICE_CHANGED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_PRICE_OFF_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_PRICE_OFF_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27320,7 +27321,7 @@ intgo _wrap_MT_RET_REQUEST_PRICE_OFF_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INVALID_EXP_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INVALID_EXP_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27332,7 +27333,7 @@ intgo _wrap_MT_RET_REQUEST_INVALID_EXP_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_ORDER_CHANGED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_ORDER_CHANGED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27344,7 +27345,7 @@ intgo _wrap_MT_RET_REQUEST_ORDER_CHANGED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_TOO_MANY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_TOO_MANY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27356,7 +27357,7 @@ intgo _wrap_MT_RET_REQUEST_TOO_MANY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_NO_CHANGES_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_NO_CHANGES_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27368,7 +27369,7 @@ intgo _wrap_MT_RET_REQUEST_NO_CHANGES_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_AT_DISABLED_SERVER_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_AT_DISABLED_SERVER_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27380,7 +27381,7 @@ intgo _wrap_MT_RET_REQUEST_AT_DISABLED_SERVER_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_AT_DISABLED_CLIENT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_AT_DISABLED_CLIENT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27392,7 +27393,7 @@ intgo _wrap_MT_RET_REQUEST_AT_DISABLED_CLIENT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_LOCKED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_LOCKED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27404,7 +27405,7 @@ intgo _wrap_MT_RET_REQUEST_LOCKED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_FROZEN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_FROZEN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27416,7 +27417,7 @@ intgo _wrap_MT_RET_REQUEST_FROZEN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INVALID_FILL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INVALID_FILL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27428,7 +27429,7 @@ intgo _wrap_MT_RET_REQUEST_INVALID_FILL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_CONNECTION_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_CONNECTION_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27440,7 +27441,7 @@ intgo _wrap_MT_RET_REQUEST_CONNECTION_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_ONLY_REAL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_ONLY_REAL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27452,7 +27453,7 @@ intgo _wrap_MT_RET_REQUEST_ONLY_REAL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_LIMIT_ORDERS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_LIMIT_ORDERS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27464,7 +27465,7 @@ intgo _wrap_MT_RET_REQUEST_LIMIT_ORDERS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_LIMIT_VOLUME_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_LIMIT_VOLUME_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27476,7 +27477,7 @@ intgo _wrap_MT_RET_REQUEST_LIMIT_VOLUME_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INVALID_ORDER_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INVALID_ORDER_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27488,7 +27489,7 @@ intgo _wrap_MT_RET_REQUEST_INVALID_ORDER_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_POSITION_CLOSED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_POSITION_CLOSED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27500,7 +27501,7 @@ intgo _wrap_MT_RET_REQUEST_POSITION_CLOSED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_EXECUTION_SKIPPED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_EXECUTION_SKIPPED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27512,7 +27513,7 @@ intgo _wrap_MT_RET_REQUEST_EXECUTION_SKIPPED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_INVALID_CLOSE_VOLUME_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_INVALID_CLOSE_VOLUME_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27524,7 +27525,7 @@ intgo _wrap_MT_RET_REQUEST_INVALID_CLOSE_VOLUME_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_CLOSE_ORDER_EXIST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_CLOSE_ORDER_EXIST_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27536,7 +27537,7 @@ intgo _wrap_MT_RET_REQUEST_CLOSE_ORDER_EXIST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_LIMIT_POSITIONS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_LIMIT_POSITIONS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27548,7 +27549,7 @@ intgo _wrap_MT_RET_REQUEST_LIMIT_POSITIONS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_REJECT_CANCEL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_REJECT_CANCEL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27560,7 +27561,7 @@ intgo _wrap_MT_RET_REQUEST_REJECT_CANCEL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_LONG_ONLY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_LONG_ONLY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27572,7 +27573,7 @@ intgo _wrap_MT_RET_REQUEST_LONG_ONLY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_SHORT_ONLY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_SHORT_ONLY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27584,7 +27585,7 @@ intgo _wrap_MT_RET_REQUEST_SHORT_ONLY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_CLOSE_ONLY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_CLOSE_ONLY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27596,7 +27597,7 @@ intgo _wrap_MT_RET_REQUEST_CLOSE_ONLY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_PROHIBITED_BY_FIFO_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_PROHIBITED_BY_FIFO_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27608,7 +27609,7 @@ intgo _wrap_MT_RET_REQUEST_PROHIBITED_BY_FIFO_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_HEDGE_PROHIBITED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_HEDGE_PROHIBITED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27620,7 +27621,7 @@ intgo _wrap_MT_RET_REQUEST_HEDGE_PROHIBITED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_RETURN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_RETURN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27632,7 +27633,7 @@ intgo _wrap_MT_RET_REQUEST_RETURN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_DONE_CANCEL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_DONE_CANCEL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27644,7 +27645,7 @@ intgo _wrap_MT_RET_REQUEST_DONE_CANCEL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_REQUEST_REQUOTE_RETURN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_REQUEST_REQUOTE_RETURN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27656,7 +27657,7 @@ intgo _wrap_MT_RET_REQUEST_REQUOTE_RETURN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_NOTIMPLEMENT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_NOTIMPLEMENT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27668,7 +27669,7 @@ intgo _wrap_MT_RET_ERR_NOTIMPLEMENT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_NOTMAIN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_NOTMAIN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27680,7 +27681,7 @@ intgo _wrap_MT_RET_ERR_NOTMAIN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_NOTSUPPORTED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_NOTSUPPORTED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27692,7 +27693,7 @@ intgo _wrap_MT_RET_ERR_NOTSUPPORTED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_DEADLOCK_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_DEADLOCK_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27704,7 +27705,7 @@ intgo _wrap_MT_RET_ERR_DEADLOCK_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_ERR_LOCKED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_ERR_LOCKED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27716,7 +27717,7 @@ intgo _wrap_MT_RET_ERR_LOCKED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_MESSENGER_INVALID_PHONE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_MESSENGER_INVALID_PHONE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27728,7 +27729,7 @@ intgo _wrap_MT_RET_MESSENGER_INVALID_PHONE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_MESSENGER_NOT_MOBILE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_MESSENGER_NOT_MOBILE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27740,7 +27741,7 @@ intgo _wrap_MT_RET_MESSENGER_NOT_MOBILE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_NOT_FOUND_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_NOT_FOUND_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27752,7 +27753,7 @@ intgo _wrap_MT_RET_SUBS_NOT_FOUND_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_NOT_FOUND_CFG_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_NOT_FOUND_CFG_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27764,7 +27765,7 @@ intgo _wrap_MT_RET_SUBS_NOT_FOUND_CFG_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_NOT_FOUND_USER_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_NOT_FOUND_USER_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27776,7 +27777,7 @@ intgo _wrap_MT_RET_SUBS_NOT_FOUND_USER_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_DISABLED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27788,7 +27789,7 @@ intgo _wrap_MT_RET_SUBS_DISABLED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_PERMISSION_USER_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_PERMISSION_USER_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27800,7 +27801,7 @@ intgo _wrap_MT_RET_SUBS_PERMISSION_USER_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_PERMISSION_SUBSCRIBE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_PERMISSION_SUBSCRIBE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27812,7 +27813,7 @@ intgo _wrap_MT_RET_SUBS_PERMISSION_SUBSCRIBE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_PERMISSION_UNSUBSCRIBE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_PERMISSION_UNSUBSCRIBE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27824,7 +27825,7 @@ intgo _wrap_MT_RET_SUBS_PERMISSION_UNSUBSCRIBE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_REAL_ONLY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_REAL_ONLY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27836,7 +27837,7 @@ intgo _wrap_MT_RET_SUBS_REAL_ONLY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_SUBS_PAYMENT_METHOD_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_SUBS_PAYMENT_METHOD_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27848,7 +27849,7 @@ intgo _wrap_MT_RET_SUBS_PAYMENT_METHOD_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_REAL_ONLY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_REAL_ONLY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27860,7 +27861,7 @@ intgo _wrap_MT_RET_PAY_REAL_ONLY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_INVALID_AMOUNT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_INVALID_AMOUNT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27872,7 +27873,7 @@ intgo _wrap_MT_RET_PAY_INVALID_AMOUNT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_NOT_ALLOWED_DEPOSIT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_NOT_ALLOWED_DEPOSIT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27884,7 +27885,7 @@ intgo _wrap_MT_RET_PAY_NOT_ALLOWED_DEPOSIT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_NOT_ALLOWED_WITHDRAWAL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_NOT_ALLOWED_WITHDRAWAL_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27896,7 +27897,7 @@ intgo _wrap_MT_RET_PAY_NOT_ALLOWED_WITHDRAWAL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_NOT_ALLOWED_GROUP_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_NOT_ALLOWED_GROUP_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27908,7 +27909,7 @@ intgo _wrap_MT_RET_PAY_NOT_ALLOWED_GROUP_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_NOT_ALLOWED_COUNTRY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_NOT_ALLOWED_COUNTRY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27920,7 +27921,7 @@ intgo _wrap_MT_RET_PAY_NOT_ALLOWED_COUNTRY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_DECLINE_BY_RULES_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_DECLINE_BY_RULES_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27932,7 +27933,7 @@ intgo _wrap_MT_RET_PAY_DECLINE_BY_RULES_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_DECLINE_BY_AML_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_DECLINE_BY_AML_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27944,7 +27945,7 @@ intgo _wrap_MT_RET_PAY_DECLINE_BY_AML_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_LIMIT_DEPOSIT_MIN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_LIMIT_DEPOSIT_MIN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27956,7 +27957,7 @@ intgo _wrap_MT_RET_PAY_LIMIT_DEPOSIT_MIN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_LIMIT_DEPOSIT_MAX_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_LIMIT_DEPOSIT_MAX_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27968,7 +27969,7 @@ intgo _wrap_MT_RET_PAY_LIMIT_DEPOSIT_MAX_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_LIMIT_WITHDRAWAL_MIN_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_LIMIT_WITHDRAWAL_MIN_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27980,7 +27981,7 @@ intgo _wrap_MT_RET_PAY_LIMIT_WITHDRAWAL_MIN_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_LIMIT_WITHDRAWAL_MAX_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_LIMIT_WITHDRAWAL_MAX_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -27992,7 +27993,7 @@ intgo _wrap_MT_RET_PAY_LIMIT_WITHDRAWAL_MAX_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_PROVIDER_PAYMENT_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_PROVIDER_PAYMENT_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28004,7 +28005,7 @@ intgo _wrap_MT_RET_PAY_PROVIDER_PAYMENT_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_PROVIDER_STATUS_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_PROVIDER_STATUS_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28016,7 +28017,7 @@ intgo _wrap_MT_RET_PAY_PROVIDER_STATUS_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_CONVERSION_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_CONVERSION_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28028,7 +28029,7 @@ intgo _wrap_MT_RET_PAY_CONVERSION_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_NOT_WAITING_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_NOT_WAITING_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28040,7 +28041,7 @@ intgo _wrap_MT_RET_PAY_NOT_WAITING_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_VERIFICATION_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_VERIFICATION_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28052,7 +28053,7 @@ intgo _wrap_MT_RET_PAY_VERIFICATION_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_INVOICE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_INVOICE_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28064,7 +28065,7 @@ intgo _wrap_MT_RET_PAY_INVOICE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_INVALID_CURRENCY_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_INVALID_CURRENCY_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28076,7 +28077,7 @@ intgo _wrap_MT_RET_PAY_INVALID_CURRENCY_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_LIMIT_REACHED_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28088,7 +28089,7 @@ intgo _wrap_MT_RET_PAY_LIMIT_REACHED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_PROVIDER_REFUND_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_PROVIDER_REFUND_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28100,7 +28101,7 @@ intgo _wrap_MT_RET_PAY_PROVIDER_REFUND_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MT_RET_PAY_DECLINE_BY_CARDHOLDER_NAME_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MT_RET_PAY_DECLINE_BY_CARDHOLDER_NAME_mtmanapi_bc855f5f41ebffb0() {
   EnMTAPIRetcode result;
   intgo _swig_go_result;
   
@@ -28112,7 +28113,7 @@ intgo _wrap_MT_RET_PAY_DECLINE_BY_CARDHOLDER_NAME_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogFolder_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogFolder_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogCode result;
   intgo _swig_go_result;
   
@@ -28124,7 +28125,7 @@ intgo _wrap_MTLogFolder_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogOK_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogOK_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogCode result;
   intgo _swig_go_result;
   
@@ -28136,7 +28137,7 @@ intgo _wrap_MTLogOK_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogWarn_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogWarn_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogCode result;
   intgo _swig_go_result;
   
@@ -28148,7 +28149,7 @@ intgo _wrap_MTLogWarn_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogErr_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogErr_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogCode result;
   intgo _swig_go_result;
   
@@ -28160,7 +28161,7 @@ intgo _wrap_MTLogErr_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogAtt_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogAtt_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogCode result;
   intgo _swig_go_result;
   
@@ -28172,7 +28173,7 @@ intgo _wrap_MTLogAtt_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogLogin_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogLogin_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogCode result;
   intgo _swig_go_result;
   
@@ -28184,7 +28185,7 @@ intgo _wrap_MTLogLogin_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogFirst_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogFirst_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogCode result;
   intgo _swig_go_result;
   
@@ -28196,7 +28197,7 @@ intgo _wrap_MTLogFirst_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogLast_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogLast_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogCode result;
   intgo _swig_go_result;
   
@@ -28208,7 +28209,7 @@ intgo _wrap_MTLogLast_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeAll_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeAll_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28220,7 +28221,7 @@ intgo _wrap_MTLogTypeAll_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeCfg_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeCfg_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28232,7 +28233,7 @@ intgo _wrap_MTLogTypeCfg_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeSys_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeSys_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28244,7 +28245,7 @@ intgo _wrap_MTLogTypeSys_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeNet_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeNet_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28256,7 +28257,7 @@ intgo _wrap_MTLogTypeNet_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeHst_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeHst_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28268,7 +28269,7 @@ intgo _wrap_MTLogTypeHst_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeUser_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeUser_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28280,7 +28281,7 @@ intgo _wrap_MTLogTypeUser_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeTrade_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeTrade_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28292,7 +28293,7 @@ intgo _wrap_MTLogTypeTrade_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeAPI_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeAPI_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28304,7 +28305,7 @@ intgo _wrap_MTLogTypeAPI_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeNotify_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeNotify_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28316,7 +28317,7 @@ intgo _wrap_MTLogTypeNotify_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeLiveUpdate_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeLiveUpdate_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28328,7 +28329,7 @@ intgo _wrap_MTLogTypeLiveUpdate_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeSendMail_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeSendMail_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28340,7 +28341,7 @@ intgo _wrap_MTLogTypeSendMail_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeFirst_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeFirst_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28352,7 +28353,7 @@ intgo _wrap_MTLogTypeFirst_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogTypeLast_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogTypeLast_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogType result;
   intgo _swig_go_result;
   
@@ -28364,7 +28365,7 @@ intgo _wrap_MTLogTypeLast_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogModeStd_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogModeStd_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogRequestMode result;
   intgo _swig_go_result;
   
@@ -28376,7 +28377,7 @@ intgo _wrap_MTLogModeStd_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogModeErr_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogModeErr_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogRequestMode result;
   intgo _swig_go_result;
   
@@ -28388,7 +28389,7 @@ intgo _wrap_MTLogModeErr_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogModeFull_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogModeFull_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogRequestMode result;
   intgo _swig_go_result;
   
@@ -28400,7 +28401,7 @@ intgo _wrap_MTLogModeFull_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogModeFirst_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogModeFirst_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogRequestMode result;
   intgo _swig_go_result;
   
@@ -28412,7 +28413,7 @@ intgo _wrap_MTLogModeFirst_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_MTLogModeLast_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_MTLogModeLast_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogRequestMode result;
   intgo _swig_go_result;
   
@@ -28424,7 +28425,7 @@ intgo _wrap_MTLogModeLast_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_LOG_FLAGS_NONE_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_LOG_FLAGS_NONE_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogFlags result;
   intgo _swig_go_result;
   
@@ -28436,7 +28437,7 @@ intgo _wrap_LOG_FLAGS_NONE_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_LOG_FLAGS_CORRUPTED_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_LOG_FLAGS_CORRUPTED_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogFlags result;
   intgo _swig_go_result;
   
@@ -28448,7 +28449,7 @@ intgo _wrap_LOG_FLAGS_CORRUPTED_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_LOG_FLAGS_FIRST_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_LOG_FLAGS_FIRST_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogFlags result;
   intgo _swig_go_result;
   
@@ -28460,7 +28461,7 @@ intgo _wrap_LOG_FLAGS_FIRST_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-intgo _wrap_LOG_FLAGS_ALL_mtmanapi_4ac5eea5fe396bb3() {
+intgo _wrap_LOG_FLAGS_ALL_mtmanapi_bc855f5f41ebffb0() {
   EnMTLogFlags result;
   intgo _swig_go_result;
   
@@ -28472,7 +28473,7 @@ intgo _wrap_LOG_FLAGS_ALL_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_MTLogRecord_flags_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MTLogRecord_flags_set_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0, intgo _swig_go_1) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   UINT arg2 ;
   
@@ -28484,7 +28485,7 @@ void _wrap_MTLogRecord_flags_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go
 }
 
 
-intgo _wrap_MTLogRecord_flags_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0) {
+intgo _wrap_MTLogRecord_flags_get_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -28497,7 +28498,7 @@ intgo _wrap_MTLogRecord_flags_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_g
 }
 
 
-void _wrap_MTLogRecord_code_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MTLogRecord_code_set_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0, intgo _swig_go_1) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   INT arg2 ;
   
@@ -28509,7 +28510,7 @@ void _wrap_MTLogRecord_code_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_
 }
 
 
-intgo _wrap_MTLogRecord_code_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0) {
+intgo _wrap_MTLogRecord_code_get_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   INT result;
   intgo _swig_go_result;
@@ -28522,7 +28523,7 @@ intgo _wrap_MTLogRecord_code_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go
 }
 
 
-void _wrap_MTLogRecord_Xtype_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MTLogRecord_Xtype_set_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0, intgo _swig_go_1) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   UINT arg2 ;
   
@@ -28534,7 +28535,7 @@ void _wrap_MTLogRecord_Xtype_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go
 }
 
 
-intgo _wrap_MTLogRecord_Xtype_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0) {
+intgo _wrap_MTLogRecord_Xtype_get_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -28547,7 +28548,7 @@ intgo _wrap_MTLogRecord_Xtype_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_g
 }
 
 
-void _wrap_MTLogRecord_datetime_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0, signed __int64 *_swig_go_1) {
+void _wrap_MTLogRecord_datetime_set_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0, signed __int64 *_swig_go_1) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   INT64 arg2 ;
   INT64 *argp2 ;
@@ -28566,7 +28567,7 @@ void _wrap_MTLogRecord_datetime_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig
 }
 
 
-signed __int64 *_wrap_MTLogRecord_datetime_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0) {
+signed __int64 *_wrap_MTLogRecord_datetime_get_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   INT64 result;
   signed __int64 *_swig_go_result;
@@ -28579,7 +28580,7 @@ signed __int64 *_wrap_MTLogRecord_datetime_get_mtmanapi_4ac5eea5fe396bb3(MTLogRe
 }
 
 
-void _wrap_MTLogRecord_source_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0, wchar_t (*_swig_go_1)[64]) {
+void _wrap_MTLogRecord_source_set_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0, wchar_t (*_swig_go_1)[64]) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   wchar_t *arg2 = (wchar_t *) (wchar_t *)0 ;
   
@@ -28595,7 +28596,7 @@ void _wrap_MTLogRecord_source_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_g
 }
 
 
-wchar_t (*_wrap_MTLogRecord_source_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0))[64] {
+wchar_t (*_wrap_MTLogRecord_source_get_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0))[64] {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   wchar_t *result = 0 ;
   wchar_t (*_swig_go_result)[64];
@@ -28608,7 +28609,7 @@ wchar_t (*_wrap_MTLogRecord_source_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_s
 }
 
 
-void _wrap_MTLogRecord_message_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0, wchar_t (*_swig_go_1)[512]) {
+void _wrap_MTLogRecord_message_set_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0, wchar_t (*_swig_go_1)[512]) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   wchar_t *arg2 = (wchar_t *) (wchar_t *)0 ;
   
@@ -28624,7 +28625,7 @@ void _wrap_MTLogRecord_message_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_
 }
 
 
-wchar_t (*_wrap_MTLogRecord_message_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0))[512] {
+wchar_t (*_wrap_MTLogRecord_message_get_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0))[512] {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   wchar_t *result = 0 ;
   wchar_t (*_swig_go_result)[512];
@@ -28637,7 +28638,7 @@ wchar_t (*_wrap_MTLogRecord_message_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_
 }
 
 
-void _wrap_MTLogRecord_datetime_msc_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0, signed __int64 *_swig_go_1) {
+void _wrap_MTLogRecord_datetime_msc_set_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0, signed __int64 *_swig_go_1) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   INT64 arg2 ;
   INT64 *argp2 ;
@@ -28656,7 +28657,7 @@ void _wrap_MTLogRecord_datetime_msc_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_
 }
 
 
-signed __int64 *_wrap_MTLogRecord_datetime_msc_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0) {
+signed __int64 *_wrap_MTLogRecord_datetime_msc_get_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   INT64 result;
   signed __int64 *_swig_go_result;
@@ -28669,7 +28670,7 @@ signed __int64 *_wrap_MTLogRecord_datetime_msc_get_mtmanapi_4ac5eea5fe396bb3(MTL
 }
 
 
-void _wrap_MTLogRecord_reserved_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_MTLogRecord_reserved_set_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0, intgo *_swig_go_1) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -28685,7 +28686,7 @@ void _wrap_MTLogRecord_reserved_set_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig
 }
 
 
-intgo *_wrap_MTLogRecord_reserved_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0) {
+intgo *_wrap_MTLogRecord_reserved_get_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -28698,7 +28699,7 @@ intgo *_wrap_MTLogRecord_reserved_get_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_sw
 }
 
 
-MTLogRecord *_wrap_new_MTLogRecord_mtmanapi_4ac5eea5fe396bb3() {
+MTLogRecord *_wrap_new_MTLogRecord_mtmanapi_bc855f5f41ebffb0() {
   MTLogRecord *result = 0 ;
   MTLogRecord *_swig_go_result;
   
@@ -28709,7 +28710,7 @@ MTLogRecord *_wrap_new_MTLogRecord_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_delete_MTLogRecord_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0) {
+void _wrap_delete_MTLogRecord_mtmanapi_bc855f5f41ebffb0(MTLogRecord *_swig_go_0) {
   MTLogRecord *arg1 = (MTLogRecord *) 0 ;
   
   arg1 = *(MTLogRecord **)&_swig_go_0; 
@@ -28719,7 +28720,7 @@ void _wrap_delete_MTLogRecord_mtmanapi_4ac5eea5fe396bb3(MTLogRecord *_swig_go_0)
 }
 
 
-void _wrap_MTLicenseCheck_name_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, wchar_t (*_swig_go_1)[128]) {
+void _wrap_MTLicenseCheck_name_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, wchar_t (*_swig_go_1)[128]) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   wchar_t *arg2 = (wchar_t *) (wchar_t *)0 ;
   
@@ -28735,7 +28736,7 @@ void _wrap_MTLicenseCheck_name_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_sw
 }
 
 
-wchar_t (*_wrap_MTLicenseCheck_name_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0))[128] {
+wchar_t (*_wrap_MTLicenseCheck_name_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0))[128] {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   wchar_t *result = 0 ;
   wchar_t (*_swig_go_result)[128];
@@ -28748,7 +28749,7 @@ wchar_t (*_wrap_MTLicenseCheck_name_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck
 }
 
 
-void _wrap_MTLicenseCheck_data_reserved_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_MTLicenseCheck_data_reserved_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, intgo *_swig_go_1) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -28764,7 +28765,7 @@ void _wrap_MTLicenseCheck_data_reserved_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseC
 }
 
 
-intgo *_wrap_MTLicenseCheck_data_reserved_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+intgo *_wrap_MTLicenseCheck_data_reserved_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -28777,7 +28778,7 @@ intgo *_wrap_MTLicenseCheck_data_reserved_get_mtmanapi_4ac5eea5fe396bb3(MTLicens
 }
 
 
-void _wrap_MTLicenseCheck_random_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_MTLicenseCheck_random_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, _gostring_ _swig_go_1) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -28801,7 +28802,7 @@ void _wrap_MTLicenseCheck_random_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_
 }
 
 
-_gostring_ _wrap_MTLicenseCheck_random_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+_gostring_ _wrap_MTLicenseCheck_random_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -28814,7 +28815,7 @@ _gostring_ _wrap_MTLicenseCheck_random_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCh
 }
 
 
-void _wrap_MTLicenseCheck_random_size_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MTLicenseCheck_random_size_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, intgo _swig_go_1) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   UINT arg2 ;
   
@@ -28826,7 +28827,7 @@ void _wrap_MTLicenseCheck_random_size_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseChe
 }
 
 
-intgo _wrap_MTLicenseCheck_random_size_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+intgo _wrap_MTLicenseCheck_random_size_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -28839,7 +28840,7 @@ intgo _wrap_MTLicenseCheck_random_size_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCh
 }
 
 
-void _wrap_MTLicenseCheck_retcode_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MTLicenseCheck_retcode_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, intgo _swig_go_1) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   MTAPIRES arg2 ;
   
@@ -28851,7 +28852,7 @@ void _wrap_MTLicenseCheck_retcode_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *
 }
 
 
-intgo _wrap_MTLicenseCheck_retcode_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+intgo _wrap_MTLicenseCheck_retcode_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   MTAPIRES result;
   intgo _swig_go_result;
@@ -28864,7 +28865,7 @@ intgo _wrap_MTLicenseCheck_retcode_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck 
 }
 
 
-void _wrap_MTLicenseCheck_result_reserved_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_MTLicenseCheck_result_reserved_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, intgo *_swig_go_1) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -28880,7 +28881,7 @@ void _wrap_MTLicenseCheck_result_reserved_set_mtmanapi_4ac5eea5fe396bb3(MTLicens
 }
 
 
-intgo *_wrap_MTLicenseCheck_result_reserved_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+intgo *_wrap_MTLicenseCheck_result_reserved_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -28893,7 +28894,7 @@ intgo *_wrap_MTLicenseCheck_result_reserved_get_mtmanapi_4ac5eea5fe396bb3(MTLice
 }
 
 
-void _wrap_MTLicenseCheck_sign_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_MTLicenseCheck_sign_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, _gostring_ _swig_go_1) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -28917,7 +28918,7 @@ void _wrap_MTLicenseCheck_sign_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_sw
 }
 
 
-_gostring_ _wrap_MTLicenseCheck_sign_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+_gostring_ _wrap_MTLicenseCheck_sign_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -28930,7 +28931,7 @@ _gostring_ _wrap_MTLicenseCheck_sign_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseChec
 }
 
 
-void _wrap_MTLicenseCheck_sign_size_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MTLicenseCheck_sign_size_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, intgo _swig_go_1) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   UINT arg2 ;
   
@@ -28942,7 +28943,7 @@ void _wrap_MTLicenseCheck_sign_size_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck
 }
 
 
-intgo _wrap_MTLicenseCheck_sign_size_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+intgo _wrap_MTLicenseCheck_sign_size_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -28955,7 +28956,7 @@ intgo _wrap_MTLicenseCheck_sign_size_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseChec
 }
 
 
-void _wrap_MTLicenseCheck_sign_reserved_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_MTLicenseCheck_sign_reserved_set_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0, intgo *_swig_go_1) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -28971,7 +28972,7 @@ void _wrap_MTLicenseCheck_sign_reserved_set_mtmanapi_4ac5eea5fe396bb3(MTLicenseC
 }
 
 
-intgo *_wrap_MTLicenseCheck_sign_reserved_get_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+intgo *_wrap_MTLicenseCheck_sign_reserved_get_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -28984,7 +28985,7 @@ intgo *_wrap_MTLicenseCheck_sign_reserved_get_mtmanapi_4ac5eea5fe396bb3(MTLicens
 }
 
 
-MTLicenseCheck *_wrap_new_MTLicenseCheck_mtmanapi_4ac5eea5fe396bb3() {
+MTLicenseCheck *_wrap_new_MTLicenseCheck_mtmanapi_bc855f5f41ebffb0() {
   MTLicenseCheck *result = 0 ;
   MTLicenseCheck *_swig_go_result;
   
@@ -28995,7 +28996,7 @@ MTLicenseCheck *_wrap_new_MTLicenseCheck_mtmanapi_4ac5eea5fe396bb3() {
 }
 
 
-void _wrap_delete_MTLicenseCheck_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig_go_0) {
+void _wrap_delete_MTLicenseCheck_mtmanapi_bc855f5f41ebffb0(MTLicenseCheck *_swig_go_0) {
   MTLicenseCheck *arg1 = (MTLicenseCheck *) 0 ;
   
   arg1 = *(MTLicenseCheck **)&_swig_go_0; 
@@ -29005,7 +29006,7 @@ void _wrap_delete_MTLicenseCheck_mtmanapi_4ac5eea5fe396bb3(MTLicenseCheck *_swig
 }
 
 
-char *_wrap_MT5APIPublicKey_get_mtmanapi_4ac5eea5fe396bb3() {
+char *_wrap_MT5APIPublicKey_get_mtmanapi_bc855f5f41ebffb0() {
   BYTE *result = 0 ;
   char *_swig_go_result;
   

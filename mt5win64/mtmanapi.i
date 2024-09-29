@@ -6,6 +6,7 @@
 #include "MT5APILogger.h"
 #include "MT5APITypes.h"
 #include "MT5APIPublicKey.h"
+#include "MT5APITools.h"
 %}
 
 %include <typemaps.i>
@@ -39,3 +40,4 @@ typedef int __time32_t;
 %include "MT5APILogger.h"
 %include "MT5APITypes.h"
 %include "MT5APIPublicKey.h"
+%include "MT5APITools.h"
