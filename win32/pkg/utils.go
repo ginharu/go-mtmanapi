@@ -1,4 +1,6 @@
-package mtmanapi
+package pkg
+
+import "github.com/asaka1234/go-mtmanapi/win32/mtmanapi"
 
 // 获取32/64位
 func GetSysVersion() int {
@@ -9,5 +11,5 @@ func GetSysVersion() int {
 // 获取api version
 func GetApiVersion() int {
 	//(a << 16) | b
-	return (ManAPIProgramVersion << 16) | ManAPIProgramBuild
+	return (mtmanapi.ManAPIProgramVersion << 16) | mtmanapi.ManAPIProgramBuild
 }
