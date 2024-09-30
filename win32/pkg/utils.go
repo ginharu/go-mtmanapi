@@ -71,3 +71,37 @@ func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string
 		digit,
 	}, nil
 }
+
+// 获取组点(only can be used in pumping mode)
+func GetGroupSpreadDiffBySymbolInfo(manager mtmanapi.CManagerInterface, group string, symbolInfo mtmanapi.SymbolInfo) (*GroupSpreadValue, error) {
+	//增加组点
+	xtype := symbolInfo.GetXtype()
+	digit := symbolInfo.GetDigits()
+
+	var groupInfo mtmanapi.ConGroup
+	code := manager.GroupRecordGet(group, groupInfo)
+	if code != mtmanapi.RET_OK {
+		return nil, errors.New(fmt.Sprintf("GroupRecordGet err, symbol:%s, errCode:%d", symbolInfo.GetSymbol(), code))
+	}
+
+	secGroups := groupInfo.GetSecgroups()
+	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
+	spreadDiff := singleGroup.GetSpread_diff() //获取组点
+
+	//数量
+	spreadBid := spreadDiff / 2
+	spreadAsk := spreadDiff - spreadBid
+
+	//基本单位
+	denominator := math.Pow(0.1, float64(digit))
+
+	//两个方向各自的组点值
+	bidVal := decimal.NewFromInt(int64(spreadBid)).Mul(decimal.NewFromFloat(denominator))
+	askVal := decimal.NewFromInt(int64(spreadAsk)).Mul(decimal.NewFromFloat(denominator))
+
+	return &GroupSpreadValue{
+		bidVal,
+		askVal,
+		digit,
+	}, nil
+}
