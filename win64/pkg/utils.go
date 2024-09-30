@@ -28,8 +28,9 @@ func GetGroupSpreadDiff(manager mtmanapi.CManagerInterface, req mtmanapi.Request
 }
 
 type GroupSpreadValue struct {
-	Bid decimal.Decimal
-	Ask decimal.Decimal
+	Bid   decimal.Decimal
+	Ask   decimal.Decimal
+	Digit int
 }
 
 // 获取组点
@@ -67,5 +68,6 @@ func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string
 	return &GroupSpreadValue{
 		bidVal,
 		askVal,
+		digit,
 	}, nil
 }
