@@ -33,7 +33,7 @@ type GroupSpreadValue struct {
 	Digit int
 }
 
-// 获取组点
+// 获取组点(only can be used in pumping mode)
 func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string, symbol string) (*GroupSpreadValue, error) {
 	//增加组点
 	var symbolInfo mtmanapi.ConSymbol
