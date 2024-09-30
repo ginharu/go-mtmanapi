@@ -105,3 +105,14 @@ func GetGroupSpreadDiffBySymbolInfo(manager mtmanapi.CManagerInterface, group st
 		digit,
 	}, nil
 }
+
+func GetAllGroups(manager mtmanapi.CManagerInterface) map[string]mtmanapi.ConGroup {
+	result := make(map[string]mtmanapi.ConGroup)
+	totalNum := 0
+	groups := manager.GroupsRequest(&totalNum)
+	for i := 0; i < totalNum; i++ {
+		singleGroup := mtmanapi.ConGroupArray_getitem(groups, int64(i))
+		result[singleGroup.GetGroup()] = singleGroup
+	}
+	return result
+}
