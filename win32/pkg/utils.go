@@ -21,7 +21,7 @@ func GetApiVersion() int {
 }
 
 // 获取组点
-func GetGroupSpreadDiff(manager mtmanapi.CManagerInterface, req mtmanapi.RequestInfo) (*GroupSpreadValue, error) {
+func GetGroupSpreadDiffByRequest(manager mtmanapi.CManagerInterface, req mtmanapi.RequestInfo) (*GroupSpreadValue, error) {
 	symbol := req.GetTrade().GetSymbol()
 	group := req.GetGroup()
 	return GetGroupSpreadDiffBySymbol(manager, group, symbol)
@@ -36,13 +36,11 @@ type GroupSpreadValue struct {
 // 获取组点(only can be used in pumping mode)
 func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string, symbol string) (*GroupSpreadValue, error) {
 	//增加组点
-	var symbolInfo mtmanapi.ConSymbol
-	code := manager.SymbolGet(symbol, symbolInfo)
+	var symbolInfo mtmanapi.SymbolInfo
+	code := manager.SymbolInfoGet(symbol, symbolInfo)
 	if code != mtmanapi.RET_OK {
 		return nil, errors.New(fmt.Sprintf("SymbolGet err, symbol:%s, errCode:%d", symbol, code))
 	}
-	xtype := symbolInfo.GetXtype()
-	digit := symbolInfo.GetDigits()
 
 	var groupInfo mtmanapi.ConGroup
 	code = manager.GroupRecordGet(group, groupInfo)
@@ -50,40 +48,27 @@ func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string
 		return nil, errors.New(fmt.Sprintf("GroupRecordGet err, symbol:%s, errCode:%d", symbol, code))
 	}
 
-	secGroups := groupInfo.GetSecgroups()
-	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
-	spreadDiff := singleGroup.GetSpread_diff() //获取组点
-
-	//数量
-	spreadBid := spreadDiff / 2
-	spreadAsk := spreadDiff - spreadBid
-
-	//基本单位
-	denominator := math.Pow(0.1, float64(digit))
-
-	//两个方向各自的组点值
-	bidVal := decimal.NewFromInt(int64(spreadBid)).Mul(decimal.NewFromFloat(denominator))
-	askVal := decimal.NewFromInt(int64(spreadAsk)).Mul(decimal.NewFromFloat(denominator))
-
-	return &GroupSpreadValue{
-		bidVal,
-		askVal,
-		digit,
-	}, nil
+	return GetGroupSpreadDiff(groupInfo, symbolInfo)
 }
 
 // 获取组点(only can be used in pumping mode)
-func GetGroupSpreadDiffBySymbolInfo(manager mtmanapi.CManagerInterface, group string, symbolInfo mtmanapi.SymbolInfo) (*GroupSpreadValue, error) {
+func GetGroupSpreadDiffBySymbol2(manager mtmanapi.CManagerInterface, group string, symbolInfo mtmanapi.SymbolInfo) (*GroupSpreadValue, error) {
 	//增加组点
-	xtype := symbolInfo.GetXtype()
-	digit := symbolInfo.GetDigits()
-
 	var groupInfo mtmanapi.ConGroup
 	code := manager.GroupRecordGet(group, groupInfo)
 	if code != mtmanapi.RET_OK {
 		return nil, errors.New(fmt.Sprintf("GroupRecordGet err, symbol:%s, errCode:%d", symbolInfo.GetSymbol(), code))
 	}
 
+	return GetGroupSpreadDiff(groupInfo, symbolInfo)
+}
+
+// 获取组点(only can be used in pumping mode)
+func GetGroupSpreadDiff(groupInfo mtmanapi.ConGroup, symbolInfo mtmanapi.SymbolInfo) (*GroupSpreadValue, error) {
+	//增加组点
+	xtype := symbolInfo.GetXtype()
+	digit := symbolInfo.GetDigits()
+
 	secGroups := groupInfo.GetSecgroups()
 	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
 	spreadDiff := singleGroup.GetSpread_diff() //获取组点
@@ -105,6 +90,8 @@ func GetGroupSpreadDiffBySymbolInfo(manager mtmanapi.CManagerInterface, group st
 		digit,
 	}, nil
 }
+
+//--------------------
 
 func GetAllGroups(manager mtmanapi.CManagerInterface) map[string]mtmanapi.ConGroup {
 	result := make(map[string]mtmanapi.ConGroup)
