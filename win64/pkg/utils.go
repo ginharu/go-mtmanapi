@@ -48,3 +48,32 @@ func GetGroupSpreadDiff(manager mtmanapi.CManagerInterface, req mtmanapi.Request
 
 	return bidVal, askVal
 }
+
+// 获取组点
+func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string, symbol string) (decimal.Decimal, decimal.Decimal) {
+	//增加组点
+	var symbolInfo mtmanapi.ConSymbol
+	manager.SymbolGet(symbol, symbolInfo)
+	xtype := symbolInfo.GetXtype()
+	digit := symbolInfo.GetDigits()
+
+	var groupInfo mtmanapi.ConGroup
+	manager.GroupRecordGet(group, groupInfo)
+
+	secGroups := groupInfo.GetSecgroups()
+	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
+	spreadDiff := singleGroup.GetSpread_diff() //获取组点
+
+	//数量
+	spreadBid := spreadDiff / 2
+	spreadAsk := spreadDiff - spreadBid
+
+	//基本单位
+	denominator := math.Pow(0.1, float64(digit))
+
+	//两个方向各自的组点值
+	bidVal := decimal.NewFromInt(int64(spreadBid)).Mul(decimal.NewFromFloat(denominator))
+	askVal := decimal.NewFromInt(int64(spreadAsk)).Mul(decimal.NewFromFloat(denominator))
+
+	return bidVal, askVal
+}
