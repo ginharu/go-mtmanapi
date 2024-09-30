@@ -1,6 +1,8 @@
 package pkg
 
 import (
+	"errors"
+	"fmt"
 	"github.com/asaka1234/go-mtmanapi/win64/mtmanapi"
 	"github.com/shopspring/decimal"
 	"math"
@@ -19,22 +21,33 @@ func GetApiVersion() int {
 }
 
 // 获取组点
-func GetGroupSpreadDiff(manager mtmanapi.CManagerInterface, req mtmanapi.RequestInfo) (decimal.Decimal, decimal.Decimal) {
+func GetGroupSpreadDiff(manager mtmanapi.CManagerInterface, req mtmanapi.RequestInfo) (*GroupSpreadValue, error) {
 	symbol := req.GetTrade().GetSymbol()
 	group := req.GetGroup()
 	return GetGroupSpreadDiffBySymbol(manager, group, symbol)
 }
 
+type GroupSpreadValue struct {
+	Bid decimal.Decimal
+	Ask decimal.Decimal
+}
+
 // 获取组点
-func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string, symbol string) (decimal.Decimal, decimal.Decimal) {
+func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string, symbol string) (*GroupSpreadValue, error) {
 	//增加组点
 	var symbolInfo mtmanapi.ConSymbol
-	manager.SymbolGet(symbol, symbolInfo)
+	code := manager.SymbolGet(symbol, symbolInfo)
+	if code != mtmanapi.RET_OK {
+		return nil, errors.New(fmt.Sprintf("SymbolGet err, symbol:%s, errCode:%d", symbol, code))
+	}
 	xtype := symbolInfo.GetXtype()
 	digit := symbolInfo.GetDigits()
 
 	var groupInfo mtmanapi.ConGroup
-	manager.GroupRecordGet(group, groupInfo)
+	code = manager.GroupRecordGet(group, groupInfo)
+	if code != mtmanapi.RET_OK {
+		return nil, errors.New(fmt.Sprintf("GroupRecordGet err, symbol:%s, errCode:%d", symbol, code))
+	}
 
 	secGroups := groupInfo.GetSecgroups()
 	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
@@ -51,5 +64,8 @@ func GetGroupSpreadDiffBySymbol(manager mtmanapi.CManagerInterface, group string
 	bidVal := decimal.NewFromInt(int64(spreadBid)).Mul(decimal.NewFromFloat(denominator))
 	askVal := decimal.NewFromInt(int64(spreadAsk)).Mul(decimal.NewFromFloat(denominator))
 
-	return bidVal, askVal
+	return &GroupSpreadValue{
+		bidVal,
+		askVal,
+	}, nil
 }
