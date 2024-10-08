@@ -25521,7 +25521,6 @@ ConSymbol *_wrap_CManagerInterface_CfgRequestSymbol_mtmanapi_6b0ddf25a5f93138(CM
   struct ConSymbol conSymbol;
   printf("sizeof(consymbol) = %d\n", sizeof(struct ConSymbol));
   printf("sizeof(consymbol.time= %d\n", sizeof(conSymbol.starting));
-g
   *(ConSymbol **)&_swig_go_result = (ConSymbol *)result; 
   return _swig_go_result;
 }
