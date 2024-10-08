@@ -25514,9 +25514,11 @@ ConSymbol *_wrap_CManagerInterface_CfgRequestSymbol_mtmanapi_6b0ddf25a5f93138(CM
   arg2 = *(int **)&_swig_go_1; 
   
   result = (ConSymbol *)(arg1)->CfgRequestSymbol(arg2);
+  printf("_wrap_CManagerInterface_CfgRequestSymbol_mtmanapi_6b0ddf25a5f93138\n");
   *(ConSymbol **)&_swig_go_result = (ConSymbol *)result; 
   return _swig_go_result;
 }
+
 
 
 ConGroup *_wrap_CManagerInterface_CfgRequestGroup_mtmanapi_6b0ddf25a5f93138(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
