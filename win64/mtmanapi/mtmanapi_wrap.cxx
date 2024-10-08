@@ -25516,7 +25516,7 @@ ConSymbol *_wrap_CManagerInterface_CfgRequestSymbol_mtmanapi_6b0ddf25a5f93138(CM
   result = (ConSymbol *)(arg1)->CfgRequestSymbol(arg2);
   printf("_wrap_CManagerInterface_CfgRequestSymbol_mtmanapi_6b0ddf25a5f93138\n");
   if (*arg2 > 1) {
-    printf("symbol name=%s\n", result[1].symbol)
+    printf("symbol name=%s\n", result[1].symbol);
   }
   *(ConSymbol **)&_swig_go_result = (ConSymbol *)result; 
   return _swig_go_result;
