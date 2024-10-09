@@ -27543,7 +27543,7 @@ intgo _wrap_CManagerInterface_DealerRequestGet_mtmanapi_6b0ddf25a5f93138(CManage
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   arg2 = *(RequestInfo **)&_swig_go_1;
   result = (int)(arg1)->DealerRequestGet(arg2);
-  printf("bid=%f, ask=%f\n",arg2->prices[0],arg2->prices[1]);
+  //printf("bid=%f, ask=%f\n",arg2->prices[0],arg2->prices[1]);
   _swig_go_result = result; 
   return _swig_go_result;
 }
