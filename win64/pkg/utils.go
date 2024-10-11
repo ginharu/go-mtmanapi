@@ -95,12 +95,24 @@ func GetGroupSpreadDiff(groupInfo mtmanapi.ConGroup, symbolInfo mtmanapi.SymbolI
 	}, nil
 }
 
-//--------------------
+// ----------------------------------
+type ManagerMode int
 
-func GetAllGroups(manager mtmanapi.CManagerInterface) map[string]mtmanapi.ConGroup {
+const (
+	ManagerDirect  ManagerMode = 1
+	ManagerPumping ManagerMode = 2
+	ManagerDealing ManagerMode = 3
+)
+
+func GetAllGroups(mode ManagerMode, manager mtmanapi.CManagerInterface) map[string]mtmanapi.ConGroup {
 	result := make(map[string]mtmanapi.ConGroup)
 	totalNum := 0
-	groups := manager.GroupsRequest(&totalNum)
+	var groups mtmanapi.ConGroup
+	if mode == ManagerDirect {
+		groups = manager.GroupsRequest(&totalNum)
+	} else if mode == ManagerPumping {
+		groups = manager.GroupsGet(&totalNum)
+	}
 	for i := 0; i < totalNum; i++ {
 		singleGroup := mtmanapi.ConGroupArray_getitem(groups, int64(i))
 		result[singleGroup.GetGroup()] = singleGroup
