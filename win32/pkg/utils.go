@@ -119,3 +119,19 @@ func GetAllGroups(mode ManagerMode, manager mtmanapi.CManagerInterface) map[stri
 	}
 	return result
 }
+
+func GetAllSymbols(mode ManagerMode, manager mtmanapi.CManagerInterface) map[string]mtmanapi.ConSymbol {
+	result := make(map[string]mtmanapi.ConSymbol)
+	totalNum := 0
+	var symbols mtmanapi.ConSymbol
+	if mode == ManagerDirect {
+		symbols = manager.CfgRequestSymbol(&totalNum)
+	} else if mode == ManagerPumping {
+		symbols = manager.SymbolsGetAll(&totalNum)
+	}
+	for i := 0; i < totalNum; i++ {
+		singleSymbol := mtmanapi.ConSymbolArray_getitem(symbols, int64(i))
+		result[singleSymbol.GetSymbol()] = singleSymbol
+	}
+	return result
+}
