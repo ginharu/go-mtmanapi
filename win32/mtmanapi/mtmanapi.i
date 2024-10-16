@@ -17,6 +17,7 @@
 %array_functions(TickInfo, TickInfoArray);
 %array_functions(ConSessions, ConSessionsArray);
 %array_functions(ConSession, ConSessionArray);
+%array_functions(RequestInfo, RequestInfoArray);
 
 
 %feature("director") PumpReceiver;
