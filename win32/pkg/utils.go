@@ -32,6 +32,7 @@ func GetGroupSpreadDiffByTrade(managerPump mtmanapi.CManagerInterface, trade mtm
 	symbol := trade.GetSymbol()
 
 	userInfo := mtmanapi.NewUserRecord()
+	defer mtmanapi.DeleteUserRecord(userInfo)
 	managerPump.UserRecordGet(trade.GetLogin(), userInfo)
 	group := userInfo.GetGroup()
 
@@ -49,6 +50,7 @@ type GroupSpreadValue struct {
 func GetGroupSpreadDiffBySymbol(managerPump mtmanapi.CManagerInterface, group string, symbol string) (*GroupSpreadValue, error) {
 	//增加组点
 	symbolInfo := mtmanapi.NewSymbolInfo()
+	defer mtmanapi.DeleteSymbolInfo(symbolInfo)
 	code := managerPump.SymbolInfoGet(symbol, symbolInfo)
 	if code != mtmanapi.RET_OK {
 		managerPump.SymbolAdd(symbol)
@@ -56,6 +58,7 @@ func GetGroupSpreadDiffBySymbol(managerPump mtmanapi.CManagerInterface, group st
 	}
 
 	groupInfo := mtmanapi.NewConGroup()
+	defer mtmanapi.DeleteConGroup(groupInfo)
 	code = managerPump.GroupRecordGet(group, groupInfo)
 	if code != mtmanapi.RET_OK {
 		return nil, errors.New(fmt.Sprintf("GroupRecordGet err, symbol:%s, errCode:%d", symbol, code))
