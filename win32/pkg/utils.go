@@ -41,10 +41,8 @@ func GetGroupSpreadDiffByTrade(managerPump mtmanapi.CManagerInterface, trade mtm
 //-----------------------------------------------------------
 
 type GroupSpreadValue struct {
-	Bid    decimal.Decimal //bid侧组点值
-	Ask    decimal.Decimal //ask侧组点值
-	Symbol mtmanapi.SymbolInfo
-	Group  mtmanapi.ConGroup
+	Bid decimal.Decimal //bid侧组点值
+	Ask decimal.Decimal //ask侧组点值
 }
 
 // 获取组点(only can be used in pumping mode)
@@ -90,8 +88,27 @@ func GetGroupSpreadDiff(groupInfo mtmanapi.ConGroup, symbolInfo mtmanapi.SymbolI
 	return &GroupSpreadValue{
 		bidVal,
 		askVal,
-		symbolInfo,
-		groupInfo,
+	}, nil
+}
+
+func GetGroupSpreadDiff2(spreadDiff int, symbolInfo mtmanapi.SymbolInfo) (*GroupSpreadValue, error) {
+	//增加组点
+	digit := symbolInfo.GetDigits()
+
+	//数量
+	spreadBid := spreadDiff / 2
+	spreadAsk := spreadDiff - spreadBid
+
+	//基本单位
+	denominator := math.Pow(0.1, float64(digit))
+
+	//两个方向各自的组点值
+	bidVal := decimal.NewFromInt(int64(spreadBid)).Mul(decimal.NewFromFloat(denominator))
+	askVal := decimal.NewFromInt(int64(spreadAsk)).Mul(decimal.NewFromFloat(denominator))
+
+	return &GroupSpreadValue{
+		bidVal,
+		askVal,
 	}, nil
 }
 
