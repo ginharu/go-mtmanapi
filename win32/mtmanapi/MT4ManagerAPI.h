@@ -1888,5 +1888,30 @@ void dealerSwitch(CManagerInterface* c, const HWND destwnd, const UINT eventmsg)
     c->DealerSwitch(dealingCallback, destwnd, eventmsg);
 }
 
+//---------------------------------------------
+
+DealReceiver* globalDealer0;
+void __stdcall dealingCallback0(int code) {
+    if(globalDealer0 != NULL) {
+        globalDealer0->OnDeal(code);
+    }
+}
+
+DealReceiver* globalDealer1;
+void __stdcall dealingCallback1(int code) {
+    if(globalDealer1 != NULL) {
+        globalDealer1->OnDeal(code);
+    }
+}
+
+
+void dealerSwitchMulti(CManagerInterface* c, int index, const HWND destwnd, const UINT eventmsg) {
+    if index==0{
+        c->DealerSwitch(dealingCallback1, destwnd, eventmsg);
+    }else if index==1{
+        c->DealerSwitch(dealingCallback2, destwnd, eventmsg);
+    }
+}
+
 #endif
 //+------------------------------------------------------------------+

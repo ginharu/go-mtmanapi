@@ -28910,6 +28910,91 @@ void _wrap_dealerSwitch_mtmanapi_7f13f2fe83e41141(CManagerInterface *_swig_go_0,
 }
 
 
+void _wrap_globalDealer0_set_mtmanapi_7f13f2fe83e41141(DealReceiver *_swig_go_0) {
+  DealReceiver *arg1 = (DealReceiver *) 0 ;
+  
+  arg1 = *(DealReceiver **)&_swig_go_0; 
+  
+  globalDealer0 = arg1;
+  
+}
+
+
+DealReceiver *_wrap_globalDealer0_get_mtmanapi_7f13f2fe83e41141() {
+  DealReceiver *result = 0 ;
+  DealReceiver *_swig_go_result;
+  
+  
+  result = (DealReceiver *)globalDealer0;
+  *(DealReceiver **)&_swig_go_result = (DealReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_dealingCallback0_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
+  int arg1 ;
+  
+  arg1 = (int)_swig_go_0; 
+  
+  dealingCallback0(arg1);
+  
+}
+
+
+void _wrap_globalDealer1_set_mtmanapi_7f13f2fe83e41141(DealReceiver *_swig_go_0) {
+  DealReceiver *arg1 = (DealReceiver *) 0 ;
+  
+  arg1 = *(DealReceiver **)&_swig_go_0; 
+  
+  globalDealer1 = arg1;
+  
+}
+
+
+DealReceiver *_wrap_globalDealer1_get_mtmanapi_7f13f2fe83e41141() {
+  DealReceiver *result = 0 ;
+  DealReceiver *_swig_go_result;
+  
+  
+  result = (DealReceiver *)globalDealer1;
+  *(DealReceiver **)&_swig_go_result = (DealReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_dealingCallback1_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
+  int arg1 ;
+  
+  arg1 = (int)_swig_go_0; 
+  
+  dealingCallback1(arg1);
+  
+}
+
+
+void _wrap_dealerSwitchMulti_mtmanapi_7f13f2fe83e41141(CManagerInterface *_swig_go_0, intgo _swig_go_1, HWND *_swig_go_2, intgo _swig_go_3) {
+  CManagerInterface *arg1 = (CManagerInterface *) 0 ;
+  int arg2 ;
+  HWND arg3 ;
+  UINT arg4 ;
+  HWND const *argp3 ;
+  
+  arg1 = *(CManagerInterface **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  argp3 = (HWND *)_swig_go_2;
+  if (argp3 == NULL) {
+    _swig_gopanic("Attempt to dereference null HWND const");
+  }
+  arg3 = (HWND)*argp3;
+  
+  arg4 = (UINT)_swig_go_3; 
+  
+  dealerSwitchMulti(arg1,arg2,SWIG_STD_MOVE(arg3),arg4);
+  
+}
+
+
 #ifdef __cplusplus
 }
 #endif
