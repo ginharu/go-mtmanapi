@@ -1906,9 +1906,9 @@ void __stdcall dealingCallback1(int code) {
 
 
 void dealerSwitchPro(CManagerInterface* c, int index, const HWND destwnd, const UINT eventmsg) {
-    if index==0{
+    if (index==0){
         c->DealerSwitch(dealingCallback0, destwnd, eventmsg);
-    }else if index==1{
+    }else if (index==1){
         c->DealerSwitch(dealingCallback1, destwnd, eventmsg);
     }
 }
