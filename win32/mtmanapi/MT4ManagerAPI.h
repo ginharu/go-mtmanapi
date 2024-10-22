@@ -1905,11 +1905,11 @@ void __stdcall dealingCallback1(int code) {
 }
 
 
-void dealerSwitchMulti(CManagerInterface* c, int index, const HWND destwnd, const UINT eventmsg) {
+void dealerSwitchPro(CManagerInterface* c, int index, const HWND destwnd, const UINT eventmsg) {
     if index==0{
-        c->DealerSwitch(dealingCallback1, destwnd, eventmsg);
+        c->DealerSwitch(dealingCallback0, destwnd, eventmsg);
     }else if index==1{
-        c->DealerSwitch(dealingCallback2, destwnd, eventmsg);
+        c->DealerSwitch(dealingCallback1, destwnd, eventmsg);
     }
 }
 

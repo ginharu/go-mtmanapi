@@ -28972,7 +28972,7 @@ void _wrap_dealingCallback1_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
 }
 
 
-void _wrap_dealerSwitchMulti_mtmanapi_7f13f2fe83e41141(CManagerInterface *_swig_go_0, intgo _swig_go_1, HWND *_swig_go_2, intgo _swig_go_3) {
+void _wrap_dealerSwitchPro_mtmanapi_7f13f2fe83e41141(CManagerInterface *_swig_go_0, intgo _swig_go_1, HWND *_swig_go_2, intgo _swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   HWND arg3 ;
@@ -28990,7 +28990,7 @@ void _wrap_dealerSwitchMulti_mtmanapi_7f13f2fe83e41141(CManagerInterface *_swig_
   
   arg4 = (UINT)_swig_go_3; 
   
-  dealerSwitchMulti(arg1,arg2,SWIG_STD_MOVE(arg3),arg4);
+  dealerSwitchPro(arg1,arg2,SWIG_STD_MOVE(arg3),arg4);
   
 }
 

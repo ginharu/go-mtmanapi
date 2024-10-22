@@ -2482,7 +2482,7 @@ extern void _wrap_dealingCallback0_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
 extern void _wrap_globalDealer1_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
 extern uintptr_t _wrap_globalDealer1_get_mtmanapi_7f13f2fe83e41141(void);
 extern void _wrap_dealingCallback1_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
-extern void _wrap_dealerSwitchMulti_mtmanapi_7f13f2fe83e41141(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4);
+extern void _wrap_dealerSwitchPro_mtmanapi_7f13f2fe83e41141(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4);
 #undef intgo
 */
 import "C"
@@ -19908,12 +19908,12 @@ func DealingCallback1(arg1 int) {
 	C._wrap_dealingCallback1_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0))
 }
 
-func DealerSwitchMulti(arg1 CManagerInterface, arg2 int, arg3 HWND, arg4 uint) {
+func DealerSwitchPro(arg1 CManagerInterface, arg2 int, arg3 HWND, arg4 uint) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := arg4
-	C._wrap_dealerSwitchMulti_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_dealerSwitchPro_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 
