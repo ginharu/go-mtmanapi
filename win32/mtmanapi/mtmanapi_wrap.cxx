@@ -29209,6 +29209,191 @@ void _wrap_pumpingCallback9_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _s
 }
 
 
+void _wrap_globalPumper10_set_mtmanapi_7f13f2fe83e41141(PumpReceiver *_swig_go_0) {
+  PumpReceiver *arg1 = (PumpReceiver *) 0 ;
+  
+  arg1 = *(PumpReceiver **)&_swig_go_0; 
+  
+  globalPumper10 = arg1;
+  
+}
+
+
+PumpReceiver *_wrap_globalPumper10_get_mtmanapi_7f13f2fe83e41141() {
+  PumpReceiver *result = 0 ;
+  PumpReceiver *_swig_go_result;
+  
+  
+  result = (PumpReceiver *)globalPumper10;
+  *(PumpReceiver **)&_swig_go_result = (PumpReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_pumpingCallback10_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+  int arg1 ;
+  int arg2 ;
+  void *arg3 = (void *) 0 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = *(void **)&_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingCallback10(arg1,arg2,arg3,arg4);
+  
+}
+
+
+void _wrap_globalPumper11_set_mtmanapi_7f13f2fe83e41141(PumpReceiver *_swig_go_0) {
+  PumpReceiver *arg1 = (PumpReceiver *) 0 ;
+  
+  arg1 = *(PumpReceiver **)&_swig_go_0; 
+  
+  globalPumper11 = arg1;
+  
+}
+
+
+PumpReceiver *_wrap_globalPumper11_get_mtmanapi_7f13f2fe83e41141() {
+  PumpReceiver *result = 0 ;
+  PumpReceiver *_swig_go_result;
+  
+  
+  result = (PumpReceiver *)globalPumper11;
+  *(PumpReceiver **)&_swig_go_result = (PumpReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_pumpingCallback11_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+  int arg1 ;
+  int arg2 ;
+  void *arg3 = (void *) 0 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = *(void **)&_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingCallback11(arg1,arg2,arg3,arg4);
+  
+}
+
+
+void _wrap_globalPumper12_set_mtmanapi_7f13f2fe83e41141(PumpReceiver *_swig_go_0) {
+  PumpReceiver *arg1 = (PumpReceiver *) 0 ;
+  
+  arg1 = *(PumpReceiver **)&_swig_go_0; 
+  
+  globalPumper12 = arg1;
+  
+}
+
+
+PumpReceiver *_wrap_globalPumper12_get_mtmanapi_7f13f2fe83e41141() {
+  PumpReceiver *result = 0 ;
+  PumpReceiver *_swig_go_result;
+  
+  
+  result = (PumpReceiver *)globalPumper12;
+  *(PumpReceiver **)&_swig_go_result = (PumpReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_pumpingCallback12_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+  int arg1 ;
+  int arg2 ;
+  void *arg3 = (void *) 0 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = *(void **)&_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingCallback12(arg1,arg2,arg3,arg4);
+  
+}
+
+
+void _wrap_globalPumper13_set_mtmanapi_7f13f2fe83e41141(PumpReceiver *_swig_go_0) {
+  PumpReceiver *arg1 = (PumpReceiver *) 0 ;
+  
+  arg1 = *(PumpReceiver **)&_swig_go_0; 
+  
+  globalPumper13 = arg1;
+  
+}
+
+
+PumpReceiver *_wrap_globalPumper13_get_mtmanapi_7f13f2fe83e41141() {
+  PumpReceiver *result = 0 ;
+  PumpReceiver *_swig_go_result;
+  
+  
+  result = (PumpReceiver *)globalPumper13;
+  *(PumpReceiver **)&_swig_go_result = (PumpReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_pumpingCallback13_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+  int arg1 ;
+  int arg2 ;
+  void *arg3 = (void *) 0 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = *(void **)&_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingCallback13(arg1,arg2,arg3,arg4);
+  
+}
+
+
+void _wrap_globalPumper14_set_mtmanapi_7f13f2fe83e41141(PumpReceiver *_swig_go_0) {
+  PumpReceiver *arg1 = (PumpReceiver *) 0 ;
+  
+  arg1 = *(PumpReceiver **)&_swig_go_0; 
+  
+  globalPumper14 = arg1;
+  
+}
+
+
+PumpReceiver *_wrap_globalPumper14_get_mtmanapi_7f13f2fe83e41141() {
+  PumpReceiver *result = 0 ;
+  PumpReceiver *_swig_go_result;
+  
+  
+  result = (PumpReceiver *)globalPumper14;
+  *(PumpReceiver **)&_swig_go_result = (PumpReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_pumpingCallback14_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+  int arg1 ;
+  int arg2 ;
+  void *arg3 = (void *) 0 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = *(void **)&_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingCallback14(arg1,arg2,arg3,arg4);
+  
+}
+
+
 void _wrap_pumpingSwitchExPro_mtmanapi_7f13f2fe83e41141(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, void *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
@@ -29639,6 +29824,161 @@ void _wrap_dealingCallback9_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
   arg1 = (int)_swig_go_0; 
   
   dealingCallback9(arg1);
+  
+}
+
+
+void _wrap_globalDealer10_set_mtmanapi_7f13f2fe83e41141(DealReceiver *_swig_go_0) {
+  DealReceiver *arg1 = (DealReceiver *) 0 ;
+  
+  arg1 = *(DealReceiver **)&_swig_go_0; 
+  
+  globalDealer10 = arg1;
+  
+}
+
+
+DealReceiver *_wrap_globalDealer10_get_mtmanapi_7f13f2fe83e41141() {
+  DealReceiver *result = 0 ;
+  DealReceiver *_swig_go_result;
+  
+  
+  result = (DealReceiver *)globalDealer10;
+  *(DealReceiver **)&_swig_go_result = (DealReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_dealingCallback10_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
+  int arg1 ;
+  
+  arg1 = (int)_swig_go_0; 
+  
+  dealingCallback10(arg1);
+  
+}
+
+
+void _wrap_globalDealer11_set_mtmanapi_7f13f2fe83e41141(DealReceiver *_swig_go_0) {
+  DealReceiver *arg1 = (DealReceiver *) 0 ;
+  
+  arg1 = *(DealReceiver **)&_swig_go_0; 
+  
+  globalDealer11 = arg1;
+  
+}
+
+
+DealReceiver *_wrap_globalDealer11_get_mtmanapi_7f13f2fe83e41141() {
+  DealReceiver *result = 0 ;
+  DealReceiver *_swig_go_result;
+  
+  
+  result = (DealReceiver *)globalDealer11;
+  *(DealReceiver **)&_swig_go_result = (DealReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_dealingCallback11_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
+  int arg1 ;
+  
+  arg1 = (int)_swig_go_0; 
+  
+  dealingCallback11(arg1);
+  
+}
+
+
+void _wrap_globalDealer12_set_mtmanapi_7f13f2fe83e41141(DealReceiver *_swig_go_0) {
+  DealReceiver *arg1 = (DealReceiver *) 0 ;
+  
+  arg1 = *(DealReceiver **)&_swig_go_0; 
+  
+  globalDealer12 = arg1;
+  
+}
+
+
+DealReceiver *_wrap_globalDealer12_get_mtmanapi_7f13f2fe83e41141() {
+  DealReceiver *result = 0 ;
+  DealReceiver *_swig_go_result;
+  
+  
+  result = (DealReceiver *)globalDealer12;
+  *(DealReceiver **)&_swig_go_result = (DealReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_dealingCallback12_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
+  int arg1 ;
+  
+  arg1 = (int)_swig_go_0; 
+  
+  dealingCallback12(arg1);
+  
+}
+
+
+void _wrap_globalDealer13_set_mtmanapi_7f13f2fe83e41141(DealReceiver *_swig_go_0) {
+  DealReceiver *arg1 = (DealReceiver *) 0 ;
+  
+  arg1 = *(DealReceiver **)&_swig_go_0; 
+  
+  globalDealer13 = arg1;
+  
+}
+
+
+DealReceiver *_wrap_globalDealer13_get_mtmanapi_7f13f2fe83e41141() {
+  DealReceiver *result = 0 ;
+  DealReceiver *_swig_go_result;
+  
+  
+  result = (DealReceiver *)globalDealer13;
+  *(DealReceiver **)&_swig_go_result = (DealReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_dealingCallback13_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
+  int arg1 ;
+  
+  arg1 = (int)_swig_go_0; 
+  
+  dealingCallback13(arg1);
+  
+}
+
+
+void _wrap_globalDealer14_set_mtmanapi_7f13f2fe83e41141(DealReceiver *_swig_go_0) {
+  DealReceiver *arg1 = (DealReceiver *) 0 ;
+  
+  arg1 = *(DealReceiver **)&_swig_go_0; 
+  
+  globalDealer14 = arg1;
+  
+}
+
+
+DealReceiver *_wrap_globalDealer14_get_mtmanapi_7f13f2fe83e41141() {
+  DealReceiver *result = 0 ;
+  DealReceiver *_swig_go_result;
+  
+  
+  result = (DealReceiver *)globalDealer14;
+  *(DealReceiver **)&_swig_go_result = (DealReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_dealingCallback14_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
+  int arg1 ;
+  
+  arg1 = (int)_swig_go_0; 
+  
+  dealingCallback14(arg1);
   
 }
 

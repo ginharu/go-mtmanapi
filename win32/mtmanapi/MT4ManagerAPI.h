@@ -1948,6 +1948,41 @@ void __stdcall pumpingCallback9(int code, int typ, void* data, void* param) {
     }
 }
 
+PumpReceiver* globalPumper10;
+void __stdcall pumpingCallback10(int code, int typ, void* data, void* param) {
+    if(globalPumper10 != NULL) {
+        globalPumper10->OnPump(code, typ, data, param);
+    }
+}
+
+PumpReceiver* globalPumper11;
+void __stdcall pumpingCallback11(int code, int typ, void* data, void* param) {
+    if(globalPumper11 != NULL) {
+        globalPumper11->OnPump(code, typ, data, param);
+    }
+}
+
+PumpReceiver* globalPumper12;
+void __stdcall pumpingCallback12(int code, int typ, void* data, void* param) {
+    if(globalPumper12 != NULL) {
+        globalPumper12->OnPump(code, typ, data, param);
+    }
+}
+
+PumpReceiver* globalPumper13;
+void __stdcall pumpingCallback13(int code, int typ, void* data, void* param) {
+    if(globalPumper13 != NULL) {
+        globalPumper13->OnPump(code, typ, data, param);
+    }
+}
+
+PumpReceiver* globalPumper14;
+void __stdcall pumpingCallback14(int code, int typ, void* data, void* param) {
+    if(globalPumper14 != NULL) {
+        globalPumper14->OnPump(code, typ, data, param);
+    }
+}
+
 void pumpingSwitchExPro(CManagerInterface* c, int index, const int flags, void *param) {
     if (index==-1){
         c->PumpingSwitchEx(pumpingCallbackBidAsk, flags, param);
@@ -1971,6 +2006,16 @@ void pumpingSwitchExPro(CManagerInterface* c, int index, const int flags, void *
         c->PumpingSwitchEx(pumpingCallback8, flags, param);
     }else if (index==9){
         c->PumpingSwitchEx(pumpingCallback9, flags, param);
+    }else if (index==10){
+        c->PumpingSwitchEx(pumpingCallback10, flags, param);
+    }else if (index==11){
+        c->PumpingSwitchEx(pumpingCallback11, flags, param);
+    }else if (index==12){
+        c->PumpingSwitchEx(pumpingCallback12, flags, param);
+    }else if (index==13){
+        c->PumpingSwitchEx(pumpingCallback13, flags, param);
+    }else if (index==14){
+        c->PumpingSwitchEx(pumpingCallback14, flags, param);
     }
 }
 
@@ -2067,6 +2112,41 @@ void __stdcall dealingCallback9(int code) {
     }
 }
 
+DealReceiver* globalDealer10;
+void __stdcall dealingCallback10(int code) {
+    if(globalDealer10 != NULL) {
+        globalDealer10->OnDeal(code);
+    }
+}
+
+DealReceiver* globalDealer11;
+void __stdcall dealingCallback11(int code) {
+    if(globalDealer11 != NULL) {
+        globalDealer11->OnDeal(code);
+    }
+}
+
+DealReceiver* globalDealer12;
+void __stdcall dealingCallback12(int code) {
+    if(globalDealer12 != NULL) {
+        globalDealer12->OnDeal(code);
+    }
+}
+
+DealReceiver* globalDealer13;
+void __stdcall dealingCallback13(int code) {
+    if(globalDealer13 != NULL) {
+        globalDealer13->OnDeal(code);
+    }
+}
+
+DealReceiver* globalDealer14;
+void __stdcall dealingCallback14(int code) {
+    if(globalDealer14 != NULL) {
+        globalDealer14->OnDeal(code);
+    }
+}
+
 void dealerSwitchPro(CManagerInterface* c, int index, const HWND destwnd, const UINT eventmsg) {
     if (index==0){
         c->DealerSwitch(dealingCallback0, destwnd, eventmsg);
@@ -2088,6 +2168,16 @@ void dealerSwitchPro(CManagerInterface* c, int index, const HWND destwnd, const 
         c->DealerSwitch(dealingCallback8, destwnd, eventmsg);
     }else if (index==9){
         c->DealerSwitch(dealingCallback9, destwnd, eventmsg);
+    }else if (index==10){
+        c->DealerSwitch(dealingCallback10, destwnd, eventmsg);
+    }else if (index==11){
+        c->DealerSwitch(dealingCallback11, destwnd, eventmsg);
+    }else if (index==12){
+        c->DealerSwitch(dealingCallback12, destwnd, eventmsg);
+    }else if (index==13){
+        c->DealerSwitch(dealingCallback13, destwnd, eventmsg);
+    }else if (index==14){
+        c->DealerSwitch(dealingCallback14, destwnd, eventmsg);
     }
 }
 

@@ -2500,6 +2500,21 @@ extern void _wrap_pumpingCallback8_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, sw
 extern void _wrap_globalPumper9_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
 extern uintptr_t _wrap_globalPumper9_get_mtmanapi_7f13f2fe83e41141(void);
 extern void _wrap_pumpingCallback9_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_globalPumper10_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalPumper10_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_pumpingCallback10_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_globalPumper11_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalPumper11_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_pumpingCallback11_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_globalPumper12_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalPumper12_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_pumpingCallback12_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_globalPumper13_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalPumper13_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_pumpingCallback13_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_globalPumper14_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalPumper14_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_pumpingCallback14_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
 extern void _wrap_pumpingSwitchExPro_mtmanapi_7f13f2fe83e41141(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, uintptr_t arg4);
 extern uintptr_t _wrap__swig_NewDirectorDealReceiverDealReceiver_mtmanapi_7f13f2fe83e41141(int);
 extern void _wrap_DeleteDirectorDealReceiver_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
@@ -2540,6 +2555,21 @@ extern void _wrap_dealingCallback8_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
 extern void _wrap_globalDealer9_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
 extern uintptr_t _wrap_globalDealer9_get_mtmanapi_7f13f2fe83e41141(void);
 extern void _wrap_dealingCallback9_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
+extern void _wrap_globalDealer10_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalDealer10_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_dealingCallback10_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
+extern void _wrap_globalDealer11_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalDealer11_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_dealingCallback11_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
+extern void _wrap_globalDealer12_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalDealer12_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_dealingCallback12_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
+extern void _wrap_globalDealer13_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalDealer13_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_dealingCallback13_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
+extern void _wrap_globalDealer14_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalDealer14_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_dealingCallback14_mtmanapi_7f13f2fe83e41141(swig_intgo arg1);
 extern void _wrap_dealerSwitchPro_mtmanapi_7f13f2fe83e41141(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, swig_intgo arg4);
 #undef intgo
 */
@@ -20032,6 +20062,101 @@ func PumpingCallback9(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
 	C._wrap_pumpingCallback9_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
+func SetGlobalPumper10(arg1 PumpReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalPumper10_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalPumper10() (_swig_ret PumpReceiver) {
+	var swig_r PumpReceiver
+	swig_r = (PumpReceiver)(SwigcptrPumpReceiver(C._wrap_globalPumper10_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func PumpingCallback10(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingCallback10_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+}
+
+func SetGlobalPumper11(arg1 PumpReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalPumper11_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalPumper11() (_swig_ret PumpReceiver) {
+	var swig_r PumpReceiver
+	swig_r = (PumpReceiver)(SwigcptrPumpReceiver(C._wrap_globalPumper11_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func PumpingCallback11(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingCallback11_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+}
+
+func SetGlobalPumper12(arg1 PumpReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalPumper12_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalPumper12() (_swig_ret PumpReceiver) {
+	var swig_r PumpReceiver
+	swig_r = (PumpReceiver)(SwigcptrPumpReceiver(C._wrap_globalPumper12_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func PumpingCallback12(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingCallback12_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+}
+
+func SetGlobalPumper13(arg1 PumpReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalPumper13_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalPumper13() (_swig_ret PumpReceiver) {
+	var swig_r PumpReceiver
+	swig_r = (PumpReceiver)(SwigcptrPumpReceiver(C._wrap_globalPumper13_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func PumpingCallback13(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingCallback13_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+}
+
+func SetGlobalPumper14(arg1 PumpReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalPumper14_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalPumper14() (_swig_ret PumpReceiver) {
+	var swig_r PumpReceiver
+	swig_r = (PumpReceiver)(SwigcptrPumpReceiver(C._wrap_globalPumper14_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func PumpingCallback14(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingCallback14_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+}
+
 func PumpingSwitchExPro(arg1 CManagerInterface, arg2 int, arg3 int, arg4 uintptr) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
@@ -20309,6 +20434,86 @@ func GetGlobalDealer9() (_swig_ret DealReceiver) {
 func DealingCallback9(arg1 int) {
 	_swig_i_0 := arg1
 	C._wrap_dealingCallback9_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0))
+}
+
+func SetGlobalDealer10(arg1 DealReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalDealer10_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalDealer10() (_swig_ret DealReceiver) {
+	var swig_r DealReceiver
+	swig_r = (DealReceiver)(SwigcptrDealReceiver(C._wrap_globalDealer10_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func DealingCallback10(arg1 int) {
+	_swig_i_0 := arg1
+	C._wrap_dealingCallback10_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0))
+}
+
+func SetGlobalDealer11(arg1 DealReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalDealer11_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalDealer11() (_swig_ret DealReceiver) {
+	var swig_r DealReceiver
+	swig_r = (DealReceiver)(SwigcptrDealReceiver(C._wrap_globalDealer11_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func DealingCallback11(arg1 int) {
+	_swig_i_0 := arg1
+	C._wrap_dealingCallback11_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0))
+}
+
+func SetGlobalDealer12(arg1 DealReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalDealer12_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalDealer12() (_swig_ret DealReceiver) {
+	var swig_r DealReceiver
+	swig_r = (DealReceiver)(SwigcptrDealReceiver(C._wrap_globalDealer12_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func DealingCallback12(arg1 int) {
+	_swig_i_0 := arg1
+	C._wrap_dealingCallback12_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0))
+}
+
+func SetGlobalDealer13(arg1 DealReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalDealer13_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalDealer13() (_swig_ret DealReceiver) {
+	var swig_r DealReceiver
+	swig_r = (DealReceiver)(SwigcptrDealReceiver(C._wrap_globalDealer13_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func DealingCallback13(arg1 int) {
+	_swig_i_0 := arg1
+	C._wrap_dealingCallback13_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0))
+}
+
+func SetGlobalDealer14(arg1 DealReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalDealer14_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalDealer14() (_swig_ret DealReceiver) {
+	var swig_r DealReceiver
+	swig_r = (DealReceiver)(SwigcptrDealReceiver(C._wrap_globalDealer14_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func DealingCallback14(arg1 int) {
+	_swig_i_0 := arg1
+	C._wrap_dealingCallback14_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0))
 }
 
 func DealerSwitchPro(arg1 CManagerInterface, arg2 int, arg3 HWND, arg4 uint) {
