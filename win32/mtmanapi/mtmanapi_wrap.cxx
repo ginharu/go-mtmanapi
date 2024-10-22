@@ -28802,6 +28802,133 @@ void _wrap_pumpingSwitchEx_mtmanapi_7f13f2fe83e41141(CManagerInterface *_swig_go
 }
 
 
+void _wrap_globalPumper0_set_mtmanapi_7f13f2fe83e41141(PumpReceiver *_swig_go_0) {
+  PumpReceiver *arg1 = (PumpReceiver *) 0 ;
+  
+  arg1 = *(PumpReceiver **)&_swig_go_0; 
+  
+  globalPumper0 = arg1;
+  
+}
+
+
+PumpReceiver *_wrap_globalPumper0_get_mtmanapi_7f13f2fe83e41141() {
+  PumpReceiver *result = 0 ;
+  PumpReceiver *_swig_go_result;
+  
+  
+  result = (PumpReceiver *)globalPumper0;
+  *(PumpReceiver **)&_swig_go_result = (PumpReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_pumpingCallback0_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+  int arg1 ;
+  int arg2 ;
+  void *arg3 = (void *) 0 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = *(void **)&_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingCallback0(arg1,arg2,arg3,arg4);
+  
+}
+
+
+void _wrap_globalPumper1_set_mtmanapi_7f13f2fe83e41141(PumpReceiver *_swig_go_0) {
+  PumpReceiver *arg1 = (PumpReceiver *) 0 ;
+  
+  arg1 = *(PumpReceiver **)&_swig_go_0; 
+  
+  globalPumper1 = arg1;
+  
+}
+
+
+PumpReceiver *_wrap_globalPumper1_get_mtmanapi_7f13f2fe83e41141() {
+  PumpReceiver *result = 0 ;
+  PumpReceiver *_swig_go_result;
+  
+  
+  result = (PumpReceiver *)globalPumper1;
+  *(PumpReceiver **)&_swig_go_result = (PumpReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_pumpingCallback1_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+  int arg1 ;
+  int arg2 ;
+  void *arg3 = (void *) 0 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = *(void **)&_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingCallback1(arg1,arg2,arg3,arg4);
+  
+}
+
+
+void _wrap_globalPumper2_set_mtmanapi_7f13f2fe83e41141(PumpReceiver *_swig_go_0) {
+  PumpReceiver *arg1 = (PumpReceiver *) 0 ;
+  
+  arg1 = *(PumpReceiver **)&_swig_go_0; 
+  
+  globalPumper2 = arg1;
+  
+}
+
+
+PumpReceiver *_wrap_globalPumper2_get_mtmanapi_7f13f2fe83e41141() {
+  PumpReceiver *result = 0 ;
+  PumpReceiver *_swig_go_result;
+  
+  
+  result = (PumpReceiver *)globalPumper2;
+  *(PumpReceiver **)&_swig_go_result = (PumpReceiver *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_pumpingCallback2_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+  int arg1 ;
+  int arg2 ;
+  void *arg3 = (void *) 0 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = *(void **)&_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingCallback2(arg1,arg2,arg3,arg4);
+  
+}
+
+
+void _wrap_pumpingSwitchExPro_mtmanapi_7f13f2fe83e41141(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, void *_swig_go_3) {
+  CManagerInterface *arg1 = (CManagerInterface *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *arg4 = (void *) 0 ;
+  
+  arg1 = *(CManagerInterface **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  arg3 = (int)_swig_go_2; 
+  arg4 = *(void **)&_swig_go_3; 
+  
+  pumpingSwitchExPro(arg1,arg2,arg3,arg4);
+  
+}
+
+
 DealReceiver *_wrap__swig_NewDirectorDealReceiverDealReceiver_mtmanapi_7f13f2fe83e41141(intgo _swig_go_0) {
   int arg1 ;
   DealReceiver *result = 0 ;

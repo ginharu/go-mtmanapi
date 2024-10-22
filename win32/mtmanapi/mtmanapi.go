@@ -2467,6 +2467,16 @@ extern void _wrap_globalPumper_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
 extern uintptr_t _wrap_globalPumper_get_mtmanapi_7f13f2fe83e41141(void);
 extern void _wrap_pumpingCallback_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
 extern void _wrap_pumpingSwitchEx_mtmanapi_7f13f2fe83e41141(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern void _wrap_globalPumper0_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalPumper0_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_pumpingCallback0_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_globalPumper1_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalPumper1_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_pumpingCallback1_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_globalPumper2_set_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
+extern uintptr_t _wrap_globalPumper2_get_mtmanapi_7f13f2fe83e41141(void);
+extern void _wrap_pumpingCallback2_mtmanapi_7f13f2fe83e41141(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_pumpingSwitchExPro_mtmanapi_7f13f2fe83e41141(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, uintptr_t arg4);
 extern uintptr_t _wrap__swig_NewDirectorDealReceiverDealReceiver_mtmanapi_7f13f2fe83e41141(int);
 extern void _wrap_DeleteDirectorDealReceiver_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
 extern void _wrap_delete_DealReceiver_mtmanapi_7f13f2fe83e41141(uintptr_t arg1);
@@ -19763,6 +19773,71 @@ func PumpingSwitchEx(arg1 CManagerInterface, arg2 int, arg3 uintptr) {
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	C._wrap_pumpingSwitchEx_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))
+}
+
+func SetGlobalPumper0(arg1 PumpReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalPumper0_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalPumper0() (_swig_ret PumpReceiver) {
+	var swig_r PumpReceiver
+	swig_r = (PumpReceiver)(SwigcptrPumpReceiver(C._wrap_globalPumper0_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func PumpingCallback0(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingCallback0_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+}
+
+func SetGlobalPumper1(arg1 PumpReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalPumper1_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalPumper1() (_swig_ret PumpReceiver) {
+	var swig_r PumpReceiver
+	swig_r = (PumpReceiver)(SwigcptrPumpReceiver(C._wrap_globalPumper1_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func PumpingCallback1(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingCallback1_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+}
+
+func SetGlobalPumper2(arg1 PumpReceiver) {
+	_swig_i_0 := getSwigcptr(arg1)
+	C._wrap_globalPumper2_set_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0))
+}
+
+func GetGlobalPumper2() (_swig_ret PumpReceiver) {
+	var swig_r PumpReceiver
+	swig_r = (PumpReceiver)(SwigcptrPumpReceiver(C._wrap_globalPumper2_get_mtmanapi_7f13f2fe83e41141()))
+	return swig_r
+}
+
+func PumpingCallback2(arg1 int, arg2 int, arg3 uintptr, arg4 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingCallback2_mtmanapi_7f13f2fe83e41141(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+}
+
+func PumpingSwitchExPro(arg1 CManagerInterface, arg2 int, arg3 int, arg4 uintptr) {
+	_swig_i_0 := getSwigcptr(arg1)
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_pumpingSwitchExPro_mtmanapi_7f13f2fe83e41141(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 type _swig_DirectorDealReceiver struct {

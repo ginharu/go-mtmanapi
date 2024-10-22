@@ -1868,6 +1868,40 @@ void pumpingSwitchEx(CManagerInterface* c, const int flags, void *param) {
     c->PumpingSwitchEx(pumpingCallback, flags, param);
 }
 
+
+//---------------------------------------------
+
+PumpReceiver* globalPumper0;
+void __stdcall pumpingCallback0(int code, int typ, void* data, void* param) {
+    if(globalPumper0 != NULL) {
+        globalPumper0->OnPump(code, typ, data, param);
+    }
+}
+
+PumpReceiver* globalPumper1;
+void __stdcall pumpingCallback1(int code, int typ, void* data, void* param) {
+    if(globalPumper1 != NULL) {
+        globalPumper1->OnPump(code, typ, data, param);
+    }
+}
+
+PumpReceiver* globalPumper2;
+void __stdcall pumpingCallback2(int code, int typ, void* data, void* param) {
+    if(globalPumper2 != NULL) {
+        globalPumper2->OnPump(code, typ, data, param);
+    }
+}
+
+void pumpingSwitchExPro(CManagerInterface* c, int index, const int flags, void *param) {
+    if (index==0){
+        c->PumpingSwitchEx(pumpingCallback0, flags, param);
+    }else if (index==1){
+        c->PumpingSwitchEx(pumpingCallback1, flags, param);
+    }else if (index==2){
+         c->PumpingSwitchEx(pumpingCallback2, flags, param);
+     }
+}
+
 // ----------------------- Helper for deal  ----------------------------
 
 class DealReceiver {
