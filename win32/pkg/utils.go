@@ -115,6 +115,37 @@ func GetGroupSpreadDiff2(spreadDiff int, symbolInfo mtmanapi.SymbolInfo) (*Group
 	}, nil
 }
 
+type SymbolBase struct {
+	XType int //type索引
+	Digit int //精度
+}
+
+func GetGroupSpreadDiff3(groupInfo mtmanapi.ConGroup, symbolInfo SymbolBase) (*GroupSpreadValue, error) {
+	//增加组点
+	xtype := symbolInfo.XType
+	digit := symbolInfo.Digit
+
+	secGroups := groupInfo.GetSecgroups()
+	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
+	spreadDiff := singleGroup.GetSpread_diff() //获取组点
+
+	//数量
+	spreadBid := spreadDiff / 2
+	spreadAsk := spreadDiff - spreadBid
+
+	//基本单位
+	denominator := math.Pow(0.1, float64(digit))
+
+	//两个方向各自的组点值
+	bidVal := decimal.NewFromInt(int64(spreadBid)).Mul(decimal.NewFromFloat(denominator))
+	askVal := decimal.NewFromInt(int64(spreadAsk)).Mul(decimal.NewFromFloat(denominator))
+
+	return &GroupSpreadValue{
+		bidVal,
+		askVal,
+	}, nil
+}
+
 // ----------------------------------
 type ManagerMode int
 
