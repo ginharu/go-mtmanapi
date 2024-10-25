@@ -75,6 +75,7 @@ func GetGroupSpreadDiff(groupInfo mtmanapi.ConGroup, symbolInfo mtmanapi.SymbolI
 
 	secGroups := groupInfo.GetSecgroups()
 	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
+	defer mtmanapi.Delete_ConGroupSecArray(singleGroup)
 	spreadDiff := singleGroup.GetSpread_diff() //获取组点
 
 	//数量
@@ -127,6 +128,7 @@ func GetGroupSpreadDiff3(groupInfo mtmanapi.ConGroup, symbolInfo SymbolBase) (*G
 
 	secGroups := groupInfo.GetSecgroups()
 	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
+	defer mtmanapi.Delete_ConGroupSecArray(singleGroup)
 	spreadDiff := singleGroup.GetSpread_diff() //获取组点
 
 	//数量
@@ -167,6 +169,7 @@ func GetAllGroups(mode ManagerMode, manager mtmanapi.CManagerInterface) map[stri
 	for i := 0; i < totalNum; i++ {
 		singleGroup := mtmanapi.ConGroupArray_getitem(groups, int64(i))
 		result[singleGroup.GetGroup()] = singleGroup
+		mtmanapi.Delete_ConGroupArray(singleGroup)
 	}
 	return result
 }
@@ -183,6 +186,7 @@ func GetAllSymbols(mode ManagerMode, manager mtmanapi.CManagerInterface) map[str
 	for i := 0; i < totalNum; i++ {
 		singleSymbol := mtmanapi.ConSymbolArray_getitem(symbols, int64(i))
 		result[singleSymbol.GetSymbol()] = singleSymbol
+		mtmanapi.Delete_ConSymbolArray(singleSymbol)
 	}
 	return result
 }
