@@ -191,10 +191,12 @@ func GetAllGroupSpreadDiff(mode ManagerMode, manager mtmanapi.CManagerInterface)
 	}
 	for i := 0; i < totalNum; i++ {
 		groupInfo := mtmanapi.ConGroupArray_getitem(groups, int64(i))
+		defer mtmanapi.DeleteConGroup(groupInfo)
 
 		secList := make([]int, mtmanapi.MAX_SEC_GROUPS)
 		for j := 0; j < mtmanapi.MAX_SEC_GROUPS; j++ {
 			secItem := mtmanapi.ConGroupSecArray_getitem(groupInfo.GetSecgroups(), int64(j))
+			defer mtmanapi.DeleteConGroupSec(secItem)
 			secList[j] = secItem.GetSpread_diff()
 		}
 		result[groupInfo.GetGroup()] = secList
@@ -207,6 +209,7 @@ func GetGroupSpreadDiffRecord(group mtmanapi.ConGroup) []int {
 	secList := make([]int, mtmanapi.MAX_SEC_GROUPS)
 	for j := 0; j < mtmanapi.MAX_SEC_GROUPS; j++ {
 		secItem := mtmanapi.ConGroupSecArray_getitem(group.GetSecgroups(), int64(j))
+		defer mtmanapi.DeleteConGroupSec(secItem)
 		secList[j] = secItem.GetSpread_diff()
 	}
 	return secList
