@@ -155,6 +155,29 @@ const (
 	ManagerDealing ManagerMode = 3
 )
 
+// 获取所有group的spread_diff
+func GetAllGroupSpreadDiff(mode ManagerMode, manager mtmanapi.CManagerInterface) map[string][]int {
+	result := make(map[string][]int)
+	totalNum := 0
+	var groups mtmanapi.ConGroup
+	if mode == ManagerDirect {
+		groups = manager.GroupsRequest(&totalNum)
+	} else if mode == ManagerPumping {
+		groups = manager.GroupsGet(&totalNum)
+	}
+	for i := 0; i < totalNum; i++ {
+		groupInfo := mtmanapi.ConGroupArray_getitem(groups, int64(i))
+
+		secList := make([]int, mtmanapi.MAX_SEC_GROUPS)
+		for j := 0; j < mtmanapi.MAX_SEC_GROUPS; j++ {
+			secItem := mtmanapi.ConGroupSecArray_getitem(groupInfo.GetSecgroups(), int64(j))
+			secList[i] = secItem.GetSpread_diff()
+		}
+		result[groupInfo.GetGroup()] = secList
+	}
+	return result
+}
+
 func GetAllGroups(mode ManagerMode, manager mtmanapi.CManagerInterface) map[string]mtmanapi.ConGroup {
 	result := make(map[string]mtmanapi.ConGroup)
 	totalNum := 0
