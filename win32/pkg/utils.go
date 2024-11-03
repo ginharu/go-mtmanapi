@@ -117,8 +117,9 @@ func GetGroupSpreadDiff2(spreadDiff int, symbolInfo mtmanapi.SymbolInfo) (*Group
 }
 
 type SymbolBase struct {
-	XType int //type索引
-	Digit int //精度
+	XType  int //type索引
+	Digit  int //精度
+	Symbol string
 }
 
 func GetGroupSpreadDiff3(groupInfo mtmanapi.ConGroup, symbolInfo SymbolBase) (*GroupSpreadValue, error) {
@@ -148,6 +149,54 @@ func GetGroupSpreadDiff3(groupInfo mtmanapi.ConGroup, symbolInfo SymbolBase) (*G
 	}, nil
 }
 
+func GetGroupSpreadDiff4(gSecList []int, symbolInfo mtmanapi.SymbolInfo) (*GroupSpreadValue, error) {
+	//增加组点
+	xtype := symbolInfo.GetXtype()
+	digit := symbolInfo.GetDigits()
+
+	spreadDiff := gSecList[xtype]
+
+	//数量
+	spreadBid := spreadDiff / 2
+	spreadAsk := spreadDiff - spreadBid
+
+	//基本单位
+	denominator := math.Pow(0.1, float64(digit))
+
+	//两个方向各自的组点值
+	bidVal := decimal.NewFromInt(int64(spreadBid)).Mul(decimal.NewFromFloat(denominator))
+	askVal := decimal.NewFromInt(int64(spreadAsk)).Mul(decimal.NewFromFloat(denominator))
+
+	return &GroupSpreadValue{
+		bidVal,
+		askVal,
+	}, nil
+}
+
+func GetGroupSpreadDiff5(gSecList []int, symbolInfo SymbolBase) (*GroupSpreadValue, error) {
+	//增加组点
+	xtype := symbolInfo.XType
+	digit := symbolInfo.Digit
+
+	spreadDiff := gSecList[xtype]
+
+	//数量
+	spreadBid := spreadDiff / 2
+	spreadAsk := spreadDiff - spreadBid
+
+	//基本单位
+	denominator := math.Pow(0.1, float64(digit))
+
+	//两个方向各自的组点值
+	bidVal := decimal.NewFromInt(int64(spreadBid)).Mul(decimal.NewFromFloat(denominator))
+	askVal := decimal.NewFromInt(int64(spreadAsk)).Mul(decimal.NewFromFloat(denominator))
+
+	return &GroupSpreadValue{
+		bidVal,
+		askVal,
+	}, nil
+}
+
 // ----------------------------------
 type ManagerMode int
 
@@ -156,6 +205,42 @@ const (
 	ManagerPumping ManagerMode = 2
 	ManagerDealing ManagerMode = 3
 )
+
+// 获取所有group的spread_diff
+func GetAllGroupSpreadDiff(mode ManagerMode, manager mtmanapi.CManagerInterface) map[string][]int {
+	result := make(map[string][]int)
+	totalNum := 0
+	var groups mtmanapi.ConGroup
+	if mode == ManagerDirect {
+		groups = manager.GroupsRequest(&totalNum)
+	} else if mode == ManagerPumping {
+		groups = manager.GroupsGet(&totalNum)
+	}
+	for i := 0; i < totalNum; i++ {
+		groupInfo := mtmanapi.ConGroupArray_getitem(groups, int64(i))
+		defer mtmanapi.DeleteConGroup(groupInfo)
+
+		secList := make([]int, mtmanapi.MAX_SEC_GROUPS)
+		for j := 0; j < mtmanapi.MAX_SEC_GROUPS; j++ {
+			secItem := mtmanapi.ConGroupSecArray_getitem(groupInfo.GetSecgroups(), int64(j))
+			defer mtmanapi.DeleteConGroupSec(secItem)
+			secList[j] = secItem.GetSpread_diff()
+		}
+		result[groupInfo.GetGroup()] = secList
+	}
+	return result
+}
+
+// 获取指定group的spread_diff
+func GetGroupSpreadDiffRecord(group mtmanapi.ConGroup) []int {
+	secList := make([]int, mtmanapi.MAX_SEC_GROUPS)
+	for j := 0; j < mtmanapi.MAX_SEC_GROUPS; j++ {
+		secItem := mtmanapi.ConGroupSecArray_getitem(group.GetSecgroups(), int64(j))
+		defer mtmanapi.DeleteConGroupSec(secItem)
+		secList[j] = secItem.GetSpread_diff()
+	}
+	return secList
+}
 
 func GetAllGroups(mode ManagerMode, manager mtmanapi.CManagerInterface) map[string]mtmanapi.ConGroup {
 	result := make(map[string]mtmanapi.ConGroup)
