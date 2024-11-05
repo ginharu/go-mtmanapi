@@ -64,11 +64,11 @@ func GetGroupSpreadDiffBySymbol(managerPump mtmanapi.CManagerInterface, group st
 		return nil, errors.New(fmt.Sprintf("GroupRecordGet err, symbol:%s, errCode:%d", symbol, code))
 	}
 
-	return GetGroupSpreadDiff(groupInfo, symbolInfo)
+	return GetGroupSpreadDiff(groupInfo, symbolInfo.GetXtype(), symbolInfo.GetDigits())
 }
 
 // 获取组点(only can be used in pumping mode)
-func GetGroupSpreadDiff(groupInfo mtmanapi.ConGroup, xtype int64, digits int) (*GroupSpreadValue, error) {
+func GetGroupSpreadDiff(groupInfo mtmanapi.ConGroup, xtype int, digits int) (*GroupSpreadValue, error) {
 	secGroups := groupInfo.GetSecgroups()
 	singleGroup := mtmanapi.ConGroupSecArray_getitem(secGroups, int64(xtype))
 	defer mtmanapi.Delete_ConGroupSecArray(singleGroup)
